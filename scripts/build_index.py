@@ -10,7 +10,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Build a simple numpy image index.")
     parser.add_argument("--corpus", required=True, help="Directory containing rendered page images.")
     parser.add_argument("--output", required=True, help="Output index directory.")
-    parser.add_argument("--model", default="Alibaba-NLP/GVE-7B")
+    parser.add_argument("--model", default="/root/autodl-tmp/models/Qwen3-VL-Embedding-8B")
     parser.add_argument("--device", default="cuda")
     parser.add_argument("--dtype", default="bfloat16")
     parser.add_argument("--attn-implementation", default=None)

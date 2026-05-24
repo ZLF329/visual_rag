@@ -22,7 +22,7 @@ class IndexEntry:
 class Retriever:
     def __init__(
         self,
-        model_path: str = "Alibaba-NLP/GVE-7B",
+        model_path: str = "/root/autodl-tmp/models/Qwen3-VL-Embedding-8B",
         index_path: str | Path = "data/indexes/slidevqa",
         device: str = "cuda",
         dtype: str = "bfloat16",
@@ -99,7 +99,7 @@ class Retriever:
 class GVEEmbedder:
     def __init__(
         self,
-        model_path: str = "Alibaba-NLP/GVE-7B",
+        model_path: str = "/root/autodl-tmp/models/Qwen3-VL-Embedding-8B",
         device: str = "cuda",
         dtype: str = "bfloat16",
         attn_implementation: str | None = None,

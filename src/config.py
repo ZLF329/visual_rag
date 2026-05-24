@@ -16,7 +16,7 @@ DEFAULT_CONFIG: dict[str, Any] = {
             "temperature": 0.0,
         },
         "retriever": {
-            "name": "Alibaba-NLP/GVE-7B",
+            "name": "/root/autodl-tmp/models/Qwen3-VL-Embedding-8B",
             "index_path": "data/indexes/slidevqa",
         },
     },

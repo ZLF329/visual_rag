@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "visual-rag-agent"
+version = "0.1.0"
+description = "Inference-only visual RAG agent with task-state memory and typed warnings."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.2",
+  "pillow>=10.0",
+  "pyarrow>=15.0",
+  "pydantic>=2.0",
+  "PyYAML>=6.0",
+  "accelerate>=0.33",
+  "qwen-vl-utils>=0.0.8",
+  "requests>=2.31",
+  "tqdm>=4.66",
+  "torch>=2.1",
+  "transformers>=4.45",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+pdf = ["pymupdf>=1.24"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

@@ -1,0 +1,39 @@
+{
+  "original_query": "What is the user experience of the book which penetrated less in schools than in public in 2012 composed of?",
+  "confirmed": [],
+  "partials": [],
+  "warnings": [
+    {
+      "query_tried": "books 2012 school vs public penetration user experience",
+      "failure_type": "wrong_domain",
+      "suggestion": "The page provides data on eBook penetration rates by category but does not include any details about the user experience or composition of the books. Search for information on user experience or book composition related to eBook penetration in schools and public sectors.",
+      "image_id": "f63f18eb29442dca"
+    },
+    {
+      "query_tried": "user experience and composition of books 2012 lower school penetration public sector",
+      "failure_type": "wrong_domain",
+      "suggestion": "Search for 'user experience of eBooks in schools vs public 2012' or 'book composition and user experience survey 2012'.",
+      "image_id": "f63f18eb29442dca"
+    },
+    {
+      "query_tried": "user experience and composition of eBooks 2012 schools vs public sector",
+      "failure_type": "wrong_domain",
+      "suggestion": "Search for 'user experience of eBooks in schools vs public 2012' or 'book composition and user experience survey 2012'.",
+      "image_id": "f63f18eb29442dca"
+    },
+    {
+      "query_tried": "user experience and composition of books 2012 school vs public sector comparison",
+      "failure_type": "wrong_domain",
+      "suggestion": "Search for 'user experience of eBooks in schools vs public 2012' or 'book composition and user experience survey 2012'.",
+      "image_id": "f63f18eb29442dca"
+    },
+    {
+      "query_tried": "composition of books 2012 school vs public sector penetration",
+      "failure_type": "wrong_domain",
+      "suggestion": "Search for 'user experience of eBooks in schools vs public 2012' or 'book composition and user experience survey 2012'.",
+      "image_id": "f63f18eb29442dca"
+    }
+  ],
+  "iter": 5,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/93/images"
+}

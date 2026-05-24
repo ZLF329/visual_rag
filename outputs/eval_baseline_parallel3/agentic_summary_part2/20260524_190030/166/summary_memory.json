@@ -1,0 +1,80 @@
+{
+  "original_query": "Do updates or the activities that are shorter and more intense than projects, and are frequently supported with offline media have lower intensivity?",
+  "iter": 2,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_12",
+      "found_via_query": "What are the characteristics of updates and short, intense activities compared to projects, and how do they relate to intensity and offline media support?",
+      "summary": "The page explains editorial content planning and differentiates between updates, projects, and campaigns. Updates are short, regular messages shared via social media. Projects are longer-term, theme-based activities supported by online and offline media. Campaigns are shorter and more intense than projects, frequently supported by offline media to achieve short-term goals like increased awareness or sales.",
+      "key_facts": [
+        "Updates are short messages sent out regularly via social media.",
+        "Projects run over a longer period and are related to a specific theme, supported by both online and offline media.",
+        "Campaigns are shorter and more intense than projects, frequently supported by offline media to achieve short-term results."
+      ],
+      "visible_text": [
+        "Editorial content planning:",
+        "Updates are short messages you send out with a certain degree of regularity.",
+        "Projects run over a longer period and are usually related to a particular theme.",
+        "Campaigns are shorter and more intense than projects, and are frequently supported with offline media."
+      ]
+    },
+    {
+      "iter": 1,
+      "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_13",
+      "found_via_query": "What is the intensity level comparison between updates and campaigns, and how do they differ from projects in terms of intensity?",
+      "summary": "The page presents a comparative table detailing the characteristics of 'Updates,' 'Projects,' and 'Campaigns' across multiple dimensions including objective, frequency, intensity, media pressure, target group, media choice, and type of content. Campaigns are described as short-term, high-intensity activities focused on awareness or sales, often supported by offline media. Updates are low-intensity, continuous, and focused on maintaining relations. Projects are mid-to-long term with average intensity and are supported by both online and offline media.",
+      "key_facts": [
+        "Campaigns are short-term, high-intensity activities with high media pressure and commercial content.",
+        "Updates are low-intensity, continuous, and focus on maintaining relations with low media pressure.",
+        "Projects have average intensity, mid-to-long term duration, and are supported by both online and offline media.",
+        "Campaigns are frequently supported with offline media, while updates are primarily online."
+      ],
+      "visible_text": [
+        "Updates",
+        "Projects",
+        "Campaigns",
+        "Objective: Maintaining relations in a frequent manner",
+        "Objective: Continuous",
+        "Objective: 1 week to 3 months",
+        "Objective: Average: 1 month",
+        "Frequency of new content creation: High (almost daily)",
+        "Frequency of new content creation: High: during the project new content is shared almost continuously",
+        "Frequency of new content creation: Low: the same content (advert, games) is used repeatedly throughout the campaign",
+        "Intensity: Low",
+        "Intensity: Average",
+        "Intensity: High",
+        "Media pressure: Low",
+        "Media pressure: Average",
+        "Media pressure: High",
+        "Target group: Maintaining relations in a frequent manner",
+        "Target group: Mid to long-term realisation of objectives",
+        "Target group: Short-term realisation of objectives (awareness, sales)",
+        "Media choice: Primarily online channels (Facebook, Twitter, blog)",
+        "Media choice: Primarily online channels, supported by suitable offline media",
+        "Media choice: Targeted offline media pressure, supplemented with all own online channels",
+        "Type of content: Formal and informal 'did-you-knows', news, a glimpse behind the scenes",
+        "Type of content: Content in function of project objectives",
+        "Type of content: Commercial content"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_12",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_190030/166/images/iter_00_asixstepcontentmarketingmodel_120206005134_phpapp01_95_page_12_200k.png"
+    },
+    {
+      "iter": 1,
+      "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_13",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_190030/166/images/iter_01_asixstepcontentmarketingmodel_120206005134_phpapp01_95_page_13_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What are the characteristics of updates and short, intense activities compared to projects, and how do they relate to intensity and offline media support?",
+    "What is the intensity level comparison between updates and campaigns, and how do they differ from projects in terms of intensity?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

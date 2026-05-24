@@ -1,0 +1,49 @@
+{
+  "original_query": "What happens before Irritation of parietal peritoneum?",
+  "confirmed": [],
+  "partials": [
+    {
+      "partial_answer": "Appendiceal obstruction/early appendicitis leads to appendiceal distension.; Appendiceal distension precedes irritation of the parietal peritoneum.; Irritation of the parietal peritoneum is the third stage in the time course.",
+      "summary": "The image displays the four stages of the time course of appendicitis, starting with appendiceal obstruction, followed by appendiceal distension, then irritation of the parietal peritoneum, and finally perforation with generalized peritonitis and sepsis.",
+      "key_facts": [
+        "Appendiceal obstruction/early appendicitis leads to appendiceal distension.",
+        "Appendiceal distension precedes irritation of the parietal peritoneum.",
+        "Irritation of the parietal peritoneum is the third stage in the time course."
+      ],
+      "image_ref": {
+        "id": "979ca36d61015873",
+        "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_13",
+        "pixel_budget": 200000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/40/images/partial_01_200k.png"
+      },
+      "cited_statements": [],
+      "remaining_gap": "",
+      "found_via_query": "What occurs before irritation of the parietal peritoneum?",
+      "found_at_iter": 0
+    }
+  ],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What occurs before irritation of the parietal peritoneum?",
+      "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_13",
+      "decision": "partial",
+      "summary": "The image displays the four stages of the time course of appendicitis, starting with appendiceal obstruction, followed by appendiceal distension, then irritation of the parietal peritoneum, and finally perforation with generalized peritonitis and sepsis.",
+      "key_facts": [
+        "Appendiceal obstruction/early appendicitis leads to appendiceal distension.",
+        "Appendiceal distension precedes irritation of the parietal peritoneum.",
+        "Irritation of the parietal peritoneum is the third stage in the time course."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "Before irritation of the parietal peritoneum in appendicitis, there is appendiceal obstruction followed by appendiceal distension. These stages precede the third stage — irritation of the parietal peritoneum — which is followed by perforation and peritonitis. The sequence is well-documented in the time course of appendicitis.",
+  "consolidated_key_facts": [
+    "Appendiceal obstruction leads to appendiceal distension.",
+    "Appendiceal distension precedes irritation of the parietal peritoneum.",
+    "Irritation of the parietal peritoneum is the third stage in the time course of appendicitis."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/40/images"
+}

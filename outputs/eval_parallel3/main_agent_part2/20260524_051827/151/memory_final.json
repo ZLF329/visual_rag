@@ -1,0 +1,23 @@
+{
+  "original_query": "What were BASF sales in H1 2011 in billions of euros?",
+  "confirmed": [
+    {
+      "answer_text": "BASF sales in H1 2011 were €37.8 billion.",
+      "image_ref": {
+        "id": "787a79c2ad5fd866",
+        "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_05",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/151/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "Sales",
+        "€37.8 billion"
+      ],
+      "found_via_query": "BASF H1 2011 sales report in billions of euros"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/151/images"
+}

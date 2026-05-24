@@ -1,0 +1,1 @@
+The two approaches for Association mapping are LD-based Association mapping and Family-based Linkage mapping. However, it should be noted that Family-based Linkage mapping is not an Association mapping method; LD-based Association mapping is the primary Association mapping approach.

@@ -1,0 +1,71 @@
+{
+  "original_query": "What is the name of the brand which Nestlé acquired in the year Findus was divested?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_13",
+      "found_via_query": "When was Findus divested and which brand did Nestlé acquire in the same year?",
+      "summary": "This slide from Nestlé's 2011 Full Year Results Roadshow shows divestitures between 2000 and 2011, with sales totaling ~17 billion CHF. It highlights key divestitures including Findus EUR (divested in 2000), and lists acquisitions such as Minag Water GER, Dallmayr &G, Trinks GER, and others. The slide also shows that in 2000, Nestlé divested Findus EUR and acquired Frozen Potato USA, and in 2001, it acquired Eugene Perma EUR (cosmetics).",
+      "key_facts": [
+        "Findus EUR was divested in 2000.",
+        "In 2000, Nestlé acquired Frozen Potato USA.",
+        "Eugene Perma EUR (cosmetics) was acquired in 2001.",
+        "Divestitures occurred between 2000 and 2011 with total sales of ~17 billion CHF.",
+        "The slide is from Nestlé's 2011 Full Year Results Roadshow on February 21st, 2012."
+      ],
+      "visible_text": [
+        "Significant divestitures rationalized the portfolio and eliminated non strategic and loss-making businesses",
+        "Divestitures 2000 to 2011: Sales in CHF ~17 bn",
+        "Alcon 23%",
+        "Alcon 25%",
+        "Alcon 52%",
+        "•Findus EUR",
+        "•Frozen Potato USA",
+        "•Minag Water GER",
+        "•Eugene Perma EUR (cosmetics)",
+        "•FIS International",
+        "•Project Perm UK",
+        "•Dallmayr &G",
+        "•Chilled Dairy GER",
+        "•Trinks GER",
+        "•Eismann EUR",
+        "•Private Label Ice cream GER",
+        "•Canned & Liquid Milk AOA",
+        "•San Sepolcro Italy",
+        "•Frozen Meat GER",
+        "•Family Frost",
+        "•Dry cut pasta Italy",
+        "•Cross & Blackwell South Africa",
+        "•Eden Springs Water FR",
+        "•Barnaul Conf RU",
+        "2000",
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "12 February 21st, 2012 2011 Full Year Results Roadshow",
+        "Nestlé"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_13",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline200/agentic_summary/20260524_054915/7/images/iter_00_2012_02_20fy11roadshow_120221022442_phpapp02_95_page_13_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "When was Findus divested and which brand did Nestlé acquire in the same year?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

@@ -1,0 +1,48 @@
+{
+  "original_query": "Which SOCIAL PLATFORM has the most users?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_11",
+      "found_via_query": "current user counts for major social platforms like Facebook, Instagram, Twitter, TikTok, and YouTube",
+      "summary": "A bar chart titled 'ACTIVE USERS BY SOCIAL PLATFORM' as of January 2014, showing user counts for various platforms. Facebook leads with 1,184 million users, followed by QQ (816 M), QZONE (632 M), WhatsApp (400 M), Google+ (300 M), WeChat (272 M), LinkedIn (259 M), Twitter (232 M), Tumblr (230 M), and Tencent Weibo (220 M). The chart distinguishes between social networks (orange) and messenger/chat apps (red).",
+      "key_facts": [
+        "Data is as of January 2014.",
+        "Facebook has the most active users at 1,184 million.",
+        "QQ is second with 816 million users.",
+        "The chart categorizes platforms as social networks or messenger/chat apps."
+      ],
+      "visible_text": [
+        "JAN 2014",
+        "ACTIVE USERS BY SOCIAL PLATFORM",
+        "FACEBOOK 1,184 M",
+        "QQ 816 M",
+        "QZONE 632 M",
+        "WHATSAPP 400 M",
+        "GOOGLE+ 300 M",
+        "WECHAT 272 M",
+        "LINKEDIN 259 M",
+        "TWITTER 232 M",
+        "TUMBLR 230 M",
+        "TENCENT WEIBO 220 M",
+        "SOCIAL NETWORK",
+        "MESSENGER / CHAT APP",
+        "We Are Social • Sources: most recent user data in company press releases, correct as at January 2014",
+        "wearesocial.sg • @wearesocialsg • 11"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_11",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/73/images/iter_00_2014globaldigitalsociallandscape_140803004322_phpapp02_95_page_11_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "current user counts for major social platforms like Facebook, Instagram, Twitter, TikTok, and YouTube"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

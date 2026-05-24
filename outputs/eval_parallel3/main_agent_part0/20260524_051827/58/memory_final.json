@@ -1,0 +1,26 @@
+{
+  "original_query": "How many steps are there in the theory of change leading to sustainable community change?",
+  "confirmed": [
+    {
+      "answer_text": "There are five steps in the theory of change leading to sustainable community change.",
+      "image_ref": {
+        "id": "3fc86c31bb41440d",
+        "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_11",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_051827/58/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "1. Builds Vision, Mission, Strategy",
+        "2. Engages Board & Staff",
+        "3. Helps Prove Impact",
+        "4. Allows Capacity Capital",
+        "5. Attracts More Support"
+      ],
+      "found_via_query": "theory of change steps sustainable community change"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_051827/58/images"
+}

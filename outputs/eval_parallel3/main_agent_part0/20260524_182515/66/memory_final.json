@@ -1,0 +1,41 @@
+{
+  "original_query": "What did the 1894 Act say about Compensation?",
+  "confirmed": [
+    {
+      "answer_text": "The 1894 Act provided compensation based on the market value of the land.",
+      "summary": "The page compares the 1894 Land Acquisition Act with the 2013 LARR Act, highlighting shifts in compensation, market value calculation, and solatium percentages. It details how compensation was based on market value under the 1894 Act, and how the 2013 Act modified this to double market value in rural areas and use a more complex formula in urban areas.",
+      "key_facts": [
+        "The 1894 Act provided compensation based on the market value of the land."
+      ],
+      "image_ref": {
+        "id": "7c44d9d9f3c2c1fb",
+        "page_label": "1-150711120533-lva1-app6892_95/page_14",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_182515/66/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What did the 1894 Act say about Compensation?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What did the 1894 Act say about Compensation?",
+      "page_label": "1-150711120533-lva1-app6892_95/page_14",
+      "decision": "yes",
+      "summary": "The page compares the 1894 Land Acquisition Act with the 2013 LARR Act, highlighting shifts in compensation, market value calculation, and solatium percentages. It details how compensation was based on market value under the 1894 Act, and how the 2013 Act modified this to double market value in rural areas and use a more complex formula in urban areas.",
+      "key_facts": [
+        "The 1894 Act provided compensation based on the market value of the land."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "[query: What did the 1894 Act say about Compensation?] The page compares the 1894 Land Acquisition Act with the 2013 LARR Act, highlighting shifts in compensation, market value calculation, and solatium percentages. It details how compensation was based on market value under the 1894 Act, and how the 2013 Act modified this to double market value in rural areas and use a more complex formula in urban areas.",
+  "consolidated_key_facts": [
+    "The 1894 Act provided compensation based on the market value of the land."
+  ],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_182515/66/images"
+}

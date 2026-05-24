@@ -1,0 +1,62 @@
+{
+  "original_query": "What is the name of the brand which Nestlé acquired in the year Findus was divested?",
+  "confirmed": [
+    {
+      "answer_text": "FIS International",
+      "image_ref": {
+        "id": "1fdf3b70e3e535c0",
+        "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_12",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_notebook/main_agent/20260524_043132/7/images/confirmed_02_400k.png"
+      },
+      "cited_statements": [
+        "•Findus EUR",
+        "•FIS International"
+      ],
+      "found_via_query": "Nestlé acquisitions in 2000"
+    },
+    {
+      "answer_text": "FIS International",
+      "image_ref": {
+        "id": "d16886eb411592ed",
+        "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_13",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_notebook/main_agent/20260524_043132/7/images/confirmed_03_400k.png"
+      },
+      "cited_statements": [
+        "•Findus EUR",
+        "•FIS International"
+      ],
+      "found_via_query": "Nestlé acquisitions in 2000 FIS International"
+    }
+  ],
+  "partials": [
+    {
+      "partial_answer": "The page lists 'Findus EUR' as a divested brand in 2000, but does not indicate any acquisition by Nestlé in the same year.",
+      "image_ref": {
+        "id": "557b46ca3e2c7bef",
+        "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_13",
+        "pixel_budget": 200000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_notebook/main_agent/20260524_043132/7/images/partial_01_200k.png"
+      },
+      "cited_statements": [
+        "•Findus EUR",
+        "•FIS International",
+        "•Project Perm UK"
+      ],
+      "remaining_gap": "The name of the brand Nestlé acquired in the year Findus was divested (2000) is not mentioned on this page.",
+      "found_via_query": "Nestlé acquisitions around the time Findus was divested",
+      "found_at_iter": 1
+    }
+  ],
+  "warnings": [
+    {
+      "query_tried": "when was Findus divested and which brand did Nestlé acquire in the same year?",
+      "failure_type": "wrong_domain",
+      "suggestion": "The page only shows divestitures, not acquisitions. Look for a section or chart that details Nestlé's acquisitions, particularly around the time Findus was divested.",
+      "image_id": "db3280122b18e6e7"
+    }
+  ],
+  "iter": 4,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_notebook/main_agent/20260524_043132/7/images"
+}

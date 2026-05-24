@@ -1,0 +1,38 @@
+{
+  "original_query": "How many kinds of BICC Key Skills are there?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_08",
+      "found_via_query": "What are the BICC Key Skills and how many kinds are there?",
+      "summary": "The image displays a Venn diagram illustrating the three core categories of BICC Key Skills: Business Skills, Analytic Skills, and IT Skills. Each category overlaps with the others around a central 'BICC' circle, showing shared responsibilities and skills. The diagram is sourced from Gartner and copyrighted by SAP SE in 2014.",
+      "key_facts": [
+        "There are three kinds of BICC Key Skills: Business Skills, Analytic Skills, and IT Skills.",
+        "Each skill category has specific components and responsibilities.",
+        "The central 'BICC' circle represents the intersection of all three skill sets.",
+        "Source: Gartner, © 2014 SAP SE or an SAP affiliate company."
+      ],
+      "visible_text": [
+        "BICC Key Skills",
+        "Business Skills",
+        "Analytic Skills",
+        "IT Skills",
+        "Source: Gartner",
+        "© 2014 SAP SE or an SAP affiliate company. All rights reserved."
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_08",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_190030/10/images/iter_00_0903organizingforbiandbigdatainthe21stcentury_clean_140922112024_phpapp02_95_pag_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What are the BICC Key Skills and how many kinds are there?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

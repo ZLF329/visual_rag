@@ -1,0 +1,41 @@
+{
+  "original_query": "Which part of the organ, the Inflammation of which is called Appendicitis, shows the Signs/symptoms of Diarrhoea and crampy pain?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_15",
+      "found_via_query": "Anatomy of the appendix and symptoms of appendicitis including diarrhea and crampy pain",
+      "summary": "The page details atypical presentations of appendicitis, listing different locations of the appendix and their associated signs/symptoms. It includes a diagram of the appendix with labeled regions such as anterior, posterior, retrocecal, paracecal, pelvic, and subcecal. The table indicates that 'Retro/paraleal' location is associated with diarrhea and crampy pain.",
+      "key_facts": [
+        "Retro/paraleal location of appendix presents with diarrhea and crampy pain",
+        "McBurney's point shows typical presentation and Rovsig sign",
+        "Retro/paracaecal location shows Psoas sign/flank pain and absence of peritonism",
+        "Pelvic location shows suprapubic pain, urinary frequency, and pyuria"
+      ],
+      "visible_text": [
+        "Atypical presentations",
+        "Location of appendix",
+        "Signs/symptoms",
+        "McBurney's point",
+        "Retro/paracaecal",
+        "Retro/paraleal",
+        "Pelvic",
+        "Diarrhoea, crampy pain",
+        "Copyright ©2006 by The McGraw-Hill Companies, Inc. All rights reserved."
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_15",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_060427/42/images/iter_00_acuteappendicitis_110202065502_phpapp02_95_page_15_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "Anatomy of the appendix and symptoms of appendicitis including diarrhea and crampy pain"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

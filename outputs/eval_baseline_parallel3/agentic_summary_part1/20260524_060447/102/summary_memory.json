@@ -1,0 +1,67 @@
+{
+  "original_query": "What does DEVOPS connect to in the diagram?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_06",
+      "found_via_query": "DEVOPS diagram and its connections",
+      "summary": "The image displays the 'Enterprise DevOps Adoption Model' as a house-shaped diagram with three main sections: Principle, Management Framework, and Practices, under a 'Value/Purpose' roof, and an 'Environment' base. Arrows indicate questions guiding the model: 'How can we develop people?' and 'How can we improve the work?' The model aims to continuously deliver customer value with improved lead time, resilience, and quality.",
+      "key_facts": [
+        "The model is titled 'Enterprise DevOps Adoption Model'.",
+        "Value/Purpose: Continuously deliver customer value in a sustainable way with improved lead time, resilience, and quality.",
+        "Principle: Self-directed team, Course correction over perfection, Automated over Manual.",
+        "Management Framework: People first, Organizational structure, Capability development, Budget, Risk management, Asset management, Change management, Security management.",
+        "Practices: Infrastructure as code, Dashboard, Working backwards, Open source, DevOps skill matrix, Audit automation, Self service, And etc.",
+        "Environment: People, Organization, Laws, Regulations, Culture, Competitors.",
+        "Arrows point to questions: 'How can we develop people?' and 'How can we improve the work?'",
+        "Author: May Xu"
+      ],
+      "visible_text": [
+        "ENTERPRISE DEVOPS ADOPTION MODEL",
+        "VALUE/PURPOSE",
+        "Continuously deliver customer value in a sustainable way with improved lead time, resilience and quality",
+        "PRINCIPLE",
+        "1. Self-directed team Over Command and Control",
+        "2. Course correction over Perfection",
+        "3. Automated over Manual",
+        "MANAGEMENT FRAMEWORK",
+        "1. People first",
+        "2. Organizational structure",
+        "3. Capability development",
+        "4. Budget",
+        "5. Risk management",
+        "6. Asset management",
+        "7. Change management",
+        "8. Security management",
+        "PRACTICES",
+        "1. Infrastructure as code",
+        "2. Dashboard",
+        "3. Working backwards",
+        "4. Open source",
+        "5. DevOps skill matrix",
+        "6. Audit automation",
+        "7. Self service",
+        "8. And etc.",
+        "ENVIRONMENT:",
+        "People, Organization, Laws, Regulations, Culture, Competitors",
+        "How can we develop people?",
+        "What kind of problem are we trying to solve?",
+        "How can we improve the work",
+        "— May Xu"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_06",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/102/images/iter_00_agile_australia_when_enterprise_meets_devops_150623023618_lva1_app6891_95_page_0_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "DEVOPS diagram and its connections"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

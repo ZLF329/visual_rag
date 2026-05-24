@@ -1,0 +1,139 @@
+{
+  "original_query": "What does management strive for?",
+  "iter": 5,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_02",
+      "found_via_query": "What are the primary goals or objectives that management strives for?",
+      "summary": "The page lists learning objectives for a management course, outlining what students should be able to do, including defining management, distinguishing between efficiency and effectiveness, describing management functions and process, and identifying manager roles. It does not explicitly state what management strives for.",
+      "key_facts": [
+        "Learning objectives include explaining the role of a manager and its changes",
+        "Define management",
+        "Distinguish between efficiency and effectiveness",
+        "Describe basic management functions and process",
+        "Identify roles performed by managers"
+      ],
+      "visible_text": [
+        "LEARNING OBJECTIVES",
+        "You should be able to:",
+        "Explain what a manager is and how the role of a manager has changed",
+        "Define management",
+        "Distinguish between efficiency and effectiveness",
+        "Describe the basic management functions and the management process",
+        "Identify the roles performed by managers",
+        "© 2003 Pearson Education Canada Inc.",
+        "1.2"
+      ]
+    },
+    {
+      "iter": 1,
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_02",
+      "found_via_query": "What are the primary goals or objectives that management strives for?",
+      "summary": "The page outlines learning objectives for a management course, focusing on understanding the role of managers, defining management, distinguishing efficiency from effectiveness, describing management functions and process, and identifying manager roles. It does not explicitly state what management strives for.",
+      "key_facts": [
+        "Learning objectives include explaining the role of a manager and its changes",
+        "Define management",
+        "Distinguish between efficiency and effectiveness",
+        "Describe basic management functions and process",
+        "Identify roles performed by managers"
+      ],
+      "visible_text": [
+        "LEARNING OBJECTIVES",
+        "You should be able to:",
+        "Explain what a manager is and how the role of a manager has changed",
+        "Define management",
+        "Distinguish between efficiency and effectiveness",
+        "Describe the basic management functions and the management process",
+        "Identify the roles performed by managers"
+      ]
+    },
+    {
+      "iter": 2,
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_02",
+      "found_via_query": "What are the primary goals or objectives that management strives for?",
+      "summary": "The page lists the learning objectives for a management course, outlining what students should be able to understand or do, such as defining management, distinguishing between efficiency and effectiveness, describing management functions and process, and identifying manager roles. It does not explicitly state what management strives for.",
+      "key_facts": [
+        "Learning objectives include explaining the role of a manager and its changes",
+        "Define management",
+        "Distinguish between efficiency and effectiveness",
+        "Describe the basic management functions and the management process",
+        "Identify the roles performed by managers"
+      ],
+      "visible_text": [
+        "LEARNING OBJECTIVES",
+        "You should be able to:",
+        "Explain what a manager is and how the role of a manager has changed",
+        "Define management",
+        "Distinguish between efficiency and effectiveness",
+        "Describe the basic management functions and the management process",
+        "Identify the roles performed by managers"
+      ]
+    },
+    {
+      "iter": 3,
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_02",
+      "found_via_query": "What are the primary goals or objectives that management strives for?",
+      "summary": "The page lists the learning objectives for a management course, outlining what students should be able to understand or do, such as defining management, distinguishing between efficiency and effectiveness, describing management functions and process, and identifying manager roles. It does not explicitly state what management strives for.",
+      "key_facts": [
+        "Learning objectives include explaining the role of a manager and its changes",
+        "Define management",
+        "Distinguish between efficiency and effectiveness",
+        "Describe the basic management functions and the management process",
+        "Identify the roles performed by managers"
+      ],
+      "visible_text": [
+        "LEARNING OBJECTIVES",
+        "You should be able to:",
+        "Explain what a manager is and how the role of a manager has changed",
+        "Define management",
+        "Distinguish between efficiency and effectiveness",
+        "Describe the basic management functions and the management process",
+        "Identify the roles performed by managers"
+      ]
+    },
+    {
+      "iter": 4,
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_02",
+      "found_via_query": "What are the primary goals or objectives that management strives for?",
+      "summary": "The page lists the learning objectives for a management course, outlining what students should be able to understand or do, including defining management, distinguishing between efficiency and effectiveness, describing management functions and process, and identifying manager roles. It does not explicitly state what management strives for.",
+      "key_facts": [
+        "Learning objectives include explaining the role of a manager and its changes",
+        "Define management",
+        "Distinguish between efficiency and effectiveness",
+        "Describe the basic management functions and the management process",
+        "Identify the roles performed by managers"
+      ],
+      "visible_text": [
+        "LEARNING OBJECTIVES",
+        "You should be able to:",
+        "Explain what a manager is and how the role of a manager has changed",
+        "Define management",
+        "Distinguish between efficiency and effectiveness",
+        "Describe the basic management functions and the management process",
+        "Identify the roles performed by managers"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 3,
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_02",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_190030/135/images/iter_03_chapter1_introductiontomanagementandorganizations_090411125412_phpapp02_95_page__200k.png"
+    },
+    {
+      "iter": 4,
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_02",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_190030/135/images/iter_04_chapter1_introductiontomanagementandorganizations_090411125412_phpapp02_95_page__200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What are the primary goals or objectives that management strives for?",
+    "What are the primary goals or objectives that management strives for?",
+    "What are the primary goals or objectives that management strives for?",
+    "What are the primary goals or objectives that management strives for?",
+    "What are the primary goals or objectives that management strives for?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

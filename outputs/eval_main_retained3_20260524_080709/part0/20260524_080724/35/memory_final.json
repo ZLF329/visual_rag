@@ -1,0 +1,44 @@
+{
+  "original_query": "What are listed as the examples of Social characteristics in A framework of psychological meaning?",
+  "confirmed": [
+    {
+      "answer_text": "Social characteristics are listed as a context factor in the framework.; Examples of social characteristics include: gender, social class, marital status, and occupation.",
+      "summary": "The image displays a conceptual framework for psychological meaning in advertising, illustrating how various factors such as stimulus, attribute bundles, perceptual modes, and context (including individual, social, and situational characteristics) interact to create psychological meaning.",
+      "key_facts": [
+        "Social characteristics are listed as a context factor in the framework.",
+        "Examples of social characteristics include: gender, social class, marital status, and occupation."
+      ],
+      "image_ref": {
+        "id": "94cbe0c47c7ef782",
+        "page_label": "advertisingpsychologyfinal-090705155755-phpapp02_95/page_17",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/35/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What are the examples of Social characteristics listed in the framework of psychological meaning?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What are the examples of Social characteristics listed in the framework of psychological meaning?",
+      "page_label": "advertisingpsychologyfinal-090705155755-phpapp02_95/page_17",
+      "decision": "yes",
+      "summary": "The image displays a conceptual framework for psychological meaning in advertising, illustrating how various factors such as stimulus, attribute bundles, perceptual modes, and context (including individual, social, and situational characteristics) interact to create psychological meaning.",
+      "key_facts": [
+        "Social characteristics are listed as a context factor in the framework.",
+        "Examples of social characteristics include: gender, social class, marital status, and occupation."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "The framework for psychological meaning in advertising identifies social characteristics as a context factor, with examples including gender, social class, marital status, and occupation.",
+  "consolidated_key_facts": [
+    "Social characteristics are a context factor in the framework for psychological meaning.",
+    "Examples include gender, social class, marital status, and occupation."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/35/images"
+}

@@ -1,0 +1,44 @@
+{
+  "original_query": "How many days off do people get for National Day?",
+  "confirmed": [
+    {
+      "answer_text": "National Day is observed from 1 - 3 October.; People get 3 days off for National Day, which can be extended to 1 week.",
+      "summary": "The image displays a list of public holidays in China with their dates and corresponding days off, including National Day, which is observed from October 1 to 3, with the possibility of extension to one week.",
+      "key_facts": [
+        "National Day is observed from 1 - 3 October.",
+        "People get 3 days off for National Day, which can be extended to 1 week."
+      ],
+      "image_ref": {
+        "id": "db5e348432664a50",
+        "page_label": "chinatourismreport-100310054348-phpapp01_95/page_18",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/124/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "How many days off do people get for National Day?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "How many days off do people get for National Day?",
+      "page_label": "chinatourismreport-100310054348-phpapp01_95/page_18",
+      "decision": "yes",
+      "summary": "The image displays a list of public holidays in China with their dates and corresponding days off, including National Day, which is observed from October 1 to 3, with the possibility of extension to one week.",
+      "key_facts": [
+        "National Day is observed from 1 - 3 October.",
+        "People get 3 days off for National Day, which can be extended to 1 week."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "National Day in China is observed from October 1 to 3, granting 3 days off, which may be extended to a week depending on local policies or government decisions.",
+  "consolidated_key_facts": [
+    "National Day is observed from October 1 to 3.",
+    "People typically get 3 days off for National Day, which can be extended to one week."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/124/images"
+}

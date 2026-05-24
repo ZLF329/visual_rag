@@ -1,0 +1,36 @@
+{
+  "original_query": "What are the elements of Resource Conservation?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_03",
+      "found_via_query": "elements of Resource Conservation",
+      "summary": "The image illustrates an end-to-end solution across the agri-value chain, with 'Resource Conservation' as the first step. It lists three key elements under this category: Soil Fertility, Water harvesting and Moisture conservation, and Seeds and Biodiversity.",
+      "key_facts": [
+        "Resource Conservation is the first step in the agri-value chain solution.",
+        "Elements of Resource Conservation include Soil Fertility, Water harvesting and Moisture conservation, and Seeds and Biodiversity."
+      ],
+      "visible_text": [
+        "End to End solution across agri-value chain",
+        "Centre for Sustainable Agriculture",
+        "Resource Conservation",
+        "Soil Fertility",
+        "Water harvesting and Moisture conservation",
+        "Seeds and Biodiversity"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_03",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/113/images/iter_00_141121organicwayforward_141123090600_conversion_gate02_95_page_03_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "elements of Resource Conservation"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

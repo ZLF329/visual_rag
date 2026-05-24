@@ -1,0 +1,102 @@
+{
+  "original_query": "What are two types of a device to permit constrained relative motion between two parts, typically rotation or linear movement?",
+  "iter": 5,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "bearing1-151117114834-lva1-app6892_95/page_02",
+      "found_via_query": "What are two types of mechanical joints that permit constrained relative motion, such as rotation or linear movement?",
+      "summary": "The page defines bearings as devices that permit constrained relative motion between two parts, typically rotation or linear movement. It also states that bearings may be classified broadly according to the motions they allow and their principle of operation.",
+      "key_facts": [
+        "A bearing is a device to permit constrained relative motion between two parts, typically rotation or linear movement.",
+        "Bearings may be classified broadly according to the motions they allow and according to their principle of operation."
+      ],
+      "visible_text": [
+        "BEARINGS",
+        "A bearing is a device to permit constrained relative motion between two parts, typically rotation or linear movement.",
+        "Bearings may be classified broadly according to the motions they allow and according to their principle of operation"
+      ]
+    },
+    {
+      "iter": 1,
+      "page_label": "bearing1-151117114834-lva1-app6892_95/page_02",
+      "found_via_query": "What are the two main types of bearings based on their motion and principle of operation?",
+      "summary": "The page defines bearings as devices that permit constrained relative motion between two parts, typically rotation or linear movement. It also states that bearings may be classified broadly according to the motions they allow and their principle of operation.",
+      "key_facts": [
+        "A bearing is a device to permit constrained relative motion between two parts, typically rotation or linear movement.",
+        "Bearings may be classified broadly according to the motions they allow and according to their principle of operation."
+      ],
+      "visible_text": [
+        "BEARINGS",
+        "A bearing is a device to permit constrained relative motion between two parts, typically rotation or linear movement.",
+        "Bearings may be classified broadly according to the motions they allow and according to their principle of operation"
+      ]
+    },
+    {
+      "iter": 2,
+      "page_label": "bearing1-151117114834-lva1-app6892_95/page_02",
+      "found_via_query": "What are the two main types of bearings based on their motion and principle of operation?",
+      "summary": "The page defines bearings as devices that permit constrained relative motion between two parts, typically rotation or linear movement. It also states that bearings may be classified broadly according to the motions they allow and their principle of operation.",
+      "key_facts": [
+        "A bearing is a device to permit constrained relative motion between two parts, typically rotation or linear movement.",
+        "Bearings may be classified broadly according to the motions they allow and according to their principle of operation."
+      ],
+      "visible_text": [
+        "BEARINGS",
+        "A bearing is a device to permit constrained relative motion between two parts, typically rotation or linear movement.",
+        "Bearings may be classified broadly according to the motions they allow and according to their principle of operation"
+      ]
+    },
+    {
+      "iter": 3,
+      "page_label": "bearing1-151117114834-lva1-app6892_95/page_02",
+      "found_via_query": "What are the two main types of bearings based on their motion and principle of operation?",
+      "summary": "The page defines bearings as devices that permit constrained relative motion between two parts, typically rotation or linear movement. It also states that bearings may be classified broadly according to the motions they allow and their principle of operation.",
+      "key_facts": [
+        "A bearing is a device to permit constrained relative motion between two parts, typically rotation or linear movement.",
+        "Bearings may be classified broadly according to the motions they allow and according to their principle of operation."
+      ],
+      "visible_text": [
+        "BEARINGS",
+        "A bearing is a device to permit constrained relative motion between two parts, typically rotation or linear movement.",
+        "Bearings may be classified broadly according to the motions they allow and according to their principle of operation"
+      ]
+    },
+    {
+      "iter": 4,
+      "page_label": "bearing1-151117114834-lva1-app6892_95/page_02",
+      "found_via_query": "What are the two main types of bearings based on their motion and principle of operation?",
+      "summary": "The page defines bearings as devices that permit constrained relative motion between two parts, typically rotation or linear movement. It also states that bearings may be classified broadly according to the motions they allow and their principle of operation.",
+      "key_facts": [
+        "A bearing is a device to permit constrained relative motion between two parts, typically rotation or linear movement.",
+        "Bearings may be classified broadly according to the motions they allow and according to their principle of operation."
+      ],
+      "visible_text": [
+        "BEARINGS",
+        "A bearing is a device to permit constrained relative motion between two parts, typically rotation or linear movement.",
+        "Bearings may be classified broadly according to the motions they allow and according to their principle of operation"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 3,
+      "page_label": "bearing1-151117114834-lva1-app6892_95/page_02",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_190030/141/images/iter_03_bearing1_151117114834_lva1_app6892_95_page_02_200k.png"
+    },
+    {
+      "iter": 4,
+      "page_label": "bearing1-151117114834-lva1-app6892_95/page_02",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_190030/141/images/iter_04_bearing1_151117114834_lva1_app6892_95_page_02_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What are two types of mechanical joints that permit constrained relative motion, such as rotation or linear movement?",
+    "What are the two main types of bearings based on their motion and principle of operation?",
+    "What are the two main types of bearings based on their motion and principle of operation?",
+    "What are the two main types of bearings based on their motion and principle of operation?",
+    "What are the two main types of bearings based on their motion and principle of operation?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

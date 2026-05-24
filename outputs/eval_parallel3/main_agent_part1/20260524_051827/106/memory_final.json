@@ -1,0 +1,26 @@
+{
+  "original_query": "What are the categories of the Key points of differentiation?",
+  "confirmed": [
+    {
+      "answer_text": "The categories of the Key points of differentiation are: Transparency, Programmatic, Scale, reach and quality, Technology, and Data policy.",
+      "image_ref": {
+        "id": "18cf795bc7bd1812",
+        "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_12",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/106/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "Transparency",
+        "Programmatic",
+        "Scale, reach and quality",
+        "Technology",
+        "Data policy"
+      ],
+      "found_via_query": "categories of Key points of differentiation"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/106/images"
+}

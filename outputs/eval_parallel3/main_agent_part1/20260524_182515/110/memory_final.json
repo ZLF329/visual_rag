@@ -1,0 +1,47 @@
+{
+  "original_query": "What are the three types of Fabric manufacturing technology?",
+  "confirmed": [
+    {
+      "answer_text": "Weaving is a type of fabric manufacturing technology.; Knitting is a type of fabric manufacturing technology.; Non-Woven is a type of fabric manufacturing technology.",
+      "summary": "The image presents a flow chart that outlines the three primary types of fabric manufacturing technology: Weaving, Knitting, and Non-Woven, each with further subdivisions.",
+      "key_facts": [
+        "Weaving is a type of fabric manufacturing technology.",
+        "Knitting is a type of fabric manufacturing technology.",
+        "Non-Woven is a type of fabric manufacturing technology."
+      ],
+      "image_ref": {
+        "id": "6691f7c9c2f04038",
+        "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_06",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_182515/110/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What are the three types of Fabric manufacturing technology?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What are the three types of Fabric manufacturing technology?",
+      "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_06",
+      "decision": "yes",
+      "summary": "The image presents a flow chart that outlines the three primary types of fabric manufacturing technology: Weaving, Knitting, and Non-Woven, each with further subdivisions.",
+      "key_facts": [
+        "Weaving is a type of fabric manufacturing technology.",
+        "Knitting is a type of fabric manufacturing technology.",
+        "Non-Woven is a type of fabric manufacturing technology."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "[query: What are the three types of Fabric manufacturing technology?] The image presents a flow chart that outlines the three primary types of fabric manufacturing technology: Weaving, Knitting, and Non-Woven, each with further subdivisions.",
+  "consolidated_key_facts": [
+    "Weaving is a fabric manufacturing technology.",
+    "Knitting is a fabric manufacturing technology.",
+    "Non-Woven is a fabric manufacturing technology."
+  ],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_182515/110/images"
+}

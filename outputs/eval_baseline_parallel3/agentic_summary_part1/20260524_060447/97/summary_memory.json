@@ -1,0 +1,43 @@
+{
+  "original_query": "What is the average rating in the sample?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "agiledatascience-140624145954-phpapp02_95/page_18",
+      "found_via_query": "sample average rating",
+      "summary": "The page displays examples of analytics focused on customer sentiment, including roles like Business Champion, Integrated Environment, and Analytics Ninjas. It features a visual chart titled 'Keywords by Ratings' showing sentiment distribution across ratings 1 to 5, with an average rating of 4.4 in the sample.",
+      "key_facts": [
+        "Average rating in sample: 4.4",
+        "Number of analyzed comments: 2796",
+        "The chart shows keywords grouped by ratings (1 to 5) with color-coded circles indicating sentiment intensity"
+      ],
+      "visible_text": [
+        "Examples of Analytics: Customer Sentiment",
+        "1. Business Champion • Product and Marketing",
+        "2. Integrated Environment • Mobile analytics, app logfiles, and Hadoop.",
+        "3. Analytics Ninjas • Web analytics, product managers, business analysts, mobile developers.",
+        "Keywords by Ratings",
+        "Rating 5",
+        "Rating 4",
+        "Rating 3",
+        "Rating 2",
+        "Rating 1",
+        "Average rating in sample: 4.4",
+        "Nr. of analyzed comments: 2796"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "agiledatascience-140624145954-phpapp02_95/page_18",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/97/images/iter_00_agiledatascience_140624145954_phpapp02_95_page_18_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "sample average rating"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

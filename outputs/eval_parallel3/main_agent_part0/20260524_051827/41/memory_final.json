@@ -1,0 +1,22 @@
+{
+  "original_query": "Which part of appendixes shows the Signs/symptoms of Diarrhoea and crampy pain?",
+  "confirmed": [
+    {
+      "answer_text": "Retro/paraleal",
+      "image_ref": {
+        "id": "23659dd2ad6b98a3",
+        "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_15",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_051827/41/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "Retro/paraleal: Diarrhoea, crampy pain"
+      ],
+      "found_via_query": "medical appendices signs/symptoms of diarrhoea and crampy pain"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_051827/41/images"
+}

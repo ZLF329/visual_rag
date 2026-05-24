@@ -1,0 +1,23 @@
+{
+  "original_query": "How does the cost and ease of LD mapping compare to conventional methods?",
+  "confirmed": [
+    {
+      "answer_text": "LD mapping is less costly and requires less time compared to conventional methods, which are more expensive and labor-intensive.",
+      "image_ref": {
+        "id": "878d77797d154959",
+        "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_14",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/126/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "Conventional: More cost and labour",
+        "LD mapping: Less cost and reduced time"
+      ],
+      "found_via_query": "comparison of cost and ease between LD mapping and conventional genetic mapping methods"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/126/images"
+}

@@ -1,0 +1,23 @@
+{
+  "original_query": "Have wine import amounts and volume been trending up or down during the period from 1995 to 2014?",
+  "confirmed": [
+    {
+      "answer_text": "Wine import amounts and volume have both been trending up from 1995 to 2014.",
+      "image_ref": {
+        "id": "0e900f88861d4485",
+        "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_04",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/158/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "The blue bars (amounts) show an upward trend from $20 million in 1995 to over $180 million in 2014.",
+        "The orange line (volume) shows an upward trend from around 5,000 units in 1995 to over 35,000 units in 2014."
+      ],
+      "found_via_query": "wine import amounts and volume trends 1995-2014"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/158/images"
+}

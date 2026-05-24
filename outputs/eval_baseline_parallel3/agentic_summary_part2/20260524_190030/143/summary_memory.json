@@ -1,0 +1,46 @@
+{
+  "original_query": "What percentage of vehicle buyers include 3 or less brands in their consideration list?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_08",
+      "found_via_query": "What percentage of vehicle buyers include 3 or less brands in their consideration list?",
+      "summary": "The page presents data from a CAB Automotive Buyers Study (Dec. 2013) on how early vehicle buyers form their consideration lists and how many brands they include. It shows that 61% of buyers start forming their consideration set over 2 months before purchase, and 82% include 3 or less brands in their list. Additionally, 68% of likely buyers agree TV ads inform them about vehicles they might not have considered.",
+      "key_facts": [
+        "61% of buyers start forming their consideration set over 2 months before purchase",
+        "82% of buyers include 3 or less brands in their consideration list",
+        "68% of likely buyers agree TV ads inform them about vehicles they might not have considered"
+      ],
+      "visible_text": [
+        "GETTING ON THE SHORT LIST: A Buyer's Vehicle Consideration List Forms Early and is Short",
+        "How far in advance do you make your consideration list? (A25-54)",
+        "6 months or more 29%",
+        "3-5 months 11%",
+        "2-3 months 21%",
+        "1 month 17%",
+        "A few weeks or less 22%",
+        "When you narrow down your search, how many auto brands do you believe will be in your consideration list? (A25-54)",
+        "2 or less 39%",
+        "3 or less 43%",
+        "4 or less 12%",
+        "more than 5 6%",
+        "61% — 61% of buyers start forming their consideration set over 2 months before purchase",
+        "82% — 82% of buyers include 3 or less brands in their consideration list",
+        "68% of likely buyers agree TV ads inform me about vehicles I might not have already considered"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_08",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_190030/143/images/iter_00_autoreport_cs6_140415111854_phpapp02_95_page_08_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What percentage of vehicle buyers include 3 or less brands in their consideration list?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

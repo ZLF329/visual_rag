@@ -1,0 +1,36 @@
+{
+  "original_query": "What percentage of Users have an average Session Duration of under one minute?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "a-btest-150414213438-conversion-gate01_95/page_06",
+      "found_via_query": "user session duration statistics under one minute percentage",
+      "summary": "The image illustrates the concept that you can't test what you don't measure, emphasizing the need for quantifiable success metrics. It shows that 100% of users have an average session duration of 00:01:28 (one minute and 28 seconds), which is under one minute. The visual compares this to a baseline of 00:00:58 (58 seconds).",
+      "key_facts": [
+        "100% of users have an average session duration of 00:01:28",
+        "Average session duration is under one minute",
+        "The message is that you can't test what you don't measure"
+      ],
+      "visible_text": [
+        "You can not test what you don't mesure",
+        "Define quantifiable success metrics",
+        "Avg. Session Duration: 00:00:58",
+        "Avg. Session Duration: 00:01:28",
+        "100% Users"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "a-btest-150414213438-conversion-gate01_95/page_06",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/117/images/iter_00_a_btest_150414213438_conversion_gate01_95_page_06_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "user session duration statistics under one minute percentage"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

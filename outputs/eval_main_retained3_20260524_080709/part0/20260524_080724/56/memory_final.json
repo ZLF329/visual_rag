@@ -1,0 +1,46 @@
+{
+  "original_query": "What comes between community resources and community change in the flow chart?",
+  "confirmed": [
+    {
+      "answer_text": "The flow chart shows 'Community Resources' as the starting point.; The next step in the flow is 'Nonprofit'.; The final outcome is 'Community Change'.",
+      "summary": "The image explains a Theory of Change using a flow chart that illustrates how community resources are used by a nonprofit to achieve community change.",
+      "key_facts": [
+        "The flow chart shows 'Community Resources' as the starting point.",
+        "The next step in the flow is 'Nonprofit'.",
+        "The final outcome is 'Community Change'."
+      ],
+      "image_ref": {
+        "id": "e4be70c147a3076c",
+        "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_05",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/56/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What is the flow chart structure showing the relationship between community resources and community change?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What is the flow chart structure showing the relationship between community resources and community change?",
+      "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_05",
+      "decision": "yes",
+      "summary": "The image explains a Theory of Change using a flow chart that illustrates how community resources are used by a nonprofit to achieve community change.",
+      "key_facts": [
+        "The flow chart shows 'Community Resources' as the starting point.",
+        "The next step in the flow is 'Nonprofit'.",
+        "The final outcome is 'Community Change'."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "The flow chart depicts a Theory of Change where 'Community Resources' are the starting point, followed by a nonprofit’s role, and culminating in 'Community Change'. The nonprofit acts as the intermediary between resources and change.",
+  "consolidated_key_facts": [
+    "Community Resources → Nonprofit → Community Change",
+    "The nonprofit is the key actor between community resources and community change."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/56/images"
+}

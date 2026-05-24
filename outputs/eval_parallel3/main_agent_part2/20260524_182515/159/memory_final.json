@@ -1,0 +1,49 @@
+{
+  "original_query": "Have wine import amounts and volume been trending up or down during the period from 1995 to the year in which Italy’s yearly growth in sparkling volume was negative?",
+  "confirmed": [],
+  "partials": [
+    {
+      "partial_answer": "The sparkling wine import volume for Italy (blue line) shows a significant upward trend from 1995 to around 2013-2014.; After 2013-2014, Italy's sparkling wine import volume appears to decline, indicating negative growth.; The overall trend for sparkling wine import volume from 1995 to 2015 is upward for most countries, including Italy, until the point of negative growth.",
+      "summary": "The page presents two charts showing the trend of sparkling wine imports from 1995 to 2015: one for volume in tons and another for market share. The volume chart shows a general upward trend for most countries, including Italy, until around 2013-2014, after which Italy's volume appears to decline, indicating negative growth.",
+      "key_facts": [
+        "The sparkling wine import volume for Italy (blue line) shows a significant upward trend from 1995 to around 2013-2014.",
+        "After 2013-2014, Italy's sparkling wine import volume appears to decline, indicating negative growth.",
+        "The overall trend for sparkling wine import volume from 1995 to 2015 is upward for most countries, including Italy, until the point of negative growth."
+      ],
+      "image_ref": {
+        "id": "2ee7f02065145bfc",
+        "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_17",
+        "pixel_budget": 200000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_182515/159/images/partial_01_200k.png"
+      },
+      "cited_statements": [],
+      "remaining_gap": "",
+      "found_via_query": "Italy wine import amounts and volume trends from 1995 to the year when sparkling wine volume growth turned negative",
+      "found_at_iter": 0
+    }
+  ],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "Italy wine import amounts and volume trends from 1995 to the year when sparkling wine volume growth turned negative",
+      "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_17",
+      "decision": "partial",
+      "summary": "The page presents two charts showing the trend of sparkling wine imports from 1995 to 2015: one for volume in tons and another for market share. The volume chart shows a general upward trend for most countries, including Italy, until around 2013-2014, after which Italy's volume appears to decline, indicating negative growth.",
+      "key_facts": [
+        "The sparkling wine import volume for Italy (blue line) shows a significant upward trend from 1995 to around 2013-2014.",
+        "After 2013-2014, Italy's sparkling wine import volume appears to decline, indicating negative growth.",
+        "The overall trend for sparkling wine import volume from 1995 to 2015 is upward for most countries, including Italy, until the point of negative growth."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "[query: Italy wine import amounts and volume trends from 1995 to the year when sparkling wine volume growth turned negative] The page presents two charts showing the trend of sparkling wine imports from 1995 to 2015: one for volume in tons and another for market share. The volume chart shows a general upward trend for most countries, including Italy, until around 2013-2014, after which Italy's volume appears to decline, indicating negative growth.",
+  "consolidated_key_facts": [
+    "Italy's sparkling wine import volume increased significantly from 1995 to 2013-2014.",
+    "After 2013-2014, Italy's sparkling wine import volume declined, indicating negative growth.",
+    "The trend for sparkling wine imports in Italy shifted from upward to downward around 2013-2014."
+  ],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_182515/159/images"
+}

@@ -1,0 +1,83 @@
+{
+  "original_query": "Who are the authors of the book about the process of coordinating work activities so that they are completed efficiently and effectively with and through other people pictured in the presentation?",
+  "confirmed": [],
+  "partials": [],
+  "warnings": [
+    {
+      "query_tried": "book about coordinating work activities efficiently and effectively with others, authors",
+      "summary": "The slide defines management as the process of coordinating work activities to be completed efficiently and effectively with and through other people, and lists key elements of this definition, including 'Process' and 'Coordinating'. The slide is copyrighted by Pearson Education Canada Inc. in 2003.",
+      "failure_type": "query_too_broad",
+      "suggestion": "",
+      "image_id": "d928073cab9af922"
+    },
+    {
+      "query_tried": "Who are the authors of the book published by Pearson Education Canada Inc. in 2003 that defines management as the process of coordinating work activities to be completed efficiently and effectively with and through other people?",
+      "summary": "The slide defines management as the process of coordinating work activities to be completed efficiently and effectively with and through other people, and lists key elements of this definition, including 'Process' and 'Coordinating'. It is from Pearson Education Canada Inc., 2003.",
+      "failure_type": "query_too_broad",
+      "suggestion": "",
+      "image_id": "d928073cab9af922"
+    },
+    {
+      "query_tried": "Who are the authors of the book published by Pearson Education Canada Inc. in 2003 that defines management as coordinating work activities for efficient and effective completion with and through others?",
+      "summary": "The slide defines management as the process of coordinating work activities to be completed efficiently and effectively with and through other people, and lists key elements of this definition, including 'Process' and 'Coordinating'. The source is attributed to Pearson Education Canada Inc. (2003).",
+      "failure_type": "query_too_broad",
+      "suggestion": "",
+      "image_id": "d928073cab9af922"
+    },
+    {
+      "query_tried": "Who are the authors of the book published by Pearson Education Canada Inc. in 2003 that defines management as coordinating work activities for efficient and effective completion with and through others?",
+      "summary": "The slide defines management as the process of coordinating work activities to be completed efficiently and effectively with and through other people, and lists key elements of this definition, including 'Process' and 'Coordinating'. The source is cited as Pearson Education Canada Inc. (2003).",
+      "failure_type": "query_too_broad",
+      "suggestion": "",
+      "image_id": "d928073cab9af922"
+    },
+    {
+      "query_tried": "Who are the authors of the book published by Pearson Education Canada Inc. in 2003 that defines management as coordinating work activities for efficient and effective completion with and through others?",
+      "summary": "The slide defines management as the process of coordinating work activities to be completed efficiently and effectively with and through other people, and lists key elements of this definition, including 'Process' and 'Coordinating'. The source is cited as Pearson Education Canada Inc., 2003.",
+      "failure_type": "query_too_broad",
+      "suggestion": "",
+      "image_id": "d928073cab9af922"
+    }
+  ],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "book about coordinating work activities efficiently and effectively with others, authors",
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_07",
+      "decision": "no",
+      "summary": "The slide defines management as the process of coordinating work activities to be completed efficiently and effectively with and through other people, and lists key elements of this definition, including 'Process' and 'Coordinating'. The slide is copyrighted by Pearson Education Canada Inc. in 2003."
+    },
+    {
+      "iter": 1,
+      "search_query": "Who are the authors of the book published by Pearson Education Canada Inc. in 2003 that defines management as the process of coordinating work activities to be completed efficiently and effectively with and through other people?",
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_07",
+      "decision": "no",
+      "summary": "The slide defines management as the process of coordinating work activities to be completed efficiently and effectively with and through other people, and lists key elements of this definition, including 'Process' and 'Coordinating'. It is from Pearson Education Canada Inc., 2003."
+    },
+    {
+      "iter": 2,
+      "search_query": "Who are the authors of the book published by Pearson Education Canada Inc. in 2003 that defines management as coordinating work activities for efficient and effective completion with and through others?",
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_07",
+      "decision": "no",
+      "summary": "The slide defines management as the process of coordinating work activities to be completed efficiently and effectively with and through other people, and lists key elements of this definition, including 'Process' and 'Coordinating'. The source is attributed to Pearson Education Canada Inc. (2003)."
+    },
+    {
+      "iter": 3,
+      "search_query": "Who are the authors of the book published by Pearson Education Canada Inc. in 2003 that defines management as coordinating work activities for efficient and effective completion with and through others?",
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_07",
+      "decision": "no",
+      "summary": "The slide defines management as the process of coordinating work activities to be completed efficiently and effectively with and through other people, and lists key elements of this definition, including 'Process' and 'Coordinating'. The source is cited as Pearson Education Canada Inc. (2003)."
+    },
+    {
+      "iter": 4,
+      "search_query": "Who are the authors of the book published by Pearson Education Canada Inc. in 2003 that defines management as coordinating work activities for efficient and effective completion with and through others?",
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_07",
+      "decision": "no",
+      "summary": "The slide defines management as the process of coordinating work activities to be completed efficiently and effectively with and through other people, and lists key elements of this definition, including 'Process' and 'Coordinating'. The source is cited as Pearson Education Canada Inc., 2003."
+    }
+  ],
+  "consolidated_summary": "The slide defines management as coordinating work activities for efficient and effective completion with and through others, sourced to Pearson Education Canada Inc. (2003). No authors are named in the slide or page content. The latest page reiterates the same definition and source, with no new authorial information. The absence of author attribution suggests the book’s authorship is not identified from this source, and no additional facts have emerged to resolve this gap.",
+  "consolidated_key_facts": [],
+  "iter": 5,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/132/images"
+}

@@ -1,0 +1,1 @@
+Extra markings indicate special dimensions or grease type and fill. For example, NR indicates a Snap Ring, PRX indicates Polyrex EM Grease, and SRI2 indicates SRI-2 Grease.

@@ -1,0 +1,44 @@
+{
+  "original_query": "What are two factors of behavior?",
+  "confirmed": [
+    {
+      "answer_text": "Behavior is shaped by motives, preferences, and competencies.; Motives and preferences are the two internal factors that influence behavior.",
+      "summary": "The page explains that human behavior is shaped by internal factors such as motives and preferences, which are influenced by personal characteristics and can evolve over time. It also discusses how competencies, which are directly related to learning, are shaped by these motives and preferences. The diagram visually represents these layers, with behavior as the outermost, observable layer.",
+      "key_facts": [
+        "Behavior is shaped by motives, preferences, and competencies.",
+        "Motives and preferences are the two internal factors that influence behavior."
+      ],
+      "image_ref": {
+        "id": "09be7ded2b3c34a0",
+        "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_19",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part2/20260524_080736/183/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What are two factors of behavior?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What are two factors of behavior?",
+      "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_19",
+      "decision": "yes",
+      "summary": "The page explains that human behavior is shaped by internal factors such as motives and preferences, which are influenced by personal characteristics and can evolve over time. It also discusses how competencies, which are directly related to learning, are shaped by these motives and preferences. The diagram visually represents these layers, with behavior as the outermost, observable layer.",
+      "key_facts": [
+        "Behavior is shaped by motives, preferences, and competencies.",
+        "Motives and preferences are the two internal factors that influence behavior."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "Human behavior is influenced by internal factors such as motives and preferences, which shape competencies and learning. These internal drivers are foundational to observable behavior, as depicted in a layered model where behavior is the outermost, most visible layer.",
+  "consolidated_key_facts": [
+    "Motives and preferences are identified as the two primary internal factors shaping human behavior.",
+    "These factors influence competencies, which in turn affect behavior through learning processes."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part2/20260524_080736/183/images"
+}

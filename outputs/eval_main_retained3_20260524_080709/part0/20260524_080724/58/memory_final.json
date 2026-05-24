@@ -1,0 +1,59 @@
+{
+  "original_query": "How many steps are there in the theory of change leading to sustainable community change?",
+  "confirmed": [
+    {
+      "answer_text": "The theory of change consists of five steps.; Step 1: Builds Vision, Mission, Strategy.; Step 2: Engages Board & Staff.; Step 3: Helps Prove Impact.; Step 4: Allows Capacity Capital.; Step 5: Attracts More Support.; The goal is Sustainable Community Change.",
+      "summary": "The image presents a five-step theory of change model from 'Social Velocity' that leads to sustainable community change, starting with building vision, mission, and strategy, and ending with attracting more support.",
+      "key_facts": [
+        "The theory of change consists of five steps.",
+        "Step 1: Builds Vision, Mission, Strategy.",
+        "Step 2: Engages Board & Staff.",
+        "Step 3: Helps Prove Impact.",
+        "Step 4: Allows Capacity Capital.",
+        "Step 5: Attracts More Support.",
+        "The goal is Sustainable Community Change."
+      ],
+      "image_ref": {
+        "id": "3fc86c31bb41440d",
+        "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_11",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/58/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "How many steps are there in the theory of change for sustainable community change?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "How many steps are there in the theory of change for sustainable community change?",
+      "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_11",
+      "decision": "yes",
+      "summary": "The image presents a five-step theory of change model from 'Social Velocity' that leads to sustainable community change, starting with building vision, mission, and strategy, and ending with attracting more support.",
+      "key_facts": [
+        "The theory of change consists of five steps.",
+        "Step 1: Builds Vision, Mission, Strategy.",
+        "Step 2: Engages Board & Staff.",
+        "Step 3: Helps Prove Impact.",
+        "Step 4: Allows Capacity Capital.",
+        "Step 5: Attracts More Support.",
+        "The goal is Sustainable Community Change."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "The theory of change model from 'Social Velocity' outlines five sequential steps to achieve sustainable community change, beginning with building vision, mission, and strategy, and culminating in attracting more support. Each step builds on the previous one to foster impact, capacity, and sustainability.",
+  "consolidated_key_facts": [
+    "The theory of change consists of five steps.",
+    "Step 1: Builds Vision, Mission, Strategy.",
+    "Step 2: Engages Board & Staff.",
+    "Step 3: Helps Prove Impact.",
+    "Step 4: Allows Capacity Capital.",
+    "Step 5: Attracts More Support.",
+    "Goal: Sustainable Community Change."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/58/images"
+}

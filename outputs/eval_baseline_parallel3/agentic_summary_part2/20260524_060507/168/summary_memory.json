@@ -1,0 +1,37 @@
+{
+  "original_query": "What is the media choice for short messages you send out with a certain degree of regularity?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_12",
+      "found_via_query": "media choices for short regular messages",
+      "summary": "The page explains editorial content planning and defines three content types: updates, projects, and campaigns. Updates are described as short, regular messages that combine formal and informal content, typically shared via social media to keep fans informed. Projects are longer-term, theme-based efforts using online channels with optional offline media. Campaigns are short and intense, often supported by offline media to drive short-term results like awareness or sales.",
+      "key_facts": [
+        "Updates are short messages sent out regularly via social media.",
+        "Updates combine formal and informal content to keep fans informed.",
+        "Projects are longer-term and theme-based, primarily shared via online channels.",
+        "Campaigns are short and intense, often supported by offline media for short-term results."
+      ],
+      "visible_text": [
+        "Editorial content planning:",
+        "Updates are short messages you send out with a certain degree of regularity.",
+        "They are usually shared via social media.",
+        "Projects run over a longer period and are usually related to a particular theme.",
+        "Campaigns are shorter and more intense than projects, and are frequently supported with offline media."
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_12",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/168/images/iter_00_asixstepcontentmarketingmodel_120206005134_phpapp01_95_page_12_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "media choices for short regular messages"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

@@ -1,0 +1,41 @@
+{
+  "original_query": "Are technical skills more important for top management or lower-level management?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_15",
+      "found_via_query": "comparison of technical skills importance in top management vs. lower-level management",
+      "summary": "A chart titled 'SKILLS NEEDED AT DIFFERENT MANAGEMENT LEVELS (Exhibit 1.5)' shows the relative importance of conceptual, human, and technical skills across top, middle, and lower-level management. The red shading indicates the level of importance, with technical skills being most important for lower-level management and least important for top management.",
+      "key_facts": [
+        "Technical skills are most important for lower-level management.",
+        "Conceptual skills are most important for top management.",
+        "Human skills are important for all management levels, but with varying degrees."
+      ],
+      "visible_text": [
+        "SKILLS NEEDED AT DIFFERENT MANAGEMENT LEVELS (Exhibit 1.5)",
+        "Top Management",
+        "Middle Management",
+        "Lower-level Management",
+        "Conceptual Skills",
+        "Human Skills",
+        "Technical Skills",
+        "Level of Importance",
+        "© 2003 Pearson Education Canada Inc.",
+        "1.15"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_15",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/138/images/iter_00_chapter1_introductiontomanagementandorganizations_090411125412_phpapp02_95_page__200k.png"
+    }
+  ],
+  "issued_queries": [
+    "comparison of technical skills importance in top management vs. lower-level management"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

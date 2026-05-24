@@ -1,0 +1,39 @@
+{
+  "original_query": "What directly follows DNA extraction and PCR on the flow chart?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_05",
+      "found_via_query": "flow chart of DNA extraction and PCR steps",
+      "summary": "A flow chart illustrating the steps of association mapping in plants, starting with two parental plants (P1 and P2) forming a mapping population. After DNA extraction and PCR, the next step is electrophoresis segregation analysis, which uses RAPD markers (E, F, G) to generate a genotypic dataset. This data is then processed with software like MAPMAKER/JOINMAP/GMendel to produce a linkage map.",
+      "key_facts": [
+        "DNA extraction and PCR is followed by electrophoresis segregation analysis",
+        "RAPD markers (E, F, G) are used for analysis",
+        "Genotypic data set is generated from marker patterns",
+        "Linkage map is produced using MAPMAKER/JOINMAP/GMendel software"
+      ],
+      "visible_text": [
+        "Mapping Population",
+        "DNA EXTRACTION AND PCR",
+        "Electrophoresis segregation analysis",
+        "RAPD",
+        "Genotypic data set",
+        "MAPMAKER/JOINMAP/ GMendel",
+        "Linkage map"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_05",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/125/images/iter_00_associationmappinginplants_150413205026_conversion_gate01_95_page_05_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "flow chart of DNA extraction and PCR steps"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

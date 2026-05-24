@@ -1,0 +1,22 @@
+{
+  "original_query": "What type of drug is the one discovered in 1928 by Alexander Flemming?",
+  "confirmed": [
+    {
+      "answer_text": "The drug discovered in 1928 by Alexander Flemming is Penicillin.",
+      "image_ref": {
+        "id": "e408e31c334bf3ce",
+        "page_label": "antibiotics-141109111447-conversion-gate02_95/page_02",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/195/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "1928- Penicillin by Alexander Flemming"
+      ],
+      "found_via_query": "type of drug discovered by Alexander Fleming in 1928"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/195/images"
+}

@@ -1,0 +1,3602 @@
+[
+  {
+    "image_path": "data/corpora/slidevqa/pages/02marcelovanzen-150624000117-lva1-app6891_95/page_01.png",
+    "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/02marcelovanzen-150624000117-lva1-app6891_95/page_02.png",
+    "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/02marcelovanzen-150624000117-lva1-app6891_95/page_03.png",
+    "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/02marcelovanzen-150624000117-lva1-app6891_95/page_04.png",
+    "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/02marcelovanzen-150624000117-lva1-app6891_95/page_05.png",
+    "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/02marcelovanzen-150624000117-lva1-app6891_95/page_06.png",
+    "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/02marcelovanzen-150624000117-lva1-app6891_95/page_07.png",
+    "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/02marcelovanzen-150624000117-lva1-app6891_95/page_08.png",
+    "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/02marcelovanzen-150624000117-lva1-app6891_95/page_09.png",
+    "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/02marcelovanzen-150624000117-lva1-app6891_95/page_10.png",
+    "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/02marcelovanzen-150624000117-lva1-app6891_95/page_11.png",
+    "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/02marcelovanzen-150624000117-lva1-app6891_95/page_12.png",
+    "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/02marcelovanzen-150624000117-lva1-app6891_95/page_13.png",
+    "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/02marcelovanzen-150624000117-lva1-app6891_95/page_14.png",
+    "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/02marcelovanzen-150624000117-lva1-app6891_95/page_15.png",
+    "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/02marcelovanzen-150624000117-lva1-app6891_95/page_16.png",
+    "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/02marcelovanzen-150624000117-lva1-app6891_95/page_17.png",
+    "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/02marcelovanzen-150624000117-lva1-app6891_95/page_18.png",
+    "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/02marcelovanzen-150624000117-lva1-app6891_95/page_19.png",
+    "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/02marcelovanzen-150624000117-lva1-app6891_95/page_20.png",
+    "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_01.png",
+    "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_02.png",
+    "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_03.png",
+    "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_04.png",
+    "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_05.png",
+    "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_06.png",
+    "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_07.png",
+    "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_08.png",
+    "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_09.png",
+    "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_10.png",
+    "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_11.png",
+    "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_12.png",
+    "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_13.png",
+    "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_14.png",
+    "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_15.png",
+    "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_16.png",
+    "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_17.png",
+    "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_18.png",
+    "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_19.png",
+    "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_20.png",
+    "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1-150711120533-lva1-app6892_95/page_01.png",
+    "page_label": "1-150711120533-lva1-app6892_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1-150711120533-lva1-app6892_95/page_02.png",
+    "page_label": "1-150711120533-lva1-app6892_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1-150711120533-lva1-app6892_95/page_03.png",
+    "page_label": "1-150711120533-lva1-app6892_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1-150711120533-lva1-app6892_95/page_04.png",
+    "page_label": "1-150711120533-lva1-app6892_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1-150711120533-lva1-app6892_95/page_05.png",
+    "page_label": "1-150711120533-lva1-app6892_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1-150711120533-lva1-app6892_95/page_06.png",
+    "page_label": "1-150711120533-lva1-app6892_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1-150711120533-lva1-app6892_95/page_07.png",
+    "page_label": "1-150711120533-lva1-app6892_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1-150711120533-lva1-app6892_95/page_08.png",
+    "page_label": "1-150711120533-lva1-app6892_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1-150711120533-lva1-app6892_95/page_09.png",
+    "page_label": "1-150711120533-lva1-app6892_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1-150711120533-lva1-app6892_95/page_10.png",
+    "page_label": "1-150711120533-lva1-app6892_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1-150711120533-lva1-app6892_95/page_11.png",
+    "page_label": "1-150711120533-lva1-app6892_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1-150711120533-lva1-app6892_95/page_12.png",
+    "page_label": "1-150711120533-lva1-app6892_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1-150711120533-lva1-app6892_95/page_13.png",
+    "page_label": "1-150711120533-lva1-app6892_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1-150711120533-lva1-app6892_95/page_14.png",
+    "page_label": "1-150711120533-lva1-app6892_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1-150711120533-lva1-app6892_95/page_15.png",
+    "page_label": "1-150711120533-lva1-app6892_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1-150711120533-lva1-app6892_95/page_16.png",
+    "page_label": "1-150711120533-lva1-app6892_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1-150711120533-lva1-app6892_95/page_17.png",
+    "page_label": "1-150711120533-lva1-app6892_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1-150711120533-lva1-app6892_95/page_18.png",
+    "page_label": "1-150711120533-lva1-app6892_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1-150711120533-lva1-app6892_95/page_19.png",
+    "page_label": "1-150711120533-lva1-app6892_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1-150711120533-lva1-app6892_95/page_20.png",
+    "page_label": "1-150711120533-lva1-app6892_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/141121organicwayforward-141123090600-conversion-gate02_95/page_01.png",
+    "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/141121organicwayforward-141123090600-conversion-gate02_95/page_02.png",
+    "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/141121organicwayforward-141123090600-conversion-gate02_95/page_03.png",
+    "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/141121organicwayforward-141123090600-conversion-gate02_95/page_04.png",
+    "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/141121organicwayforward-141123090600-conversion-gate02_95/page_05.png",
+    "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/141121organicwayforward-141123090600-conversion-gate02_95/page_06.png",
+    "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/141121organicwayforward-141123090600-conversion-gate02_95/page_07.png",
+    "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/141121organicwayforward-141123090600-conversion-gate02_95/page_08.png",
+    "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/141121organicwayforward-141123090600-conversion-gate02_95/page_09.png",
+    "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/141121organicwayforward-141123090600-conversion-gate02_95/page_10.png",
+    "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/141121organicwayforward-141123090600-conversion-gate02_95/page_11.png",
+    "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/141121organicwayforward-141123090600-conversion-gate02_95/page_12.png",
+    "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/141121organicwayforward-141123090600-conversion-gate02_95/page_13.png",
+    "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/141121organicwayforward-141123090600-conversion-gate02_95/page_14.png",
+    "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/141121organicwayforward-141123090600-conversion-gate02_95/page_15.png",
+    "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/141121organicwayforward-141123090600-conversion-gate02_95/page_16.png",
+    "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/141121organicwayforward-141123090600-conversion-gate02_95/page_17.png",
+    "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/141121organicwayforward-141123090600-conversion-gate02_95/page_18.png",
+    "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/141121organicwayforward-141123090600-conversion-gate02_95/page_19.png",
+    "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/141121organicwayforward-141123090600-conversion-gate02_95/page_20.png",
+    "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/19-amines-wade7th-140409034223-phpapp02_95/page_01.png",
+    "page_label": "19-amines-wade7th-140409034223-phpapp02_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/19-amines-wade7th-140409034223-phpapp02_95/page_02.png",
+    "page_label": "19-amines-wade7th-140409034223-phpapp02_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/19-amines-wade7th-140409034223-phpapp02_95/page_03.png",
+    "page_label": "19-amines-wade7th-140409034223-phpapp02_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/19-amines-wade7th-140409034223-phpapp02_95/page_04.png",
+    "page_label": "19-amines-wade7th-140409034223-phpapp02_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/19-amines-wade7th-140409034223-phpapp02_95/page_05.png",
+    "page_label": "19-amines-wade7th-140409034223-phpapp02_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/19-amines-wade7th-140409034223-phpapp02_95/page_06.png",
+    "page_label": "19-amines-wade7th-140409034223-phpapp02_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/19-amines-wade7th-140409034223-phpapp02_95/page_07.png",
+    "page_label": "19-amines-wade7th-140409034223-phpapp02_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/19-amines-wade7th-140409034223-phpapp02_95/page_08.png",
+    "page_label": "19-amines-wade7th-140409034223-phpapp02_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/19-amines-wade7th-140409034223-phpapp02_95/page_09.png",
+    "page_label": "19-amines-wade7th-140409034223-phpapp02_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/19-amines-wade7th-140409034223-phpapp02_95/page_10.png",
+    "page_label": "19-amines-wade7th-140409034223-phpapp02_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/19-amines-wade7th-140409034223-phpapp02_95/page_11.png",
+    "page_label": "19-amines-wade7th-140409034223-phpapp02_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/19-amines-wade7th-140409034223-phpapp02_95/page_12.png",
+    "page_label": "19-amines-wade7th-140409034223-phpapp02_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/19-amines-wade7th-140409034223-phpapp02_95/page_13.png",
+    "page_label": "19-amines-wade7th-140409034223-phpapp02_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/19-amines-wade7th-140409034223-phpapp02_95/page_14.png",
+    "page_label": "19-amines-wade7th-140409034223-phpapp02_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/19-amines-wade7th-140409034223-phpapp02_95/page_15.png",
+    "page_label": "19-amines-wade7th-140409034223-phpapp02_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/19-amines-wade7th-140409034223-phpapp02_95/page_16.png",
+    "page_label": "19-amines-wade7th-140409034223-phpapp02_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/19-amines-wade7th-140409034223-phpapp02_95/page_17.png",
+    "page_label": "19-amines-wade7th-140409034223-phpapp02_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/19-amines-wade7th-140409034223-phpapp02_95/page_18.png",
+    "page_label": "19-amines-wade7th-140409034223-phpapp02_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/19-amines-wade7th-140409034223-phpapp02_95/page_19.png",
+    "page_label": "19-amines-wade7th-140409034223-phpapp02_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/19-amines-wade7th-140409034223-phpapp02_95/page_20.png",
+    "page_label": "19-amines-wade7th-140409034223-phpapp02_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_01.png",
+    "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_02.png",
+    "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_03.png",
+    "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_04.png",
+    "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_05.png",
+    "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_06.png",
+    "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_07.png",
+    "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_08.png",
+    "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_09.png",
+    "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_10.png",
+    "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_11.png",
+    "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_12.png",
+    "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_13.png",
+    "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_14.png",
+    "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_15.png",
+    "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_16.png",
+    "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_17.png",
+    "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_18.png",
+    "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_19.png",
+    "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_20.png",
+    "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2012-02-20fy11roadshow-120221022442-phpapp02_95/page_01.png",
+    "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2012-02-20fy11roadshow-120221022442-phpapp02_95/page_02.png",
+    "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2012-02-20fy11roadshow-120221022442-phpapp02_95/page_03.png",
+    "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2012-02-20fy11roadshow-120221022442-phpapp02_95/page_04.png",
+    "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2012-02-20fy11roadshow-120221022442-phpapp02_95/page_05.png",
+    "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2012-02-20fy11roadshow-120221022442-phpapp02_95/page_06.png",
+    "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2012-02-20fy11roadshow-120221022442-phpapp02_95/page_07.png",
+    "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2012-02-20fy11roadshow-120221022442-phpapp02_95/page_08.png",
+    "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2012-02-20fy11roadshow-120221022442-phpapp02_95/page_09.png",
+    "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2012-02-20fy11roadshow-120221022442-phpapp02_95/page_10.png",
+    "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2012-02-20fy11roadshow-120221022442-phpapp02_95/page_11.png",
+    "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2012-02-20fy11roadshow-120221022442-phpapp02_95/page_12.png",
+    "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2012-02-20fy11roadshow-120221022442-phpapp02_95/page_13.png",
+    "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2012-02-20fy11roadshow-120221022442-phpapp02_95/page_14.png",
+    "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2012-02-20fy11roadshow-120221022442-phpapp02_95/page_15.png",
+    "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2012-02-20fy11roadshow-120221022442-phpapp02_95/page_16.png",
+    "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2012-02-20fy11roadshow-120221022442-phpapp02_95/page_17.png",
+    "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2012-02-20fy11roadshow-120221022442-phpapp02_95/page_18.png",
+    "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2012-02-20fy11roadshow-120221022442-phpapp02_95/page_19.png",
+    "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2012-02-20fy11roadshow-120221022442-phpapp02_95/page_20.png",
+    "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2013alapurchasing-130214144910-phpapp02_95/page_01.png",
+    "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2013alapurchasing-130214144910-phpapp02_95/page_02.png",
+    "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2013alapurchasing-130214144910-phpapp02_95/page_03.png",
+    "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2013alapurchasing-130214144910-phpapp02_95/page_04.png",
+    "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2013alapurchasing-130214144910-phpapp02_95/page_05.png",
+    "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2013alapurchasing-130214144910-phpapp02_95/page_06.png",
+    "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2013alapurchasing-130214144910-phpapp02_95/page_07.png",
+    "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2013alapurchasing-130214144910-phpapp02_95/page_08.png",
+    "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2013alapurchasing-130214144910-phpapp02_95/page_09.png",
+    "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2013alapurchasing-130214144910-phpapp02_95/page_10.png",
+    "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2013alapurchasing-130214144910-phpapp02_95/page_11.png",
+    "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2013alapurchasing-130214144910-phpapp02_95/page_12.png",
+    "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2013alapurchasing-130214144910-phpapp02_95/page_13.png",
+    "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2013alapurchasing-130214144910-phpapp02_95/page_14.png",
+    "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2013alapurchasing-130214144910-phpapp02_95/page_15.png",
+    "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2013alapurchasing-130214144910-phpapp02_95/page_16.png",
+    "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2013alapurchasing-130214144910-phpapp02_95/page_17.png",
+    "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2013alapurchasing-130214144910-phpapp02_95/page_18.png",
+    "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2013alapurchasing-130214144910-phpapp02_95/page_19.png",
+    "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2013alapurchasing-130214144910-phpapp02_95/page_20.png",
+    "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-04-24graalmodularity-140505094942-phpapp01_95/page_01.png",
+    "page_label": "2014-04-24graalmodularity-140505094942-phpapp01_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-04-24graalmodularity-140505094942-phpapp01_95/page_02.png",
+    "page_label": "2014-04-24graalmodularity-140505094942-phpapp01_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-04-24graalmodularity-140505094942-phpapp01_95/page_03.png",
+    "page_label": "2014-04-24graalmodularity-140505094942-phpapp01_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-04-24graalmodularity-140505094942-phpapp01_95/page_04.png",
+    "page_label": "2014-04-24graalmodularity-140505094942-phpapp01_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-04-24graalmodularity-140505094942-phpapp01_95/page_05.png",
+    "page_label": "2014-04-24graalmodularity-140505094942-phpapp01_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-04-24graalmodularity-140505094942-phpapp01_95/page_06.png",
+    "page_label": "2014-04-24graalmodularity-140505094942-phpapp01_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-04-24graalmodularity-140505094942-phpapp01_95/page_07.png",
+    "page_label": "2014-04-24graalmodularity-140505094942-phpapp01_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-04-24graalmodularity-140505094942-phpapp01_95/page_08.png",
+    "page_label": "2014-04-24graalmodularity-140505094942-phpapp01_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-04-24graalmodularity-140505094942-phpapp01_95/page_09.png",
+    "page_label": "2014-04-24graalmodularity-140505094942-phpapp01_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-04-24graalmodularity-140505094942-phpapp01_95/page_10.png",
+    "page_label": "2014-04-24graalmodularity-140505094942-phpapp01_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-04-24graalmodularity-140505094942-phpapp01_95/page_11.png",
+    "page_label": "2014-04-24graalmodularity-140505094942-phpapp01_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-04-24graalmodularity-140505094942-phpapp01_95/page_12.png",
+    "page_label": "2014-04-24graalmodularity-140505094942-phpapp01_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-04-24graalmodularity-140505094942-phpapp01_95/page_13.png",
+    "page_label": "2014-04-24graalmodularity-140505094942-phpapp01_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-04-24graalmodularity-140505094942-phpapp01_95/page_14.png",
+    "page_label": "2014-04-24graalmodularity-140505094942-phpapp01_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-04-24graalmodularity-140505094942-phpapp01_95/page_15.png",
+    "page_label": "2014-04-24graalmodularity-140505094942-phpapp01_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-04-24graalmodularity-140505094942-phpapp01_95/page_16.png",
+    "page_label": "2014-04-24graalmodularity-140505094942-phpapp01_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-04-24graalmodularity-140505094942-phpapp01_95/page_17.png",
+    "page_label": "2014-04-24graalmodularity-140505094942-phpapp01_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-04-24graalmodularity-140505094942-phpapp01_95/page_18.png",
+    "page_label": "2014-04-24graalmodularity-140505094942-phpapp01_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-04-24graalmodularity-140505094942-phpapp01_95/page_19.png",
+    "page_label": "2014-04-24graalmodularity-140505094942-phpapp01_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-04-24graalmodularity-140505094942-phpapp01_95/page_20.png",
+    "page_label": "2014-04-24graalmodularity-140505094942-phpapp01_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_01.png",
+    "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_02.png",
+    "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_03.png",
+    "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_04.png",
+    "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_05.png",
+    "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_06.png",
+    "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_07.png",
+    "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_08.png",
+    "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_09.png",
+    "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_10.png",
+    "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_11.png",
+    "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_12.png",
+    "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_13.png",
+    "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_14.png",
+    "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_15.png",
+    "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_16.png",
+    "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_17.png",
+    "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_18.png",
+    "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_19.png",
+    "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_20.png",
+    "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_01.png",
+    "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_02.png",
+    "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_03.png",
+    "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_04.png",
+    "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_05.png",
+    "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_06.png",
+    "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_07.png",
+    "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_08.png",
+    "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_09.png",
+    "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_10.png",
+    "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_11.png",
+    "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_12.png",
+    "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_13.png",
+    "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_14.png",
+    "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_15.png",
+    "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_16.png",
+    "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_17.png",
+    "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_18.png",
+    "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_19.png",
+    "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_20.png",
+    "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_01.png",
+    "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_02.png",
+    "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_03.png",
+    "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_04.png",
+    "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_05.png",
+    "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_06.png",
+    "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_07.png",
+    "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_08.png",
+    "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_09.png",
+    "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_10.png",
+    "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_11.png",
+    "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_12.png",
+    "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_13.png",
+    "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_14.png",
+    "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_15.png",
+    "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_16.png",
+    "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_17.png",
+    "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_18.png",
+    "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_19.png",
+    "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_20.png",
+    "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_01.png",
+    "page_label": "2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_02.png",
+    "page_label": "2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_03.png",
+    "page_label": "2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_04.png",
+    "page_label": "2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_05.png",
+    "page_label": "2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_06.png",
+    "page_label": "2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_07.png",
+    "page_label": "2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_08.png",
+    "page_label": "2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_09.png",
+    "page_label": "2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_10.png",
+    "page_label": "2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_11.png",
+    "page_label": "2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_12.png",
+    "page_label": "2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_13.png",
+    "page_label": "2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_14.png",
+    "page_label": "2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_15.png",
+    "page_label": "2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_16.png",
+    "page_label": "2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_17.png",
+    "page_label": "2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_18.png",
+    "page_label": "2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_19.png",
+    "page_label": "2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_20.png",
+    "page_label": "2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_01.png",
+    "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_02.png",
+    "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_03.png",
+    "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_04.png",
+    "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_05.png",
+    "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_06.png",
+    "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_07.png",
+    "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_08.png",
+    "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_09.png",
+    "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_10.png",
+    "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_11.png",
+    "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_12.png",
+    "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_13.png",
+    "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_14.png",
+    "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_15.png",
+    "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_16.png",
+    "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_17.png",
+    "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_18.png",
+    "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_19.png",
+    "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_20.png",
+    "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/5benefitsofanonprofittheoryofchange-160229202540_95/page_01.png",
+    "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/5benefitsofanonprofittheoryofchange-160229202540_95/page_02.png",
+    "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/5benefitsofanonprofittheoryofchange-160229202540_95/page_03.png",
+    "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/5benefitsofanonprofittheoryofchange-160229202540_95/page_04.png",
+    "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/5benefitsofanonprofittheoryofchange-160229202540_95/page_05.png",
+    "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/5benefitsofanonprofittheoryofchange-160229202540_95/page_06.png",
+    "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/5benefitsofanonprofittheoryofchange-160229202540_95/page_07.png",
+    "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/5benefitsofanonprofittheoryofchange-160229202540_95/page_08.png",
+    "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/5benefitsofanonprofittheoryofchange-160229202540_95/page_09.png",
+    "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/5benefitsofanonprofittheoryofchange-160229202540_95/page_10.png",
+    "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/5benefitsofanonprofittheoryofchange-160229202540_95/page_11.png",
+    "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/5benefitsofanonprofittheoryofchange-160229202540_95/page_12.png",
+    "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/5benefitsofanonprofittheoryofchange-160229202540_95/page_13.png",
+    "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/5benefitsofanonprofittheoryofchange-160229202540_95/page_14.png",
+    "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/5benefitsofanonprofittheoryofchange-160229202540_95/page_15.png",
+    "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/5benefitsofanonprofittheoryofchange-160229202540_95/page_16.png",
+    "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/5benefitsofanonprofittheoryofchange-160229202540_95/page_17.png",
+    "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/5benefitsofanonprofittheoryofchange-160229202540_95/page_18.png",
+    "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/5benefitsofanonprofittheoryofchange-160229202540_95/page_19.png",
+    "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/5benefitsofanonprofittheoryofchange-160229202540_95/page_20.png",
+    "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8apr2015gdfsession4-150408094801-conversion-gate01_95/page_01.png",
+    "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8apr2015gdfsession4-150408094801-conversion-gate01_95/page_02.png",
+    "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8apr2015gdfsession4-150408094801-conversion-gate01_95/page_03.png",
+    "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8apr2015gdfsession4-150408094801-conversion-gate01_95/page_04.png",
+    "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8apr2015gdfsession4-150408094801-conversion-gate01_95/page_05.png",
+    "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8apr2015gdfsession4-150408094801-conversion-gate01_95/page_06.png",
+    "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8apr2015gdfsession4-150408094801-conversion-gate01_95/page_07.png",
+    "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8apr2015gdfsession4-150408094801-conversion-gate01_95/page_08.png",
+    "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8apr2015gdfsession4-150408094801-conversion-gate01_95/page_09.png",
+    "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8apr2015gdfsession4-150408094801-conversion-gate01_95/page_10.png",
+    "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8apr2015gdfsession4-150408094801-conversion-gate01_95/page_11.png",
+    "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8apr2015gdfsession4-150408094801-conversion-gate01_95/page_12.png",
+    "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8apr2015gdfsession4-150408094801-conversion-gate01_95/page_13.png",
+    "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8apr2015gdfsession4-150408094801-conversion-gate01_95/page_14.png",
+    "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8apr2015gdfsession4-150408094801-conversion-gate01_95/page_15.png",
+    "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8apr2015gdfsession4-150408094801-conversion-gate01_95/page_16.png",
+    "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8apr2015gdfsession4-150408094801-conversion-gate01_95/page_17.png",
+    "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8apr2015gdfsession4-150408094801-conversion-gate01_95/page_18.png",
+    "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8apr2015gdfsession4-150408094801-conversion-gate01_95/page_19.png",
+    "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8apr2015gdfsession4-150408094801-conversion-gate01_95/page_20.png",
+    "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_01.png",
+    "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_02.png",
+    "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_03.png",
+    "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_04.png",
+    "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_05.png",
+    "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_06.png",
+    "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_07.png",
+    "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_08.png",
+    "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_09.png",
+    "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_10.png",
+    "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_11.png",
+    "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_12.png",
+    "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_13.png",
+    "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_14.png",
+    "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_15.png",
+    "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_16.png",
+    "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_17.png",
+    "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_18.png",
+    "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_19.png",
+    "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_20.png",
+    "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-151012171903-lva1-app6891_95/page_01.png",
+    "page_label": "a-151012171903-lva1-app6891_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-151012171903-lva1-app6891_95/page_02.png",
+    "page_label": "a-151012171903-lva1-app6891_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-151012171903-lva1-app6891_95/page_03.png",
+    "page_label": "a-151012171903-lva1-app6891_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-151012171903-lva1-app6891_95/page_04.png",
+    "page_label": "a-151012171903-lva1-app6891_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-151012171903-lva1-app6891_95/page_05.png",
+    "page_label": "a-151012171903-lva1-app6891_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-151012171903-lva1-app6891_95/page_06.png",
+    "page_label": "a-151012171903-lva1-app6891_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-151012171903-lva1-app6891_95/page_07.png",
+    "page_label": "a-151012171903-lva1-app6891_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-151012171903-lva1-app6891_95/page_08.png",
+    "page_label": "a-151012171903-lva1-app6891_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-151012171903-lva1-app6891_95/page_09.png",
+    "page_label": "a-151012171903-lva1-app6891_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-151012171903-lva1-app6891_95/page_10.png",
+    "page_label": "a-151012171903-lva1-app6891_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-151012171903-lva1-app6891_95/page_11.png",
+    "page_label": "a-151012171903-lva1-app6891_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-151012171903-lva1-app6891_95/page_12.png",
+    "page_label": "a-151012171903-lva1-app6891_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-151012171903-lva1-app6891_95/page_13.png",
+    "page_label": "a-151012171903-lva1-app6891_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-151012171903-lva1-app6891_95/page_14.png",
+    "page_label": "a-151012171903-lva1-app6891_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-151012171903-lva1-app6891_95/page_15.png",
+    "page_label": "a-151012171903-lva1-app6891_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-151012171903-lva1-app6891_95/page_16.png",
+    "page_label": "a-151012171903-lva1-app6891_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-151012171903-lva1-app6891_95/page_17.png",
+    "page_label": "a-151012171903-lva1-app6891_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-151012171903-lva1-app6891_95/page_18.png",
+    "page_label": "a-151012171903-lva1-app6891_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-151012171903-lva1-app6891_95/page_19.png",
+    "page_label": "a-151012171903-lva1-app6891_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-151012171903-lva1-app6891_95/page_20.png",
+    "page_label": "a-151012171903-lva1-app6891_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_01.png",
+    "page_label": "a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_02.png",
+    "page_label": "a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_03.png",
+    "page_label": "a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_04.png",
+    "page_label": "a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_05.png",
+    "page_label": "a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_06.png",
+    "page_label": "a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_07.png",
+    "page_label": "a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_08.png",
+    "page_label": "a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_09.png",
+    "page_label": "a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_10.png",
+    "page_label": "a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_11.png",
+    "page_label": "a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_12.png",
+    "page_label": "a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_13.png",
+    "page_label": "a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_14.png",
+    "page_label": "a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_15.png",
+    "page_label": "a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_16.png",
+    "page_label": "a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_17.png",
+    "page_label": "a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_18.png",
+    "page_label": "a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_19.png",
+    "page_label": "a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_20.png",
+    "page_label": "a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-btest-150414213438-conversion-gate01_95/page_01.png",
+    "page_label": "a-btest-150414213438-conversion-gate01_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-btest-150414213438-conversion-gate01_95/page_02.png",
+    "page_label": "a-btest-150414213438-conversion-gate01_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-btest-150414213438-conversion-gate01_95/page_03.png",
+    "page_label": "a-btest-150414213438-conversion-gate01_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-btest-150414213438-conversion-gate01_95/page_04.png",
+    "page_label": "a-btest-150414213438-conversion-gate01_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-btest-150414213438-conversion-gate01_95/page_05.png",
+    "page_label": "a-btest-150414213438-conversion-gate01_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-btest-150414213438-conversion-gate01_95/page_06.png",
+    "page_label": "a-btest-150414213438-conversion-gate01_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-btest-150414213438-conversion-gate01_95/page_07.png",
+    "page_label": "a-btest-150414213438-conversion-gate01_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-btest-150414213438-conversion-gate01_95/page_08.png",
+    "page_label": "a-btest-150414213438-conversion-gate01_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-btest-150414213438-conversion-gate01_95/page_09.png",
+    "page_label": "a-btest-150414213438-conversion-gate01_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-btest-150414213438-conversion-gate01_95/page_10.png",
+    "page_label": "a-btest-150414213438-conversion-gate01_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-btest-150414213438-conversion-gate01_95/page_11.png",
+    "page_label": "a-btest-150414213438-conversion-gate01_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-btest-150414213438-conversion-gate01_95/page_12.png",
+    "page_label": "a-btest-150414213438-conversion-gate01_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-btest-150414213438-conversion-gate01_95/page_13.png",
+    "page_label": "a-btest-150414213438-conversion-gate01_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-btest-150414213438-conversion-gate01_95/page_14.png",
+    "page_label": "a-btest-150414213438-conversion-gate01_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-btest-150414213438-conversion-gate01_95/page_15.png",
+    "page_label": "a-btest-150414213438-conversion-gate01_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-btest-150414213438-conversion-gate01_95/page_16.png",
+    "page_label": "a-btest-150414213438-conversion-gate01_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-btest-150414213438-conversion-gate01_95/page_17.png",
+    "page_label": "a-btest-150414213438-conversion-gate01_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-btest-150414213438-conversion-gate01_95/page_18.png",
+    "page_label": "a-btest-150414213438-conversion-gate01_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-btest-150414213438-conversion-gate01_95/page_19.png",
+    "page_label": "a-btest-150414213438-conversion-gate01_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/a-btest-150414213438-conversion-gate01_95/page_20.png",
+    "page_label": "a-btest-150414213438-conversion-gate01_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/acuteappendicitis-110202065502-phpapp02_95/page_01.png",
+    "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/acuteappendicitis-110202065502-phpapp02_95/page_02.png",
+    "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/acuteappendicitis-110202065502-phpapp02_95/page_03.png",
+    "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/acuteappendicitis-110202065502-phpapp02_95/page_04.png",
+    "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/acuteappendicitis-110202065502-phpapp02_95/page_05.png",
+    "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/acuteappendicitis-110202065502-phpapp02_95/page_06.png",
+    "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/acuteappendicitis-110202065502-phpapp02_95/page_07.png",
+    "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/acuteappendicitis-110202065502-phpapp02_95/page_08.png",
+    "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/acuteappendicitis-110202065502-phpapp02_95/page_09.png",
+    "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/acuteappendicitis-110202065502-phpapp02_95/page_10.png",
+    "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/acuteappendicitis-110202065502-phpapp02_95/page_11.png",
+    "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/acuteappendicitis-110202065502-phpapp02_95/page_12.png",
+    "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/acuteappendicitis-110202065502-phpapp02_95/page_13.png",
+    "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/acuteappendicitis-110202065502-phpapp02_95/page_14.png",
+    "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/acuteappendicitis-110202065502-phpapp02_95/page_15.png",
+    "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/acuteappendicitis-110202065502-phpapp02_95/page_16.png",
+    "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/acuteappendicitis-110202065502-phpapp02_95/page_17.png",
+    "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/acuteappendicitis-110202065502-phpapp02_95/page_18.png",
+    "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/acuteappendicitis-110202065502-phpapp02_95/page_19.png",
+    "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/acuteappendicitis-110202065502-phpapp02_95/page_20.png",
+    "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/advertisingpsychologyfinal-090705155755-phpapp02_95/page_01.png",
+    "page_label": "advertisingpsychologyfinal-090705155755-phpapp02_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/advertisingpsychologyfinal-090705155755-phpapp02_95/page_02.png",
+    "page_label": "advertisingpsychologyfinal-090705155755-phpapp02_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/advertisingpsychologyfinal-090705155755-phpapp02_95/page_03.png",
+    "page_label": "advertisingpsychologyfinal-090705155755-phpapp02_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/advertisingpsychologyfinal-090705155755-phpapp02_95/page_04.png",
+    "page_label": "advertisingpsychologyfinal-090705155755-phpapp02_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/advertisingpsychologyfinal-090705155755-phpapp02_95/page_05.png",
+    "page_label": "advertisingpsychologyfinal-090705155755-phpapp02_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/advertisingpsychologyfinal-090705155755-phpapp02_95/page_06.png",
+    "page_label": "advertisingpsychologyfinal-090705155755-phpapp02_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/advertisingpsychologyfinal-090705155755-phpapp02_95/page_07.png",
+    "page_label": "advertisingpsychologyfinal-090705155755-phpapp02_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/advertisingpsychologyfinal-090705155755-phpapp02_95/page_08.png",
+    "page_label": "advertisingpsychologyfinal-090705155755-phpapp02_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/advertisingpsychologyfinal-090705155755-phpapp02_95/page_09.png",
+    "page_label": "advertisingpsychologyfinal-090705155755-phpapp02_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/advertisingpsychologyfinal-090705155755-phpapp02_95/page_10.png",
+    "page_label": "advertisingpsychologyfinal-090705155755-phpapp02_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/advertisingpsychologyfinal-090705155755-phpapp02_95/page_11.png",
+    "page_label": "advertisingpsychologyfinal-090705155755-phpapp02_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/advertisingpsychologyfinal-090705155755-phpapp02_95/page_12.png",
+    "page_label": "advertisingpsychologyfinal-090705155755-phpapp02_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/advertisingpsychologyfinal-090705155755-phpapp02_95/page_13.png",
+    "page_label": "advertisingpsychologyfinal-090705155755-phpapp02_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/advertisingpsychologyfinal-090705155755-phpapp02_95/page_14.png",
+    "page_label": "advertisingpsychologyfinal-090705155755-phpapp02_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/advertisingpsychologyfinal-090705155755-phpapp02_95/page_15.png",
+    "page_label": "advertisingpsychologyfinal-090705155755-phpapp02_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/advertisingpsychologyfinal-090705155755-phpapp02_95/page_16.png",
+    "page_label": "advertisingpsychologyfinal-090705155755-phpapp02_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/advertisingpsychologyfinal-090705155755-phpapp02_95/page_17.png",
+    "page_label": "advertisingpsychologyfinal-090705155755-phpapp02_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/advertisingpsychologyfinal-090705155755-phpapp02_95/page_18.png",
+    "page_label": "advertisingpsychologyfinal-090705155755-phpapp02_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/advertisingpsychologyfinal-090705155755-phpapp02_95/page_19.png",
+    "page_label": "advertisingpsychologyfinal-090705155755-phpapp02_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/advertisingpsychologyfinal-090705155755-phpapp02_95/page_20.png",
+    "page_label": "advertisingpsychologyfinal-090705155755-phpapp02_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/afabric-manufacturing-150314104020-conversion-gate01_95/page_01.png",
+    "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/afabric-manufacturing-150314104020-conversion-gate01_95/page_02.png",
+    "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/afabric-manufacturing-150314104020-conversion-gate01_95/page_03.png",
+    "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/afabric-manufacturing-150314104020-conversion-gate01_95/page_04.png",
+    "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/afabric-manufacturing-150314104020-conversion-gate01_95/page_05.png",
+    "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/afabric-manufacturing-150314104020-conversion-gate01_95/page_06.png",
+    "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/afabric-manufacturing-150314104020-conversion-gate01_95/page_07.png",
+    "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/afabric-manufacturing-150314104020-conversion-gate01_95/page_08.png",
+    "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/afabric-manufacturing-150314104020-conversion-gate01_95/page_09.png",
+    "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/afabric-manufacturing-150314104020-conversion-gate01_95/page_10.png",
+    "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/afabric-manufacturing-150314104020-conversion-gate01_95/page_11.png",
+    "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/afabric-manufacturing-150314104020-conversion-gate01_95/page_12.png",
+    "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/afabric-manufacturing-150314104020-conversion-gate01_95/page_13.png",
+    "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/afabric-manufacturing-150314104020-conversion-gate01_95/page_14.png",
+    "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/afabric-manufacturing-150314104020-conversion-gate01_95/page_15.png",
+    "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/afabric-manufacturing-150314104020-conversion-gate01_95/page_16.png",
+    "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/afabric-manufacturing-150314104020-conversion-gate01_95/page_17.png",
+    "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/afabric-manufacturing-150314104020-conversion-gate01_95/page_18.png",
+    "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/afabric-manufacturing-150314104020-conversion-gate01_95/page_19.png",
+    "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/afabric-manufacturing-150314104020-conversion-gate01_95/page_20.png",
+    "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_01.png",
+    "page_label": "agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_02.png",
+    "page_label": "agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_03.png",
+    "page_label": "agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_04.png",
+    "page_label": "agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_05.png",
+    "page_label": "agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_06.png",
+    "page_label": "agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_07.png",
+    "page_label": "agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_08.png",
+    "page_label": "agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_09.png",
+    "page_label": "agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_10.png",
+    "page_label": "agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_11.png",
+    "page_label": "agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_12.png",
+    "page_label": "agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_13.png",
+    "page_label": "agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_14.png",
+    "page_label": "agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_15.png",
+    "page_label": "agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_16.png",
+    "page_label": "agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_17.png",
+    "page_label": "agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_18.png",
+    "page_label": "agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_19.png",
+    "page_label": "agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_20.png",
+    "page_label": "agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agiledatascience-140624145954-phpapp02_95/page_01.png",
+    "page_label": "agiledatascience-140624145954-phpapp02_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agiledatascience-140624145954-phpapp02_95/page_02.png",
+    "page_label": "agiledatascience-140624145954-phpapp02_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agiledatascience-140624145954-phpapp02_95/page_03.png",
+    "page_label": "agiledatascience-140624145954-phpapp02_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agiledatascience-140624145954-phpapp02_95/page_04.png",
+    "page_label": "agiledatascience-140624145954-phpapp02_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agiledatascience-140624145954-phpapp02_95/page_05.png",
+    "page_label": "agiledatascience-140624145954-phpapp02_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agiledatascience-140624145954-phpapp02_95/page_06.png",
+    "page_label": "agiledatascience-140624145954-phpapp02_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agiledatascience-140624145954-phpapp02_95/page_07.png",
+    "page_label": "agiledatascience-140624145954-phpapp02_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agiledatascience-140624145954-phpapp02_95/page_08.png",
+    "page_label": "agiledatascience-140624145954-phpapp02_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agiledatascience-140624145954-phpapp02_95/page_09.png",
+    "page_label": "agiledatascience-140624145954-phpapp02_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agiledatascience-140624145954-phpapp02_95/page_10.png",
+    "page_label": "agiledatascience-140624145954-phpapp02_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agiledatascience-140624145954-phpapp02_95/page_11.png",
+    "page_label": "agiledatascience-140624145954-phpapp02_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agiledatascience-140624145954-phpapp02_95/page_12.png",
+    "page_label": "agiledatascience-140624145954-phpapp02_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agiledatascience-140624145954-phpapp02_95/page_13.png",
+    "page_label": "agiledatascience-140624145954-phpapp02_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agiledatascience-140624145954-phpapp02_95/page_14.png",
+    "page_label": "agiledatascience-140624145954-phpapp02_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agiledatascience-140624145954-phpapp02_95/page_15.png",
+    "page_label": "agiledatascience-140624145954-phpapp02_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agiledatascience-140624145954-phpapp02_95/page_16.png",
+    "page_label": "agiledatascience-140624145954-phpapp02_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agiledatascience-140624145954-phpapp02_95/page_17.png",
+    "page_label": "agiledatascience-140624145954-phpapp02_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agiledatascience-140624145954-phpapp02_95/page_18.png",
+    "page_label": "agiledatascience-140624145954-phpapp02_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agiledatascience-140624145954-phpapp02_95/page_19.png",
+    "page_label": "agiledatascience-140624145954-phpapp02_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agiledatascience-140624145954-phpapp02_95/page_20.png",
+    "page_label": "agiledatascience-140624145954-phpapp02_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_01.png",
+    "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_02.png",
+    "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_03.png",
+    "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_04.png",
+    "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_05.png",
+    "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_06.png",
+    "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_07.png",
+    "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_08.png",
+    "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_09.png",
+    "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_10.png",
+    "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_11.png",
+    "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_12.png",
+    "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_13.png",
+    "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_14.png",
+    "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_15.png",
+    "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_16.png",
+    "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_17.png",
+    "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_18.png",
+    "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_19.png",
+    "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_20.png",
+    "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/alcatel-lucenteesoverview-120403090342-phpapp01_95/page_01.png",
+    "page_label": "alcatel-lucenteesoverview-120403090342-phpapp01_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/alcatel-lucenteesoverview-120403090342-phpapp01_95/page_02.png",
+    "page_label": "alcatel-lucenteesoverview-120403090342-phpapp01_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/alcatel-lucenteesoverview-120403090342-phpapp01_95/page_03.png",
+    "page_label": "alcatel-lucenteesoverview-120403090342-phpapp01_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/alcatel-lucenteesoverview-120403090342-phpapp01_95/page_04.png",
+    "page_label": "alcatel-lucenteesoverview-120403090342-phpapp01_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/alcatel-lucenteesoverview-120403090342-phpapp01_95/page_05.png",
+    "page_label": "alcatel-lucenteesoverview-120403090342-phpapp01_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/alcatel-lucenteesoverview-120403090342-phpapp01_95/page_06.png",
+    "page_label": "alcatel-lucenteesoverview-120403090342-phpapp01_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/alcatel-lucenteesoverview-120403090342-phpapp01_95/page_07.png",
+    "page_label": "alcatel-lucenteesoverview-120403090342-phpapp01_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/alcatel-lucenteesoverview-120403090342-phpapp01_95/page_08.png",
+    "page_label": "alcatel-lucenteesoverview-120403090342-phpapp01_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/alcatel-lucenteesoverview-120403090342-phpapp01_95/page_09.png",
+    "page_label": "alcatel-lucenteesoverview-120403090342-phpapp01_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/alcatel-lucenteesoverview-120403090342-phpapp01_95/page_10.png",
+    "page_label": "alcatel-lucenteesoverview-120403090342-phpapp01_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/alcatel-lucenteesoverview-120403090342-phpapp01_95/page_11.png",
+    "page_label": "alcatel-lucenteesoverview-120403090342-phpapp01_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/alcatel-lucenteesoverview-120403090342-phpapp01_95/page_12.png",
+    "page_label": "alcatel-lucenteesoverview-120403090342-phpapp01_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/alcatel-lucenteesoverview-120403090342-phpapp01_95/page_13.png",
+    "page_label": "alcatel-lucenteesoverview-120403090342-phpapp01_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/alcatel-lucenteesoverview-120403090342-phpapp01_95/page_14.png",
+    "page_label": "alcatel-lucenteesoverview-120403090342-phpapp01_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/alcatel-lucenteesoverview-120403090342-phpapp01_95/page_15.png",
+    "page_label": "alcatel-lucenteesoverview-120403090342-phpapp01_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/alcatel-lucenteesoverview-120403090342-phpapp01_95/page_16.png",
+    "page_label": "alcatel-lucenteesoverview-120403090342-phpapp01_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/alcatel-lucenteesoverview-120403090342-phpapp01_95/page_17.png",
+    "page_label": "alcatel-lucenteesoverview-120403090342-phpapp01_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/alcatel-lucenteesoverview-120403090342-phpapp01_95/page_18.png",
+    "page_label": "alcatel-lucenteesoverview-120403090342-phpapp01_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/alcatel-lucenteesoverview-120403090342-phpapp01_95/page_19.png",
+    "page_label": "alcatel-lucenteesoverview-120403090342-phpapp01_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/alcatel-lucenteesoverview-120403090342-phpapp01_95/page_20.png",
+    "page_label": "alcatel-lucenteesoverview-120403090342-phpapp01_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_01.png",
+    "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_02.png",
+    "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_03.png",
+    "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_04.png",
+    "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_05.png",
+    "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_06.png",
+    "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_07.png",
+    "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_08.png",
+    "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_09.png",
+    "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_10.png",
+    "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_11.png",
+    "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_12.png",
+    "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_13.png",
+    "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_14.png",
+    "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_15.png",
+    "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_16.png",
+    "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_17.png",
+    "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_18.png",
+    "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_19.png",
+    "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_20.png",
+    "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antiarrhythmicdrugs-130925005726-phpapp01_95/page_01.png",
+    "page_label": "antiarrhythmicdrugs-130925005726-phpapp01_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antiarrhythmicdrugs-130925005726-phpapp01_95/page_02.png",
+    "page_label": "antiarrhythmicdrugs-130925005726-phpapp01_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antiarrhythmicdrugs-130925005726-phpapp01_95/page_03.png",
+    "page_label": "antiarrhythmicdrugs-130925005726-phpapp01_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antiarrhythmicdrugs-130925005726-phpapp01_95/page_04.png",
+    "page_label": "antiarrhythmicdrugs-130925005726-phpapp01_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antiarrhythmicdrugs-130925005726-phpapp01_95/page_05.png",
+    "page_label": "antiarrhythmicdrugs-130925005726-phpapp01_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antiarrhythmicdrugs-130925005726-phpapp01_95/page_06.png",
+    "page_label": "antiarrhythmicdrugs-130925005726-phpapp01_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antiarrhythmicdrugs-130925005726-phpapp01_95/page_07.png",
+    "page_label": "antiarrhythmicdrugs-130925005726-phpapp01_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antiarrhythmicdrugs-130925005726-phpapp01_95/page_08.png",
+    "page_label": "antiarrhythmicdrugs-130925005726-phpapp01_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antiarrhythmicdrugs-130925005726-phpapp01_95/page_09.png",
+    "page_label": "antiarrhythmicdrugs-130925005726-phpapp01_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antiarrhythmicdrugs-130925005726-phpapp01_95/page_10.png",
+    "page_label": "antiarrhythmicdrugs-130925005726-phpapp01_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antiarrhythmicdrugs-130925005726-phpapp01_95/page_11.png",
+    "page_label": "antiarrhythmicdrugs-130925005726-phpapp01_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antiarrhythmicdrugs-130925005726-phpapp01_95/page_12.png",
+    "page_label": "antiarrhythmicdrugs-130925005726-phpapp01_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antiarrhythmicdrugs-130925005726-phpapp01_95/page_13.png",
+    "page_label": "antiarrhythmicdrugs-130925005726-phpapp01_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antiarrhythmicdrugs-130925005726-phpapp01_95/page_14.png",
+    "page_label": "antiarrhythmicdrugs-130925005726-phpapp01_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antiarrhythmicdrugs-130925005726-phpapp01_95/page_15.png",
+    "page_label": "antiarrhythmicdrugs-130925005726-phpapp01_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antiarrhythmicdrugs-130925005726-phpapp01_95/page_16.png",
+    "page_label": "antiarrhythmicdrugs-130925005726-phpapp01_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antiarrhythmicdrugs-130925005726-phpapp01_95/page_17.png",
+    "page_label": "antiarrhythmicdrugs-130925005726-phpapp01_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antiarrhythmicdrugs-130925005726-phpapp01_95/page_18.png",
+    "page_label": "antiarrhythmicdrugs-130925005726-phpapp01_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antiarrhythmicdrugs-130925005726-phpapp01_95/page_19.png",
+    "page_label": "antiarrhythmicdrugs-130925005726-phpapp01_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antiarrhythmicdrugs-130925005726-phpapp01_95/page_20.png",
+    "page_label": "antiarrhythmicdrugs-130925005726-phpapp01_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antibiotics-141109111447-conversion-gate02_95/page_01.png",
+    "page_label": "antibiotics-141109111447-conversion-gate02_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antibiotics-141109111447-conversion-gate02_95/page_02.png",
+    "page_label": "antibiotics-141109111447-conversion-gate02_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antibiotics-141109111447-conversion-gate02_95/page_03.png",
+    "page_label": "antibiotics-141109111447-conversion-gate02_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antibiotics-141109111447-conversion-gate02_95/page_04.png",
+    "page_label": "antibiotics-141109111447-conversion-gate02_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antibiotics-141109111447-conversion-gate02_95/page_05.png",
+    "page_label": "antibiotics-141109111447-conversion-gate02_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antibiotics-141109111447-conversion-gate02_95/page_06.png",
+    "page_label": "antibiotics-141109111447-conversion-gate02_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antibiotics-141109111447-conversion-gate02_95/page_07.png",
+    "page_label": "antibiotics-141109111447-conversion-gate02_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antibiotics-141109111447-conversion-gate02_95/page_08.png",
+    "page_label": "antibiotics-141109111447-conversion-gate02_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antibiotics-141109111447-conversion-gate02_95/page_09.png",
+    "page_label": "antibiotics-141109111447-conversion-gate02_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antibiotics-141109111447-conversion-gate02_95/page_10.png",
+    "page_label": "antibiotics-141109111447-conversion-gate02_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antibiotics-141109111447-conversion-gate02_95/page_11.png",
+    "page_label": "antibiotics-141109111447-conversion-gate02_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antibiotics-141109111447-conversion-gate02_95/page_12.png",
+    "page_label": "antibiotics-141109111447-conversion-gate02_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antibiotics-141109111447-conversion-gate02_95/page_13.png",
+    "page_label": "antibiotics-141109111447-conversion-gate02_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antibiotics-141109111447-conversion-gate02_95/page_14.png",
+    "page_label": "antibiotics-141109111447-conversion-gate02_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antibiotics-141109111447-conversion-gate02_95/page_15.png",
+    "page_label": "antibiotics-141109111447-conversion-gate02_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antibiotics-141109111447-conversion-gate02_95/page_16.png",
+    "page_label": "antibiotics-141109111447-conversion-gate02_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antibiotics-141109111447-conversion-gate02_95/page_17.png",
+    "page_label": "antibiotics-141109111447-conversion-gate02_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antibiotics-141109111447-conversion-gate02_95/page_18.png",
+    "page_label": "antibiotics-141109111447-conversion-gate02_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antibiotics-141109111447-conversion-gate02_95/page_19.png",
+    "page_label": "antibiotics-141109111447-conversion-gate02_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/antibiotics-141109111447-conversion-gate02_95/page_20.png",
+    "page_label": "antibiotics-141109111447-conversion-gate02_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/apachecon2014-140414104319-phpapp02_95/page_01.png",
+    "page_label": "apachecon2014-140414104319-phpapp02_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/apachecon2014-140414104319-phpapp02_95/page_02.png",
+    "page_label": "apachecon2014-140414104319-phpapp02_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/apachecon2014-140414104319-phpapp02_95/page_03.png",
+    "page_label": "apachecon2014-140414104319-phpapp02_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/apachecon2014-140414104319-phpapp02_95/page_04.png",
+    "page_label": "apachecon2014-140414104319-phpapp02_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/apachecon2014-140414104319-phpapp02_95/page_05.png",
+    "page_label": "apachecon2014-140414104319-phpapp02_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/apachecon2014-140414104319-phpapp02_95/page_06.png",
+    "page_label": "apachecon2014-140414104319-phpapp02_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/apachecon2014-140414104319-phpapp02_95/page_07.png",
+    "page_label": "apachecon2014-140414104319-phpapp02_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/apachecon2014-140414104319-phpapp02_95/page_08.png",
+    "page_label": "apachecon2014-140414104319-phpapp02_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/apachecon2014-140414104319-phpapp02_95/page_09.png",
+    "page_label": "apachecon2014-140414104319-phpapp02_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/apachecon2014-140414104319-phpapp02_95/page_10.png",
+    "page_label": "apachecon2014-140414104319-phpapp02_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/apachecon2014-140414104319-phpapp02_95/page_11.png",
+    "page_label": "apachecon2014-140414104319-phpapp02_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/apachecon2014-140414104319-phpapp02_95/page_12.png",
+    "page_label": "apachecon2014-140414104319-phpapp02_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/apachecon2014-140414104319-phpapp02_95/page_13.png",
+    "page_label": "apachecon2014-140414104319-phpapp02_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/apachecon2014-140414104319-phpapp02_95/page_14.png",
+    "page_label": "apachecon2014-140414104319-phpapp02_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/apachecon2014-140414104319-phpapp02_95/page_15.png",
+    "page_label": "apachecon2014-140414104319-phpapp02_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/apachecon2014-140414104319-phpapp02_95/page_16.png",
+    "page_label": "apachecon2014-140414104319-phpapp02_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/apachecon2014-140414104319-phpapp02_95/page_17.png",
+    "page_label": "apachecon2014-140414104319-phpapp02_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/apachecon2014-140414104319-phpapp02_95/page_18.png",
+    "page_label": "apachecon2014-140414104319-phpapp02_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/apachecon2014-140414104319-phpapp02_95/page_19.png",
+    "page_label": "apachecon2014-140414104319-phpapp02_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/apachecon2014-140414104319-phpapp02_95/page_20.png",
+    "page_label": "apachecon2014-140414104319-phpapp02_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_01.png",
+    "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_02.png",
+    "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_03.png",
+    "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_04.png",
+    "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_05.png",
+    "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_06.png",
+    "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_07.png",
+    "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_08.png",
+    "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_09.png",
+    "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_10.png",
+    "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_11.png",
+    "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_12.png",
+    "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_13.png",
+    "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_14.png",
+    "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_15.png",
+    "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_16.png",
+    "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_17.png",
+    "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_18.png",
+    "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_19.png",
+    "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_20.png",
+    "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/associationmappinginplants-150413205026-conversion-gate01_95/page_01.png",
+    "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/associationmappinginplants-150413205026-conversion-gate01_95/page_02.png",
+    "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/associationmappinginplants-150413205026-conversion-gate01_95/page_03.png",
+    "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/associationmappinginplants-150413205026-conversion-gate01_95/page_04.png",
+    "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/associationmappinginplants-150413205026-conversion-gate01_95/page_05.png",
+    "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/associationmappinginplants-150413205026-conversion-gate01_95/page_06.png",
+    "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/associationmappinginplants-150413205026-conversion-gate01_95/page_07.png",
+    "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/associationmappinginplants-150413205026-conversion-gate01_95/page_08.png",
+    "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/associationmappinginplants-150413205026-conversion-gate01_95/page_09.png",
+    "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/associationmappinginplants-150413205026-conversion-gate01_95/page_10.png",
+    "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/associationmappinginplants-150413205026-conversion-gate01_95/page_11.png",
+    "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/associationmappinginplants-150413205026-conversion-gate01_95/page_12.png",
+    "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/associationmappinginplants-150413205026-conversion-gate01_95/page_13.png",
+    "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/associationmappinginplants-150413205026-conversion-gate01_95/page_14.png",
+    "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/associationmappinginplants-150413205026-conversion-gate01_95/page_15.png",
+    "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/associationmappinginplants-150413205026-conversion-gate01_95/page_16.png",
+    "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/associationmappinginplants-150413205026-conversion-gate01_95/page_17.png",
+    "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/associationmappinginplants-150413205026-conversion-gate01_95/page_18.png",
+    "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/associationmappinginplants-150413205026-conversion-gate01_95/page_19.png",
+    "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/associationmappinginplants-150413205026-conversion-gate01_95/page_20.png",
+    "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/automobilematerial-141204051237-conversion-gate01_95/page_01.png",
+    "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/automobilematerial-141204051237-conversion-gate01_95/page_02.png",
+    "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/automobilematerial-141204051237-conversion-gate01_95/page_03.png",
+    "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/automobilematerial-141204051237-conversion-gate01_95/page_04.png",
+    "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/automobilematerial-141204051237-conversion-gate01_95/page_05.png",
+    "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/automobilematerial-141204051237-conversion-gate01_95/page_06.png",
+    "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/automobilematerial-141204051237-conversion-gate01_95/page_07.png",
+    "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/automobilematerial-141204051237-conversion-gate01_95/page_08.png",
+    "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/automobilematerial-141204051237-conversion-gate01_95/page_09.png",
+    "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/automobilematerial-141204051237-conversion-gate01_95/page_10.png",
+    "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/automobilematerial-141204051237-conversion-gate01_95/page_11.png",
+    "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/automobilematerial-141204051237-conversion-gate01_95/page_12.png",
+    "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/automobilematerial-141204051237-conversion-gate01_95/page_13.png",
+    "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/automobilematerial-141204051237-conversion-gate01_95/page_14.png",
+    "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/automobilematerial-141204051237-conversion-gate01_95/page_15.png",
+    "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/automobilematerial-141204051237-conversion-gate01_95/page_16.png",
+    "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/automobilematerial-141204051237-conversion-gate01_95/page_17.png",
+    "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/automobilematerial-141204051237-conversion-gate01_95/page_18.png",
+    "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/automobilematerial-141204051237-conversion-gate01_95/page_19.png",
+    "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/automobilematerial-141204051237-conversion-gate01_95/page_20.png",
+    "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/autoreport-cs6-140415111854-phpapp02_95/page_01.png",
+    "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/autoreport-cs6-140415111854-phpapp02_95/page_02.png",
+    "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/autoreport-cs6-140415111854-phpapp02_95/page_03.png",
+    "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/autoreport-cs6-140415111854-phpapp02_95/page_04.png",
+    "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/autoreport-cs6-140415111854-phpapp02_95/page_05.png",
+    "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/autoreport-cs6-140415111854-phpapp02_95/page_06.png",
+    "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/autoreport-cs6-140415111854-phpapp02_95/page_07.png",
+    "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/autoreport-cs6-140415111854-phpapp02_95/page_08.png",
+    "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/autoreport-cs6-140415111854-phpapp02_95/page_09.png",
+    "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/autoreport-cs6-140415111854-phpapp02_95/page_10.png",
+    "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/autoreport-cs6-140415111854-phpapp02_95/page_11.png",
+    "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/autoreport-cs6-140415111854-phpapp02_95/page_12.png",
+    "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/autoreport-cs6-140415111854-phpapp02_95/page_13.png",
+    "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/autoreport-cs6-140415111854-phpapp02_95/page_14.png",
+    "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/autoreport-cs6-140415111854-phpapp02_95/page_15.png",
+    "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/autoreport-cs6-140415111854-phpapp02_95/page_16.png",
+    "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/autoreport-cs6-140415111854-phpapp02_95/page_17.png",
+    "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/autoreport-cs6-140415111854-phpapp02_95/page_18.png",
+    "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/autoreport-cs6-140415111854-phpapp02_95/page_19.png",
+    "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/autoreport-cs6-140415111854-phpapp02_95/page_20.png",
+    "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_01.png",
+    "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_02.png",
+    "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_03.png",
+    "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_04.png",
+    "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_05.png",
+    "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_06.png",
+    "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_07.png",
+    "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_08.png",
+    "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_09.png",
+    "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_10.png",
+    "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_11.png",
+    "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_12.png",
+    "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_13.png",
+    "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_14.png",
+    "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_15.png",
+    "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_16.png",
+    "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_17.png",
+    "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_18.png",
+    "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_19.png",
+    "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_20.png",
+    "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bearing1-151117114834-lva1-app6892_95/page_01.png",
+    "page_label": "bearing1-151117114834-lva1-app6892_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bearing1-151117114834-lva1-app6892_95/page_02.png",
+    "page_label": "bearing1-151117114834-lva1-app6892_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bearing1-151117114834-lva1-app6892_95/page_03.png",
+    "page_label": "bearing1-151117114834-lva1-app6892_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bearing1-151117114834-lva1-app6892_95/page_04.png",
+    "page_label": "bearing1-151117114834-lva1-app6892_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bearing1-151117114834-lva1-app6892_95/page_05.png",
+    "page_label": "bearing1-151117114834-lva1-app6892_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bearing1-151117114834-lva1-app6892_95/page_06.png",
+    "page_label": "bearing1-151117114834-lva1-app6892_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bearing1-151117114834-lva1-app6892_95/page_07.png",
+    "page_label": "bearing1-151117114834-lva1-app6892_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bearing1-151117114834-lva1-app6892_95/page_08.png",
+    "page_label": "bearing1-151117114834-lva1-app6892_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bearing1-151117114834-lva1-app6892_95/page_09.png",
+    "page_label": "bearing1-151117114834-lva1-app6892_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bearing1-151117114834-lva1-app6892_95/page_10.png",
+    "page_label": "bearing1-151117114834-lva1-app6892_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bearing1-151117114834-lva1-app6892_95/page_11.png",
+    "page_label": "bearing1-151117114834-lva1-app6892_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bearing1-151117114834-lva1-app6892_95/page_12.png",
+    "page_label": "bearing1-151117114834-lva1-app6892_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bearing1-151117114834-lva1-app6892_95/page_13.png",
+    "page_label": "bearing1-151117114834-lva1-app6892_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bearing1-151117114834-lva1-app6892_95/page_14.png",
+    "page_label": "bearing1-151117114834-lva1-app6892_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bearing1-151117114834-lva1-app6892_95/page_15.png",
+    "page_label": "bearing1-151117114834-lva1-app6892_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bearing1-151117114834-lva1-app6892_95/page_16.png",
+    "page_label": "bearing1-151117114834-lva1-app6892_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bearing1-151117114834-lva1-app6892_95/page_17.png",
+    "page_label": "bearing1-151117114834-lva1-app6892_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bearing1-151117114834-lva1-app6892_95/page_18.png",
+    "page_label": "bearing1-151117114834-lva1-app6892_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bearing1-151117114834-lva1-app6892_95/page_19.png",
+    "page_label": "bearing1-151117114834-lva1-app6892_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bearing1-151117114834-lva1-app6892_95/page_20.png",
+    "page_label": "bearing1-151117114834-lva1-app6892_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_01.png",
+    "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_02.png",
+    "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_03.png",
+    "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_04.png",
+    "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_05.png",
+    "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_06.png",
+    "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_07.png",
+    "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_08.png",
+    "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_09.png",
+    "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_10.png",
+    "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_11.png",
+    "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_12.png",
+    "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_13.png",
+    "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_14.png",
+    "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_15.png",
+    "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_16.png",
+    "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_17.png",
+    "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_18.png",
+    "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_19.png",
+    "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_20.png",
+    "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_01.png",
+    "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_02.png",
+    "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_03.png",
+    "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_04.png",
+    "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_05.png",
+    "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_06.png",
+    "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_07.png",
+    "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_08.png",
+    "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_09.png",
+    "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_10.png",
+    "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_11.png",
+    "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_12.png",
+    "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_13.png",
+    "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_14.png",
+    "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_15.png",
+    "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_16.png",
+    "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_17.png",
+    "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_18.png",
+    "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_19.png",
+    "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_20.png",
+    "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bologna1-151118100554-lva1-app6892_95/page_01.png",
+    "page_label": "bologna1-151118100554-lva1-app6892_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bologna1-151118100554-lva1-app6892_95/page_02.png",
+    "page_label": "bologna1-151118100554-lva1-app6892_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bologna1-151118100554-lva1-app6892_95/page_03.png",
+    "page_label": "bologna1-151118100554-lva1-app6892_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bologna1-151118100554-lva1-app6892_95/page_04.png",
+    "page_label": "bologna1-151118100554-lva1-app6892_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bologna1-151118100554-lva1-app6892_95/page_05.png",
+    "page_label": "bologna1-151118100554-lva1-app6892_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bologna1-151118100554-lva1-app6892_95/page_06.png",
+    "page_label": "bologna1-151118100554-lva1-app6892_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bologna1-151118100554-lva1-app6892_95/page_07.png",
+    "page_label": "bologna1-151118100554-lva1-app6892_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bologna1-151118100554-lva1-app6892_95/page_08.png",
+    "page_label": "bologna1-151118100554-lva1-app6892_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bologna1-151118100554-lva1-app6892_95/page_09.png",
+    "page_label": "bologna1-151118100554-lva1-app6892_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bologna1-151118100554-lva1-app6892_95/page_10.png",
+    "page_label": "bologna1-151118100554-lva1-app6892_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bologna1-151118100554-lva1-app6892_95/page_11.png",
+    "page_label": "bologna1-151118100554-lva1-app6892_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bologna1-151118100554-lva1-app6892_95/page_12.png",
+    "page_label": "bologna1-151118100554-lva1-app6892_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bologna1-151118100554-lva1-app6892_95/page_13.png",
+    "page_label": "bologna1-151118100554-lva1-app6892_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bologna1-151118100554-lva1-app6892_95/page_14.png",
+    "page_label": "bologna1-151118100554-lva1-app6892_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bologna1-151118100554-lva1-app6892_95/page_15.png",
+    "page_label": "bologna1-151118100554-lva1-app6892_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bologna1-151118100554-lva1-app6892_95/page_16.png",
+    "page_label": "bologna1-151118100554-lva1-app6892_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bologna1-151118100554-lva1-app6892_95/page_17.png",
+    "page_label": "bologna1-151118100554-lva1-app6892_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bologna1-151118100554-lva1-app6892_95/page_18.png",
+    "page_label": "bologna1-151118100554-lva1-app6892_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bologna1-151118100554-lva1-app6892_95/page_19.png",
+    "page_label": "bologna1-151118100554-lva1-app6892_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/bologna1-151118100554-lva1-app6892_95/page_20.png",
+    "page_label": "bologna1-151118100554-lva1-app6892_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/brainondatafinal-150314123657-conversion-gate01_95/page_01.png",
+    "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/brainondatafinal-150314123657-conversion-gate01_95/page_02.png",
+    "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/brainondatafinal-150314123657-conversion-gate01_95/page_03.png",
+    "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/brainondatafinal-150314123657-conversion-gate01_95/page_04.png",
+    "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/brainondatafinal-150314123657-conversion-gate01_95/page_05.png",
+    "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/brainondatafinal-150314123657-conversion-gate01_95/page_06.png",
+    "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/brainondatafinal-150314123657-conversion-gate01_95/page_07.png",
+    "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/brainondatafinal-150314123657-conversion-gate01_95/page_08.png",
+    "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/brainondatafinal-150314123657-conversion-gate01_95/page_09.png",
+    "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/brainondatafinal-150314123657-conversion-gate01_95/page_10.png",
+    "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/brainondatafinal-150314123657-conversion-gate01_95/page_11.png",
+    "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/brainondatafinal-150314123657-conversion-gate01_95/page_12.png",
+    "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/brainondatafinal-150314123657-conversion-gate01_95/page_13.png",
+    "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/brainondatafinal-150314123657-conversion-gate01_95/page_14.png",
+    "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/brainondatafinal-150314123657-conversion-gate01_95/page_15.png",
+    "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/brainondatafinal-150314123657-conversion-gate01_95/page_16.png",
+    "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/brainondatafinal-150314123657-conversion-gate01_95/page_17.png",
+    "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/brainondatafinal-150314123657-conversion-gate01_95/page_18.png",
+    "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/brainondatafinal-150314123657-conversion-gate01_95/page_19.png",
+    "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/brainondatafinal-150314123657-conversion-gate01_95/page_20.png",
+    "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/ch16-150313050025-conversion-gate01_95/page_01.png",
+    "page_label": "ch16-150313050025-conversion-gate01_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/ch16-150313050025-conversion-gate01_95/page_02.png",
+    "page_label": "ch16-150313050025-conversion-gate01_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/ch16-150313050025-conversion-gate01_95/page_03.png",
+    "page_label": "ch16-150313050025-conversion-gate01_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/ch16-150313050025-conversion-gate01_95/page_04.png",
+    "page_label": "ch16-150313050025-conversion-gate01_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/ch16-150313050025-conversion-gate01_95/page_05.png",
+    "page_label": "ch16-150313050025-conversion-gate01_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/ch16-150313050025-conversion-gate01_95/page_06.png",
+    "page_label": "ch16-150313050025-conversion-gate01_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/ch16-150313050025-conversion-gate01_95/page_07.png",
+    "page_label": "ch16-150313050025-conversion-gate01_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/ch16-150313050025-conversion-gate01_95/page_08.png",
+    "page_label": "ch16-150313050025-conversion-gate01_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/ch16-150313050025-conversion-gate01_95/page_09.png",
+    "page_label": "ch16-150313050025-conversion-gate01_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/ch16-150313050025-conversion-gate01_95/page_10.png",
+    "page_label": "ch16-150313050025-conversion-gate01_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/ch16-150313050025-conversion-gate01_95/page_11.png",
+    "page_label": "ch16-150313050025-conversion-gate01_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/ch16-150313050025-conversion-gate01_95/page_12.png",
+    "page_label": "ch16-150313050025-conversion-gate01_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/ch16-150313050025-conversion-gate01_95/page_13.png",
+    "page_label": "ch16-150313050025-conversion-gate01_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/ch16-150313050025-conversion-gate01_95/page_14.png",
+    "page_label": "ch16-150313050025-conversion-gate01_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/ch16-150313050025-conversion-gate01_95/page_15.png",
+    "page_label": "ch16-150313050025-conversion-gate01_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/ch16-150313050025-conversion-gate01_95/page_16.png",
+    "page_label": "ch16-150313050025-conversion-gate01_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/ch16-150313050025-conversion-gate01_95/page_17.png",
+    "page_label": "ch16-150313050025-conversion-gate01_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/ch16-150313050025-conversion-gate01_95/page_18.png",
+    "page_label": "ch16-150313050025-conversion-gate01_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/ch16-150313050025-conversion-gate01_95/page_19.png",
+    "page_label": "ch16-150313050025-conversion-gate01_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/ch16-150313050025-conversion-gate01_95/page_20.png",
+    "page_label": "ch16-150313050025-conversion-gate01_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter-3-seawater-160218031855_95/page_01.png",
+    "page_label": "chapter-3-seawater-160218031855_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter-3-seawater-160218031855_95/page_02.png",
+    "page_label": "chapter-3-seawater-160218031855_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter-3-seawater-160218031855_95/page_03.png",
+    "page_label": "chapter-3-seawater-160218031855_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter-3-seawater-160218031855_95/page_04.png",
+    "page_label": "chapter-3-seawater-160218031855_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter-3-seawater-160218031855_95/page_05.png",
+    "page_label": "chapter-3-seawater-160218031855_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter-3-seawater-160218031855_95/page_06.png",
+    "page_label": "chapter-3-seawater-160218031855_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter-3-seawater-160218031855_95/page_07.png",
+    "page_label": "chapter-3-seawater-160218031855_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter-3-seawater-160218031855_95/page_08.png",
+    "page_label": "chapter-3-seawater-160218031855_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter-3-seawater-160218031855_95/page_09.png",
+    "page_label": "chapter-3-seawater-160218031855_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter-3-seawater-160218031855_95/page_10.png",
+    "page_label": "chapter-3-seawater-160218031855_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter-3-seawater-160218031855_95/page_11.png",
+    "page_label": "chapter-3-seawater-160218031855_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter-3-seawater-160218031855_95/page_12.png",
+    "page_label": "chapter-3-seawater-160218031855_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter-3-seawater-160218031855_95/page_13.png",
+    "page_label": "chapter-3-seawater-160218031855_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter-3-seawater-160218031855_95/page_14.png",
+    "page_label": "chapter-3-seawater-160218031855_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter-3-seawater-160218031855_95/page_15.png",
+    "page_label": "chapter-3-seawater-160218031855_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter-3-seawater-160218031855_95/page_16.png",
+    "page_label": "chapter-3-seawater-160218031855_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter-3-seawater-160218031855_95/page_17.png",
+    "page_label": "chapter-3-seawater-160218031855_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter-3-seawater-160218031855_95/page_18.png",
+    "page_label": "chapter-3-seawater-160218031855_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter-3-seawater-160218031855_95/page_19.png",
+    "page_label": "chapter-3-seawater-160218031855_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter-3-seawater-160218031855_95/page_20.png",
+    "page_label": "chapter-3-seawater-160218031855_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_01.png",
+    "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_02.png",
+    "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_03.png",
+    "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_04.png",
+    "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_05.png",
+    "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_06.png",
+    "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_07.png",
+    "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_08.png",
+    "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_09.png",
+    "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_10.png",
+    "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_11.png",
+    "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_12.png",
+    "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_13.png",
+    "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_14.png",
+    "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_15.png",
+    "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_16.png",
+    "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_17.png",
+    "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_18.png",
+    "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_19.png",
+    "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_20.png",
+    "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_20"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chinatourismreport-100310054348-phpapp01_95/page_01.png",
+    "page_label": "chinatourismreport-100310054348-phpapp01_95/page_01"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chinatourismreport-100310054348-phpapp01_95/page_02.png",
+    "page_label": "chinatourismreport-100310054348-phpapp01_95/page_02"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chinatourismreport-100310054348-phpapp01_95/page_03.png",
+    "page_label": "chinatourismreport-100310054348-phpapp01_95/page_03"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chinatourismreport-100310054348-phpapp01_95/page_04.png",
+    "page_label": "chinatourismreport-100310054348-phpapp01_95/page_04"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chinatourismreport-100310054348-phpapp01_95/page_05.png",
+    "page_label": "chinatourismreport-100310054348-phpapp01_95/page_05"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chinatourismreport-100310054348-phpapp01_95/page_06.png",
+    "page_label": "chinatourismreport-100310054348-phpapp01_95/page_06"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chinatourismreport-100310054348-phpapp01_95/page_07.png",
+    "page_label": "chinatourismreport-100310054348-phpapp01_95/page_07"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chinatourismreport-100310054348-phpapp01_95/page_08.png",
+    "page_label": "chinatourismreport-100310054348-phpapp01_95/page_08"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chinatourismreport-100310054348-phpapp01_95/page_09.png",
+    "page_label": "chinatourismreport-100310054348-phpapp01_95/page_09"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chinatourismreport-100310054348-phpapp01_95/page_10.png",
+    "page_label": "chinatourismreport-100310054348-phpapp01_95/page_10"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chinatourismreport-100310054348-phpapp01_95/page_11.png",
+    "page_label": "chinatourismreport-100310054348-phpapp01_95/page_11"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chinatourismreport-100310054348-phpapp01_95/page_12.png",
+    "page_label": "chinatourismreport-100310054348-phpapp01_95/page_12"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chinatourismreport-100310054348-phpapp01_95/page_13.png",
+    "page_label": "chinatourismreport-100310054348-phpapp01_95/page_13"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chinatourismreport-100310054348-phpapp01_95/page_14.png",
+    "page_label": "chinatourismreport-100310054348-phpapp01_95/page_14"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chinatourismreport-100310054348-phpapp01_95/page_15.png",
+    "page_label": "chinatourismreport-100310054348-phpapp01_95/page_15"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chinatourismreport-100310054348-phpapp01_95/page_16.png",
+    "page_label": "chinatourismreport-100310054348-phpapp01_95/page_16"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chinatourismreport-100310054348-phpapp01_95/page_17.png",
+    "page_label": "chinatourismreport-100310054348-phpapp01_95/page_17"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chinatourismreport-100310054348-phpapp01_95/page_18.png",
+    "page_label": "chinatourismreport-100310054348-phpapp01_95/page_18"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chinatourismreport-100310054348-phpapp01_95/page_19.png",
+    "page_label": "chinatourismreport-100310054348-phpapp01_95/page_19"
+  },
+  {
+    "image_path": "data/corpora/slidevqa/pages/chinatourismreport-100310054348-phpapp01_95/page_20.png",
+    "page_label": "chinatourismreport-100310054348-phpapp01_95/page_20"
+  }
+]

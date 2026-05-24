@@ -1,0 +1,22 @@
+{
+  "original_query": "What is the abbreviation for Sales Qualified Leads?",
+  "confirmed": [
+    {
+      "answer_text": "The abbreviation for Sales Qualified Leads is SQL.",
+      "image_ref": {
+        "id": "bb854c5d1aaa2123",
+        "page_label": "a-151012171903-lva1-app6891_95/page_17",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_051827/32/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "Sales Qualified Leads (SQL)"
+      ],
+      "found_via_query": "abbreviation for Sales Qualified Leads"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_051827/32/images"
+}

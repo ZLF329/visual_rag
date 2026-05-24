@@ -1,0 +1,41 @@
+{
+  "original_query": "What is the abbreviation for Sales Qualified Leads?",
+  "confirmed": [
+    {
+      "answer_text": "Sales Qualified Leads is abbreviated as SQL.",
+      "summary": "The page outlines a marketing and sales plan, including a flowchart that details the sales process from inquiry to closed won business. It highlights key metrics and stages such as Marketing Qualification, Teleprospecting, and Sales Qualified Leads (SQL).",
+      "key_facts": [
+        "Sales Qualified Leads is abbreviated as SQL."
+      ],
+      "image_ref": {
+        "id": "bb854c5d1aaa2123",
+        "page_label": "a-151012171903-lva1-app6891_95/page_17",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/32/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What is the abbreviation for Sales Qualified Leads?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What is the abbreviation for Sales Qualified Leads?",
+      "page_label": "a-151012171903-lva1-app6891_95/page_17",
+      "decision": "yes",
+      "summary": "The page outlines a marketing and sales plan, including a flowchart that details the sales process from inquiry to closed won business. It highlights key metrics and stages such as Marketing Qualification, Teleprospecting, and Sales Qualified Leads (SQL).",
+      "key_facts": [
+        "Sales Qualified Leads is abbreviated as SQL."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "The page describes a marketing and sales process flowchart, emphasizing stages like Marketing Qualification and Teleprospecting, culminating in Sales Qualified Leads (SQL) as a key milestone. SQL is presented as a defined term within this sales pipeline.",
+  "consolidated_key_facts": [
+    "Sales Qualified Leads is abbreviated as SQL."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/32/images"
+}

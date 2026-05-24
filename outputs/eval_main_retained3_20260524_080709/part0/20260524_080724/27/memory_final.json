@@ -1,0 +1,44 @@
+{
+  "original_query": "What is the total percentage of 4G users with the 1 - 500 MB plan and the 501 MB - 1 GB plan in the UK?",
+  "confirmed": [
+    {
+      "answer_text": "In the UK, 22% of 4G users have a 1-500 MB plan.; In the UK, 31% of 4G users have a 501-1 GB plan.",
+      "summary": "The page displays a table showing the percentage of users with different data plan sizes (1-500 MB, 501-1 GB, etc.) across various countries, including Germany, UK, Russia, and Romania, for both 3G and 4G plans. The data is sourced from a December 2014 report on smartphone and tablet usage trends.",
+      "key_facts": [
+        "In the UK, 22% of 4G users have a 1-500 MB plan.",
+        "In the UK, 31% of 4G users have a 501-1 GB plan."
+      ],
+      "image_ref": {
+        "id": "4f3b39e06f76ad5e",
+        "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_07",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/27/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What is the total percentage of 4G users with the 1 - 500 MB plan and the 501 MB - 1 GB plan in the UK?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What is the total percentage of 4G users with the 1 - 500 MB plan and the 501 MB - 1 GB plan in the UK?",
+      "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_07",
+      "decision": "yes",
+      "summary": "The page displays a table showing the percentage of users with different data plan sizes (1-500 MB, 501-1 GB, etc.) across various countries, including Germany, UK, Russia, and Romania, for both 3G and 4G plans. The data is sourced from a December 2014 report on smartphone and tablet usage trends.",
+      "key_facts": [
+        "In the UK, 22% of 4G users have a 1-500 MB plan.",
+        "In the UK, 31% of 4G users have a 501-1 GB plan."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "The latest page provides data from a December 2014 report on UK 4G users' data plan sizes, showing that 22% use the 1-500 MB plan and 31% use the 501 MB–1 GB plan. These figures are specific to the UK and relate to 4G users only, with no indication of other plan tiers or timeframes.",
+  "consolidated_key_facts": [
+    "In the UK, 22% of 4G users have a 1-500 MB plan.",
+    "In the UK, 31% of 4G users have a 501-1 GB plan."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/27/images"
+}

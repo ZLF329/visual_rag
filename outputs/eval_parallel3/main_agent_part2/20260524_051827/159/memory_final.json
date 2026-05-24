@@ -1,0 +1,39 @@
+{
+  "original_query": "Have wine import amounts and volume been trending up or down during the period from 1995 to the year in which Italy’s yearly growth in sparkling volume was negative?",
+  "confirmed": [],
+  "partials": [
+    {
+      "partial_answer": "The sparkling wine import volume for Italy shows a general upward trend from 1995 to 2015, but the specific year when Italy’s yearly growth became negative is not stated on the page.",
+      "image_ref": {
+        "id": "2ee7f02065145bfc",
+        "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_17",
+        "pixel_budget": 200000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/159/images/partial_04_200k.png"
+      },
+      "cited_statements": [
+        "sparkling wine import volume(tons) chart from 1995 to 2015 shows an overall upward trend for most countries, including Italy."
+      ],
+      "remaining_gap": "The specific year when Italy’s yearly growth in sparkling volume became negative is not stated on the page, and the page does not provide a clear indication of the trend direction for the period ending at that year.",
+      "found_via_query": "Italy sparkling wine import volume growth negative year specific 1995-2015",
+      "found_at_iter": 3
+    },
+    {
+      "partial_answer": "The sparkling wine import volume for Italy shows a general upward trend from 1995 to 2015, but the specific year when Italy’s yearly growth became negative is not stated on the page.",
+      "image_ref": {
+        "id": "2ee7f02065145bfc",
+        "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_17",
+        "pixel_budget": 200000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/159/images/partial_05_200k.png"
+      },
+      "cited_statements": [
+        "sparkling wine import volume(tons) chart from 1995 to 2015 shows an overall upward trend for most countries, including Italy."
+      ],
+      "remaining_gap": "The specific year when Italy’s yearly growth in sparkling volume became negative is not stated on the page, and the page does not provide a clear indication of the trend direction for the period ending at that year.",
+      "found_via_query": "Italy sparkling wine import volume growth negative year specific 1995-2015 data point",
+      "found_at_iter": 4
+    }
+  ],
+  "warnings": [],
+  "iter": 5,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/159/images"
+}

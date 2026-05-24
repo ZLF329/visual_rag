@@ -1,0 +1,46 @@
+{
+  "original_query": "What are two approaches for Association mapping?",
+  "confirmed": [],
+  "partials": [
+    {
+      "partial_answer": "LD-based Association mapping is one of the two main approaches for gene mapping.; Family-based Linkage mapping is the other main approach, but it is not an Association mapping method.",
+      "summary": "The page explains the purpose of gene mapping, which is to find molecular markers linked to target genes for use in marker-assisted selection (MAS). It then presents two main approaches: Family-based Linkage mapping and LD-based Association mapping, with a brief description of the former.",
+      "key_facts": [
+        "LD-based Association mapping is one of the two main approaches for gene mapping.",
+        "Family-based Linkage mapping is the other main approach, but it is not an Association mapping method."
+      ],
+      "image_ref": {
+        "id": "58a6681ebf584a11",
+        "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_04",
+        "pixel_budget": 200000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/127/images/partial_01_200k.png"
+      },
+      "cited_statements": [],
+      "remaining_gap": "",
+      "found_via_query": "What are the two main approaches for Association mapping in genetics or bioinformatics?",
+      "found_at_iter": 0
+    }
+  ],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What are the two main approaches for Association mapping in genetics or bioinformatics?",
+      "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_04",
+      "decision": "partial",
+      "summary": "The page explains the purpose of gene mapping, which is to find molecular markers linked to target genes for use in marker-assisted selection (MAS). It then presents two main approaches: Family-based Linkage mapping and LD-based Association mapping, with a brief description of the former.",
+      "key_facts": [
+        "LD-based Association mapping is one of the two main approaches for gene mapping.",
+        "Family-based Linkage mapping is the other main approach, but it is not an Association mapping method."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "The page identifies two main approaches to gene mapping: Family-based Linkage mapping and LD-based Association mapping. LD-based Association mapping is explicitly labeled as an Association mapping method, while Family-based Linkage mapping is noted as distinct and not an Association mapping technique. The context centers on marker-assisted selection (MAS) and molecular markers linked to target genes.",
+  "consolidated_key_facts": [
+    "LD-based Association mapping is one of the two main approaches for gene mapping.",
+    "Family-based Linkage mapping is the other main approach but is not an Association mapping method."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/127/images"
+}

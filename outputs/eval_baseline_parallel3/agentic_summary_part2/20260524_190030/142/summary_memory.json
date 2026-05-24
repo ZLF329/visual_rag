@@ -1,0 +1,37 @@
+{
+  "original_query": "What do extra markings indicate?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "bearing1-151117114834-lva1-app6892_95/page_19",
+      "found_via_query": "What do extra markings indicate?",
+      "summary": "The image explains bearing markings, including 'Basic Type & Series', 'Seals & Shields', 'Extra Markings', 'Bore Size', and 'Internal Clearance'. The 'Extra Markings' section specifically indicates special dimensions or grease type and fill, with examples like NR for Snap Ring, PRX for Polyrex EM Grease, and SRI2 for SRI-2 Grease.",
+      "key_facts": [
+        "Extra Markings indicate special dimensions or grease type and fill.",
+        "NR = Snap Ring",
+        "PRX = Polyrex EM Grease",
+        "SRI2 = SRI-2 Grease"
+      ],
+      "visible_text": [
+        "Basic Type & Series",
+        "Extra Markings (Indicates special dimensions or grease type and fill)",
+        "NR Snap Ring",
+        "PRX Polyrex EM Grease",
+        "SRI2 SRI-2 Grease"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "bearing1-151117114834-lva1-app6892_95/page_19",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_190030/142/images/iter_00_bearing1_151117114834_lva1_app6892_95_page_19_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What do extra markings indicate?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

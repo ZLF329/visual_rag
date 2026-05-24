@@ -1,0 +1,7 @@
+Two approaches for association mapping are:
+
+1. **Linkage disequilibrium mapping** — also referred to as linkage disequilibrium mapping, this approach uses natural population surveys to determine marker-trait associations by leveraging linkage disequilibrium (LD) between genotyped markers and functional variants.
+
+2. **Indirect and direct association** — these are two types of association relationships illustrated in the diagram. The "Indirect association" links a typed marker locus to the phenotype, while the "Direct association" links a typed marker locus to a haplotype, which in turn is associated with the phenotype. The diagram also shows a "Direct association" from the haplotype to the phenotype.
+
+These are explicitly labeled in the provided image, which is cited as the source for the answer.

@@ -1,0 +1,23 @@
+{
+  "original_query": "How many countries are detailed in this report?",
+  "confirmed": [
+    {
+      "answer_text": "24 countries are detailed in this report.",
+      "image_ref": {
+        "id": "67dddbd7dfd3f49c",
+        "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_02",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_045848/68/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "The list of countries is numbered from 1 to 24.",
+        "The number 24 is visible in the bottom right corner of the page."
+      ],
+      "found_via_query": "report countries detailed count"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_045848/68/images"
+}

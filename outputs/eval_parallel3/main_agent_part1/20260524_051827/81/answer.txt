@@ -1,0 +1,1 @@
+Examples of Architectures include X86, SPARC, HSAIL, and PTX. This information is found in the slide titled "Dimensions of Extensibility" from Oracle, which lists these specific architectures as part of the diagram centered around Graal.

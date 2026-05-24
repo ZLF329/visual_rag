@@ -1,0 +1,44 @@
+{
+  "original_query": "How does the cost and ease of LD mapping compare to conventional methods?",
+  "confirmed": [
+    {
+      "answer_text": "LD mapping has 'Less cost and reduced time' compared to conventional methods.; Conventional methods have 'More cost and labour'.",
+      "summary": "The page presents a comparison between conventional mapping and LD (Linkage Disequilibrium) mapping, highlighting advantages of LD mapping in terms of cost, ease, precision, and other factors. It also notes a limitation related to statistical assessment of population structure.",
+      "key_facts": [
+        "LD mapping has 'Less cost and reduced time' compared to conventional methods.",
+        "Conventional methods have 'More cost and labour'."
+      ],
+      "image_ref": {
+        "id": "878d77797d154959",
+        "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_14",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/126/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "Comparison of cost and ease between LD mapping and conventional genetic mapping methods"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "Comparison of cost and ease between LD mapping and conventional genetic mapping methods",
+      "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_14",
+      "decision": "yes",
+      "summary": "The page presents a comparison between conventional mapping and LD (Linkage Disequilibrium) mapping, highlighting advantages of LD mapping in terms of cost, ease, precision, and other factors. It also notes a limitation related to statistical assessment of population structure.",
+      "key_facts": [
+        "LD mapping has 'Less cost and reduced time' compared to conventional methods.",
+        "Conventional methods have 'More cost and labour'."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "LD mapping is presented as more cost-effective and easier to perform than conventional mapping methods, with reduced time and labor requirements. However, a limitation noted is the need for careful statistical assessment of population structure.",
+  "consolidated_key_facts": [
+    "LD mapping has lower cost and reduced time compared to conventional methods.",
+    "Conventional methods require more cost and labor."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/126/images"
+}

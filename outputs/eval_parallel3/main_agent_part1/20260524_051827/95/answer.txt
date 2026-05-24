@@ -1,0 +1,8 @@
+The components of the Agile Data Science Feedback Loop are:
+
+1. **Instrumentation / Data Collection**  
+2. **Analysis & Design**  
+3. **Results & Interpretation**  
+4. **Cultivating Data Intuition**
+
+These components are clearly labeled in the diagram titled "Agile Data Science Feedback Loop," as identified in the source material.

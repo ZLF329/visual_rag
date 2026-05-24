@@ -1,0 +1,41 @@
+{
+  "original_query": "How many steps are there in the general procedure for association mapping?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_16",
+      "found_via_query": "general procedure for association mapping steps",
+      "summary": "The image illustrates the general procedure for association mapping, which includes five main steps: Genotyping, Population Structure, LD (Linkage Disequilibrium), Phenotyping, and Association mapping. It also shows two approaches for association mapping: Candidate gene association mapping and Genome wide association mapping, with a flowchart connecting these steps.",
+      "key_facts": [
+        "General procedure for association mapping has five steps: Genotyping, Population Structure, LD, Phenotyping, and Association mapping.",
+        "Two approaches for association mapping are Candidate gene association mapping and Genome wide association mapping.",
+        "Genotyping and Phenotyping are derived from Germplasm."
+      ],
+      "visible_text": [
+        "Approaches for Association mapping",
+        "Candidate gene association mapping",
+        "Genome wide association mapping",
+        "General procedure for association mapping",
+        "Genotyping",
+        "Population Structure",
+        "LD",
+        "Germplasm",
+        "Phenotyping",
+        "Association mapping"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_16",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/129/images/iter_00_associationmappinginplants_150413205026_conversion_gate01_95_page_16_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "general procedure for association mapping steps"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

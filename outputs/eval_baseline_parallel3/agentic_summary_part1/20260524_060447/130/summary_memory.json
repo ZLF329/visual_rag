@@ -1,0 +1,44 @@
+{
+  "original_query": "What are two advantages to Genome wide Association?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_17",
+      "found_via_query": "advantages of Genome-wide Association studies",
+      "summary": "The image presents a table comparing advantages and drawbacks of two methods for identifying the genetic basis of complex traits: Candidate gene association mapping (2002) and Genome wide Association (2005). Under the Genome wide Association section, two advantages are listed: fine mapping (blind approach) and detection of common alleles.",
+      "key_facts": [
+        "Genome wide Association (2005) has advantages including fine mapping (blind approach) and detection of common alleles.",
+        "The table also includes drawbacks for both methods, such as requiring detailed knowledge for candidate gene mapping and reduced power to detect rare alleles for Genome wide Association."
+      ],
+      "visible_text": [
+        "Advantages and drawbacks of methods for identifying the genetic basis of complex traits",
+        "Methods",
+        "Advantages",
+        "Drawbacks",
+        "Candidate gene association mapping (2002)",
+        "Relates sequence variation encoding either regulatory or functional product directly to trait of interest",
+        "Fine mapping",
+        "Requires detailed knowledge of the function, sequence and genetics of the trait under study",
+        "So why not just cover the entire genome with genetic markers?",
+        "Genome wide Association (2005)",
+        "Fine mapping (blind approach)",
+        "Detection of common alleles",
+        "Reduced power to detect rare alleles",
+        "Genetic and allelic heterogeneity"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_17",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/130/images/iter_00_associationmappinginplants_150413205026_conversion_gate01_95_page_17_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "advantages of Genome-wide Association studies"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

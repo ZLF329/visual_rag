@@ -1,0 +1,47 @@
+{
+  "original_query": "What percentage of the TOTAL POPULATION in NORTH AMERICA are ACTIVE SOCIAL NETWORK USERS?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_17",
+      "found_via_query": "What is the total population of North America and the number of active social network users?",
+      "summary": "The infographic from January 2014 shows key digital statistics for North America, including total population, internet users, active social network users, and mobile subscriptions. It also displays penetration rates for urban/rural populations, internet, social networking, and mobile usage.",
+      "key_facts": [
+        "Total population: 351,300,266",
+        "Active social network users: 197,033,600",
+        "Urban population: 82%, Rural: 18%",
+        "Internet penetration: 81%",
+        "Social networking penetration: 56%",
+        "Mobile penetration: 101%"
+      ],
+      "visible_text": [
+        "JAN 2014",
+        "NORTH AMERICA",
+        "351,300,266 TOTAL POPULATION",
+        "284,093,742 INTERNET USERS",
+        "197,033,600 ACTIVE SOCIAL NETWORK USERS",
+        "353,899,984 ACTIVE MOBILE SUBSCRIPTIONS",
+        "82% URBAN",
+        "18% RURAL",
+        "81% INTERNET PENETRATION",
+        "56% SOCIAL NETWORKING PENETRATION",
+        "101% MOBILE PENETRATION",
+        "We Are Social • Sources: US Census Bureau, InternetWorldStats, Facebook, ITU",
+        "wearesocial.sg • @wearesocialsg • 17"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_17",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_190030/74/images/iter_00_2014globaldigitalsociallandscape_140803004322_phpapp02_95_page_17_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What is the total population of North America and the number of active social network users?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

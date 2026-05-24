@@ -1,0 +1,41 @@
+{
+  "original_query": "What is the Data policy?",
+  "confirmed": [
+    {
+      "answer_text": "No data is shared between clients under any circumstances",
+      "summary": "The image outlines key differentiators of a service, including transparency, programmatic advertising, scale and quality, technology, and data policy. The data policy section emphasizes that no data is shared between clients under any circumstances.",
+      "key_facts": [
+        "No data is shared between clients under any circumstances"
+      ],
+      "image_ref": {
+        "id": "18cf795bc7bd1812",
+        "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_12",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/105/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What is the Data policy?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What is the Data policy?",
+      "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_12",
+      "decision": "yes",
+      "summary": "The image outlines key differentiators of a service, including transparency, programmatic advertising, scale and quality, technology, and data policy. The data policy section emphasizes that no data is shared between clients under any circumstances.",
+      "key_facts": [
+        "No data is shared between clients under any circumstances"
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "The data policy emphasizes strict non-sharing of client data, ensuring no data is exchanged between clients under any circumstances. This is presented as a core differentiator of the service, alongside transparency, programmatic advertising, scale and quality, and technology.",
+  "consolidated_key_facts": [
+    "No data is shared between clients under any circumstances"
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/105/images"
+}

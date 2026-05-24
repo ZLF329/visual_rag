@@ -1,0 +1,40 @@
+{
+  "original_query": "When was the age of crafts manufacturing?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_06",
+      "found_via_query": "When did the age of crafts manufacturing begin?",
+      "summary": "The image presents a graph titled 'The historical course of market dynamics and the recent rise of highly dynamic and complex markets,' known as the 'Taylor Bathtub.' It illustrates market dynamics over time, with the 'Age of crafts manufacturing' marked around 1850/1900, characterized by local markets and high customization. The graph shows a transition to the 'Age of tayloristic industry' and later to the 'Age of global markets.'",
+      "key_facts": [
+        "The 'Age of crafts manufacturing' is associated with the period 1850/1900.",
+        "This era is characterized by local markets and high customization.",
+        "The graph shows a transition from high dynamic to sluggishness/low dynamic and then to high dynamic again.",
+        "The 'Age of global markets' is marked as occurring 'today' with outperformers exerting market pressure."
+      ],
+      "visible_text": [
+        "The historical course of market dynamics and the recent rise of highly dynamic and complex markets",
+        "We call the graph shown here the 'Taylor Bathtub'.",
+        "Age of crafts manufacturing",
+        "1850/1900",
+        "Age of tayloristic industry",
+        "Age of global markets",
+        "today",
+        "The dominance of high dynamics and complexity is neither good nor bad. It's a historical fact."
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_06",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/182/images/iter_00_betacodex_organizeforcomplexity_120624124755_phpapp02_95_page_06_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "When did the age of crafts manufacturing begin?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

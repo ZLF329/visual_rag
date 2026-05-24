@@ -1,0 +1,22 @@
+{
+  "original_query": "Which region of the world accounts for the highest percentage of 2010 revenues?",
+  "confirmed": [
+    {
+      "answer_text": "North America accounts for the highest percentage of 2010 revenues at approximately 36%.",
+      "image_ref": {
+        "id": "26ab795d57415617",
+        "page_label": "alcatel-lucenteesoverview-120403090342-phpapp01_95/page_07",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_051827/19/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "N. America: ~36%"
+      ],
+      "found_via_query": "2010 global revenue by region"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_051827/19/images"
+}

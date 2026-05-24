@@ -1,0 +1,44 @@
+{
+  "original_query": "Who funds academia?",
+  "confirmed": [
+    {
+      "answer_text": "Academia is funded by taxpayers, students, and researchers (in-kind).; Publishers also provide funding to academia (indicated by '$$').",
+      "summary": "The page illustrates the funding relationships within the 'Publisher-Academic complex,' showing that academia is funded by taxpayers, students, and researchers (in-kind), while publishers also provide financial support. The diagram also indicates a reciprocal relationship where academia provides money to publishers.",
+      "key_facts": [
+        "Academia is funded by taxpayers, students, and researchers (in-kind).",
+        "Publishers also provide funding to academia (indicated by '$$')."
+      ],
+      "image_ref": {
+        "id": "dcb90ff0e7bbc2ab",
+        "page_label": "bologna1-151118100554-lva1-app6892_95/page_20",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_182515/148/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "Who funds academia? Sources include government grants, private foundations, corporate sponsorships, and international organizations."
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "Who funds academia? Sources include government grants, private foundations, corporate sponsorships, and international organizations.",
+      "page_label": "bologna1-151118100554-lva1-app6892_95/page_20",
+      "decision": "yes",
+      "summary": "The page illustrates the funding relationships within the 'Publisher-Academic complex,' showing that academia is funded by taxpayers, students, and researchers (in-kind), while publishers also provide financial support. The diagram also indicates a reciprocal relationship where academia provides money to publishers.",
+      "key_facts": [
+        "Academia is funded by taxpayers, students, and researchers (in-kind).",
+        "Publishers also provide funding to academia (indicated by '$$')."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "[query: Who funds academia? Sources include government grants, private foundations, corporate sponsorships, and international organizations.] The page illustrates the funding relationships within the 'Publisher-Academic complex,' showing that academia is funded by taxpayers, students, and researchers (in-kind), while publishers also provide financial support. The diagram also indicates a reciprocal relationship where academia provides money to publishers.",
+  "consolidated_key_facts": [
+    "Academia receives funding from taxpayers, students, and researchers (in-kind).",
+    "Publishers also contribute funding, as indicated by '$$'."
+  ],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_182515/148/images"
+}

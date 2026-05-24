@@ -1,0 +1,39 @@
+{
+  "original_query": "Which two characteristics involve a shift away from the mentality of command and control toward one more focused on employee commitment, Knowledge Development, Performance-Reward Linkage, and Egalitarianism?",
+  "confirmed": [],
+  "partials": [
+    {
+      "partial_answer": "The diagram lists Knowledge Development, Performance-Reward Linkage, and Egalitarianism as key characteristics of high-performance work systems, which are associated with a shift away from command and control toward employee commitment.",
+      "image_ref": {
+        "id": "5f839f82d117f4a9",
+        "page_label": "ch16-150313050025-conversion-gate01_95/page_06",
+        "pixel_budget": 200000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/188/images/partial_04_200k.png"
+      },
+      "cited_statements": [
+        "The diagram lists Knowledge Development, Performance-Reward Linkage, and Egalitarianism as key characteristics of high-performance work systems."
+      ],
+      "remaining_gap": "The page does not explicitly identify which two of the listed characteristics (Knowledge Development, Performance-Reward Linkage, and Egalitarianism) specifically represent the shift away from command and control toward employee commitment.",
+      "found_via_query": "which two of knowledge development, performance-reward linkage, and egalitarianism are most directly linked to the shift from command and control to employee commitment in high-performance work systems",
+      "found_at_iter": 3
+    },
+    {
+      "partial_answer": "The diagram lists Knowledge Development, Performance-Reward Linkage, and Egalitarianism as key characteristics of high-performance work systems, which are associated with a shift away from command and control toward employee commitment.",
+      "image_ref": {
+        "id": "5f839f82d117f4a9",
+        "page_label": "ch16-150313050025-conversion-gate01_95/page_06",
+        "pixel_budget": 200000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/188/images/partial_05_200k.png"
+      },
+      "cited_statements": [
+        "The diagram lists Knowledge Development, Performance-Reward Linkage, and Egalitarianism as key characteristics of high-performance work systems."
+      ],
+      "remaining_gap": "The page does not explicitly identify which two of the listed characteristics (Knowledge Development, Performance-Reward Linkage, and Egalitarianism) specifically represent the shift away from command and control toward employee commitment.",
+      "found_via_query": "which two of knowledge development, performance-reward linkage, and egalitarianism are most directly associated with the shift from command and control to employee commitment in high-performance work systems",
+      "found_at_iter": 4
+    }
+  ],
+  "warnings": [],
+  "iter": 5,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/188/images"
+}

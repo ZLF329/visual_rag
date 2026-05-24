@@ -1,0 +1,56 @@
+{
+  "original_query": "In which years did wine import volume dip?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_04",
+      "found_via_query": "What are the years in which wine import volume dipped, based on official trade data or reports?",
+      "summary": "The page displays a chart titled 'Wine import amounts and volume trend(total)' showing data from 1995 to 2014. The chart uses blue bars for import amounts and orange lines for import volume. The volume (orange line) dips in 1998 and 1999, with a noticeable drop in 1998 followed by a recovery.",
+      "key_facts": [
+        "The chart covers years 1995 to 2014.",
+        "Import volume is represented by the orange line.",
+        "Volume dipped in 1998 and 1999.",
+        "Import amounts are shown by blue bars."
+      ],
+      "visible_text": [
+        "Wine import amounts and volume trend(total)",
+        "wine import amounts and volume trend",
+        "amounts",
+        "volume",
+        "1995",
+        "1996",
+        "1997",
+        "1998",
+        "1999",
+        "2000",
+        "2001",
+        "2002",
+        "2003",
+        "2004",
+        "2005",
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012",
+        "2013",
+        "2014"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_04",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_190030/160/images/iter_00_analysisofkoreanwinemarket_20150902_daejeon_150829090424_lva1_app6891_95_page_04_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What are the years in which wine import volume dipped, based on official trade data or reports?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

@@ -1,0 +1,41 @@
+{
+  "original_query": "How can we are social be contacted?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_03",
+      "found_via_query": "How can we contact 'are social'?",
+      "summary": "The page provides contact information for 'We Are Social' to request reports on other countries and regions. It lists an email address, a Twitter handle, a phone number, and a website.",
+      "key_facts": [
+        "Contact for reports on other countries & regions",
+        "Email: SAYHELLO@WEARESOCIAL.SG",
+        "Twitter: @WEARESOCIALSG",
+        "Phone: +65 6423 1051",
+        "Website: WEARESOCIAL.SG"
+      ],
+      "visible_text": [
+        "we are social",
+        "PLEASE CONTACT US FOR REPORTS ON OTHER COUNTRIES & REGIONS:",
+        "SAYHELLO@WEARESOCIAL.SG",
+        "@WEARESOCIALSG",
+        "+65 6423 1051",
+        "WEARESOCIAL.SG",
+        "We Are Social",
+        "wearesocial.sg • @wearesocialsg • 3"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_03",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_190030/70/images/iter_00_2014globaldigitalsociallandscape_140803004322_phpapp02_95_page_03_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "How can we contact 'are social'?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

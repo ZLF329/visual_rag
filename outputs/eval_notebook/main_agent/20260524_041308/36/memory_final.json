@@ -1,0 +1,22 @@
+{
+  "original_query": "What is a term that refers to the way work is assigned to the team?",
+  "confirmed": [
+    {
+      "answer_text": "The term is 'Command'.",
+      "image_ref": {
+        "id": "a7a59575e125e88c",
+        "page_label": "a-3-c2b8b6654f47bdfbff1433386996d789694f921a-150414014636-conversion-gate01_95/page_16",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_notebook/main_agent/20260524_041308/36/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "\"Command\" refers to the way work is assigned to the team rather than the team deciding together who does what."
+      ],
+      "found_via_query": "term for how work is assigned to a team"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_notebook/main_agent/20260524_041308/36/images"
+}

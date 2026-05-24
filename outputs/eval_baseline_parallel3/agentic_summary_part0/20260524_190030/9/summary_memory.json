@@ -1,0 +1,45 @@
+{
+  "original_query": "What is the percentage of the 10-year annual average of the Real Internal Growth for the company which has the tagline \"Good Food, Good Life\"?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_07",
+      "found_via_query": "Search for companies with the tagline 'Good Food, Good Life' and their financial data, specifically the 10-year annual average Real Internal Growth.",
+      "summary": "This slide from Nestlé's 2011 Full Year Results Roadshow, dated February 21st, 2012, presents a bar chart showing 10 years of organic growth and EBIT margin improvement. It highlights that the 10-year annual average Real Internal Growth is 3.6%, while Organic Growth is 6.4%. The chart displays annual growth percentages from 2001 to 2011, with a trend line indicating EBIT margin improvement.",
+      "key_facts": [
+        "Nestlé's 10-year annual average Real Internal Growth is 3.6%",
+        "Nestlé's 10-year annual average Organic Growth is 6.4%",
+        "The company's tagline is 'Good Food, Good Life'",
+        "Data corresponds to published figures, not restated for accounting changes"
+      ],
+      "visible_text": [
+        "10 years of the Nestlé Model",
+        "Driving Organic Growth & EBIT Margin Improvement",
+        "10-year annual averages",
+        "Organic Growth 6.4%",
+        "Real Internal Growth 3.6%",
+        "Organic Growth",
+        "EBIT margin *",
+        "TOP margin",
+        "* Before net trading items",
+        "Data corresponds to published figures – not restated for accounting changes",
+        "February 21st, 2012",
+        "2011 Full Year Results Roadshow",
+        "Nestlé"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_07",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_190030/9/images/iter_00_2012_02_20fy11roadshow_120221022442_phpapp02_95_page_07_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "Search for companies with the tagline 'Good Food, Good Life' and their financial data, specifically the 10-year annual average Real Internal Growth."
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

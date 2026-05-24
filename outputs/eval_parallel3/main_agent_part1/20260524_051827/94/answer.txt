@@ -1,0 +1,2 @@
+The components of a Vendor Interface are: Search/Discover, Print, Copy/Paste, Download, Bookmark, and Highlight.  
+This is based on the diagram provided in the image referenced as "2013alapurchasing-130214144910-phpapp02_95/page_11".

@@ -1,0 +1,1 @@
+The total percentage that wait Minutes and Hours for an average BI request is 65%. This is calculated by adding the 18% for Minutes and the 47% for Hours, as stated in the chart from the Forrester Consulting study commissioned by SAP in March 2014.

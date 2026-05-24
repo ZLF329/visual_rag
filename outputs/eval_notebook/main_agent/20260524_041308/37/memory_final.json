@@ -1,0 +1,23 @@
+{
+  "original_query": "In which year is the percentage of the Subnational Debts guaranteed by Governments higher, 2015 or 2016?",
+  "confirmed": [
+    {
+      "answer_text": "The percentage of Subnational Debts guaranteed by Governments is higher in 2015 than in 2016.",
+      "image_ref": {
+        "id": "7f66d128f878ac06",
+        "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_10",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_notebook/main_agent/20260524_041308/37/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "For 2015, the percentage is 12.00%.",
+        "For 2016, the percentage is 9.78%."
+      ],
+      "found_via_query": "Subnational Debts guaranteed by Governments percentage 2015 vs 2016"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_notebook/main_agent/20260524_041308/37/images"
+}

@@ -1,0 +1,22 @@
+{
+  "original_query": "What are affiliations of the person who says resilient behaviors are active behavior intended to retain the system identity?",
+  "confirmed": [
+    {
+      "answer_text": "The affiliation of Vincenzo De Florio is INRIA.",
+      "image_ref": {
+        "id": "b402ec667c5362b3",
+        "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_08",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/79/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "Vincenzo De Florio, INRIA, 14 Nov. 2014"
+      ],
+      "found_via_query": "resilient behaviors active behavior retain system identity person affiliation"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/79/images"
+}

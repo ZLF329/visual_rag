@@ -1,0 +1,41 @@
+{
+  "original_query": "What is the process by which the breaking of hydrogen bonds allows water to change from the liquid phase into the gaseous phase which has reached equilibrium with the liquid surface said to have done?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "chapter-3-seawater-160218031855_95/page_16",
+      "found_via_query": "evaporation process in water involving hydrogen bond breaking and equilibrium with liquid surface",
+      "summary": "The page explains the evaporation process of water, highlighting that it requires latent heat of evaporation due to hydrogen bonding. It describes how only the fastest-moving molecules (with more energy) break hydrogen bonds and evaporate, leaving lower-energy molecules behind. A diagram shows evaporation and equilibrium with the liquid surface, where the vapor is said to have reached saturation.",
+      "key_facts": [
+        "Latent heat of evaporation is the heat energy needed to evaporate a substance.",
+        "Water has a high latent heat of evaporation due to hydrogen bonding.",
+        "Only fastest-moving molecules break bonds and evaporate.",
+        "Lower-energy molecules remain behind.",
+        "Evaporation reaching equilibrium with the liquid surface is said to have reached saturation."
+      ],
+      "visible_text": [
+        "Heat and Water",
+        "Latent heat of evaporation: the amount of heat energy that is needed to evaporate a substance",
+        "water has a high latent heat of evaporation",
+        "also due to hydrogen bonding",
+        "Only fastest moving bonds are broken, allowing those molecules with more energy to evaporate",
+        "lower energy molecules are left behind",
+        "Evaporation",
+        "Evaporation which has reached equilibrium with the liquid surface is said to have reached saturation."
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "chapter-3-seawater-160218031855_95/page_16",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/175/images/iter_00_chapter_3_seawater_160218031855_95_page_16_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "evaporation process in water involving hydrogen bond breaking and equilibrium with liquid surface"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

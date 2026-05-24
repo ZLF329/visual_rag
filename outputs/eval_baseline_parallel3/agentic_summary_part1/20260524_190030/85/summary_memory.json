@@ -1,0 +1,36 @@
+{
+  "original_query": "What is DiABETES UK's slogan?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_19",
+      "found_via_query": "What is DiABETES UK's slogan?",
+      "summary": "The page describes a collaboration example between Diabetes UK, Garfield Weston Foundation, and Nonsense to create an online resource for young people with Type 1 diabetes, called #Type1Uncut. It includes logos, a photo of the team, and a video thumbnail. The Diabetes UK logo is shown with the text 'CARE. CONNECT. CAMPAIGN.' below it.",
+      "key_facts": [
+        "Diabetes UK's slogan is 'CARE. CONNECT. CAMPAIGN.'",
+        "The collaboration involved Diabetes UK, Garfield Weston Foundation, and Nonsense to create #Type1Uncut.",
+        "The project includes workshops with young people and YouTube videos on topics they care about."
+      ],
+      "visible_text": [
+        "COLLABORATION EXAMPLE...",
+        "Diabetes UK CARE. CONNECT. CAMPAIGN.",
+        "#Type1Uncut",
+        "TALKING LIFE WITH TYPE 1 DIABETES",
+        "youtube.com/typeluncut"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_19",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_190030/85/images/iter_00_20140706whatcanfundraiserslearnfromrappers_140707171243_phpapp02_95_page_19_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What is DiABETES UK's slogan?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

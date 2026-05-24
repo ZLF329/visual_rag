@@ -1,0 +1,50 @@
+{
+  "original_query": "What are four examples of addictive drugs that are Biologically Active Amines?",
+  "confirmed": [
+    {
+      "answer_text": "Cocaine is a biologically active amine found in coca leaves.; Nicotine is a biologically active amine found in tobacco.; Mescaline is a biologically active amine found in peyote cactus.; Morphine is a biologically active amine found in opium poppies.",
+      "summary": "The page illustrates four biologically active amines—cocaine, nicotine, mescaline, and morphine—with their chemical structures and sources. It explains that alkaloids, a group of biologically active amines, are mostly synthesized by plants for protection and that many drugs of addiction are classified as alkaloids.",
+      "key_facts": [
+        "Cocaine is a biologically active amine found in coca leaves.",
+        "Nicotine is a biologically active amine found in tobacco.",
+        "Mescaline is a biologically active amine found in peyote cactus.",
+        "Morphine is a biologically active amine found in opium poppies."
+      ],
+      "image_ref": {
+        "id": "23d46c48a8577494",
+        "page_label": "19-amines-wade7th-140409034223-phpapp02_95/page_02",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/99/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "List of four addictive drugs that are biologically active amines"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "List of four addictive drugs that are biologically active amines",
+      "page_label": "19-amines-wade7th-140409034223-phpapp02_95/page_02",
+      "decision": "yes",
+      "summary": "The page illustrates four biologically active amines—cocaine, nicotine, mescaline, and morphine—with their chemical structures and sources. It explains that alkaloids, a group of biologically active amines, are mostly synthesized by plants for protection and that many drugs of addiction are classified as alkaloids.",
+      "key_facts": [
+        "Cocaine is a biologically active amine found in coca leaves.",
+        "Nicotine is a biologically active amine found in tobacco.",
+        "Mescaline is a biologically active amine found in peyote cactus.",
+        "Morphine is a biologically active amine found in opium poppies."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "The page identifies four biologically active amines that are addictive drugs: cocaine (from coca leaves), nicotine (from tobacco), mescaline (from peyote cactus), and morphine (from opium poppies). These compounds are classified as alkaloids, naturally produced by plants for defense, and many are known for their psychoactive and addictive properties.",
+  "consolidated_key_facts": [
+    "Cocaine is a biologically active amine found in coca leaves.",
+    "Nicotine is a biologically active amine found in tobacco.",
+    "Mescaline is a biologically active amine found in peyote cactus.",
+    "Morphine is a biologically active amine found in opium poppies."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/99/images"
+}

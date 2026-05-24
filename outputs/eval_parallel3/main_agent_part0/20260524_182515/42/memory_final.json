@@ -1,0 +1,41 @@
+{
+  "original_query": "Which part of the organ, the Inflammation of which is called Appendicitis, shows the Signs/symptoms of Diarrhoea and crampy pain?",
+  "confirmed": [
+    {
+      "answer_text": "Retro/paraleal location of the appendix is associated with signs/symptoms including diarrhoea and crampy pain.",
+      "summary": "The page outlines atypical presentations of appendicitis by listing different locations of the appendix and the corresponding signs and symptoms. It includes locations such as McBurney's point, retro/paracaecal, retro/paraleal, and pelvic, each with specific clinical presentations.",
+      "key_facts": [
+        "Retro/paraleal location of the appendix is associated with signs/symptoms including diarrhoea and crampy pain."
+      ],
+      "image_ref": {
+        "id": "23659dd2ad6b98a3",
+        "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_15",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_182515/42/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What part of the appendix shows signs/symptoms of diarrhea and crampy pain in appendicitis?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What part of the appendix shows signs/symptoms of diarrhea and crampy pain in appendicitis?",
+      "page_label": "acuteappendicitis-110202065502-phpapp02_95/page_15",
+      "decision": "yes",
+      "summary": "The page outlines atypical presentations of appendicitis by listing different locations of the appendix and the corresponding signs and symptoms. It includes locations such as McBurney's point, retro/paracaecal, retro/paraleal, and pelvic, each with specific clinical presentations.",
+      "key_facts": [
+        "Retro/paraleal location of the appendix is associated with signs/symptoms including diarrhoea and crampy pain."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "[query: What part of the appendix shows signs/symptoms of diarrhea and crampy pain in appendicitis?] The page outlines atypical presentations of appendicitis by listing different locations of the appendix and the corresponding signs and symptoms. It includes locations such as McBurney's point, retro/paracaecal, retro/paraleal, and pelvic, each with specific clinical presentations.",
+  "consolidated_key_facts": [
+    "The appendix, the organ inflamed in appendicitis, is associated with signs/symptoms including diarrhoea and crampy pain."
+  ],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_182515/42/images"
+}

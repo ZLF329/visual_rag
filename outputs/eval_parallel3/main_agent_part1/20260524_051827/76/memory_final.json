@@ -1,0 +1,22 @@
+{
+  "original_query": "When are the two components of the Container request?",
+  "confirmed": [
+    {
+      "answer_text": "The two components of the Container request are vcores and memory.",
+      "image_ref": {
+        "id": "ea6a7692f05c6667",
+        "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_13",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/76/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "Container request: vcores = x memory = y"
+      ],
+      "found_via_query": "Container request components and their timing in containerization systems"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/76/images"
+}

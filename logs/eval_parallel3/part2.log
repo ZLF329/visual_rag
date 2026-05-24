@@ -1,0 +1,102 @@
+[eval] step=1/66 sample_id=134 terminated_by=decide
+[eval] step=2/66 sample_id=135 terminated_by=decide
+[eval] step=3/66 sample_id=136 terminated_by=decide
+[eval] step=4/66 sample_id=137 terminated_by=decide
+[eval] step=5/66 sample_id=138 terminated_by=decide
+[eval] step=6/66 sample_id=139 terminated_by=decide
+[eval] step=7/66 sample_id=140 terminated_by=max_iters
+[eval] step=8/66 sample_id=141 terminated_by=max_iters
+[eval] step=9/66 sample_id=142 terminated_by=decide
+[eval] step=10/66 sample_id=143 terminated_by=decide
+[eval] step=11/66 sample_id=144 terminated_by=decide
+[eval] step=12/66 sample_id=145 terminated_by=decide
+[eval] step=13/66 sample_id=146 terminated_by=decide
+[eval] step=14/66 sample_id=147 terminated_by=decide
+[eval] step=15/66 sample_id=148 terminated_by=decide
+[eval] step=16/66 sample_id=149 terminated_by=decide
+[eval] step=17/66 sample_id=150 terminated_by=decide
+[eval] step=18/66 sample_id=151 terminated_by=decide
+[eval] step=19/66 sample_id=152 terminated_by=decide
+[eval] step=20/66 sample_id=153 terminated_by=decide
+[eval] step=21/66 sample_id=154 terminated_by=decide
+[eval] step=22/66 sample_id=155 terminated_by=decide
+[eval] step=23/66 sample_id=156 terminated_by=decide
+[eval] step=24/66 sample_id=157 terminated_by=decide
+[eval] step=25/66 sample_id=158 terminated_by=decide
+[eval] step=26/66 sample_id=159 terminated_by=decide
+[eval] step=27/66 sample_id=160 terminated_by=max_iters
+[eval] step=28/66 sample_id=161 terminated_by=decide
+[eval] step=29/66 sample_id=162 terminated_by=decide
+[eval] step=30/66 sample_id=163 terminated_by=decide
+[eval] step=31/66 sample_id=164 terminated_by=decide
+[eval] step=32/66 sample_id=165 terminated_by=decide
+[eval] step=33/66 sample_id=166 terminated_by=decide
+[eval] step=34/66 sample_id=167 terminated_by=decide
+[eval] step=35/66 sample_id=168 terminated_by=decide
+[eval] step=36/66 sample_id=169 terminated_by=decide
+[eval] step=37/66 sample_id=170 terminated_by=decide
+[eval] step=38/66 sample_id=171 terminated_by=decide
+[eval] step=39/66 sample_id=172 terminated_by=decide
+[eval] step=40/66 sample_id=173 terminated_by=decide
+[eval] step=41/66 sample_id=174 terminated_by=decide
+[eval] step=42/66 sample_id=175 terminated_by=decide
+[eval] step=43/66 sample_id=176 terminated_by=decide
+[eval] step=44/66 sample_id=177 terminated_by=max_iters
+[eval] step=45/66 sample_id=178 terminated_by=decide
+[eval] step=46/66 sample_id=179 terminated_by=decide
+[eval] step=47/66 sample_id=180 terminated_by=decide
+[eval] step=48/66 sample_id=181 terminated_by=decide
+[eval] step=49/66 sample_id=182 terminated_by=decide
+[eval] step=50/66 sample_id=183 terminated_by=decide
+[eval] step=51/66 sample_id=184 terminated_by=max_iters
+[eval] step=52/66 sample_id=185 terminated_by=decide
+[eval] step=53/66 sample_id=186 terminated_by=max_iters
+[eval] step=54/66 sample_id=187 terminated_by=max_iters
+[eval] step=55/66 sample_id=188 terminated_by=max_iters
+[eval] step=56/66 sample_id=189 terminated_by=decide
+[eval] step=57/66 sample_id=190 terminated_by=decide
+[eval] step=58/66 sample_id=191 terminated_by=decide
+[eval] step=59/66 sample_id=192 terminated_by=decide
+[eval] step=60/66 sample_id=193 terminated_by=decide
+[eval] step=61/66 sample_id=194 terminated_by=decide
+[eval] step=62/66 sample_id=195 terminated_by=decide
+[eval] step=63/66 sample_id=196 terminated_by=decide
+[eval] step=64/66 sample_id=197 terminated_by=max_iters
+[eval] step=65/66 sample_id=198 terminated_by=decide
+[eval] step=66/66 sample_id=199 terminated_by=decide
+{
+  "run_root": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_182515",
+  "summary": {
+    "num_samples": 66,
+    "baseline": "agent",
+    "mean_iters": 1.621212121212121,
+    "median_iters": 1.0,
+    "termination_counts": {
+      "decide": 57,
+      "max_iters": 9
+    },
+    "decision_distribution": {
+      "yes": 63,
+      "partial": 23,
+      "no": 21
+    },
+    "warning_utilization": {
+      "search_queries": 107,
+      "warning_informed_queries": 21,
+      "fraction": 0.19626168224299065
+    },
+    "avg_visual_pixels_at_answer": 427272.7272727273,
+    "failure_type_counts": {
+      "null": 21
+    },
+    "accuracy": 0.6212121212121212,
+    "judge": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-flash",
+      "judged": 66,
+      "correct": 41,
+      "errors": 0,
+      "accuracy": 0.6212121212121212
+    }
+  }
+}

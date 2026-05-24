@@ -1,0 +1,1 @@
+The data policy states that no data is shared between clients under any circumstances.

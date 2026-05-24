@@ -1,0 +1,46 @@
+{
+  "original_query": "What activity does Gainsharing fall under?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "ch16-150313050025-conversion-gate01_95/page_11",
+      "found_via_query": "What activity does Gainsharing fall under?",
+      "summary": "The image displays a diagram titled 'Anatomy of High-Performance Work Systems,' which categorizes various organizational activities under five key dimensions: Shared Information, Knowledge Development, Performance-Reward Linkage, and Egalitarianism. Under the 'Compensation' category, 'Gainsharing' is listed as one of the activities, with a visual indicator showing its level of presence across the dimensions.",
+      "key_facts": [
+        "The diagram is titled 'Anatomy of High-Performance Work Systems'.",
+        "Gainsharing is listed under the 'Compensation' category.",
+        "The diagram uses a visual scale with red and white squares to indicate the level of presence of each activity across the five dimensions.",
+        "The page is labeled as Figure 16.3 and copyrighted © 2004 South-Western."
+      ],
+      "visible_text": [
+        "Anatomy of High-Performance Work Systems",
+        "Shared Information",
+        "Knowledge Development",
+        "Performance-Reward Linkage",
+        "Egalitarianism",
+        "Work flow",
+        "Staffing",
+        "Training",
+        "Compensation",
+        "Leadership",
+        "Technologies",
+        "Copyright © 2004 South-Western. All rights reserved.",
+        "Figure 16.3",
+        "16-11"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "ch16-150313050025-conversion-gate01_95/page_11",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/189/images/iter_00_ch16_150313050025_conversion_gate01_95_page_11_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What activity does Gainsharing fall under?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

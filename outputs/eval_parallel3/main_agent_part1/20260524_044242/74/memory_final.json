@@ -1,0 +1,25 @@
+{
+  "original_query": "What percentage of the TOTAL POPULATION in NORTH AMERICA are ACTIVE SOCIAL NETWORK USERS?",
+  "confirmed": [],
+  "partials": [
+    {
+      "partial_answer": "The TOTAL POPULATION in North America is 351,300,266 and the number of ACTIVE SOCIAL NETWORK USERS is 197,033,600.",
+      "image_ref": {
+        "id": "ecdfdf7458b8825f",
+        "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_17",
+        "pixel_budget": 200000,
+        "path": "outputs/eval_parallel3/main_agent_part1/20260524_044242/74/images/partial_01_200k.png"
+      },
+      "cited_statements": [
+        "351,300,266 TOTAL POPULATION",
+        "197,033,600 ACTIVE SOCIAL NETWORK USERS"
+      ],
+      "remaining_gap": "The percentage of the TOTAL POPULATION that are ACTIVE SOCIAL NETWORK USERS is not explicitly stated on this page and must be calculated from the given numbers.",
+      "found_via_query": "percentage of North America's total population that are active social network users",
+      "found_at_iter": 0
+    }
+  ],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "outputs/eval_parallel3/main_agent_part1/20260524_044242/74/images"
+}

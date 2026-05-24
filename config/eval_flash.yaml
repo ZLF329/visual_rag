@@ -1,0 +1,25 @@
+models:
+  vlm:
+    provider: qwen
+    name: /root/autodl-tmp/models/Qwen3-VL-4B-Instruct
+    max_tokens: 1024
+    temperature: 0.0
+  retriever:
+    name: /root/autodl-tmp/models/Qwen3-VL-Embedding-8B
+    index_path: /root/autodl-tmp/visual_rag_agent/data/indexes/slidevqa
+agent:
+  top_k: 1
+  max_iters: 5
+  partial_memory_capacity: 2
+image_budget:
+  yes_pixels: 400000
+  partial_pixels: 200000
+dataset:
+  name: slidevqa
+  split: test
+  num_samples: 200
+runtime:
+  output_dir: /root/autodl-tmp/visual_rag_agent/outputs/eval_notebook
+  device: cuda
+  dtype: bfloat16
+  attn_implementation: flash_attention_2

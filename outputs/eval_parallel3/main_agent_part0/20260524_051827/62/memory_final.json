@@ -1,0 +1,39 @@
+{
+  "original_query": "Transparent process of Land Acquisitions is an example of what?",
+  "confirmed": [],
+  "partials": [
+    {
+      "partial_answer": "Transparent process of Land Acquisitions is an example of an objective.",
+      "image_ref": {
+        "id": "f002e578c32119f9",
+        "page_label": "1-150711120533-lva1-app6892_95/page_02",
+        "pixel_budget": 200000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_051827/62/images/partial_04_200k.png"
+      },
+      "cited_statements": [
+        "Transparent process of Land Acquisitions"
+      ],
+      "remaining_gap": "To determine what category or type these objectives belong to, more context or a broader classification is needed.",
+      "found_via_query": "category of land acquisition objectives that include transparent process",
+      "found_at_iter": 3
+    },
+    {
+      "partial_answer": "Transparent process of Land Acquisitions is an example of an objective.",
+      "image_ref": {
+        "id": "f002e578c32119f9",
+        "page_label": "1-150711120533-lva1-app6892_95/page_02",
+        "pixel_budget": 200000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_051827/62/images/partial_05_200k.png"
+      },
+      "cited_statements": [
+        "Transparent process of Land Acquisitions"
+      ],
+      "remaining_gap": "To determine what category or type these objectives belong to, more context or a broader classification is needed.",
+      "found_via_query": "category of land acquisition objectives that include transparent process",
+      "found_at_iter": 4
+    }
+  ],
+  "warnings": [],
+  "iter": 5,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_051827/62/images"
+}

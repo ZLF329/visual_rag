@@ -1,0 +1,6 @@
+The three components of System Design are:  
+- Work flow  
+- HRM practices  
+- Support technology  
+
+This is cited from the image, which lists these items under the "System Design" box in Figure 16.1.

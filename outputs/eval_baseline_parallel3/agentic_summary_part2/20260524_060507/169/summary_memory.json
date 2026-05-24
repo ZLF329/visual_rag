@@ -1,0 +1,39 @@
+{
+  "original_query": "What are four quantitative characteristics?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_15",
+      "found_via_query": "definition of four quantitative characteristics in statistics or mathematics",
+      "summary": "The image presents a chart titled 'How do humans like their data?' that categorizes data types into Quantitative, Ordinal, and Categorical. Under the 'QUANTITATIVE' category, it lists four characteristics: Position, Length, Size, and Color Intensity.",
+      "key_facts": [
+        "The chart explains how humans perceive data through three categories: Quantitative, Ordinal, and Categorical.",
+        "Under the Quantitative category, the four characteristics listed are Position, Length, Size, and Color Intensity."
+      ],
+      "visible_text": [
+        "How do humans like their data?",
+        "QUANTITATIVE",
+        "Position",
+        "Length",
+        "Size",
+        "Color Intensity",
+        "ORDINAL",
+        "CATEGORICAL",
+        "#visualdata"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_15",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/169/images/iter_00_brainondatafinal_150314123657_conversion_gate01_95_page_15_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "definition of four quantitative characteristics in statistics or mathematics"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

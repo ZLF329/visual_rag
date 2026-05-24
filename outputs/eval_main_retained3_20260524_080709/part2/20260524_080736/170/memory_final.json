@@ -1,0 +1,44 @@
+{
+  "original_query": "What type of characteristic is shape?",
+  "confirmed": [
+    {
+      "answer_text": "Shape is ranked as the least important visual characteristic for humans when it comes to data presentation.; The ranking order from most to least important is: Position, Color, Size, Shape.",
+      "summary": "The image displays a chart ranking four visual data characteristics—Position, Color, Size, and Shape—by human preference, with Position being the most important and Shape the least important.",
+      "key_facts": [
+        "Shape is ranked as the least important visual characteristic for humans when it comes to data presentation.",
+        "The ranking order from most to least important is: Position, Color, Size, Shape."
+      ],
+      "image_ref": {
+        "id": "6bbc134dadfeaa5c",
+        "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_16",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part2/20260524_080736/170/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What type of characteristic is shape?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What type of characteristic is shape?",
+      "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_16",
+      "decision": "yes",
+      "summary": "The image displays a chart ranking four visual data characteristics—Position, Color, Size, and Shape—by human preference, with Position being the most important and Shape the least important.",
+      "key_facts": [
+        "Shape is ranked as the least important visual characteristic for humans when it comes to data presentation.",
+        "The ranking order from most to least important is: Position, Color, Size, Shape."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "Shape is identified as the least important visual characteristic in human data perception, ranked fourth behind Position, Color, and Size, according to a preference chart.",
+  "consolidated_key_facts": [
+    "Shape is ranked as the least important visual characteristic for human data interpretation.",
+    "Preference ranking: Position > Color > Size > Shape."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part2/20260524_080736/170/images"
+}

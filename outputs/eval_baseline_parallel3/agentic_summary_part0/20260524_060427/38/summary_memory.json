@@ -1,0 +1,51 @@
+{
+  "original_query": "In which year may Subnational Debts be relieved more by Government, 2015 or 2016?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_10",
+      "found_via_query": "Subnational Debts relief by Government in 2015 vs 2016",
+      "summary": "The page presents a table showing subnational debts that will mature in 2015 and thereafter, categorized by whether they are to be repaid by the government, guaranteed by governments, or may be relieved by the government. The table includes amounts and percentages for the years 2015, 2016, 2017, 2018 and after, all in units of 100 million yuan. The section specifically addresses debt-repayment situations based on 2013 audit results.",
+      "key_facts": [
+        "The table shows subnational debts maturing in 2015 and thereafter.",
+        "The 'May be Relieved by Government' category is relevant to the query.",
+        "In 2015, the amount for 'May be Relieved by Government' was 5994.78 (100 million yuan).",
+        "In 2016, the amount for 'May be Relieved by Government' was 4206.51 (100 million yuan)."
+      ],
+      "visible_text": [
+        "I. Overall Situations and Major Problems of Full Caliber Subnational Debts",
+        "(4) Debt-repayment Situation",
+        "According to the audit results of 2013, the subnational debts to be repaid in 2015 and thereafter are shown in the following table.",
+        "Table 2. Subnational Debts that will mature in 2015 and Thereafter (Unit: 100 million yuan)",
+        "To be Repaid by Government",
+        "Guaranteed by Governments",
+        "May be Relieved by Government",
+        "2015",
+        "2016",
+        "2017",
+        "2018 and after",
+        "Amount",
+        "Percentage",
+        "Amount",
+        "Percentage",
+        "Amount",
+        "Percentage",
+        "Amount",
+        "Percentage"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_10",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_060427/38/images/iter_00_1shangxichinassubnationaldebts_issuesandsuggestions_160229201053_95_page_10_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "Subnational Debts relief by Government in 2015 vs 2016"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

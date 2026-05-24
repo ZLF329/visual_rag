@@ -1,0 +1,39 @@
+{
+  "original_query": "How many countries are detailed in the report titled \"GLOBAL DIGITAL STATISTICS 2014\"?",
+  "confirmed": [],
+  "partials": [],
+  "warnings": [
+    {
+      "query_tried": "GLOBAL DIGITAL STATISTICS 2014 report countries",
+      "failure_type": "query_too_broad",
+      "suggestion": "Look for the table of contents or an introduction section in the report that specifies the number of countries covered.",
+      "image_id": "077d8cac93fe9be2"
+    },
+    {
+      "query_tried": "GLOBAL DIGITAL STATISTICS 2014 table of contents countries",
+      "failure_type": "query_too_broad",
+      "suggestion": "Search for the table of contents or introduction section within the full report to find the number of countries covered.",
+      "image_id": "077d8cac93fe9be2"
+    },
+    {
+      "query_tried": "GLOBAL DIGITAL STATISTICS 2014 report introduction section countries covered",
+      "failure_type": "query_too_broad",
+      "suggestion": "Search for the table of contents or introduction section within the full report to find the number of countries covered.",
+      "image_id": "077d8cac93fe9be2"
+    },
+    {
+      "query_tried": "GLOBAL DIGITAL STATISTICS 2014 table of contents countries covered",
+      "failure_type": "query_too_broad",
+      "suggestion": "Search for the table of contents or introduction section within the full report to find the number of countries covered.",
+      "image_id": "077d8cac93fe9be2"
+    },
+    {
+      "query_tried": "GLOBAL DIGITAL STATISTICS 2014 report introduction section countries covered number",
+      "failure_type": "query_too_broad",
+      "suggestion": "Search for the table of contents or introduction section within the full report to find the number of countries covered.",
+      "image_id": "077d8cac93fe9be2"
+    }
+  ],
+  "iter": 5,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_045848/69/images"
+}

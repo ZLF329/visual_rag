@@ -1,0 +1,33 @@
+{
+  "num_samples": 66,
+  "baseline": "agent",
+  "mean_iters": 1.5606060606060606,
+  "median_iters": 1.0,
+  "termination_counts": {
+    "decide": 58,
+    "max_iters": 8
+  },
+  "decision_distribution": {
+    "yes": 52,
+    "partial": 24,
+    "no": 27
+  },
+  "warning_utilization": {
+    "search_queries": 103,
+    "warning_informed_queries": 23,
+    "fraction": 0.22330097087378642
+  },
+  "avg_visual_pixels_at_answer": 360606.0606060606,
+  "failure_type_counts": {
+    "null": 27
+  },
+  "accuracy": 0.6363636363636364,
+  "judge": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash",
+    "judged": 66,
+    "correct": 42,
+    "errors": 0,
+    "accuracy": 0.6363636363636364
+  }
+}

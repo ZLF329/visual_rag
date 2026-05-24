@@ -1,0 +1,44 @@
+{
+  "original_query": "When are the two components of the Container request?",
+  "confirmed": [
+    {
+      "answer_text": "The container request consists of two components: vcores = x and memory = y.; These components are derived from a single 'task size' parameter.",
+      "summary": "The slide outlines a future simplified allocation model in Spark where a single 'task size' parameter determines container resource requests. The container request is broken down into two components: vcores and memory, which are automatically calculated based on the task size.",
+      "key_facts": [
+        "The container request consists of two components: vcores = x and memory = y.",
+        "These components are derived from a single 'task size' parameter."
+      ],
+      "image_ref": {
+        "id": "ea6a7692f05c6667",
+        "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_13",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/76/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What are the two components of a Container request?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What are the two components of a Container request?",
+      "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_13",
+      "decision": "yes",
+      "summary": "The slide outlines a future simplified allocation model in Spark where a single 'task size' parameter determines container resource requests. The container request is broken down into two components: vcores and memory, which are automatically calculated based on the task size.",
+      "key_facts": [
+        "The container request consists of two components: vcores = x and memory = y.",
+        "These components are derived from a single 'task size' parameter."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "The container request in Spark is composed of two components—vcores and memory—which are automatically calculated from a single 'task size' parameter in a simplified allocation model.",
+  "consolidated_key_facts": [
+    "The container request consists of two components: vcores and memory.",
+    "These components are derived from a single 'task size' parameter."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/76/images"
+}

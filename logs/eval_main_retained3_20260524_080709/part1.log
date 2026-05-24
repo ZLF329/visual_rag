@@ -1,0 +1,107 @@
+nohup: ignoring input
+Loading weights:   0%|          | 0/749 [00:00<?, ?it/s]Loading weights:  95%|█████████▍| 710/749 [00:00<00:00, 7070.81it/s]Loading weights: 100%|██████████| 749/749 [00:00<00:00, 7094.96it/s]
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/713 [00:00<?, ?it/s]Loading weights:   0%|          | 3/713 [00:00<00:25, 27.87it/s]Loading weights:   4%|▎         | 25/713 [00:00<00:05, 131.29it/s]Loading weights:   6%|▌         | 44/713 [00:00<00:04, 154.06it/s]Loading weights:   8%|▊         | 60/713 [00:00<00:04, 151.98it/s]Loading weights:  11%|█▏        | 81/713 [00:00<00:03, 165.98it/s]Loading weights:  14%|█▍        | 102/713 [00:00<00:03, 173.55it/s]Loading weights:  17%|█▋        | 120/713 [00:00<00:03, 175.49it/s]Loading weights:  19%|█▉        | 138/713 [00:00<00:03, 169.42it/s]Loading weights:  22%|██▏       | 158/713 [00:00<00:03, 172.51it/s]Loading weights:  25%|██▍       | 178/713 [00:01<00:03, 175.30it/s]Loading weights:  27%|██▋       | 196/713 [00:01<00:02, 175.65it/s]Loading weights:  30%|███       | 214/713 [00:01<00:02, 168.58it/s]Loading weights:  33%|███▎      | 235/713 [00:01<00:02, 174.26it/s]Loading weights:  36%|███▌      | 256/713 [00:01<00:02, 179.40it/s]Loading weights:  38%|███▊      | 274/713 [00:01<00:02, 174.27it/s]Loading weights:  41%|████      | 292/713 [00:01<00:02, 169.06it/s]Loading weights:  44%|████▍     | 312/713 [00:01<00:02, 174.28it/s]Loading weights:  47%|████▋     | 333/713 [00:01<00:02, 180.32it/s]Loading weights:  49%|████▉     | 352/713 [00:02<00:02, 178.93it/s]Loading weights:  52%|█████▏    | 370/713 [00:02<00:01, 172.10it/s]Loading weights:  55%|█████▍    | 389/713 [00:02<00:01, 171.90it/s]Loading weights:  68%|██████▊   | 484/713 [00:02<00:00, 388.97it/s]Loading weights:  87%|████████▋ | 618/713 [00:02<00:00, 657.69it/s]Loading weights:  98%|█████████▊| 700/713 [00:02<00:00, 694.89it/s]Loading weights: 100%|██████████| 713/713 [00:02<00:00, 271.34it/s]
+[eval] step=1/67 sample_id=67 terminated_by=max_iters
+[eval] step=2/67 sample_id=68 terminated_by=decide
+[eval] step=3/67 sample_id=69 terminated_by=max_iters
+[eval] step=4/67 sample_id=70 terminated_by=decide
+[eval] step=5/67 sample_id=71 terminated_by=decide
+[eval] step=6/67 sample_id=72 terminated_by=decide
+[eval] step=7/67 sample_id=73 terminated_by=decide
+[eval] step=8/67 sample_id=74 terminated_by=decide
+[eval] step=9/67 sample_id=75 terminated_by=max_iters
+[eval] step=10/67 sample_id=76 terminated_by=decide
+[eval] step=11/67 sample_id=77 terminated_by=decide
+[eval] step=12/67 sample_id=78 terminated_by=decide
+[eval] step=13/67 sample_id=79 terminated_by=decide
+[eval] step=14/67 sample_id=80 terminated_by=decide
+[eval] step=15/67 sample_id=81 terminated_by=max_iters
+[eval] step=16/67 sample_id=82 terminated_by=decide
+[eval] step=17/67 sample_id=83 terminated_by=decide
+[eval] step=18/67 sample_id=84 terminated_by=decide
+[eval] step=19/67 sample_id=85 terminated_by=decide
+[eval] step=20/67 sample_id=86 terminated_by=decide
+[eval] step=21/67 sample_id=87 terminated_by=max_iters
+[eval] step=22/67 sample_id=88 terminated_by=decide
+[eval] step=23/67 sample_id=89 terminated_by=max_iters
+[eval] step=24/67 sample_id=90 terminated_by=decide
+[eval] step=25/67 sample_id=91 terminated_by=decide
+[eval] step=26/67 sample_id=92 terminated_by=decide
+[eval] step=27/67 sample_id=93 terminated_by=max_iters
+[eval] step=28/67 sample_id=94 terminated_by=decide
+[eval] step=29/67 sample_id=95 terminated_by=decide
+[eval] step=30/67 sample_id=96 terminated_by=decide
+[eval] step=31/67 sample_id=97 terminated_by=decide
+[eval] step=32/67 sample_id=98 terminated_by=decide
+[eval] step=33/67 sample_id=99 terminated_by=decide
+[eval] step=34/67 sample_id=100 terminated_by=decide
+[eval] step=35/67 sample_id=101 terminated_by=decide
+[eval] step=36/67 sample_id=102 terminated_by=decide
+[eval] step=37/67 sample_id=103 terminated_by=decide
+[eval] step=38/67 sample_id=104 terminated_by=decide
+[eval] step=39/67 sample_id=105 terminated_by=decide
+[eval] step=40/67 sample_id=106 terminated_by=decide
+[eval] step=41/67 sample_id=107 terminated_by=decide
+[eval] step=42/67 sample_id=108 terminated_by=max_iters
+[eval] step=43/67 sample_id=109 terminated_by=decide
+[eval] step=44/67 sample_id=110 terminated_by=decide
+[eval] step=45/67 sample_id=111 terminated_by=decide
+[eval] step=46/67 sample_id=112 terminated_by=decide
+[eval] step=47/67 sample_id=113 terminated_by=decide
+[eval] step=48/67 sample_id=114 terminated_by=max_iters
+[eval] step=49/67 sample_id=115 terminated_by=decide
+[eval] step=50/67 sample_id=116 terminated_by=decide
+[eval] step=51/67 sample_id=117 terminated_by=decide
+[eval] step=52/67 sample_id=118 terminated_by=decide
+[eval] step=53/67 sample_id=119 terminated_by=decide
+[eval] step=54/67 sample_id=120 terminated_by=decide
+[eval] step=55/67 sample_id=121 terminated_by=decide
+[eval] step=56/67 sample_id=122 terminated_by=decide
+[eval] step=57/67 sample_id=123 terminated_by=decide
+[eval] step=58/67 sample_id=124 terminated_by=decide
+[eval] step=59/67 sample_id=125 terminated_by=decide
+[eval] step=60/67 sample_id=126 terminated_by=decide
+[eval] step=61/67 sample_id=127 terminated_by=decide
+[eval] step=62/67 sample_id=128 terminated_by=decide
+[eval] step=63/67 sample_id=129 terminated_by=decide
+[eval] step=64/67 sample_id=130 terminated_by=decide
+[eval] step=65/67 sample_id=131 terminated_by=decide
+[eval] step=66/67 sample_id=132 terminated_by=max_iters
+[eval] step=67/67 sample_id=133 terminated_by=decide
+{
+  "run_root": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730",
+  "summary": {
+    "num_samples": 67,
+    "baseline": "agent",
+    "mean_iters": 1.6567164179104477,
+    "median_iters": 1,
+    "termination_counts": {
+      "max_iters": 10,
+      "decide": 57
+    },
+    "decision_distribution": {
+      "yes": 54,
+      "partial": 13,
+      "no": 44
+    },
+    "warning_utilization": {
+      "search_queries": 111,
+      "warning_informed_queries": 36,
+      "fraction": 0.32432432432432434
+    },
+    "avg_visual_pixels_at_answer": 355223.8805970149,
+    "failure_type_counts": {
+      "null": 44
+    },
+    "accuracy": 0.6567164179104478,
+    "judge": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-flash",
+      "judged": 67,
+      "correct": 44,
+      "errors": 0,
+      "accuracy": 0.6567164179104478
+    }
+  }
+}

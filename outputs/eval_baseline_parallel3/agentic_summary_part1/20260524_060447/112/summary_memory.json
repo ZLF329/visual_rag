@@ -1,0 +1,36 @@
+{
+  "original_query": "What are the steps of Weft Preparation between Spinning bobbin and Weaving?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_07",
+      "found_via_query": "steps of Weft Preparation between Spinning bobbin and Weaving",
+      "summary": "A flow chart illustrating the steps of Weft Preparation in weaving, starting from the Spinning bobbin and leading to Weaving. The chart shows 'Winding (pirn, cop)' as the only step under Weft Preparation, which then flows directly into 'Weaving'.",
+      "key_facts": [
+        "The flow chart shows the process from Spinning bobbin to Weaving.",
+        "Weft Preparation includes only one step: Winding (pirn, cop).",
+        "Winding (pirn, cop) directly leads to Weaving."
+      ],
+      "visible_text": [
+        "Flow Chart of Weaving:",
+        "Spinning bobbin",
+        "Weft Preparation",
+        "Winding (pirn, cop)",
+        "Weaving"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_07",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/112/images/iter_00_afabric_manufacturing_150314104020_conversion_gate01_95_page_07_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "steps of Weft Preparation between Spinning bobbin and Weaving"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

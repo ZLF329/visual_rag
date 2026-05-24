@@ -1,0 +1,44 @@
+{
+  "original_query": "What is the total percentage that wait Minutes and Hours for an average BI request?",
+  "confirmed": [
+    {
+      "answer_text": "18% of respondents wait minutes for an average BI request.; 47% of respondents wait hours for an average BI request.",
+      "summary": "This page presents survey data from a 2014 study by Forrester Consulting for SAP, showing how long business decision-makers wait for BI requests. The data is broken down by time units: Minutes (18%), Hours (47%), Days (26%), and Weeks (5%).",
+      "key_facts": [
+        "18% of respondents wait minutes for an average BI request.",
+        "47% of respondents wait hours for an average BI request."
+      ],
+      "image_ref": {
+        "id": "4bba09cb897fb4b6",
+        "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_16",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/12/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What is the average wait time in minutes and hours for BI requests?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What is the average wait time in minutes and hours for BI requests?",
+      "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_16",
+      "decision": "yes",
+      "summary": "This page presents survey data from a 2014 study by Forrester Consulting for SAP, showing how long business decision-makers wait for BI requests. The data is broken down by time units: Minutes (18%), Hours (47%), Days (26%), and Weeks (5%).",
+      "key_facts": [
+        "18% of respondents wait minutes for an average BI request.",
+        "47% of respondents wait hours for an average BI request."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "A 2014 Forrester Consulting survey on SAP BI requests shows that 18% of respondents wait minutes and 47% wait hours for an average request, with the remaining 26% waiting days and 5% weeks. The data is specific to business decision-makers and reflects wait time distribution by duration.",
+  "consolidated_key_facts": [
+    "18% of respondents wait minutes for an average BI request.",
+    "47% of respondents wait hours for an average BI request."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/12/images"
+}

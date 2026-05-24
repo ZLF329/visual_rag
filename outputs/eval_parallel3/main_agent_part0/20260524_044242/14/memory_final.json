@@ -1,0 +1,39 @@
+{
+  "original_query": "What is the biggest reason why users sometimes choose not to use the applications, data of which are not mostly trusted by 8% users?",
+  "confirmed": [],
+  "partials": [],
+  "warnings": [
+    {
+      "query_tried": "reasons users avoid applications with untrusted data, 8% trust level",
+      "failure_type": "wrong_domain",
+      "suggestion": "The page is about trust in enterprise BI data, not about reasons users avoid applications. Look for a section discussing user behavior or application adoption reasons.",
+      "image_id": "9fa25e4912ea9124"
+    },
+    {
+      "query_tried": "reasons users avoid applications with untrusted data",
+      "failure_type": "wrong_domain",
+      "suggestion": "Look for a section or document that discusses user behavior, application adoption, or reasons for avoiding applications based on data trust levels.",
+      "image_id": "9fa25e4912ea9124"
+    },
+    {
+      "query_tried": "reasons users avoid applications due to untrusted data, 8% trust level, user behavior",
+      "failure_type": "wrong_domain",
+      "suggestion": "Look for a section or document that discusses user behavior, application adoption, or reasons for avoiding applications based on data trust levels.",
+      "image_id": "9fa25e4912ea9124"
+    },
+    {
+      "query_tried": "user behavior reasons for avoiding applications due to untrusted data, 8% trust level",
+      "failure_type": "wrong_domain",
+      "suggestion": "Look for a section or document that discusses user behavior, application adoption, or reasons for avoiding applications based on data trust levels.",
+      "image_id": "9fa25e4912ea9124"
+    },
+    {
+      "query_tried": "reasons users avoid applications due to untrusted data, user behavior, application adoption",
+      "failure_type": "wrong_domain",
+      "suggestion": "Look for a section or document that discusses user behavior, application adoption, or reasons for avoiding applications based on data trust levels.",
+      "image_id": "9fa25e4912ea9124"
+    }
+  ],
+  "iter": 5,
+  "image_dir": "outputs/eval_parallel3/main_agent_part0/20260524_044242/14/images"
+}

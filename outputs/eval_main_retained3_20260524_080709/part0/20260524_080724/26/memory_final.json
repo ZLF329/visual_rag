@@ -1,0 +1,83 @@
+{
+  "original_query": "Which country spend the most in Mobile display ads in the year 79300 Romanian use Twitter, according to IAB Europe AdEx Benchmark (2013)?",
+  "confirmed": [],
+  "partials": [],
+  "warnings": [
+    {
+      "query_tried": "Which country spent the most on mobile display ads in 2013, according to IAB Europe AdEx Benchmark, and what was the Romanian usage of Twitter during that time?",
+      "summary": "The page displays a table of mobile display ad spend in 2013 (€m) for several European countries, along with year-over-year growth, total online display ad spend, and the share of mobile display ads in total online display ads. The data is sourced from IAB Europe AdEx Benchmark 2013.",
+      "failure_type": "query_too_broad",
+      "suggestion": "",
+      "image_id": "d8b34471f923d093"
+    },
+    {
+      "query_tried": "Which country spent the most in mobile display ads in 2013, according to IAB Europe AdEx Benchmark (2013)?",
+      "summary": "The page displays a table from the IAB Europe AdEx Benchmark 2013, detailing mobile display ad spend in euros for several European countries in 2013, along with year-over-year growth and the share of mobile display ads in total online display ads.",
+      "failure_type": "query_too_broad",
+      "suggestion": "",
+      "image_id": "d8b34471f923d093"
+    },
+    {
+      "query_tried": "Which country spent the most in mobile display ads in 2013, according to IAB Europe AdEx Benchmark (2013), and what was Romania's Twitter usage during that year?",
+      "summary": "The page displays a table from the IAB Europe AdEx Benchmark 2013, detailing mobile display ad spend in euros for selected European countries in 2013, along with year-over-year growth and the share of mobile display ads in total online display ads.",
+      "failure_type": "query_too_broad",
+      "suggestion": "",
+      "image_id": "d8b34471f923d093"
+    },
+    {
+      "query_tried": "Which country spent the most in mobile display ads in 2013, according to IAB Europe AdEx Benchmark (2013), and what was Romania's Twitter usage during that year?",
+      "summary": "The page displays a table from the IAB Europe AdEx Benchmark 2013, detailing mobile display ad spend in euros for selected European countries in 2013, along with year-over-year growth and the share of mobile display ads in total online display ads.",
+      "failure_type": "query_too_broad",
+      "suggestion": "",
+      "image_id": "d8b34471f923d093"
+    },
+    {
+      "query_tried": "Which country spent the most in mobile display ads in 2013, according to IAB Europe AdEx Benchmark (2013), and what was Romania's Twitter usage during that year?",
+      "summary": "The page displays a table from the IAB Europe AdEx Benchmark 2013, detailing mobile display ad spend in euros for selected European countries in 2013, along with year-over-year growth and the share of mobile display ads in total online display ads.",
+      "failure_type": "query_too_broad",
+      "suggestion": "",
+      "image_id": "d8b34471f923d093"
+    }
+  ],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "Which country spent the most on mobile display ads in 2013, according to IAB Europe AdEx Benchmark, and what was the Romanian usage of Twitter during that time?",
+      "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_06",
+      "decision": "no",
+      "summary": "The page displays a table of mobile display ad spend in 2013 (€m) for several European countries, along with year-over-year growth, total online display ad spend, and the share of mobile display ads in total online display ads. The data is sourced from IAB Europe AdEx Benchmark 2013."
+    },
+    {
+      "iter": 1,
+      "search_query": "Which country spent the most in mobile display ads in 2013, according to IAB Europe AdEx Benchmark (2013)?",
+      "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_06",
+      "decision": "no",
+      "summary": "The page displays a table from the IAB Europe AdEx Benchmark 2013, detailing mobile display ad spend in euros for several European countries in 2013, along with year-over-year growth and the share of mobile display ads in total online display ads."
+    },
+    {
+      "iter": 2,
+      "search_query": "Which country spent the most in mobile display ads in 2013, according to IAB Europe AdEx Benchmark (2013), and what was Romania's Twitter usage during that year?",
+      "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_06",
+      "decision": "no",
+      "summary": "The page displays a table from the IAB Europe AdEx Benchmark 2013, detailing mobile display ad spend in euros for selected European countries in 2013, along with year-over-year growth and the share of mobile display ads in total online display ads."
+    },
+    {
+      "iter": 3,
+      "search_query": "Which country spent the most in mobile display ads in 2013, according to IAB Europe AdEx Benchmark (2013), and what was Romania's Twitter usage during that year?",
+      "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_06",
+      "decision": "no",
+      "summary": "The page displays a table from the IAB Europe AdEx Benchmark 2013, detailing mobile display ad spend in euros for selected European countries in 2013, along with year-over-year growth and the share of mobile display ads in total online display ads."
+    },
+    {
+      "iter": 4,
+      "search_query": "Which country spent the most in mobile display ads in 2013, according to IAB Europe AdEx Benchmark (2013), and what was Romania's Twitter usage during that year?",
+      "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_06",
+      "decision": "no",
+      "summary": "The page displays a table from the IAB Europe AdEx Benchmark 2013, detailing mobile display ad spend in euros for selected European countries in 2013, along with year-over-year growth and the share of mobile display ads in total online display ads."
+    }
+  ],
+  "consolidated_summary": "The latest page contains data from the IAB Europe AdEx Benchmark 2013, showing mobile display ad spend in euros for European countries in 2013, including year-over-year growth and share of mobile in total online display ads. However, the query references an invalid year (79300) and Romanian Twitter usage — neither of which are addressed in the page. The page does not contain any data for the year 79300 or specific information about Romanian Twitter usage. No country is identified as spending the most in mobile display ads in 2013 based on the provided summary. The data is limited to 2013 and does not align with the query’s stated year or context.",
+  "consolidated_key_facts": [],
+  "iter": 5,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/26/images"
+}

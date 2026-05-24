@@ -1,0 +1,71 @@
+{
+  "original_query": "What are examples of identifiable activities for the role of Interpersonal Figurehead?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_13",
+      "found_via_query": "What are examples of identifiable activities for the role of Interpersonal Figurehead?",
+      "summary": "The page presents Mintzberg's managerial roles in a table format, including the role of Interpersonal Figurehead with its description and examples of identifiable activities. The table lists other roles such as Leader, Liaison, Informational Monitor, and so on, with corresponding descriptions and activities.",
+      "key_facts": [
+        "The role of Interpersonal Figurehead is described as a symbolic head obliged to perform routine duties of a legal or social nature.",
+        "Examples of identifiable activities for Interpersonal Figurehead include greeting visitors and signing legal documents.",
+        "The table also includes other managerial roles such as Leader, Liaison, Informational Monitor, Disseminator, Spokesperson, Decisional Entrepreneur, Disturbance Handler, Resource Allocator, and Negotiator.",
+        "The source is H. Mintzberg, The Nature of Managerial Work (New York: Harper & Row, 1973), pp. 93-94, reprinted by permission of Harper & Row, Publishers, Inc.",
+        "The page is from Pearson Education Canada Inc., 2003, and is labeled as Exhibit 1.4."
+      ],
+      "visible_text": [
+        "MINTZBERG'S MANAGERIAL ROLES",
+        "(Exhibit 1.4)",
+        "Role",
+        "Description",
+        "Examples of Identifiable Activities",
+        "Interpersonal Figurehead",
+        "Symbolic head; obliged to perform a number of routine duties of a legal or social nature",
+        "Greeting visitors; signing legal documents",
+        "Leader",
+        "Responsible for the motivation and activation of subordinates; responsible for staffing, training, and associated duties",
+        "Performing virtually all activities that involve subordinates",
+        "Liaison",
+        "Maintains self-developed network of outside contacts and informers who provide favors and information",
+        "Acknowledging mail; doing external board work; performing other activities that involve outsiders",
+        "Informational Monitor",
+        "Seeks and receives wide variety of internal and external information to develop thorough understanding of organization and environment",
+        "Reading periodicals and reports; maintaining personal contacts",
+        "Disseminator",
+        "Transmits information received from outsiders or from subordinates to members of the organization",
+        "Holding informational meetings; making phone calls to relay information",
+        "Spokesperson",
+        "Transmits information to outsiders on organization's plans, policies, actions, results, etc.",
+        "Holding board meetings; giving information to the media",
+        "Decisional Entrepreneur",
+        "Searches organization and its environment for opportunities and initiates 'improvement projects' to bring about changes",
+        "Organizing strategy and review sessions to develop new programs",
+        "Disturbance Handler",
+        "Responsible for corrective action when organization faces important, unexpected disturbances",
+        "Organizing strategy and review sessions that involve disturbances and crises",
+        "Resource Allocator",
+        "Responsible for the allocation of organizational resources of all kinds—making and approving all significant organizational decisions",
+        "Scheduling; requesting authorization; performing any activity that involves budgeting and the programming of subordinates' work",
+        "Negotiator",
+        "Responsible for representing the organization at major negotiations",
+        "Participating in union contract negotiations",
+        "Source: H. Mintzberg, The Nature of Managerial Work (New York: Harper & Row, 1973), pp. 93–94. Copyright © 1973 by Henry Mintzberg. Reprinted by permission of Harper & Row, Publishers, Inc.",
+        "© 2003 Pearson Education Canada Inc.",
+        "1.13"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_13",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_190030/136/images/iter_00_chapter1_introductiontomanagementandorganizations_090411125412_phpapp02_95_page__200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What are examples of identifiable activities for the role of Interpersonal Figurehead?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

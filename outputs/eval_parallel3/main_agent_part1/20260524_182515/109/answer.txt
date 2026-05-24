@@ -1,0 +1,1 @@
+The Buy type with the Reservation type of Reserved is 'Automated guaranteed'.

@@ -1,0 +1,41 @@
+{
+  "original_query": "What is Old Act Section 4 in the New Act Section?",
+  "confirmed": [
+    {
+      "answer_text": "Old Act Section 4 corresponds to New Act Section 11 under the 'Preliminary notification' process.",
+      "summary": "The image displays a comparative table listing various procedural steps from the Old Act and their corresponding sections in the New Act, including preliminary notification, hearing, award, and others.",
+      "key_facts": [
+        "Old Act Section 4 corresponds to New Act Section 11 under the 'Preliminary notification' process."
+      ],
+      "image_ref": {
+        "id": "384680a4dee360a1",
+        "page_label": "1-150711120533-lva1-app6892_95/page_10",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/65/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What is Old Act Section 4 and how does it compare to New Act Section 4?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What is Old Act Section 4 and how does it compare to New Act Section 4?",
+      "page_label": "1-150711120533-lva1-app6892_95/page_10",
+      "decision": "yes",
+      "summary": "The image displays a comparative table listing various procedural steps from the Old Act and their corresponding sections in the New Act, including preliminary notification, hearing, award, and others.",
+      "key_facts": [
+        "Old Act Section 4 corresponds to New Act Section 11 under the 'Preliminary notification' process."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "The latest page indicates that Old Act Section 4 maps to New Act Section 11, specifically under the 'Preliminary notification' process, as part of a comparative table of procedural steps between the two acts.",
+  "consolidated_key_facts": [
+    "Old Act Section 4 corresponds to New Act Section 11 in the 'Preliminary notification' process."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/65/images"
+}

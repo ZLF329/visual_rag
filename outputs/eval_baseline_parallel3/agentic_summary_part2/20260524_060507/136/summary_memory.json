@@ -1,0 +1,40 @@
+{
+  "original_query": "What are examples of identifiable activities for the role of Interpersonal Figurehead?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_13",
+      "found_via_query": "examples of identifiable activities for the role of Interpersonal Figurehead",
+      "summary": "The page displays a table titled 'MINTZBERG'S MANAGERIAL ROLES (Exhibit 1.4)' which lists managerial roles with their descriptions and examples of identifiable activities. The role 'Interpersonal Figurehead' is listed with its description and corresponding activities.",
+      "key_facts": [
+        "The role is 'Interpersonal Figurehead'.",
+        "Description: Symbolic head; obliged to perform a number of routine duties of a legal or social nature; responsible for motivation and activation of subordinates; responsible for staffing, training, and associated duties.",
+        "Examples of identifiable activities: Greeting visitors; signing legal documents; performing virtually all activities that involve subordinates."
+      ],
+      "visible_text": [
+        "MINTZBERG'S MANAGERIAL ROLES",
+        "(Exhibit 1.4)",
+        "Role",
+        "Description",
+        "Examples of Identifiable Activities",
+        "Interpersonal Figurehead",
+        "Symbolic head; obliged to perform a number of routine duties of a legal or social nature",
+        "Greeting visitors; signing legal documents",
+        "Performing virtually all activities that involve subordinates"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_13",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/136/images/iter_00_chapter1_introductiontomanagementandorganizations_090411125412_phpapp02_95_page__200k.png"
+    }
+  ],
+  "issued_queries": [
+    "examples of identifiable activities for the role of Interpersonal Figurehead"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

@@ -1,0 +1,39 @@
+{
+  "original_query": "What is the tagline of APOTEX?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_16",
+      "found_via_query": "APOTEX tagline",
+      "summary": "The page is titled 'Production Scale up' and discusses an issue with Apotex Canada's HTZ capsule 12.5 mg, which failed upon scale-up in assay. It notes that the failure was limited to some batches and the root cause was not identified even after a year. The Apotex logo with the tagline 'ADVANCING GENERICS' is visible in both red and green sections.",
+      "key_facts": [
+        "Apotex Canada",
+        "HTZ capsule 12.5 mg failed upon scale-up in assay",
+        "Failure limited to some batches",
+        "Root cause not identified after a year",
+        "Apotex tagline: 'ADVANCING GENERICS'"
+      ],
+      "visible_text": [
+        "Production Scale up",
+        "APOTEX ADVANCING GENERICS",
+        "Apotex Canada",
+        "HTZ capsule 12.5 mg failed upon scale up in assay.",
+        "Failure was limited to some batches",
+        "Root cause was not identified even after a year."
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_16",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_060427/55/images/iter_00_8apr2015gdfsession4_150408094801_conversion_gate01_95_page_16_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "APOTEX tagline"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

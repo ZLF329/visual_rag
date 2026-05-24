@@ -1,0 +1,43 @@
+{
+  "original_query": "How many steps are there in the theory of change leading to sustainable community change?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_11",
+      "found_via_query": "theory of change steps for sustainable community change",
+      "summary": "The image displays a theory of change model by Social Velocity, illustrating a five-step process leading to sustainable community change. Each step is marked with a numbered circle along a curved arrow, starting from building vision, mission, and strategy, and ending with attracting more support.",
+      "key_facts": [
+        "The model is titled 'A Theory of Change'.",
+        "It has five distinct steps leading to 'Sustainable Community Change'.",
+        "Step 1: Builds Vision, Mission, Strategy.",
+        "Step 2: Engages Board & Staff.",
+        "Step 3: Helps Prove Impact.",
+        "Step 4: Allows Capacity Capital.",
+        "Step 5: Attracts More Support."
+      ],
+      "visible_text": [
+        "SOCIAL VELOCITY",
+        "A Theory of Change",
+        "Sustainable Community Change",
+        "1. Builds Vision, Mission, Strategy",
+        "2. Engages Board & Staff",
+        "3. Helps Prove Impact",
+        "4. Allows Capacity Capital",
+        "5. Attracts More Support"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_11",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_060427/58/images/iter_00_5benefitsofanonprofittheoryofchange_160229202540_95_page_11_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "theory of change steps for sustainable community change"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

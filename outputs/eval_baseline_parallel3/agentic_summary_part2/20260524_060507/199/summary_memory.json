@@ -1,0 +1,40 @@
+{
+  "original_query": "In the Carpet Model, what occurs directly before cell death?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "antibiotics-141109111447-conversion-gate02_95/page_20",
+      "found_via_query": "Carpet Model cellular process before cell death",
+      "summary": "The image illustrates the Carpet Model of permeabilization, showing a sequence of events starting with antimicrobial peptides adsorbing to the cell membrane, followed by formation of peptide aggregates, membrane disruption, membrane depolarization, micelle formation, and finally cell death.",
+      "key_facts": [
+        "The Carpet Model involves antimicrobial peptides adsorbing to the cell membrane.",
+        "Formation of peptide aggregates occurs after adsorption.",
+        "Membrane disruption and depolarization follow.",
+        "Micelle formation precedes cell death.",
+        "Cell death is the final outcome in the Carpet Model."
+      ],
+      "visible_text": [
+        "CARPET MODEL",
+        "Antimicrobial peptides",
+        "Formation of peptide aggregates",
+        "Membrane disruption",
+        "Membrane depolarization",
+        "Micelles formation",
+        "Cell death"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "antibiotics-141109111447-conversion-gate02_95/page_20",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/199/images/iter_00_antibiotics_141109111447_conversion_gate02_95_page_20_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "Carpet Model cellular process before cell death"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

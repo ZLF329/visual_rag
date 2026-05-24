@@ -1,0 +1,1 @@
+There are four steps in the general procedure for association mapping: Genotyping, Population Structure, LD (Linkage Disequilibrium), and Association mapping.

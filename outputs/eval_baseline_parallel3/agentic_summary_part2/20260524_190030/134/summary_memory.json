@@ -1,0 +1,38 @@
+{
+  "original_query": "What level comes between \"all managers between the first-line level and the top level of the organization who manage first line managers\" and Non-managerial Employees?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_06",
+      "found_via_query": "What are the typical organizational levels between first-line managers and top-level managers, excluding non-managerial employees?",
+      "summary": "The image displays a pyramid diagram labeled 'ORGANIZATIONAL LEVELS (Exhibit 1.1)' showing four hierarchical levels: Top Managers, Middle Managers, First-line Managers, and Non-managerial Employees. The diagram visually represents the structure of an organization from top to bottom.",
+      "key_facts": [
+        "The pyramid has four levels: Top Managers, Middle Managers, First-line Managers, and Non-managerial Employees.",
+        "Top Managers are at the apex, followed by Middle Managers, then First-line Managers, and Non-managerial Employees at the base.",
+        "The diagram is from Pearson Education Canada Inc., dated 2003, and labeled as page 1.6."
+      ],
+      "visible_text": [
+        "ORGANIZATIONAL LEVELS (Exhibit 1.1)",
+        "Top Managers",
+        "Middle Managers",
+        "First-line Managers",
+        "Non-managerial Employees",
+        "© 2003 Pearson Education Canada Inc.",
+        "1.6"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_06",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_190030/134/images/iter_00_chapter1_introductiontomanagementandorganizations_090411125412_phpapp02_95_page__200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What are the typical organizational levels between first-line managers and top-level managers, excluding non-managerial employees?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

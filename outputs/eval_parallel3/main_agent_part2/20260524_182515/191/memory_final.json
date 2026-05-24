@@ -1,0 +1,41 @@
+{
+  "original_query": "During which process is there an explosion?",
+  "confirmed": [
+    {
+      "answer_text": "The combustion stroke is explicitly labeled with the word 'explosion'.",
+      "summary": "The page provides a diagram of a four-stroke engine, illustrating the four stages: intake, compression, combustion, and exhaust, with labels identifying key components and events in each stage.",
+      "key_facts": [
+        "The combustion stroke is explicitly labeled with the word 'explosion'."
+      ],
+      "image_ref": {
+        "id": "0149e0b893392716",
+        "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_10",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_182515/191/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What are the processes that involve an explosion?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What are the processes that involve an explosion?",
+      "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_10",
+      "decision": "yes",
+      "summary": "The page provides a diagram of a four-stroke engine, illustrating the four stages: intake, compression, combustion, and exhaust, with labels identifying key components and events in each stage.",
+      "key_facts": [
+        "The combustion stroke is explicitly labeled with the word 'explosion'."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "[query: What are the processes that involve an explosion?] The page provides a diagram of a four-stroke engine, illustrating the four stages: intake, compression, combustion, and exhaust, with labels identifying key components and events in each stage.",
+  "consolidated_key_facts": [
+    "The combustion stroke is explicitly labeled with the word 'explosion'."
+  ],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_182515/191/images"
+}

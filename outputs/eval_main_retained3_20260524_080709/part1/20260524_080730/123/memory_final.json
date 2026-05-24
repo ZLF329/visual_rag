@@ -1,0 +1,44 @@
+{
+  "original_query": "When is the Tomb Sweeping Festival?",
+  "confirmed": [
+    {
+      "answer_text": "Tomb Sweeping Festival is on 5 April; It is a one-day off holiday",
+      "summary": "The image displays a list of public holidays in China, including their dates and duration of leave, with a focus on the Tomb Sweeping Festival.",
+      "key_facts": [
+        "Tomb Sweeping Festival is on 5 April",
+        "It is a one-day off holiday"
+      ],
+      "image_ref": {
+        "id": "db5e348432664a50",
+        "page_label": "chinatourismreport-100310054348-phpapp01_95/page_18",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/123/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "When is the Tomb Sweeping Festival?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "When is the Tomb Sweeping Festival?",
+      "page_label": "chinatourismreport-100310054348-phpapp01_95/page_18",
+      "decision": "yes",
+      "summary": "The image displays a list of public holidays in China, including their dates and duration of leave, with a focus on the Tomb Sweeping Festival.",
+      "key_facts": [
+        "Tomb Sweeping Festival is on 5 April",
+        "It is a one-day off holiday"
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "The Tomb Sweeping Festival in China is observed on 5 April and is recognized as a one-day public holiday with paid leave.",
+  "consolidated_key_facts": [
+    "Tomb Sweeping Festival is on 5 April",
+    "It is a one-day public holiday with paid leave"
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/123/images"
+}

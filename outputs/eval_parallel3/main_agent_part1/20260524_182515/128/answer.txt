@@ -1,0 +1,1 @@
+The two approaches for linkage disequilibrium mapping are Family-based Linkage mapping and LD-based Association mapping.

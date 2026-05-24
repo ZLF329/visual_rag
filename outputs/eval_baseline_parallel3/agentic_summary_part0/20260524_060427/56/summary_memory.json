@@ -1,0 +1,37 @@
+{
+  "original_query": "What comes between community resources and community change in the flow chart?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_05",
+      "found_via_query": "flow chart showing community resources to community change",
+      "summary": "The image displays a flow chart from Social Velocity explaining a Theory of Change, showing the progression from 'Community Resources' to 'Nonprofit' to 'Community Change', with arrows indicating the sequence.",
+      "key_facts": [
+        "The flow chart illustrates a Theory of Change model.",
+        "The sequence starts with 'Community Resources'.",
+        "The middle step is 'Nonprofit'.",
+        "The final outcome is 'Community Change'."
+      ],
+      "visible_text": [
+        "What is a Theory of Change?",
+        "Social VELOCITY",
+        "Community Resources",
+        "Nonprofit",
+        "Community Change"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_05",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_060427/56/images/iter_00_5benefitsofanonprofittheoryofchange_160229202540_95_page_05_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "flow chart showing community resources to community change"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

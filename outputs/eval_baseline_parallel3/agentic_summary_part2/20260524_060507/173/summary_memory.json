@@ -1,0 +1,41 @@
+{
+  "original_query": "What changes a gas into a solid?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "chapter-3-seawater-160218031855_95/page_11",
+      "found_via_query": "What process changes a gas into a solid?",
+      "summary": "The image explains the states of water and the processes that change between them. It shows that a gas can become a solid through a process called deposition, which is illustrated as 'A gas becomes solid thought frost formation.' The diagram also includes other phase changes like condensation (gas to liquid), evaporation (liquid to gas), freezing (liquid to solid), melting (solid to liquid), and sublimation (solid to gas).",
+      "key_facts": [
+        "A gas becomes a solid through deposition, also called frost formation.",
+        "Condensation is gas changing into a liquid.",
+        "Evaporation is liquids turning into gases.",
+        "Freezing turns a liquid into a solid.",
+        "Melting turns a solid into a liquid.",
+        "Sublimation is a solid changing into a gas."
+      ],
+      "visible_text": [
+        "States of Water",
+        "Condensation is a gas changing into a liquid.",
+        "Liquids evaporate into gases.",
+        "Freezing turns a liquid into a solid.",
+        "Solids melt to become liquids.",
+        "Sublimation is a solid changing into gas.",
+        "A gas becomes solid thought frost formation."
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "chapter-3-seawater-160218031855_95/page_11",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/173/images/iter_00_chapter_3_seawater_160218031855_95_page_11_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What process changes a gas into a solid?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

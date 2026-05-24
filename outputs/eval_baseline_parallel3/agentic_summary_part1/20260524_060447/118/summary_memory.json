@@ -1,0 +1,40 @@
+{
+  "original_query": "What are examples of tools that can be used?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "a-btest-150414213438-conversion-gate01_95/page_07",
+      "found_via_query": "examples of tools that can be used",
+      "summary": "The page lists four analytics tools under the heading 'Great tools to use' with the subtext 'Define quantifiable success metrics'. The tools shown are Google Analytics, Parse Analytics, KISSmetrics, and Mixpanel, each with their respective logos and brief descriptions.",
+      "key_facts": [
+        "The page is titled 'Great tools to use' and emphasizes defining quantifiable success metrics.",
+        "Google Analytics is shown with the tagline 'Anywhere. Anytime.'",
+        "Parse Analytics is described as 'Track any data point in your app in real-time.'",
+        "KISSmetrics and Mixpanel are listed as additional tools."
+      ],
+      "visible_text": [
+        "Great tools to use",
+        "Define quantifiable success metrics",
+        "Google Analytics",
+        "Anywhere. Anytime.",
+        "Parse Analytics",
+        "Track any data point in your app in real-time.",
+        "KISSmetrics",
+        "mixpanel"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "a-btest-150414213438-conversion-gate01_95/page_07",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/118/images/iter_00_a_btest_150414213438_conversion_gate01_95_page_07_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "examples of tools that can be used"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

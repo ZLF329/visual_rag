@@ -1,0 +1,45 @@
+{
+  "original_query": "How many kinds of Business Intelligence Competence Center Key Skills are there?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_08",
+      "found_via_query": "How many kinds of Business Intelligence Competence Center Key Skills are there?",
+      "summary": "The image displays a Venn diagram illustrating the three key skill areas of a Business Intelligence Competence Center (BICC), labeled as Business Skills, Analytic Skills, and IT Skills. Each area contains specific sub-skills and responsibilities, with overlapping sections indicating shared competencies.",
+      "key_facts": [
+        "The BICC model consists of three main skill areas: Business Skills, Analytic Skills, and IT Skills.",
+        "Business Skills include Business Needs and Organization and Processes.",
+        "Analytic Skills include Business Needs and Statistical and Process Skills.",
+        "IT Skills include Governance, Administration, and Tools, Infrastructure, Applications, Data.",
+        "The central overlapping area represents BICC leadership and methodology.",
+        "Source: Gartner, © 2014 SAP SE or an SAP affiliate company."
+      ],
+      "visible_text": [
+        "BICC Key Skills",
+        "Business Skills",
+        "Business Needs",
+        "Organization and Processes",
+        "Analytic Skills",
+        "Statistical and Process Skills",
+        "IT Skills",
+        "Governance, Administration",
+        "Tools, Infrastructure, Applications, Data",
+        "Source: Gartner",
+        "© 2014 SAP SE or an SAP affiliate company. All rights reserved."
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_08",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_190030/11/images/iter_00_0903organizingforbiandbigdatainthe21stcentury_clean_140922112024_phpapp02_95_pag_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "How many kinds of Business Intelligence Competence Center Key Skills are there?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

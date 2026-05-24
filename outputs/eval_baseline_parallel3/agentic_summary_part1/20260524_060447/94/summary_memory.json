@@ -1,0 +1,37 @@
+{
+  "original_query": "What are the components of a Vendor Interface?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_11",
+      "found_via_query": "components of a Vendor Interface",
+      "summary": "A diagram illustrating the components of a Vendor Interface, showing six interconnected functions surrounding a central 'Vendor Interface' circle: Search/Discover, Highlight, Print, Bookmark, Copy/Paste, and Download.",
+      "key_facts": [
+        "The central element is labeled 'Vendor Interface'.",
+        "Six components are connected to the central interface: Search/Discover, Highlight, Print, Bookmark, Copy/Paste, and Download."
+      ],
+      "visible_text": [
+        "Vendor Interface",
+        "Search/Discover",
+        "Highlight",
+        "Print",
+        "Bookmark",
+        "Copy/Paste",
+        "Download"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_11",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/94/images/iter_00_2013alapurchasing_130214144910_phpapp02_95_page_11_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "components of a Vendor Interface"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

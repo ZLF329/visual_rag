@@ -1,0 +1,49 @@
+{
+  "original_query": "What is the media with the most sway on a buyer's consideration list?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_09",
+      "found_via_query": "What media type has the most sway on a buyer's consideration list?",
+      "summary": "The infographic highlights that TV advertising has the most sway on a buyer's consideration list, with 70% of respondents indicating it has strong influence. Other media types include online video ads (36%), search engine results/ads (55%), and reviews on vehicle review sites (80%). The data is from a CAB Automotive Buyers Study conducted in December 2011, targeting buyers aged 25-54.",
+      "key_facts": [
+        "TV advertising has the most sway with 70% of respondents.",
+        "Reviews on vehicle review sites have 80% strong influence.",
+        "Search engine results/ads have 55% influence.",
+        "Online video ads have 36% influence.",
+        "The study is from CAB Automotive Buyers Study, Dec 2011, targeting A25-54."
+      ],
+      "visible_text": [
+        "KEY INFLUENCERS ON THE SHORT LIST: TV is the Media with the Most Sway on a Buyer's Consideration List",
+        "What has the strongest influence on your decision to add a vehicle to your consideration list? (A25-54) (Top 3 box agree)",
+        "70% ADS I SEE ON TV",
+        "80% Reviews on vehicle review sites",
+        "55% Search engine results / ads",
+        "36% Online video ads",
+        "25% Likes / tweets by auto manufacturer on social media",
+        "33% What I hear on the radio",
+        "52% What I read in newspapers / magazines",
+        "78% Information on auto manufacturer websites",
+        "NO INFLUENCE",
+        "STRONG INFLUENCE",
+        "Source: CAB Automotive Buyers Study, Dec 2011",
+        "AUTONOTIVE TV ADVERTISING",
+        "THE FAST LANE TO ATTRACTING LIKELY BUYERS",
+        "CABLE TELEVISION ADVERTISING BUREAU"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_09",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_190030/145/images/iter_00_autoreport_cs6_140415111854_phpapp02_95_page_09_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What media type has the most sway on a buyer's consideration list?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

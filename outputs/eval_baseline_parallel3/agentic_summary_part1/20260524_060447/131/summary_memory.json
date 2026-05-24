@@ -1,0 +1,40 @@
+{
+  "original_query": "Who are the authors of the book entitled \"Management\" pictured in the presentation?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_01",
+      "found_via_query": "presentation image of the book 'Management' and its authors",
+      "summary": "The image shows the cover of the book 'Management' (Canadian Seventh Edition) with the title 'Chapter 1: Introduction to Management and Organizations'. The authors are listed as Stephen P. Robbins, Mary Coulter, and Robin Stuart-Kotze. The copyright is attributed to Pearson Education Canada Inc. in 2003.",
+      "key_facts": [
+        "Book title: Management (Canadian Seventh Edition)",
+        "Authors: Stephen P. Robbins, Mary Coulter, Robin Stuart-Kotze",
+        "Chapter: 1 - Introduction to Management and Organizations",
+        "Publisher: Pearson Education Canada Inc.",
+        "Year: 2003"
+      ],
+      "visible_text": [
+        "Management",
+        "Canadian Seventh Edition",
+        "Stephen P. Robbins Mary Coulter Robin Stuart-Kotze",
+        "Chapter 1",
+        "INTRODUCTION TO MANAGEMENT AND ORGANIZATIONS",
+        "© 2003 Pearson Education Canada Inc.",
+        "1.1"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_01",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/131/images/iter_00_chapter1_introductiontomanagementandorganizations_090411125412_phpapp02_95_page__200k.png"
+    }
+  ],
+  "issued_queries": [
+    "presentation image of the book 'Management' and its authors"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

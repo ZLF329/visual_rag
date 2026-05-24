@@ -1,0 +1,47 @@
+{
+  "original_query": "What are the three types of manufacturing technology for a manufactured assembly of fibres or yarns that has substantial surface area in relation to its thickness and sufficient cohesion to give the assembly useful mechanical strength?",
+  "confirmed": [
+    {
+      "answer_text": "The three types of fabric manufacturing technology are Weaving, Knitting, and Non-Woven.; Weaving includes processes like Winding, Warping, and Sizing.; Knitting includes mechanisms such as Tappet, Dobby, and Jacquard.",
+      "summary": "The image displays a flow chart that outlines the three primary types of fabric manufacturing technology: Weaving, Knitting, and Non-Woven. Each type is further subdivided into specific processes or mechanisms, such as Weaving preparation (Winding, Warping, Sizing) and Knitting mechanisms (Tappet, Dobby, Jacquard).",
+      "key_facts": [
+        "The three types of fabric manufacturing technology are Weaving, Knitting, and Non-Woven.",
+        "Weaving includes processes like Winding, Warping, and Sizing.",
+        "Knitting includes mechanisms such as Tappet, Dobby, and Jacquard."
+      ],
+      "image_ref": {
+        "id": "6691f7c9c2f04038",
+        "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_06",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/111/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What are the three types of manufacturing technology for assemblies of fibres or yarns with high surface area and sufficient mechanical strength?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What are the three types of manufacturing technology for assemblies of fibres or yarns with high surface area and sufficient mechanical strength?",
+      "page_label": "afabric-manufacturing-150314104020-conversion-gate01_95/page_06",
+      "decision": "yes",
+      "summary": "The image displays a flow chart that outlines the three primary types of fabric manufacturing technology: Weaving, Knitting, and Non-Woven. Each type is further subdivided into specific processes or mechanisms, such as Weaving preparation (Winding, Warping, Sizing) and Knitting mechanisms (Tappet, Dobby, Jacquard).",
+      "key_facts": [
+        "The three types of fabric manufacturing technology are Weaving, Knitting, and Non-Woven.",
+        "Weaving includes processes like Winding, Warping, and Sizing.",
+        "Knitting includes mechanisms such as Tappet, Dobby, and Jacquard."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "The three primary manufacturing technologies for fibre or yarn assemblies with high surface area-to-thickness ratio and sufficient mechanical strength are Weaving, Knitting, and Non-Woven. Each involves distinct processes: Weaving includes Winding, Warping, and Sizing; Knitting uses mechanisms like Tappet, Dobby, and Jacquard. These methods are tailored to produce fabrics with specific structural and mechanical properties.",
+  "consolidated_key_facts": [
+    "Weaving, Knitting, and Non-Woven are the three main fabric manufacturing technologies.",
+    "Weaving involves Winding, Warping, and Sizing.",
+    "Knitting uses mechanisms such as Tappet, Dobby, and Jacquard."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/111/images"
+}

@@ -1,0 +1,1 @@
+The user experience of an eBook is composed of eBook content and vendor choice, as indicated in the diagram. This relationship is visually represented by the equation: eBook content + vendor choice = user experience.

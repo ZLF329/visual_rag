@@ -1,0 +1,22 @@
+{
+  "original_query": "How many Partner companies are listed in the example of Go to Market Notes?",
+  "confirmed": [
+    {
+      "answer_text": "There are 6 partner companies listed in the example.",
+      "image_ref": {
+        "id": "11a3056a35bf01b1",
+        "page_label": "a-151012171903-lva1-app6891_95/page_18",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_051827/33/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "Under the 'Partners' column, logos of several companies are displayed."
+      ],
+      "found_via_query": "Go to Market Notes Partner companies list"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_051827/33/images"
+}

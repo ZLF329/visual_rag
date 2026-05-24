@@ -1,0 +1,133 @@
+{
+  "original_query": "What are the components of exhaust?",
+  "confirmed": [
+    {
+      "answer_text": "The exhaust valve opens to allow burned gases to escape during the exhaust stroke.; The piston moves to expel the burned gases during the exhaust stroke.",
+      "summary": "The image illustrates the four-stroke engine cycle, with detailed diagrams of each stroke. The exhaust stroke is shown with labels for the exhaust valve and piston, indicating their roles in expelling burned gases.",
+      "key_facts": [
+        "The exhaust valve opens to allow burned gases to escape during the exhaust stroke.",
+        "The piston moves to expel the burned gases during the exhaust stroke."
+      ],
+      "image_ref": {
+        "id": "0149e0b893392716",
+        "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_10",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_182515/192/images/confirmed_03_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What are the main components of an exhaust system in a car?"
+    },
+    {
+      "answer_text": "The exhaust valve opens to allow burned gases to escape during the exhaust stroke.; The piston moves to expel the burned gases during the exhaust stroke.",
+      "summary": "The image illustrates the four-stroke engine cycle, with detailed diagrams of each stroke. The exhaust stroke is shown with labels for the exhaust valve and piston, indicating their roles in expelling burned gases.",
+      "key_facts": [
+        "The exhaust valve opens to allow burned gases to escape during the exhaust stroke.",
+        "The piston moves to expel the burned gases during the exhaust stroke."
+      ],
+      "image_ref": {
+        "id": "0149e0b893392716",
+        "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_10",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_182515/192/images/confirmed_04_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What are the main components of an exhaust system in a car?"
+    }
+  ],
+  "partials": [
+    {
+      "partial_answer": "The exhaust stroke involves the exhaust valve and piston.; Burned gases are expelled during the exhaust stroke.",
+      "summary": "The image provides a diagram of a four-stroke engine, illustrating the intake, compression, combustion, and exhaust strokes. The exhaust stroke is depicted with labels for the exhaust valve and piston, showing the expulsion of burned gases.",
+      "key_facts": [
+        "The exhaust stroke involves the exhaust valve and piston.",
+        "Burned gases are expelled during the exhaust stroke."
+      ],
+      "image_ref": {
+        "id": "f76263fa315973e8",
+        "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_10",
+        "pixel_budget": 200000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_182515/192/images/partial_01_200k.png"
+      },
+      "cited_statements": [],
+      "remaining_gap": "",
+      "found_via_query": "What are the components of an exhaust system?",
+      "found_at_iter": 0
+    },
+    {
+      "partial_answer": "The exhaust valve is a component that opens to allow burned gases to escape during the exhaust stroke.; The piston moves to expel the burned gases during the exhaust stroke.",
+      "summary": "The image illustrates the four-stroke engine cycle, with a detailed focus on the exhaust stroke, highlighting the exhaust valve and piston as components involved in expelling burned gases.",
+      "key_facts": [
+        "The exhaust valve is a component that opens to allow burned gases to escape during the exhaust stroke.",
+        "The piston moves to expel the burned gases during the exhaust stroke."
+      ],
+      "image_ref": {
+        "id": "f76263fa315973e8",
+        "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_10",
+        "pixel_budget": 200000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_182515/192/images/partial_02_200k.png"
+      },
+      "cited_statements": [],
+      "remaining_gap": "",
+      "found_via_query": "What are the main components of an exhaust system in a car?",
+      "found_at_iter": 1
+    }
+  ],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What are the components of an exhaust system?",
+      "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_10",
+      "decision": "partial",
+      "summary": "The image provides a diagram of a four-stroke engine, illustrating the intake, compression, combustion, and exhaust strokes. The exhaust stroke is depicted with labels for the exhaust valve and piston, showing the expulsion of burned gases.",
+      "key_facts": [
+        "The exhaust stroke involves the exhaust valve and piston.",
+        "Burned gases are expelled during the exhaust stroke."
+      ],
+      "cited_statements": []
+    },
+    {
+      "iter": 1,
+      "search_query": "What are the main components of an exhaust system in a car?",
+      "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_10",
+      "decision": "partial",
+      "summary": "The image illustrates the four-stroke engine cycle, with a detailed focus on the exhaust stroke, highlighting the exhaust valve and piston as components involved in expelling burned gases.",
+      "key_facts": [
+        "The exhaust valve is a component that opens to allow burned gases to escape during the exhaust stroke.",
+        "The piston moves to expel the burned gases during the exhaust stroke."
+      ],
+      "cited_statements": []
+    },
+    {
+      "iter": 2,
+      "search_query": "What are the main components of an exhaust system in a car?",
+      "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_10",
+      "decision": "yes",
+      "summary": "The image illustrates the four-stroke engine cycle, with detailed diagrams of each stroke. The exhaust stroke is shown with labels for the exhaust valve and piston, indicating their roles in expelling burned gases.",
+      "key_facts": [
+        "The exhaust valve opens to allow burned gases to escape during the exhaust stroke.",
+        "The piston moves to expel the burned gases during the exhaust stroke."
+      ],
+      "cited_statements": []
+    },
+    {
+      "iter": 3,
+      "search_query": "What are the main components of an exhaust system in a car?",
+      "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_10",
+      "decision": "yes",
+      "summary": "The image illustrates the four-stroke engine cycle, with detailed diagrams of each stroke. The exhaust stroke is shown with labels for the exhaust valve and piston, indicating their roles in expelling burned gases.",
+      "key_facts": [
+        "The exhaust valve opens to allow burned gases to escape during the exhaust stroke.",
+        "The piston moves to expel the burned gases during the exhaust stroke."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "[query: What are the components of an exhaust system?] The image provides a diagram of a four-stroke engine, illustrating the intake, compression, combustion, and exhaust strokes. The exhaust stroke is depicted with labels for the exhaust valve and piston, showing the expulsion of burned gases.\n[query: What are the main components of an exhaust system in a car?] The image illustrates the four-stroke engine cycle, with a detailed focus on the exhaust stroke, highlighting the exhaust valve and piston as components involved in expelling burned gases.\n[query: What are the main components of an exhaust system in a car?] The image illustrates the four-stroke engine cycle, with detailed diagrams of each stroke. The exhaust stroke is shown with labels for the exhaust valve and piston, indicating their roles in expelling burned gases.\n[query: What are the main components of an exhaust system in a car?] The image illustrates the four-stroke engine cycle, with detailed diagrams of each stroke. The exhaust stroke is shown with labels for the exhaust valve and piston, indicating their roles in expelling burned gases.",
+  "consolidated_key_facts": [
+    "The exhaust valve opens to allow burned gases to escape during the exhaust stroke.",
+    "The piston moves to expel the burned gases during the exhaust stroke."
+  ],
+  "iter": 4,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_182515/192/images"
+}

@@ -1,0 +1,39 @@
+{
+  "original_query": "What type of characteristic is shape?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_10",
+      "found_via_query": "definition of shape as a characteristic",
+      "summary": "The slide defines 'ELASTICITY' as the ability of a body to recover its size and shape after deformation, citing McGraw-Hill, 2003. It emphasizes that resilient, only-purposeful behavior involves no 'advanced' behavior, relying on internal characteristics and resources to mask external forces, which is redundancy-based.",
+      "key_facts": [
+        "ELASTICITY is defined as the ability of a body to recover its size and shape after deformation.",
+        "Definition source: McGraw-Hill, 2003.",
+        "Resilient behavior is redundancy-based and does not involve 'advanced' behavior.",
+        "The system masks external forces using internal characteristics and resources."
+      ],
+      "visible_text": [
+        "Resilient, only-purposeful behavior",
+        "ELASTICITY",
+        "The ability of a body that has been subjected to an external force to recover its size and shape, following deformation",
+        "(McGraw-Hill, 2003)",
+        "No 'advanced' behavior; system just makes use of its internal characteristics and resources so as to mask the action of external forces",
+        "→ Redundancy-based.",
+        "Vincenzo De Florio, INRIA, 14 Nov. 2014"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_10",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/170/images/iter_00_2014_11_14_inriaprovappt_141112043127_conversion_gate02_95_page_10_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "definition of shape as a characteristic"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

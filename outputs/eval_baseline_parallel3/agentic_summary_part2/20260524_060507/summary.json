@@ -1,0 +1,22 @@
+{
+  "num_samples": 66,
+  "baseline": "agentic_summary",
+  "mean_iters": 1.4242424242424243,
+  "median_iters": 1.0,
+  "termination_counts": {
+    "decide": 61,
+    "max_iters": 5
+  },
+  "mean_page_summaries": 1.4242424242424243,
+  "search_queries": 94,
+  "summarise_calls": 94,
+  "accuracy": 0.6610169491525424,
+  "judge": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-flash",
+    "judged": 59,
+    "correct": 39,
+    "errors": 7,
+    "accuracy": 0.6610169491525424
+  }
+}

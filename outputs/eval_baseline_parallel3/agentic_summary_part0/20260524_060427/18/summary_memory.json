@@ -1,0 +1,123 @@
+{
+  "original_query": "What is the title of the presentation that the company which had won 7 Nobel Prizes made for the OVERVIEW of 2012?",
+  "iter": 5,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_02",
+      "found_via_query": "company that won 7 Nobel Prizes and its 2012 presentation title",
+      "summary": "This slide is a disclaimer from Nestlé's 2011 Full Year Roadshow held on February 21st, 2012. It explains that the presentation contains forward-looking statements reflecting management's current views and estimates, which involve risks and uncertainties such as economic conditions, foreign exchange fluctuations, competitive pressures, and regulatory developments.",
+      "key_facts": [
+        "The presentation is from Nestlé's 2011 Full Year Roadshow",
+        "Date: February 21st, 2012",
+        "The slide is a disclaimer about forward-looking statements",
+        "Nestlé is the company referenced"
+      ],
+      "visible_text": [
+        "Disclaimer",
+        "This presentation contains forward looking statements which reflect Management's current views and estimates.",
+        "The forward looking statements involve certain risks and uncertainties that could cause actual results to differ materially from those contained in the forward looking statements.",
+        "Potential risks and uncertainties include such factors as general economic conditions, foreign exchange fluctuations, competitive product and pricing pressures and regulatory developments.",
+        "February 21st, 2012 | 2011 Full Year Roadshow",
+        "Nestlé"
+      ]
+    },
+    {
+      "iter": 1,
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_02",
+      "found_via_query": "Nestlé 2012 Overview Presentation title",
+      "summary": "This slide is a disclaimer from Nestlé's 2011 Full Year Roadshow held on February 21st, 2012. It explains that the presentation contains forward-looking statements reflecting management's current views and estimates, which involve risks and uncertainties such as economic conditions, foreign exchange fluctuations, competitive pressures, and regulatory developments.",
+      "key_facts": [
+        "The presentation is from Nestlé's 2011 Full Year Roadshow",
+        "Date: February 21st, 2012",
+        "The slide is a disclaimer about forward-looking statements",
+        "Nestlé is the company referenced"
+      ],
+      "visible_text": [
+        "Disclaimer",
+        "This presentation contains forward looking statements which reflect Management's current views and estimates.",
+        "The forward looking statements involve certain risks and uncertainties that could cause actual results to differ materially from those contained in the forward looking statements.",
+        "Potential risks and uncertainties include such factors as general economic conditions, foreign exchange fluctuations, competitive product and pricing pressures and regulatory developments.",
+        "February 21st, 2012 | 2011 Full Year Roadshow"
+      ]
+    },
+    {
+      "iter": 2,
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_02",
+      "found_via_query": "Nestlé 2012 Overview Presentation title",
+      "summary": "This slide is a disclaimer from Nestlé's 2011 Full Year Roadshow held on February 21st, 2012. It explains that the presentation contains forward-looking statements reflecting management's current views and estimates, which involve risks and uncertainties such as economic conditions, foreign exchange fluctuations, competitive pressures, and regulatory developments.",
+      "key_facts": [
+        "The presentation is from Nestlé's 2011 Full Year Roadshow",
+        "Date: February 21st, 2012",
+        "The slide is a disclaimer about forward-looking statements",
+        "Nestlé is the company referenced"
+      ],
+      "visible_text": [
+        "Disclaimer",
+        "This presentation contains forward looking statements which reflect Management's current views and estimates.",
+        "The forward looking statements involve certain risks and uncertainties that could cause actual results to differ materially from those contained in the forward looking statements.",
+        "Potential risks and uncertainties include such factors as general economic conditions, foreign exchange fluctuations, competitive product and pricing pressures and regulatory developments.",
+        "February 21st, 2012 | 2011 Full Year Roadshow"
+      ]
+    },
+    {
+      "iter": 3,
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_02",
+      "found_via_query": "Nestlé 2012 Overview Presentation title",
+      "summary": "This slide is a disclaimer from Nestlé's 2011 Full Year Roadshow held on February 21st, 2012. It explains that the presentation contains forward-looking statements reflecting management's current views and estimates, which involve risks and uncertainties such as economic conditions, foreign exchange fluctuations, competitive pressures, and regulatory developments.",
+      "key_facts": [
+        "The presentation is from Nestlé's 2011 Full Year Roadshow",
+        "Date: February 21st, 2012",
+        "The slide is a disclaimer about forward-looking statements",
+        "Nestlé is the company referenced"
+      ],
+      "visible_text": [
+        "Disclaimer",
+        "This presentation contains forward looking statements which reflect Management's current views and estimates.",
+        "The forward looking statements involve certain risks and uncertainties that could cause actual results to differ materially from those contained in the forward looking statements.",
+        "Potential risks and uncertainties include such factors as general economic conditions, foreign exchange fluctuations, competitive product and pricing pressures and regulatory developments.",
+        "February 21st, 2012 | 2011 Full Year Roadshow"
+      ]
+    },
+    {
+      "iter": 4,
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_02",
+      "found_via_query": "Nestlé 2012 Overview Presentation title",
+      "summary": "This slide is a disclaimer from Nestlé's 2011 Full Year Roadshow held on February 21st, 2012. It explains that the presentation contains forward-looking statements reflecting management's current views and estimates, which involve risks and uncertainties such as economic conditions, foreign exchange fluctuations, competitive pressures, and regulatory developments.",
+      "key_facts": [
+        "The presentation is from Nestlé's 2011 Full Year Roadshow",
+        "Date: February 21st, 2012",
+        "The slide is a disclaimer about forward-looking statements",
+        "Nestlé is the company referenced"
+      ],
+      "visible_text": [
+        "Disclaimer",
+        "This presentation contains forward looking statements which reflect Management's current views and estimates.",
+        "The forward looking statements involve certain risks and uncertainties that could cause actual results to differ materially from those contained in the forward looking statements.",
+        "Potential risks and uncertainties include such factors as general economic conditions, foreign exchange fluctuations, competitive product and pricing pressures and regulatory developments.",
+        "February 21st, 2012 | 2011 Full Year Roadshow"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 3,
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_02",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_060427/18/images/iter_03_2012_02_20fy11roadshow_120221022442_phpapp02_95_page_02_200k.png"
+    },
+    {
+      "iter": 4,
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_02",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_060427/18/images/iter_04_2012_02_20fy11roadshow_120221022442_phpapp02_95_page_02_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "company that won 7 Nobel Prizes and its 2012 presentation title",
+    "Nestlé 2012 Overview Presentation title",
+    "Nestlé 2012 Overview Presentation title",
+    "Nestlé 2012 Overview Presentation title",
+    "Nestlé 2012 Overview Presentation title"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

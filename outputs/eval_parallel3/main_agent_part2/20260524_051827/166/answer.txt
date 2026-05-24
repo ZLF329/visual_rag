@@ -1,0 +1,7 @@
+Based on the provided evidence, updates have lower intensity than campaigns.
+
+The comparison is explicitly stated in the table on page 13 (image_ref: asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_13). The table shows:
+- **Updates**: Intensity is listed as "Low".
+- **Campaigns**: Intensity is listed as "High".
+
+The text on page 12 (image_ref: asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_12) confirms that campaigns are "shorter and more intense than projects" and are "frequently supported with offline media," which aligns with the table's description of campaigns as having high intensity. Therefore, updates, with their low intensity, are the answer to the question.

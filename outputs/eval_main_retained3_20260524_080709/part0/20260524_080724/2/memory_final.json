@@ -1,0 +1,44 @@
+{
+  "original_query": "Which achieved better performance in 2011, Organic Growth or Real Internal Growth?",
+  "confirmed": [
+    {
+      "answer_text": "In 2011, Organic Growth was 7.5%.; In 2011, Real Internal Growth was 6.2%.",
+      "summary": "The page presents a bar chart illustrating the annual performance of Organic Growth and Real Internal Growth for Nestlé from 2001 to 2011, with specific percentages for each year. It also shows 10-year averages for these metrics.",
+      "key_facts": [
+        "In 2011, Organic Growth was 7.5%.",
+        "In 2011, Real Internal Growth was 6.2%."
+      ],
+      "image_ref": {
+        "id": "81c21f035635270a",
+        "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_07",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/2/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "Performance comparison between Organic Growth and Real Internal Growth in 2011"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "Performance comparison between Organic Growth and Real Internal Growth in 2011",
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_07",
+      "decision": "yes",
+      "summary": "The page presents a bar chart illustrating the annual performance of Organic Growth and Real Internal Growth for Nestlé from 2001 to 2011, with specific percentages for each year. It also shows 10-year averages for these metrics.",
+      "key_facts": [
+        "In 2011, Organic Growth was 7.5%.",
+        "In 2011, Real Internal Growth was 6.2%."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "The page presents a bar chart comparing Organic Growth and Real Internal Growth for Nestlé from 2001 to 2011, with 2011 data showing Organic Growth at 7.5% and Real Internal Growth at 6.2%. This indicates Organic Growth outperformed Real Internal Growth in 2011.",
+  "consolidated_key_facts": [
+    "In 2011, Organic Growth was 7.5%.",
+    "In 2011, Real Internal Growth was 6.2%."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/2/images"
+}

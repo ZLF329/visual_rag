@@ -1,0 +1,41 @@
+{
+  "original_query": "What do extra markings indicate?",
+  "confirmed": [
+    {
+      "answer_text": "Extra markings indicate special dimensions or grease type and fill.",
+      "summary": "The image provides a breakdown of bearing designations, including basic type and series, seals and shields, bore size, internal clearance, and extra markings. The extra markings section specifically explains that they indicate special dimensions or grease type and fill.",
+      "key_facts": [
+        "Extra markings indicate special dimensions or grease type and fill."
+      ],
+      "image_ref": {
+        "id": "22899ad2395b4114",
+        "page_label": "bearing1-151117114834-lva1-app6892_95/page_19",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_182515/142/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What do extra markings indicate?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What do extra markings indicate?",
+      "page_label": "bearing1-151117114834-lva1-app6892_95/page_19",
+      "decision": "yes",
+      "summary": "The image provides a breakdown of bearing designations, including basic type and series, seals and shields, bore size, internal clearance, and extra markings. The extra markings section specifically explains that they indicate special dimensions or grease type and fill.",
+      "key_facts": [
+        "Extra markings indicate special dimensions or grease type and fill."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "[query: What do extra markings indicate?] The image provides a breakdown of bearing designations, including basic type and series, seals and shields, bore size, internal clearance, and extra markings. The extra markings section specifically explains that they indicate special dimensions or grease type and fill.",
+  "consolidated_key_facts": [
+    "Extra markings indicate special dimensions or grease type and fill."
+  ],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_182515/142/images"
+}

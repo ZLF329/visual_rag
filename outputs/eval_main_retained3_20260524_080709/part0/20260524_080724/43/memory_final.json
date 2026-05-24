@@ -1,0 +1,41 @@
+{
+  "original_query": "What is the percentage of the respondents who answer General resistance to change is the BARRIER to further AGILE ADOPTION?",
+  "confirmed": [
+    {
+      "answer_text": "42% General resistance to change",
+      "summary": "The page displays a visual chart identifying the top barriers to further agile adoption, with percentages for each barrier. The most prominent barrier is 'Inability to change organizational culture' at 53%, followed by 'General resistance to change' at 42%.",
+      "key_facts": [
+        "42% General resistance to change"
+      ],
+      "image_ref": {
+        "id": "68f1fd6266f658e2",
+        "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_05",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/43/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What percentage of respondents identified 'General resistance to change' as a barrier to Agile adoption?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What percentage of respondents identified 'General resistance to change' as a barrier to Agile adoption?",
+      "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_05",
+      "decision": "yes",
+      "summary": "The page displays a visual chart identifying the top barriers to further agile adoption, with percentages for each barrier. The most prominent barrier is 'Inability to change organizational culture' at 53%, followed by 'General resistance to change' at 42%.",
+      "key_facts": [
+        "42% General resistance to change"
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "The page indicates that 'General resistance to change' is a top barrier to further agile adoption, cited by 42% of respondents. This is the second most cited barrier after 'Inability to change organizational culture' at 53%.",
+  "consolidated_key_facts": [
+    "42% of respondents cite 'General resistance to change' as a barrier to further agile adoption"
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/43/images"
+}

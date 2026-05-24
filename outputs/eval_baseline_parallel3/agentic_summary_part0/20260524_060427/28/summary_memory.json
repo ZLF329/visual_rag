@@ -1,0 +1,42 @@
+{
+  "original_query": "Which country had the higher percentage of Tablet Pageviews in June 2014, Russia or Hungary?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_09",
+      "found_via_query": "Tablet Pageviews percentage in June 2014 for Russia and Hungary",
+      "summary": "The slide presents mobile pageviews by country in June 2014, comparing PC, Phone, and Tablet usage. It includes data for countries like Croatia, Lithuania, Serbia, and others, with Russia and Hungary specifically listed. The table shows tablet pageview percentages for each country.",
+      "key_facts": [
+        "Data is for June 2014 mobile pageviews by country.",
+        "Russia had 5% tablet pageviews.",
+        "Hungary had 3% tablet pageviews.",
+        "Source: gemiusRanking, June 2014."
+      ],
+      "visible_text": [
+        ".RO smartphone & data consumption insights",
+        "Mobile Pageviews by Country, June 2014",
+        "PC",
+        "Phone",
+        "Tablet",
+        "Russia",
+        "5%",
+        "Hungary",
+        "3%",
+        "Source: gemiusRanking, June 2014"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_09",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_060427/28/images/iter_00_8eeomnwqsmdmin6levsv_signature_2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "Tablet Pageviews percentage in June 2014 for Russia and Hungary"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

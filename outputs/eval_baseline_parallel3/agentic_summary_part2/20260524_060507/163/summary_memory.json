@@ -1,0 +1,41 @@
+{
+  "original_query": "What type of market has high market head and high differentiation?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_07",
+      "found_via_query": "types of markets with high market head and high differentiation",
+      "summary": "A 2x2 matrix diagram categorizes market types based on 'Market head' (vertical axis, High to Low) and 'Differentiation' (horizontal axis, Low to High). The quadrant in the top-right corner, labeled 'Focus', represents markets with high market head and high differentiation.",
+      "key_facts": [
+        "The diagram uses 'Market head' as the vertical axis and 'Differentiation' as the horizontal axis.",
+        "The top-right quadrant is labeled 'Focus' and corresponds to high market head and high differentiation.",
+        "Other quadrants are 'Competitive' (high market head, low differentiation), 'Avoid' (low market head, low differentiation), and 'Niche' (low market head, high differentiation)."
+      ],
+      "visible_text": [
+        "Market head",
+        "Differentiation",
+        "Competitive",
+        "Focus",
+        "Avoid",
+        "Niche",
+        "High",
+        "Low",
+        "Conversationmanagement.biz | @Steven_InSites",
+        "InSites Consulting"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_07",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/163/images/iter_00_asixstepcontentmarketingmodel_120206005134_phpapp01_95_page_07_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "types of markets with high market head and high differentiation"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

@@ -1,0 +1,41 @@
+{
+  "original_query": "What are the six parts of CONCERN'S COLLABORATION MODEL?",
+  "confirmed": [
+    {
+      "answer_text": "The six parts of CONCERN'S COLLABORATION MODEL are: Policy & campaigns, Individual Giving, Donor Care, Comms., Creative Agency, and Media Partner.",
+      "summary": "The page illustrates CONCERN'S COLLABORATION MODEL using a diagram of six overlapping circles, each labeled with a component of the model: Policy & campaigns, Individual Giving, Donor Care, Comms., Creative Agency, and Media Partner.",
+      "key_facts": [
+        "The six parts of CONCERN'S COLLABORATION MODEL are: Policy & campaigns, Individual Giving, Donor Care, Comms., Creative Agency, and Media Partner."
+      ],
+      "image_ref": {
+        "id": "687919a9557616ea",
+        "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_17",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/86/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What are the six parts of CONCERN'S COLLABORATION MODEL?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What are the six parts of CONCERN'S COLLABORATION MODEL?",
+      "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_17",
+      "decision": "yes",
+      "summary": "The page illustrates CONCERN'S COLLABORATION MODEL using a diagram of six overlapping circles, each labeled with a component of the model: Policy & campaigns, Individual Giving, Donor Care, Comms., Creative Agency, and Media Partner.",
+      "key_facts": [
+        "The six parts of CONCERN'S COLLABORATION MODEL are: Policy & campaigns, Individual Giving, Donor Care, Comms., Creative Agency, and Media Partner."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "CONCERN'S COLLABORATION MODEL consists of six interconnected components, visually represented by overlapping circles: Policy & campaigns, Individual Giving, Donor Care, Comms., Creative Agency, and Media Partner. These elements form a collaborative framework, likely emphasizing integrated stakeholder engagement across advocacy, fundraising, communications, and media.",
+  "consolidated_key_facts": [
+    "The six parts of CONCERN'S COLLABORATION MODEL are: Policy & campaigns, Individual Giving, Donor Care, Comms., Creative Agency, and Media Partner."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/86/images"
+}

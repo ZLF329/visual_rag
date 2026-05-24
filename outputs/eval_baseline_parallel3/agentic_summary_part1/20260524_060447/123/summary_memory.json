@@ -1,0 +1,41 @@
+{
+  "original_query": "When is the Tomb Sweeping Festival?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "chinatourismreport-100310054348-phpapp01_95/page_18",
+      "found_via_query": "When is the Tomb Sweeping Festival?",
+      "summary": "The slide titled 'China Outbound: When?' lists public holidays in China with their dates and corresponding days off. It includes the Tomb Sweeping Festival, which is on 5 April with one day off.",
+      "key_facts": [
+        "Tomb Sweeping Festival is on 5 April",
+        "One day off for Tomb Sweeping Festival"
+      ],
+      "visible_text": [
+        "China Outbound: When?",
+        "List of Public Holidays",
+        "New Year's day 1 January (one day off)",
+        "Spring Festival (Chinese New Year) Varies according to lunar calendar (3 days off extended to 1 or 2 weeks)",
+        "Tomb Sweeping Festival 5 April (one day off)",
+        "Labour Day 1 May (one day off)",
+        "Dragon Boat Festival June, varies according to lunar calendar (one day off)",
+        "Mid-Autumn Festival September, lunar calendar (one day off)",
+        "National Day 1 - 3 October (3 days off extended to 1 week)",
+        "STARK TOURISM FORUM",
+        "www.starktourism.com"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "chinatourismreport-100310054348-phpapp01_95/page_18",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/123/images/iter_00_chinatourismreport_100310054348_phpapp01_95_page_18_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "When is the Tomb Sweeping Festival?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

@@ -1,0 +1,38 @@
+{
+  "original_query": "What is the title of the presentation made on April 8th, 2015 at Hotel Regent Plaza, Karachi?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_01",
+      "found_via_query": "presentation title April 8th 2015 Hotel Regent Plaza Karachi",
+      "summary": "A group photo from a presentation titled 'Generic Drugs & Promise of Regulatory Science' held on April 8th, 2015 at Hotel Regent Plaza, Karachi. The event was presented by Obaid Ali & Roohi B. Obaid, and this is the third and final slide of the presentation (3/3).",
+      "key_facts": [
+        "Presentation title: Generic Drugs & Promise of Regulatory Science",
+        "Date: April 8th, 2015",
+        "Location: Hotel Regent Plaza, Karachi",
+        "Presenters: Obaid Ali & Roohi B. Obaid",
+        "Slide number: (3/3)"
+      ],
+      "visible_text": [
+        "Generic Drugs & Promise of Regulatory Science",
+        "(3/3)",
+        "Obaid Ali & Roohi B. Obaid",
+        "April 08th, 2015",
+        "Hotel Regent Plaza, Karachi"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_01",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_060427/51/images/iter_00_8apr2015gdfsession4_150408094801_conversion_gate01_95_page_01_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "presentation title April 8th 2015 Hotel Regent Plaza Karachi"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

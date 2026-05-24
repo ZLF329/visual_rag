@@ -1,0 +1,138 @@
+{
+  "original_query": "What is the biggest reason why users sometimes choose not to use the applications, data of which are not mostly trusted by 8% users?",
+  "iter": 5,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_18",
+      "found_via_query": "reasons users avoid apps with untrusted data, based on user trust metrics",
+      "summary": "A bar chart titled 'Business Users Do Not Fully Trust Enterprise Data' shows survey results on trust in enterprise BI applications. The majority (67%) trust data in some BI applications but not others, while 24% trust all data fully and 8% mostly do not trust data. The study was conducted by Forrester Consulting for SAP in March 2014, based on 171 business decision-makers.",
+      "key_facts": [
+        "67% of users trust data in some enterprise BI applications, not others",
+        "24% trust all data fully",
+        "8% mostly do not trust data in enterprise BI applications",
+        "Survey base: 171 business decision-makers",
+        "Source: Forrester Consulting for SAP, March 2014"
+      ],
+      "visible_text": [
+        "Business Users Do Not Fully Trust Enterprise Data",
+        "How much do you trust data available in your enterprise BI applications?",
+        "Full trust in all data from all enterprise BI applications 24%",
+        "Trust data in some enterprise BI applications, not in others 67%",
+        "Mostly do not trust data in enterprise BI applications 8%",
+        "Base: 171 business decision-makers who influence BI decisions",
+        "Source: A commissioned study conducted by Forrester Consulting on behalf of SAP, March 2014",
+        "© 2014 SAP SE or an SAP affiliate company. All rights reserved."
+      ]
+    },
+    {
+      "iter": 1,
+      "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_18",
+      "found_via_query": "reasons business users avoid BI applications when data is not mostly trusted, Forrester SAP 2014 study",
+      "summary": "A bar chart from a Forrester Consulting study for SAP (March 2014) shows business users' trust in enterprise BI applications. The majority (67%) trust data in some applications but not others, 24% trust all data fully, and 8% mostly do not trust data. The survey was based on 171 business decision-makers.",
+      "key_facts": [
+        "67% of users trust data in some enterprise BI applications, not in others",
+        "24% trust all data fully",
+        "8% mostly do not trust data in enterprise BI applications",
+        "Survey base: 171 business decision-makers",
+        "Source: Forrester Consulting for SAP, March 2014"
+      ],
+      "visible_text": [
+        "Business Users Do Not Fully Trust Enterprise Data",
+        "How much do you trust data available in your enterprise BI applications?",
+        "Full trust in all data from all enterprise BI applications 24%",
+        "Trust data in some enterprise BI applications, not in others 67%",
+        "Mostly do not trust data in enterprise BI applications 8%",
+        "Base: 171 business decision-makers who influence BI decisions",
+        "Source: A commissioned study conducted by Forrester Consulting on behalf of SAP, March 2014"
+      ]
+    },
+    {
+      "iter": 2,
+      "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_18",
+      "found_via_query": "reasons business users avoid BI applications when data is not trusted, Forrester SAP 2014 study",
+      "summary": "A bar chart from a Forrester Consulting study for SAP (March 2014) shows business users' trust in enterprise BI applications. The majority (67%) trust data in some applications but not others, 24% trust all data fully, and 8% mostly do not trust data. The survey was based on 171 business decision-makers.",
+      "key_facts": [
+        "67% of users trust data in some enterprise BI applications, not in others",
+        "24% trust all data fully",
+        "8% mostly do not trust data in enterprise BI applications",
+        "Survey base: 171 business decision-makers",
+        "Source: Forrester Consulting for SAP, March 2014"
+      ],
+      "visible_text": [
+        "Business Users Do Not Fully Trust Enterprise Data",
+        "How much do you trust data available in your enterprise BI applications?",
+        "Full trust in all data from all enterprise BI applications 24%",
+        "Trust data in some enterprise BI applications, not in others 67%",
+        "Mostly do not trust data in enterprise BI applications 8%",
+        "Base: 171 business decision-makers who influence BI decisions",
+        "Source: A commissioned study conducted by Forrester Consulting on behalf of SAP, March 2014"
+      ]
+    },
+    {
+      "iter": 3,
+      "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_18",
+      "found_via_query": "reasons business users avoid BI applications when data is not trusted, Forrester SAP 2014 study",
+      "summary": "A bar chart from a Forrester Consulting study for SAP (March 2014) shows business users' trust in enterprise BI applications. The majority (67%) trust data in some applications but not others, 24% trust all data fully, and 8% mostly do not trust data. The survey was based on 171 business decision-makers.",
+      "key_facts": [
+        "67% of users trust data in some enterprise BI applications, not in others",
+        "24% trust all data fully",
+        "8% mostly do not trust data in enterprise BI applications",
+        "Survey base: 171 business decision-makers",
+        "Source: Forrester Consulting for SAP, March 2014"
+      ],
+      "visible_text": [
+        "Business Users Do Not Fully Trust Enterprise Data",
+        "How much do you trust data available in your enterprise BI applications?",
+        "Full trust in all data from all enterprise BI applications 24%",
+        "Trust data in some enterprise BI applications, not in others 67%",
+        "Mostly do not trust data in enterprise BI applications 8%",
+        "Base: 171 business decision-makers who influence BI decisions",
+        "Source: A commissioned study conducted by Forrester Consulting on behalf of SAP, March 2014"
+      ]
+    },
+    {
+      "iter": 4,
+      "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_18",
+      "found_via_query": "reasons business users avoid BI applications when data is not trusted, Forrester SAP 2014 study, detailed findings",
+      "summary": "A bar chart from a Forrester Consulting study for SAP (March 2014) shows business users' trust in enterprise BI applications. The majority (67%) trust data in some applications but not others, 24% trust all data fully, and 8% mostly do not trust data. The survey was based on 171 business decision-makers.",
+      "key_facts": [
+        "67% of users trust data in some enterprise BI applications, not in others",
+        "24% trust all data fully",
+        "8% mostly do not trust data in enterprise BI applications",
+        "Survey base: 171 business decision-makers",
+        "Source: Forrester Consulting for SAP, March 2014"
+      ],
+      "visible_text": [
+        "Business Users Do Not Fully Trust Enterprise Data",
+        "How much do you trust data available in your enterprise BI applications?",
+        "Full trust in all data from all enterprise BI applications 24%",
+        "Trust data in some enterprise BI applications, not in others 67%",
+        "Mostly do not trust data in enterprise BI applications 8%",
+        "Base: 171 business decision-makers who influence BI decisions",
+        "Source: A commissioned study conducted by Forrester Consulting on behalf of SAP, March 2014"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 3,
+      "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_18",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_060427/14/images/iter_03_0903organizingforbiandbigdatainthe21stcentury_clean_140922112024_phpapp02_95_pag_200k.png"
+    },
+    {
+      "iter": 4,
+      "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_18",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_060427/14/images/iter_04_0903organizingforbiandbigdatainthe21stcentury_clean_140922112024_phpapp02_95_pag_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "reasons users avoid apps with untrusted data, based on user trust metrics",
+    "reasons business users avoid BI applications when data is not mostly trusted, Forrester SAP 2014 study",
+    "reasons business users avoid BI applications when data is not trusted, Forrester SAP 2014 study",
+    "reasons business users avoid BI applications when data is not trusted, Forrester SAP 2014 study",
+    "reasons business users avoid BI applications when data is not trusted, Forrester SAP 2014 study, detailed findings"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

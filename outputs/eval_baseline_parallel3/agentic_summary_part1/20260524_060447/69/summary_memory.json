@@ -1,0 +1,122 @@
+{
+  "original_query": "How many countries are detailed in the report titled \"GLOBAL DIGITAL STATISTICS 2014\"?",
+  "iter": 5,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_01",
+      "found_via_query": "GLOBAL DIGITAL STATISTICS 2014 report countries listed",
+      "summary": "The cover page of the 'GLOBAL DIGITAL STATISTICS 2014' report by 'we are social', indicating it is the 2014 edition and a snapshot of key digital indicators. A world map is featured centrally, suggesting global coverage, but no specific country count is listed.",
+      "key_facts": [
+        "Report title: GLOBAL DIGITAL STATISTICS 2014",
+        "Publisher: we are social",
+        "Edition: 2014",
+        "Description: Snapshot of key digital indicators",
+        "World map graphic indicates global scope"
+      ],
+      "visible_text": [
+        "we are social",
+        "2014 EDITION",
+        "GLOBAL DIGITAL STATISTICS 2014",
+        "WE ARE SOCIAL’S SNAPSHOT OF KEY DIGITAL INDICATORS"
+      ]
+    },
+    {
+      "iter": 1,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_01",
+      "found_via_query": "GLOBAL DIGITAL STATISTICS 2014 report countries listed page count",
+      "summary": "The cover page of the 'GLOBAL DIGITAL STATISTICS 2014' report by 'we are social', indicating it is the 2014 edition and a snapshot of key digital indicators. A world map is featured centrally, suggesting global coverage, but no specific country count is listed.",
+      "key_facts": [
+        "Report title: GLOBAL DIGITAL STATISTICS 2014",
+        "Publisher: we are social",
+        "Edition: 2014",
+        "Description: Snapshot of key digital indicators",
+        "World map graphic indicates global scope"
+      ],
+      "visible_text": [
+        "we are social",
+        "2014 EDITION",
+        "GLOBAL DIGITAL STATISTICS 2014",
+        "WE ARE SOCIAL’S SNAPSHOT OF KEY DIGITAL INDICATORS"
+      ]
+    },
+    {
+      "iter": 2,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_01",
+      "found_via_query": "GLOBAL DIGITAL STATISTICS 2014 report countries listed in detailed table or index",
+      "summary": "The cover page of the 'GLOBAL DIGITAL STATISTICS 2014' report by 'we are social', indicating it is the 2014 edition and a snapshot of key digital indicators. A world map is featured centrally, suggesting global coverage, but no specific country count is listed.",
+      "key_facts": [
+        "Report title: GLOBAL DIGITAL STATISTICS 2014",
+        "Publisher: we are social",
+        "Edition: 2014",
+        "Description: Snapshot of key digital indicators",
+        "World map graphic indicates global scope"
+      ],
+      "visible_text": [
+        "we are social",
+        "2014 EDITION",
+        "GLOBAL DIGITAL STATISTICS 2014",
+        "WE ARE SOCIAL’S SNAPSHOT OF KEY DIGITAL INDICATORS"
+      ]
+    },
+    {
+      "iter": 3,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_01",
+      "found_via_query": "GLOBAL DIGITAL STATISTICS 2014 report page with list of countries or country count",
+      "summary": "The cover page of the 'GLOBAL DIGITAL STATISTICS 2014' report by 'we are social', indicating it is the 2014 edition and a snapshot of key digital indicators. A world map is featured centrally, suggesting global coverage, but no specific country count is listed.",
+      "key_facts": [
+        "Report title: GLOBAL DIGITAL STATISTICS 2014",
+        "Publisher: we are social",
+        "Edition: 2014",
+        "Description: Snapshot of key digital indicators",
+        "World map graphic indicates global scope"
+      ],
+      "visible_text": [
+        "we are social",
+        "2014 EDITION",
+        "GLOBAL DIGITAL STATISTICS 2014",
+        "WE ARE SOCIAL’S SNAPSHOT OF KEY DIGITAL INDICATORS"
+      ]
+    },
+    {
+      "iter": 4,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_01",
+      "found_via_query": "GLOBAL DIGITAL STATISTICS 2014 report page listing countries or country count",
+      "summary": "The cover page of the 'GLOBAL DIGITAL STATISTICS 2014' report by 'we are social', indicating it is the 2014 edition and a snapshot of key digital indicators. A world map is featured centrally, suggesting global coverage, but no specific country count is listed.",
+      "key_facts": [
+        "Report title: GLOBAL DIGITAL STATISTICS 2014",
+        "Publisher: we are social",
+        "Edition: 2014",
+        "Description: Snapshot of key digital indicators",
+        "World map graphic indicates global scope"
+      ],
+      "visible_text": [
+        "we are social",
+        "2014 EDITION",
+        "GLOBAL DIGITAL STATISTICS 2014",
+        "WE ARE SOCIAL’S SNAPSHOT OF KEY DIGITAL INDICATORS"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 3,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_01",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/69/images/iter_03_2014globaldigitalsociallandscape_140803004322_phpapp02_95_page_01_200k.png"
+    },
+    {
+      "iter": 4,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_01",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/69/images/iter_04_2014globaldigitalsociallandscape_140803004322_phpapp02_95_page_01_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "GLOBAL DIGITAL STATISTICS 2014 report countries listed",
+    "GLOBAL DIGITAL STATISTICS 2014 report countries listed page count",
+    "GLOBAL DIGITAL STATISTICS 2014 report countries listed in detailed table or index",
+    "GLOBAL DIGITAL STATISTICS 2014 report page with list of countries or country count",
+    "GLOBAL DIGITAL STATISTICS 2014 report page listing countries or country count"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

@@ -1,0 +1,42 @@
+{
+  "original_query": "What does management strive for?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_09",
+      "found_via_query": "What does management strive for?",
+      "summary": "The image explains management's goals in terms of efficiency and effectiveness. Efficiency (means) focuses on resource usage with low waste, while effectiveness (ends) focuses on goal attainment with high attainment. Management strives for both: low resource waste (high efficiency) and high goal attainment (high effectiveness).",
+      "key_facts": [
+        "Management strives for low resource waste (high efficiency)",
+        "Management strives for high goal attainment (high effectiveness)",
+        "Efficiency is about resource usage and low waste",
+        "Effectiveness is about goal attainment and high attainment"
+      ],
+      "visible_text": [
+        "EFFICIENCY AND EFFECTIVENESS IN MANAGEMENT (Exhibit 1.2)",
+        "Efficiency (Means)",
+        "Effectiveness (Ends)",
+        "Resource Usage",
+        "Goal Attainment",
+        "Low Waste",
+        "High Attainment",
+        "Management Strives For: Low resource waste (high efficiency) High goal attainment (high effectiveness)",
+        "© 2003 Pearson Education Canada Inc.",
+        "1.9"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_09",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/135/images/iter_00_chapter1_introductiontomanagementandorganizations_090411125412_phpapp02_95_page__200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What does management strive for?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

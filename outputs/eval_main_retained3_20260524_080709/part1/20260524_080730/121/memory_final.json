@@ -1,0 +1,42 @@
+{
+  "original_query": "How many major languages are there in the country that has control over mainland China and the largely self-governing territories of Hong Kong (since 1997) and Macau (since 1999)?",
+  "confirmed": [
+    {
+      "answer_text": "Major Languages: Mandarin, Yue (Cantonese), Wu (Shanghainese), Minbei (Fuzhou), Minnan (Hokkien-Taiwanese), Xiang, Gan, Hakka dialects",
+      "summary": "A fact sheet detailing key information about the People's Republic of China, including its official name, capital, area, population, literacy rate, GDP per capita, major languages, currency, and time zone.",
+      "key_facts": [
+        "Major Languages: Mandarin, Yue (Cantonese), Wu (Shanghainese), Minbei (Fuzhou), Minnan (Hokkien-Taiwanese), Xiang, Gan, Hakka dialects"
+      ],
+      "image_ref": {
+        "id": "f8e6106577675b66",
+        "page_label": "chinatourismreport-100310054348-phpapp01_95/page_03",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/121/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What are the major languages spoken in mainland China, Hong Kong, and Macau?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What are the major languages spoken in mainland China, Hong Kong, and Macau?",
+      "page_label": "chinatourismreport-100310054348-phpapp01_95/page_03",
+      "decision": "yes",
+      "summary": "A fact sheet detailing key information about the People's Republic of China, including its official name, capital, area, population, literacy rate, GDP per capita, major languages, currency, and time zone.",
+      "key_facts": [
+        "Major Languages: Mandarin, Yue (Cantonese), Wu (Shanghainese), Minbei (Fuzhou), Minnan (Hokkien-Taiwanese), Xiang, Gan, Hakka dialects"
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "The People's Republic of China, which controls mainland China and the territories of Hong Kong and Macau, has multiple major languages. The official language is Mandarin, but regional dialects such as Cantonese (Yue), Shanghainese (Wu), Fuzhou (Minbei), Hokkien-Taiwanese (Minnan), Xiang, Gan, and Hakka are also widely spoken, reflecting the country's linguistic diversity.",
+  "consolidated_key_facts": [
+    "Mandarin is the official language of the People's Republic of China.",
+    "Cantonese (Yue), Shanghainese (Wu), Fuzhou (Minbei), Hokkien-Taiwanese (Minnan), Xiang, Gan, and Hakka are major regional dialects spoken across the country."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/121/images"
+}

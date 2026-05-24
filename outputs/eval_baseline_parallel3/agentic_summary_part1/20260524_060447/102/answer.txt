@@ -1,0 +1,1 @@
+DEVOPS connects to the "Principles," "Management Framework," and "Practices" sections in the diagram, which together form the core components of the Enterprise DevOps Adoption Model. These are supported by the "Value/Purpose" at the top and the "Environment" at the base, with arrows guiding questions about developing people and improving work.

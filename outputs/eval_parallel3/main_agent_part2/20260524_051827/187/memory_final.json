@@ -1,0 +1,52 @@
+{
+  "original_query": "Which two characteristics involve Shared Information, Knowledge Development, Performance-Reward Linkage, and Egalitarianism?",
+  "confirmed": [],
+  "partials": [
+    {
+      "partial_answer": "The page identifies Shared Information, Knowledge Development, Performance-Reward Linkage, and Egalitarianism as the four underlying principles of high-performance work systems (HPWS).",
+      "image_ref": {
+        "id": "5f839f82d117f4a9",
+        "page_label": "ch16-150313050025-conversion-gate01_95/page_06",
+        "pixel_budget": 200000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/187/images/partial_02_200k.png"
+      },
+      "cited_statements": [
+        "Underlying Principles of High-Performance Work Systems"
+      ],
+      "remaining_gap": "The page does not specify any characteristics that involve these principles, so the question about characteristics involving them cannot be fully answered from this page alone.",
+      "found_via_query": "organizational behavior characteristics involving Shared Information, Knowledge Development, Performance-Reward Linkage, and Egalitarianism",
+      "found_at_iter": 2
+    },
+    {
+      "partial_answer": "The page identifies Shared Information, Knowledge Development, Performance-Reward Linkage, and Egalitarianism as the four underlying principles of high-performance work systems (HPWS).",
+      "image_ref": {
+        "id": "5f839f82d117f4a9",
+        "page_label": "ch16-150313050025-conversion-gate01_95/page_06",
+        "pixel_budget": 200000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/187/images/partial_03_200k.png"
+      },
+      "cited_statements": [
+        "Underlying Principles of High-Performance Work Systems"
+      ],
+      "remaining_gap": "The page does not specify any characteristics that involve these principles, so the question about characteristics involving them cannot be fully answered from this page alone.",
+      "found_via_query": "organizational behavior characteristics linked to Shared Information, Knowledge Development, Performance-Reward Linkage, and Egalitarianism",
+      "found_at_iter": 3
+    }
+  ],
+  "warnings": [
+    {
+      "query_tried": "organizational behavior characteristics involving Shared Information, Knowledge Development, Performance-Reward Linkage, and Egalitarianism",
+      "failure_type": "wrong_domain",
+      "suggestion": "The question is asking for characteristics that involve the listed principles, but the diagram only lists the principles themselves. The page does not contain information about characteristics that involve these principles. Consider rephrasing the question to ask what the four principles are, or to ask how these principles relate to each other or to a specific characteristic.",
+      "image_id": "a75d15003e06648c"
+    },
+    {
+      "query_tried": "organizational behavior characteristics associated with Shared Information, Knowledge Development, Performance-Reward Linkage, and Egalitarianism in high-performance work systems",
+      "failure_type": "wrong_domain",
+      "suggestion": "Rephrase the question to ask 'What are the four underlying principles of high-performance work systems?' or 'How are Shared Information, Knowledge Development, Performance-Reward Linkage, and Egalitarianism related to each other?'",
+      "image_id": "a75d15003e06648c"
+    }
+  ],
+  "iter": 5,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/187/images"
+}

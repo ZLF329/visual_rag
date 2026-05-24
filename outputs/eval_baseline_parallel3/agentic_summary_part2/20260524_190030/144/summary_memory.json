@@ -1,0 +1,43 @@
+{
+  "original_query": "Which factor has the weakest influence on a buyer's consideration list?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_09",
+      "found_via_query": "What factors influence a buyer's consideration list, and which has the weakest influence?",
+      "summary": "The infographic highlights key influencers on a buyer's vehicle consideration list, with TV ads having the strongest influence at 70%, followed by reviews on vehicle sites at 80% and information on manufacturer websites at 78%. Factors with weaker influence include online video ads (36%), likes/tweets by auto manufacturers (25%), and what I hear on the radio (33%). The weakest influence is indicated as 'No Influence' at the left end of the scale, with no specific factor listed below 25%.",
+      "key_facts": [
+        "TV ads have the strongest influence at 70%",
+        "Reviews on vehicle review sites have 80% influence",
+        "Information on auto manufacturer websites has 78% influence",
+        "Online video ads have 36% influence",
+        "Likes/tweets by auto manufacturers have 25% influence",
+        "What I hear on the radio has 33% influence",
+        "No influence is indicated at the left end of the scale"
+      ],
+      "visible_text": [
+        "KEY INFLUENCERS ON THE SHORT LIST: TV is the Media with the Most Sway on a Buyer's Consideration List",
+        "What has the strongest influence on your decision to add a vehicle to your consideration list? (A25-54) (Top 3 box agree)",
+        "NO INFLUENCE",
+        "STRONG INFLUENCE",
+        "Source: CAB Automotive Buyers Study, Dec. 2011",
+        "AUTONOTIVE TV ADVERTISING",
+        "THE FAST LANE TO ATTRACTING LIKELY BUYERS",
+        "CABLE TELEVISION ADVERTISING BUREAU"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_09",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_190030/144/images/iter_00_autoreport_cs6_140415111854_phpapp02_95_page_09_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What factors influence a buyer's consideration list, and which has the weakest influence?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

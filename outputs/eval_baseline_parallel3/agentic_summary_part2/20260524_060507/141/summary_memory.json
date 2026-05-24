@@ -1,0 +1,72 @@
+{
+  "original_query": "What are two types of a device to permit constrained relative motion between two parts, typically rotation or linear movement?",
+  "iter": 3,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "bearing1-151117114834-lva1-app6892_95/page_02",
+      "found_via_query": "types of mechanical devices that permit constrained relative motion such as rotation or linear movement",
+      "summary": "The page defines bearings as devices that permit constrained relative motion between two parts, typically rotation or linear movement. It also states that bearings may be classified broadly according to the motions they allow and their principle of operation.",
+      "key_facts": [
+        "A bearing is a device to permit constrained relative motion between two parts, typically rotation or linear movement.",
+        "Bearings may be classified broadly according to the motions they allow and according to their principle of operation."
+      ],
+      "visible_text": [
+        "BEARINGS",
+        "A bearing is a device to permit constrained relative motion between two parts, typically rotation or linear movement.",
+        "Bearings may be classified broadly according to the motions they allow and according to their principle of operation"
+      ]
+    },
+    {
+      "iter": 1,
+      "page_label": "bearing1-151117114834-lva1-app6892_95/page_02",
+      "found_via_query": "types of bearings based on motion and principle of operation",
+      "summary": "The page defines bearings as devices that permit constrained relative motion between two parts, typically rotation or linear movement. It also states that bearings may be classified broadly according to the motions they allow and their principle of operation.",
+      "key_facts": [
+        "A bearing is a device to permit constrained relative motion between two parts, typically rotation or linear movement.",
+        "Bearings may be classified broadly according to the motions they allow and according to their principle of operation."
+      ],
+      "visible_text": [
+        "BEARINGS",
+        "A bearing is a device to permit constrained relative motion between two parts, typically rotation or linear movement.",
+        "Bearings may be classified broadly according to the motions they allow and according to their principle of operation"
+      ]
+    },
+    {
+      "iter": 2,
+      "page_label": "bearing1-151117114834-lva1-app6892_95/page_11",
+      "found_via_query": "types of bearings including ball bearings and roller bearings",
+      "summary": "The page displays four types of roller bearings: Needle, Roller, Tapered Roller, and Spherical Roller, each illustrated with a diagram. The title 'Roller Bearings' indicates the focus is on this specific category of bearings.",
+      "key_facts": [
+        "The page illustrates four types of roller bearings: Needle, Roller, Tapered Roller, and Spherical Roller.",
+        "Each bearing type is shown with a corresponding diagram."
+      ],
+      "visible_text": [
+        "Roller Bearings",
+        "Needle",
+        "Roller",
+        "Tapered Roller",
+        "Spherical Roller"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 1,
+      "page_label": "bearing1-151117114834-lva1-app6892_95/page_02",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/141/images/iter_01_bearing1_151117114834_lva1_app6892_95_page_02_200k.png"
+    },
+    {
+      "iter": 2,
+      "page_label": "bearing1-151117114834-lva1-app6892_95/page_11",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/141/images/iter_02_bearing1_151117114834_lva1_app6892_95_page_11_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "types of mechanical devices that permit constrained relative motion such as rotation or linear movement",
+    "types of bearings based on motion and principle of operation",
+    "types of bearings including ball bearings and roller bearings"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

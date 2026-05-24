@@ -1,0 +1,35 @@
+{
+  "original_query": "What is the total percentage of 4G users with the 1 - 500 MB plan and the 501 MB - 1 GB plan in the UK?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_07",
+      "found_via_query": "UK 4G users percentage with 1-500 MB and 501 MB-1 GB plans",
+      "summary": "The slide presents a table showing the percentage of users with different data plan sizes (1-500 MB, 501 MB-1 GB, etc.) across Germany, UK, Russia, and Romania, broken down by 3G and 4G networks. The UK 4G column is highlighted, showing 22% for the 1-500 MB plan and 31% for the 501 MB-1 GB plan. The source is 'Smartphone & tablet usage trends & insights, December 2014'.",
+      "key_facts": [
+        "UK 4G users: 22% with 1-500 MB plan",
+        "UK 4G users: 31% with 501 MB-1 GB plan",
+        "Source: Smartphone & tablet usage trends & insights, December 2014"
+      ],
+      "visible_text": [
+        ".RO smartphone & data consumption insights",
+        "Source: Smartphone & tablet usage trends & insights, December 2014",
+        "IAA Mobile Awareness session, 25th of April 2015",
+        "UK 4G: 22% for 1-500 MB, 31% for 501 MB-1 GB"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_07",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_060427/27/images/iter_00_8eeomnwqsmdmin6levsv_signature_2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "UK 4G users percentage with 1-500 MB and 501 MB-1 GB plans"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

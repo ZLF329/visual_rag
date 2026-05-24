@@ -1,0 +1,41 @@
+{
+  "original_query": "What is the name of the brand which Nestlé acquired in 2000?",
+  "confirmed": [
+    {
+      "answer_text": "Nestlé acquired PowerBar in 2000.",
+      "summary": "A bar chart illustrating Nestlé's significant acquisitions between 2000 and 2011, with sales figures in CHF, showing the brands acquired each year. The chart includes logos and names of acquired companies, with the 2000 acquisitions prominently labeled as PowerBar, ice cream Partners NA, and HOD Waters USA.",
+      "key_facts": [
+        "Nestlé acquired PowerBar in 2000."
+      ],
+      "image_ref": {
+        "id": "1fdf3b70e3e535c0",
+        "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_12",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/6/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What brand did Nestlé acquire in 2000?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What brand did Nestlé acquire in 2000?",
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_12",
+      "decision": "yes",
+      "summary": "A bar chart illustrating Nestlé's significant acquisitions between 2000 and 2011, with sales figures in CHF, showing the brands acquired each year. The chart includes logos and names of acquired companies, with the 2000 acquisitions prominently labeled as PowerBar, ice cream Partners NA, and HOD Waters USA.",
+      "key_facts": [
+        "Nestlé acquired PowerBar in 2000."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "Nestlé acquired several brands in 2000, including PowerBar, ice cream Partners NA, and HOD Waters USA, as shown in a bar chart detailing its acquisitions between 2000 and 2011.",
+  "consolidated_key_facts": [
+    "Nestlé acquired PowerBar in 2000."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/6/images"
+}

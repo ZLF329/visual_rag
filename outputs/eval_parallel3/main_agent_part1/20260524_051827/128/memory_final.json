@@ -1,0 +1,23 @@
+{
+  "original_query": "What are two approaches for what is also called linkage disequilibrium mapping?",
+  "confirmed": [
+    {
+      "answer_text": "The two approaches are 'Family-based Linkage mapping' and 'LD-based Association mapping'.",
+      "image_ref": {
+        "id": "af1bbc29aaa51200",
+        "page_label": "associationmappinginplants-150413205026-conversion-gate01_95/page_04",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/128/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "Two main approaches",
+        "LD-based Association mapping"
+      ],
+      "found_via_query": "linkage disequilibrium mapping approaches"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/128/images"
+}

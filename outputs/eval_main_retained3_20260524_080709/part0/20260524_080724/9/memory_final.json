@@ -1,0 +1,44 @@
+{
+  "original_query": "What is the percentage of the 10-year annual average of the Real Internal Growth for the company which has the tagline \"Good Food, Good Life\"?",
+  "confirmed": [
+    {
+      "answer_text": "The 10-year annual average Real Internal Growth for Nestlé is 3.6%.; Nestlé is the company with the tagline 'Good Food, Good Life'.",
+      "summary": "The page presents a bar chart showing the 10-year annual averages of organic growth and real internal growth for Nestlé, along with a line graph illustrating EBIT margin improvement from 2001 to 2011. The 10-year average real internal growth is explicitly stated as 3.6%.",
+      "key_facts": [
+        "The 10-year annual average Real Internal Growth for Nestlé is 3.6%.",
+        "Nestlé is the company with the tagline 'Good Food, Good Life'."
+      ],
+      "image_ref": {
+        "id": "81c21f035635270a",
+        "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_07",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/9/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What is the 10-year annual average Real Internal Growth percentage for the company with the tagline 'Good Food, Good Life'?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What is the 10-year annual average Real Internal Growth percentage for the company with the tagline 'Good Food, Good Life'?",
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_07",
+      "decision": "yes",
+      "summary": "The page presents a bar chart showing the 10-year annual averages of organic growth and real internal growth for Nestlé, along with a line graph illustrating EBIT margin improvement from 2001 to 2011. The 10-year average real internal growth is explicitly stated as 3.6%.",
+      "key_facts": [
+        "The 10-year annual average Real Internal Growth for Nestlé is 3.6%.",
+        "Nestlé is the company with the tagline 'Good Food, Good Life'."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "The page confirms that Nestlé, identified by the tagline 'Good Food, Good Life', has a 10-year annual average Real Internal Growth of 3.6%, as shown in a bar chart and line graph on the page. This data is directly relevant to the original query.",
+  "consolidated_key_facts": [
+    "The 10-year annual average Real Internal Growth for Nestlé is 3.6%.",
+    "Nestlé is the company with the tagline 'Good Food, Good Life'."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/9/images"
+}

@@ -1,0 +1,23 @@
+{
+  "original_query": "Which Activity is undertaken by more smartphone users, Email services or Social networks?",
+  "confirmed": [
+    {
+      "answer_text": "Social networks are undertaken by more smartphone users than Email services.",
+      "image_ref": {
+        "id": "e67436da3a0ba840",
+        "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_05",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_051827/24/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "Email services: 70%",
+        "Social networks: 88%"
+      ],
+      "found_via_query": "smartphone user activity comparison email services vs social networks"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_051827/24/images"
+}

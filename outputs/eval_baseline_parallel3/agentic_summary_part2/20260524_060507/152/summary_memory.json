@@ -1,0 +1,49 @@
+{
+  "original_query": "Which fluctuates more, agriculture or automotive growth?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_11",
+      "found_via_query": "comparison of fluctuation in agriculture vs automotive growth",
+      "summary": "A line chart from BASF's 2011 roundtable on agricultural solutions compares the growth fluctuations of World GDP, Agriculture, and Automotive sectors from 1972 to 2010. The Automotive sector (blue line) shows more pronounced peaks and troughs compared to Agriculture (green line), which remains relatively stable. Key crises like the 1973 oil crisis, 1990 Gulf War, 1997/98 Asia crisis, 2000 Dotcom crisis, 2001 9/11, and 2008/09 Financial crisis are marked with dashed lines.",
+      "key_facts": [
+        "Automotive growth (blue line) fluctuates more than Agriculture (green line).",
+        "Agriculture growth remains relatively stable compared to the volatile Automotive sector.",
+        "The chart covers the period from 1972 to 2010.",
+        "Key global crises are labeled on the chart, including oil crises, Gulf War, Asia crisis, Dotcom crisis, 9/11, and Financial crisis."
+      ],
+      "visible_text": [
+        "Agriculture is resilient to crises",
+        "Growth* in %",
+        "World GDP Growth",
+        "Agriculture",
+        "Automotive",
+        "1973: 1st oil crisis",
+        "1979/80: 2nd oil crisis",
+        "1981: US-loan crisis",
+        "1991: Japan crisis",
+        "1990/91: Gulf war I",
+        "1997/98: Asia crisis",
+        "2000: Dotcom crisis",
+        "2001: 9/11",
+        "2008/09: Financial crisis",
+        "*GDP: Annual percentage change of a country's GDP in constant prices of base year 2005",
+        "Source: BASF analysis of FAO, IHS Global Insight and national statistics (e.g. Eurostat)",
+        "BASF Roundtable Agricultural Solutions, August 8, 2011"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_11",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/152/images/iter_00_basfroundtableagrosolutions2011_110808043440_phpapp02_95_page_11_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "comparison of fluctuation in agriculture vs automotive growth"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

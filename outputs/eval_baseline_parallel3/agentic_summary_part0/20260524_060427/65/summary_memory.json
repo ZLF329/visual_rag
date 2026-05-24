@@ -1,0 +1,63 @@
+{
+  "original_query": "What is Old Act Section 4 in the New Act Section?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "1-150711120533-lva1-app6892_95/page_10",
+      "found_via_query": "Old Act Section 4 vs New Act Section legal text comparison",
+      "summary": "A comparative table showing provisions of the old Act and new Act, mapping each process to its corresponding section number in both acts. The table includes 9 processes, with Old Act Section 4 mapped to New Act Section 11.",
+      "key_facts": [
+        "The table compares 'Preliminary notification' under Old Act Section 4 to New Act Section 11.",
+        "The table lists 9 processes with their respective section numbers in both the old and new Acts."
+      ],
+      "visible_text": [
+        "Comparative Provisions of old Act and new Act.",
+        "Sr. No.",
+        "Process",
+        "Old Act Section",
+        "New Act Section",
+        "1 Preliminary notification",
+        "4",
+        "11",
+        "2 5A Hearing",
+        "5A",
+        "15",
+        "3 Declaration of Resettlement Area & Public Purpose (by Secretary or Officer Authorized)",
+        "6",
+        "19",
+        "4 Award",
+        "11",
+        "23/30/31",
+        "5 Correction of clerical errors. etc.",
+        "13A",
+        "33",
+        "6 Possession",
+        "16",
+        "38",
+        "7 Urgency Clause",
+        "17",
+        "40",
+        "8 Ref. to Court /Authority",
+        "18",
+        "64",
+        "9 Matters to be considered",
+        "23",
+        "27",
+        "pkachare@gmail.com"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "1-150711120533-lva1-app6892_95/page_10",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_060427/65/images/iter_00_1_150711120533_lva1_app6892_95_page_10_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "Old Act Section 4 vs New Act Section legal text comparison"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

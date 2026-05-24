@@ -1,0 +1,22 @@
+{
+  "original_query": "Is eBook Penetration higher in Public or Academic libraries?",
+  "confirmed": [
+    {
+      "answer_text": "eBook penetration is higher in Academic libraries than in Public libraries.",
+      "image_ref": {
+        "id": "833117adf7036b71",
+        "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_06",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/88/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "The bar chart shows that for each year (2010, 2011, 2012), the 'Academic' category (light pink bars) is taller than the 'Public' category (red bars)."
+      ],
+      "found_via_query": "eBook penetration rate comparison Public vs Academic libraries"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/88/images"
+}

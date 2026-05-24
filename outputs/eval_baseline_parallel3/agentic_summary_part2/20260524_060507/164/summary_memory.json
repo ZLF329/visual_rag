@@ -1,0 +1,41 @@
+{
+  "original_query": "What are some content conversion points?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_10",
+      "found_via_query": "content conversion points",
+      "summary": "A diagram illustrating various content conversion points, with a central circle labeled 'Content conversion point' surrounded by categories including Social Media, Other Media, Blog, External Blogs, Influence, and an ellipsis indicating more options. The image is branded with 'InSites Consulting' and 'Conversationmanagement.biz'.",
+      "key_facts": [
+        "Central concept: 'Content conversion point'.",
+        "Surrounding categories: Social Media, Other Media, Blog, External Blogs, Influence, and an ellipsis for more.",
+        "Branded by 'InSites Consulting' and 'Conversationmanagement.biz'."
+      ],
+      "visible_text": [
+        "Content conversion point",
+        "Social Media",
+        "Other Media",
+        "Blog",
+        "External Blogs",
+        "Influence",
+        "…",
+        "Conversationmanagement.biz",
+        "@Steven_InSites",
+        "InSites Consulting"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_10",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/164/images/iter_00_asixstepcontentmarketingmodel_120206005134_phpapp01_95_page_10_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "content conversion points"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

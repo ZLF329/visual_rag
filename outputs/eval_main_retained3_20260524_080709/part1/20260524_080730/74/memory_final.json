@@ -1,0 +1,46 @@
+{
+  "original_query": "What percentage of the TOTAL POPULATION in NORTH AMERICA are ACTIVE SOCIAL NETWORK USERS?",
+  "confirmed": [],
+  "partials": [
+    {
+      "partial_answer": "Total population of North America: 351,300,266; Active social network users: 197,033,600",
+      "summary": "The infographic displays key demographic and digital statistics for North America as of January 2014, including total population, internet users, active social network users, and mobile subscriptions, along with their respective penetration rates.",
+      "key_facts": [
+        "Total population of North America: 351,300,266",
+        "Active social network users: 197,033,600"
+      ],
+      "image_ref": {
+        "id": "ecdfdf7458b8825f",
+        "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_17",
+        "pixel_budget": 200000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/74/images/partial_01_200k.png"
+      },
+      "cited_statements": [],
+      "remaining_gap": "",
+      "found_via_query": "What percentage of the total population in North America are active social network users?",
+      "found_at_iter": 0
+    }
+  ],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What percentage of the total population in North America are active social network users?",
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_17",
+      "decision": "partial",
+      "summary": "The infographic displays key demographic and digital statistics for North America as of January 2014, including total population, internet users, active social network users, and mobile subscriptions, along with their respective penetration rates.",
+      "key_facts": [
+        "Total population of North America: 351,300,266",
+        "Active social network users: 197,033,600"
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "The latest page provides demographic data for North America as of January 2014, including a total population of 351,300,266 and 197,033,600 active social network users. The data is sourced from an infographic and is not current beyond 2014. The percentage of active social network users among the total population can be calculated from these figures, but the result is not yet confirmed due to partial reliability of the data source and lack of recent updates.",
+  "consolidated_key_facts": [
+    "Total population of North America (as of Jan 2014): 351,300,266",
+    "Active social network users (as of Jan 2014): 197,033,600"
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/74/images"
+}

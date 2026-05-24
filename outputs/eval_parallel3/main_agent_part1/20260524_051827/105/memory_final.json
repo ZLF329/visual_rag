@@ -1,0 +1,22 @@
+{
+  "original_query": "What is the Data policy?",
+  "confirmed": [
+    {
+      "answer_text": "Data providers are put through a legal & technical vetting process to ensure capabilities, brand safety and OBA compliance.",
+      "image_ref": {
+        "id": "59655a3078fca0e0",
+        "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_13",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/105/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "Data providers are put through a legal & technical vetting process to ensure capabilities, brand safety and OBA compliance"
+      ],
+      "found_via_query": "definition of Data policy"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/105/images"
+}

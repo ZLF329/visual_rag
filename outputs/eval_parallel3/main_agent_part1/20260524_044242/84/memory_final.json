@@ -1,0 +1,23 @@
+{
+  "original_query": "What is # TYPE 1 UNCUT about?",
+  "confirmed": [
+    {
+      "answer_text": "#TYPE 1 UNCUT is an online resource and video platform for young people with Type 1 diabetes, created in collaboration with Diabetes UK and Garfield Weston Foundation.",
+      "image_ref": {
+        "id": "ce9fd7ee4f028bd9",
+        "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_19",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_parallel3/main_agent_part1/20260524_044242/84/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        " #type1uncut started with Garfield Weston Foundation getting together with Diabetes UK to provide an online resource for young people with Type1 diabetes.",
+        " They now make and publish videos on the subjects they really care about on youtube.com/type1uncut"
+      ],
+      "found_via_query": "What is # TYPE 1 UNCUT about?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "outputs/eval_parallel3/main_agent_part1/20260524_044242/84/images"
+}

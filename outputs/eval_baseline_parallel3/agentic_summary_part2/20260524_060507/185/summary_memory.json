@@ -1,0 +1,42 @@
+{
+  "original_query": "What are three components of System Design?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "ch16-150313050025-conversion-gate01_95/page_05",
+      "found_via_query": "three components of System Design",
+      "summary": "The image displays a flowchart titled 'Developing High-Performance Work Systems' that outlines the process from 'Linkages to Strategy' and 'Principles of High Involvement' leading to 'System Design', which then flows into 'The Implementation Process' and finally to 'OUTCOMES'. The 'System Design' box lists three components: Work flow, HRM practices, and Support technology.",
+      "key_facts": [
+        "System Design has three components: Work flow, HRM practices, and Support technology.",
+        "The diagram shows the flow from 'Linkages to Strategy' and 'Principles of High Involvement' to 'System Design'.",
+        "The process continues through 'The Implementation Process' to 'OUTCOMES'."
+      ],
+      "visible_text": [
+        "Developing High-Performance Work Systems",
+        "System Design",
+        "• Work flow",
+        "• HRM practices",
+        "• Support technology",
+        "OUTCOMES",
+        "• Organizational",
+        "• Employee",
+        "Copyright © 2004 South-Western. All rights reserved.",
+        "Figure 16.1",
+        "16-5 Presentation Slide 16-1"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "ch16-150313050025-conversion-gate01_95/page_05",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/185/images/iter_00_ch16_150313050025_conversion_gate01_95_page_05_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "three components of System Design"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

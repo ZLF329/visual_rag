@@ -1,0 +1,44 @@
+{
+  "original_query": "What is the percentage of the respondents who answer General resistance to change is the BARRIER to further AGILE ADOPTION?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_05",
+      "found_via_query": "Survey results on barriers to Agile adoption, specifically percentage of respondents citing 'General resistance to change'",
+      "summary": "The image presents a chart titled 'Culture is #1 Barrier to Agile,' showing percentages of respondents who cited various barriers to further Agile adoption. The most cited barrier is 'Inability to change organizational culture' at 53%, followed by 'General resistance to change' at 42%.",
+      "key_facts": [
+        "53% of respondents cited 'Inability to change organizational culture' as the top barrier.",
+        "42% cited 'General resistance to change' as a barrier.",
+        "Other barriers include: 35% for 'Trying to fit agile elements into a non-agile framework', 33% for 'Availability of personnel with right skills', 30% for 'Management support', 28% for 'Project complexity', 25% for 'Customer collaboration', 23% for 'Confidence in ability to scale', 13% for 'Budget constraints', 13% for 'Perceived time to transition', and 13% for 'None'."
+      ],
+      "visible_text": [
+        "Culture is #1 Barrier to Agile",
+        "BARRIERS TO FURTHER AGILE ADOPTION",
+        "53% Inability to change organizational culture",
+        "42% General resistance to change",
+        "35% Trying to fit agile elements into a non-agile framework",
+        "30% Management support",
+        "28% Project complexity",
+        "25% Customer collaboration",
+        "23% Confidence in ability to scale",
+        "13% Budget constraints",
+        "13% Perceived time to transition",
+        "13% None",
+        "Copyright VersionOne 2013"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_05",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_060427/43/images/iter_00_agileenterprise_reinventingorgs_150402022438_conversion_gate01_95_page_05_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "Survey results on barriers to Agile adoption, specifically percentage of respondents citing 'General resistance to change'"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

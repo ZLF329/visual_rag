@@ -1,0 +1,24 @@
+{
+  "original_query": "Do most buyers type the URL address directly into Internet or use a search engine every visit?",
+  "confirmed": [
+    {
+      "answer_text": "Most buyers type the URL address directly into the Internet, with 55% doing so, compared to 42% who searched on the Internet.",
+      "image_ref": {
+        "id": "8a959003f24f7e12",
+        "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_14",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_parallel3/main_agent_part2/20260524_044242/146/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "55% Typed web address directly into Internet",
+        "42% Searched on the Internet",
+        "Only 21% used a search engine every time before visiting the site"
+      ],
+      "found_via_query": "user behavior URL direct entry vs search engine usage"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "outputs/eval_parallel3/main_agent_part2/20260524_044242/146/images"
+}

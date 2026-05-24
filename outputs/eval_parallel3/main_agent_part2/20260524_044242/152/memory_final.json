@@ -1,0 +1,23 @@
+{
+  "original_query": "Which fluctuates more, agriculture or automotive growth?",
+  "confirmed": [
+    {
+      "answer_text": "Automotive growth fluctuates more than agriculture growth.",
+      "image_ref": {
+        "id": "f1776fa404deff04",
+        "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_11",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_parallel3/main_agent_part2/20260524_044242/152/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "The blue line (Automotive) shows more pronounced peaks and troughs compared to the green line (Agriculture).",
+        "The automotive growth line exhibits greater volatility."
+      ],
+      "found_via_query": "agriculture vs automotive growth fluctuation analysis"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "outputs/eval_parallel3/main_agent_part2/20260524_044242/152/images"
+}

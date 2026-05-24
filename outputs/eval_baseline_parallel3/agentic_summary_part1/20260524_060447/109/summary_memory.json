@@ -1,0 +1,47 @@
+{
+  "original_query": "Which Buy type has the Reservation type of Reserved?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_08",
+      "found_via_query": "Buy type and Reservation type mapping in reservation system",
+      "summary": "A table comparing different buy types in programmatic advertising, showing their reservation type, pricing, participation, and terminology. The 'Automated guaranteed' buy type is listed with a 'Reserved' reservation type.",
+      "key_facts": [
+        "Automated guaranteed buy type has Reservation type: Reserved",
+        "Pricing for Automated guaranteed is Fixed",
+        "Participation is One buyer",
+        "Terminology includes: Programmatic guaranteed, Programmatic premium, Programmatic direct, Programmatic reserved"
+      ],
+      "visible_text": [
+        "But programmatic is more than just RTB",
+        "Buy type",
+        "Reservation type",
+        "Pricing",
+        "Participation",
+        "Terminology",
+        "Automated guaranteed",
+        "Reserved",
+        "Fixed",
+        "One buyer",
+        "Programmatic guaranteed",
+        "Programmatic premium",
+        "Programmatic direct",
+        "Programmatic reserved",
+        "©2014. All rights reserved. VivaKi. Proprietary and Confidential."
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_08",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/109/images/iter_00_24042014iforumkievmartaklepkapublicisgroupe_140514070615_phpapp01_95_page_08_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "Buy type and Reservation type mapping in reservation system"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

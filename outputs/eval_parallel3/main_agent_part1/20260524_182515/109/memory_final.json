@@ -1,0 +1,41 @@
+{
+  "original_query": "Which Buy type has the Reservation type of Reserved?",
+  "confirmed": [
+    {
+      "answer_text": "Automated guaranteed has a Reservation type of Reserved",
+      "summary": "The image presents a table comparing different buy types in programmatic advertising, detailing their reservation type, pricing, participation, and terminology. It includes four buy types: Automated guaranteed, Unreserved fixed rate, Invitation only auction, and Open auction, each with distinct characteristics.",
+      "key_facts": [
+        "Automated guaranteed has a Reservation type of Reserved"
+      ],
+      "image_ref": {
+        "id": "c209c916c7b1233e",
+        "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_08",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_182515/109/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What Buy types are associated with the Reservation type of Reserved?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What Buy types are associated with the Reservation type of Reserved?",
+      "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_08",
+      "decision": "yes",
+      "summary": "The image presents a table comparing different buy types in programmatic advertising, detailing their reservation type, pricing, participation, and terminology. It includes four buy types: Automated guaranteed, Unreserved fixed rate, Invitation only auction, and Open auction, each with distinct characteristics.",
+      "key_facts": [
+        "Automated guaranteed has a Reservation type of Reserved"
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "[query: What Buy types are associated with the Reservation type of Reserved?] The image presents a table comparing different buy types in programmatic advertising, detailing their reservation type, pricing, participation, and terminology. It includes four buy types: Automated guaranteed, Unreserved fixed rate, Invitation only auction, and Open auction, each with distinct characteristics.",
+  "consolidated_key_facts": [
+    "Automated guaranteed has a Reservation type of Reserved"
+  ],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_182515/109/images"
+}

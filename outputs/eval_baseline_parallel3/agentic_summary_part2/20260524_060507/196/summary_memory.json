@@ -1,0 +1,45 @@
+{
+  "original_query": "What is the flow chart of the penicillin fermentation from?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "antibiotics-141109111447-conversion-gate02_95/page_13",
+      "found_via_query": "penicillin fermentation flow chart",
+      "summary": "The image displays a flow chart titled 'PRODUCTION OF PENICILLIN' illustrating the steps of penicillin fermentation. It shows the sequence from lyophilized culture (spores) to inoculum cultivation, pre-fermenter, production fermenter, filtration, cooling tank, and purification. The chart includes feeding of substrates (carbon source, nitrogen source, phenylacetic acid) and labels key components like cooler, filter, and mycelium. The source is cited as Swartz, 1979.",
+      "key_facts": [
+        "The flow chart is titled 'PRODUCTION OF PENICILLIN'.",
+        "It depicts the fermentation process from lyophilized culture to purification.",
+        "Substrates fed include carbon source, nitrogen source, and phenylacetic acid.",
+        "The diagram includes components: pre-fermenter, production fermenter, cooler, filter, cooling tank, and mycelium.",
+        "The source is cited as Swartz, 1979."
+      ],
+      "visible_text": [
+        "PRODUCTION OF PENICILLIN",
+        "Feeding of substrates (carbon source, nitrogen source, phenylacetic acid)",
+        "Lyophilized culture (Spores)",
+        "Inoculum cultivation",
+        "Prefermenter",
+        "Production fermenter",
+        "Cooler",
+        "Filter",
+        "Mycelium",
+        "Cooling tank",
+        "Purification",
+        "Figure 13.5 Flow chart of the penicillin fermentation (From Swartz, 1979)"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "antibiotics-141109111447-conversion-gate02_95/page_13",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/196/images/iter_00_antibiotics_141109111447_conversion_gate02_95_page_13_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "penicillin fermentation flow chart"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

@@ -1,0 +1,43 @@
+{
+  "original_query": "Who are the authors of the book entitled \"Management\" pictured in the presentation?",
+  "confirmed": [
+    {
+      "answer_text": "The authors of the book 'Management' are Stephen P. Robbins, Mary Coulter, and Robin Stuart-Kotze.",
+      "summary": "The image displays the cover of the textbook 'Management', Canadian Seventh Edition, with the authors' names listed below the title.",
+      "key_facts": [
+        "The authors of the book 'Management' are Stephen P. Robbins, Mary Coulter, and Robin Stuart-Kotze."
+      ],
+      "image_ref": {
+        "id": "54d6f83eac29c6ad",
+        "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_01",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/131/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "Who are the authors of the book 'Management' shown in the presentation?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "Who are the authors of the book 'Management' shown in the presentation?",
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_01",
+      "decision": "yes",
+      "summary": "The image displays the cover of the textbook 'Management', Canadian Seventh Edition, with the authors' names listed below the title.",
+      "key_facts": [
+        "The authors of the book 'Management' are Stephen P. Robbins, Mary Coulter, and Robin Stuart-Kotze."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "The image shows the cover of the Canadian Seventh Edition of the textbook 'Management', and the authors are explicitly listed as Stephen P. Robbins, Mary Coulter, and Robin Stuart-Kotze.",
+  "consolidated_key_facts": [
+    "Stephen P. Robbins is an author of the book 'Management'.",
+    "Mary Coulter is an author of the book 'Management'.",
+    "Robin Stuart-Kotze is an author of the book 'Management'."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/131/images"
+}

@@ -1,0 +1,47 @@
+{
+  "original_query": "What are three components of System Design?",
+  "confirmed": [
+    {
+      "answer_text": "System Design includes work flow; System Design includes HRM practices; System Design includes support technology",
+      "summary": "The image displays a flowchart illustrating the development of high-performance work systems, with 'System Design' as a central component that includes three key elements: work flow, HRM practices, and support technology. These elements lead to an implementation process and ultimately to organizational and employee outcomes.",
+      "key_facts": [
+        "System Design includes work flow",
+        "System Design includes HRM practices",
+        "System Design includes support technology"
+      ],
+      "image_ref": {
+        "id": "1e5972edbf3fb3ae",
+        "page_label": "ch16-150313050025-conversion-gate01_95/page_05",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_182515/185/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What are the three main components of System Design?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What are the three main components of System Design?",
+      "page_label": "ch16-150313050025-conversion-gate01_95/page_05",
+      "decision": "yes",
+      "summary": "The image displays a flowchart illustrating the development of high-performance work systems, with 'System Design' as a central component that includes three key elements: work flow, HRM practices, and support technology. These elements lead to an implementation process and ultimately to organizational and employee outcomes.",
+      "key_facts": [
+        "System Design includes work flow",
+        "System Design includes HRM practices",
+        "System Design includes support technology"
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "[query: What are the three main components of System Design?] The image displays a flowchart illustrating the development of high-performance work systems, with 'System Design' as a central component that includes three key elements: work flow, HRM practices, and support technology. These elements lead to an implementation process and ultimately to organizational and employee outcomes.",
+  "consolidated_key_facts": [
+    "System Design includes workflow",
+    "System Design includes HRM practices",
+    "System Design includes support technology"
+  ],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_182515/185/images"
+}

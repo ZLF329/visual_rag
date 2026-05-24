@@ -1,0 +1,37 @@
+{
+  "original_query": "How many comments were analyzed?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_18",
+      "found_via_query": "number of comments analyzed in the study or report",
+      "summary": "The document describes a study analyzing tweets from 300 brands in a random week in June 2011, which yielded about 246,000 conversations. Insights were derived from data-mining these brand-related conversations, which included spontaneous conversations about brands and content shared by brands. The study also provides insights into what people share on social media, such as experiences with products, offline touchpoints, competitions, free content, collaboration, lifestyle, positive messages, news, advertising, social media news, and employee stories. A sidebar offers advice on content production and highlights that only 10% of Facebook fan page comments are negative.",
+      "key_facts": [
+        "300 brands were analyzed",
+        "About 246,000 conversations were analyzed",
+        "The study was conducted in June 2011",
+        "Only 10% of Facebook fan page comments are negative"
+      ],
+      "visible_text": [
+        "In this instance, we selected a random week in June 2011 and analysed the tweets for 300 brands. This gave us about 246,000 conversations.",
+        "The study gave us insights in the content people share on social media:",
+        "If you produce content, it would be wise to take these conclusions into account.",
+        "Only 10% of the comments on Facebook fan pages and 14% of tweets are negative.",
+        "Conversationmanagement.biz | @Steven_InSites"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_18",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/98/images/iter_00_asixstepcontentmarketingmodel_120206005134_phpapp01_95_page_18_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "number of comments analyzed in the study or report"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

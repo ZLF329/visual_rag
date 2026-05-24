@@ -1,0 +1,41 @@
+{
+  "original_query": "What is the WORLD AVERAGE INTERNET PENETRATION rate as a percent?",
+  "confirmed": [
+    {
+      "answer_text": "The WORLD AVERAGE internet penetration rate is 35%.",
+      "summary": "A bar chart showing internet penetration rates by region as of January 2014, with a specific bar for the world average.",
+      "key_facts": [
+        "The WORLD AVERAGE internet penetration rate is 35%."
+      ],
+      "image_ref": {
+        "id": "e041ecf24eec37e3",
+        "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_08",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/72/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "WORLD AVERAGE INTERNET PENETRATION rate as a percent"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "WORLD AVERAGE INTERNET PENETRATION rate as a percent",
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_08",
+      "decision": "yes",
+      "summary": "A bar chart showing internet penetration rates by region as of January 2014, with a specific bar for the world average.",
+      "key_facts": [
+        "The WORLD AVERAGE internet penetration rate is 35%."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "The world average internet penetration rate as of January 2014 was 35%, based on a bar chart showing regional rates. This figure represents a global average across all regions.",
+  "consolidated_key_facts": [
+    "The WORLD AVERAGE internet penetration rate is 35%."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/72/images"
+}

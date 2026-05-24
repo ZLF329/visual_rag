@@ -1,0 +1,41 @@
+{
+  "original_query": "What is the example of Open Source Technologies, the name of which start with A?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "agiledatascience-140624145954-phpapp02_95/page_11",
+      "found_via_query": "examples of open-source technologies starting with A",
+      "summary": "The page illustrates a data flow environment after data processing, showing that relevant data is selectively included from various sources (like AVG systems) and then processed through an Analytics Sandbox using Open Source Technologies. The technologies listed include Apache Mahout, Apache Hive, Flume, Sqoop, and Oozie, with a final output of minimally viable data products stored in a Relational Database.",
+      "key_facts": [
+        "Open Source Technologies used include Apache Mahout, Apache Hive, Flume, Sqoop, and Oozie.",
+        "The technologies are processed in an Analytics Sandbox before being stored in a Relational Database.",
+        "The goal is to produce minimally viable data products."
+      ],
+      "visible_text": [
+        "2. Environment: After",
+        "Selectively include data that is Relevant",
+        "Analytics Sandbox",
+        "Open Source Technologies",
+        "mahout",
+        "hive",
+        "Apache",
+        "Flume, Sqoop, Oozie, and others",
+        "Relational Database",
+        "Minimally Viable Data Products"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "agiledatascience-140624145954-phpapp02_95/page_11",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/96/images/iter_00_agiledatascience_140624145954_phpapp02_95_page_11_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "examples of open-source technologies starting with A"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

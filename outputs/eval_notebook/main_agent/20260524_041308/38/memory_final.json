@@ -1,0 +1,23 @@
+{
+  "original_query": "In which year may Subnational Debts be relieved more by Government, 2015 or 2016?",
+  "confirmed": [
+    {
+      "answer_text": "Subnational debts may be relieved more by the government in 2015.",
+      "image_ref": {
+        "id": "7f66d128f878ac06",
+        "page_label": "1shangxichinassubnationaldebts-issuesandsuggestions-160229201053_95/page_10",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_notebook/main_agent/20260524_041308/38/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "For 2015, the amount to be relieved by government is 5994.78 (13.81%).",
+        "For 2016, the amount to be relieved by government is 4206.51 (9.69%)."
+      ],
+      "found_via_query": "Subnational Debt relief by Government 2015 vs 2016"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_notebook/main_agent/20260524_041308/38/images"
+}

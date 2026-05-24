@@ -1,0 +1,23 @@
+{
+  "original_query": "Which achieved better performance in 2011, Organic Growth or Real Internal Growth?",
+  "confirmed": [
+    {
+      "answer_text": "Organic Growth achieved better performance in 2011 than Real Internal Growth.",
+      "image_ref": {
+        "id": "81c21f035635270a",
+        "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_07",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_parallel/main_agent_part0/20260524_043642/2/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "10-year annual averages: Organic Growth 6.4%, Real Internal Growth 3.6%",
+        "Bar chart for 2011: Organic Growth 7.5%, Real Internal Growth 6.2%"
+      ],
+      "found_via_query": "Organic Growth vs Real Internal Growth performance 2011"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "outputs/eval_parallel/main_agent_part0/20260524_043642/2/images"
+}

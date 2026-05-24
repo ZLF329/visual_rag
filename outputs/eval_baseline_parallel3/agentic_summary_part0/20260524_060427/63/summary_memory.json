@@ -1,0 +1,37 @@
+{
+  "original_query": "What is the content of Chapter IV?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "1-150711120533-lva1-app6892_95/page_03",
+      "found_via_query": "Chapter IV content",
+      "summary": "The image displays the Chapter Scheme of a New Act, listing chapters with their contents and corresponding sections/provisions. Chapter IV is titled 'Notification and Acquisition' and covers sections 11 to 30.",
+      "key_facts": [
+        "Chapter IV is titled 'Notification and Acquisition'.",
+        "It includes sections 11 to 30."
+      ],
+      "visible_text": [
+        "Chapter Scheme of New Act",
+        "Chapter No.",
+        "Contents of Chapter",
+        "Sections/Provisions",
+        "IV",
+        "Notification and Acquisition",
+        "11 to 30"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "1-150711120533-lva1-app6892_95/page_03",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_060427/63/images/iter_00_1_150711120533_lva1_app6892_95_page_03_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "Chapter IV content"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

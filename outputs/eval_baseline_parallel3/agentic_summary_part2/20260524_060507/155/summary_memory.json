@@ -1,0 +1,40 @@
+{
+  "original_query": "What has explicit rules for a.com, b.com and c.com?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "apachecon2014-140414104319-phpapp02_95/page_05",
+      "found_via_query": "explicit rules for a.com, b.com, and c.com",
+      "summary": "The diagram illustrates a reverse proxy system where the reverse proxy has explicit rules for a.com, b.com, and c.com. When a browser requests a resource with Host: c.com, the reverse proxy forwards the request to one of the web sites (A, B, or C) based on its rules. Other requests are typically denied.",
+      "key_facts": [
+        "The reverse proxy has explicit rules for a.com, b.com, and c.com",
+        "Other requests are typically denied",
+        "Browser sends GET / HTTP/1.1 Host: c.com to the reverse proxy",
+        "Reverse proxy forwards the request to Web site A, B, or C"
+      ],
+      "visible_text": [
+        "Reverse Proxy",
+        "The reverse proxy has explicit rules for a.com, b.com and c.com. Other requests are (typically) denied",
+        "GET / HTTP/1.1",
+        "Host: c.com",
+        "Browser",
+        "Web site A",
+        "Web site B",
+        "Web site C"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "apachecon2014-140414104319-phpapp02_95/page_05",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/155/images/iter_00_apachecon2014_140414104319_phpapp02_95_page_05_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "explicit rules for a.com, b.com, and c.com"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

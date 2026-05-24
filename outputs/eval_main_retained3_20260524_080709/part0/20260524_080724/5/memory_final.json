@@ -1,0 +1,61 @@
+{
+  "original_query": "In which year did the company that divested Eismann in 2004 achieve higher Organic Growth, 2003 or 2004?",
+  "confirmed": [],
+  "partials": [
+    {
+      "partial_answer": "Organic Growth in 2003 was 5.1%.; Organic Growth in 2004 was 4.5%.",
+      "summary": "The page displays a bar chart illustrating Nestlé's Organic Growth from 2001 to 2011, with specific growth percentages for each year. It also includes 10-year annual averages for Organic Growth (6.4%) and Real Internal Growth (3.6%). The chart indicates that 2003 had 5.1% Organic Growth and 2004 had 4.5% Organic Growth. The data corresponds to published figures, not restated for accounting changes.",
+      "key_facts": [
+        "Organic Growth in 2003 was 5.1%.",
+        "Organic Growth in 2004 was 4.5%."
+      ],
+      "image_ref": {
+        "id": "453874100b4a7172",
+        "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_07",
+        "pixel_budget": 200000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/5/images/partial_01_200k.png"
+      },
+      "cited_statements": [],
+      "remaining_gap": "",
+      "found_via_query": "What was Nestlé's Organic Growth in 2003 and 2004, the years surrounding the divestiture of Eismann in 2004?",
+      "found_at_iter": 1
+    }
+  ],
+  "warnings": [
+    {
+      "query_tried": "Which company divested Eismann in 2004 and what were its Organic Growth figures for 2003 and 2004?",
+      "summary": "The page displays a timeline of Nestlé's divestitures from 2000 to 2011, highlighting specific businesses sold and their sales figures in CHF, with Eismann EUR being divested in 2004.",
+      "failure_type": "query_too_broad",
+      "suggestion": "",
+      "image_id": "db3280122b18e6e7"
+    }
+  ],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "Which company divested Eismann in 2004 and what were its Organic Growth figures for 2003 and 2004?",
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_13",
+      "decision": "no",
+      "summary": "The page displays a timeline of Nestlé's divestitures from 2000 to 2011, highlighting specific businesses sold and their sales figures in CHF, with Eismann EUR being divested in 2004."
+    },
+    {
+      "iter": 1,
+      "search_query": "What was Nestlé's Organic Growth in 2003 and 2004, the years surrounding the divestiture of Eismann in 2004?",
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_07",
+      "decision": "partial",
+      "summary": "The page displays a bar chart illustrating Nestlé's Organic Growth from 2001 to 2011, with specific growth percentages for each year. It also includes 10-year annual averages for Organic Growth (6.4%) and Real Internal Growth (3.6%). The chart indicates that 2003 had 5.1% Organic Growth and 2004 had 4.5% Organic Growth. The data corresponds to published figures, not restated for accounting changes.",
+      "key_facts": [
+        "Organic Growth in 2003 was 5.1%.",
+        "Organic Growth in 2004 was 4.5%."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "The page confirms that Nestlé divested Eismann in 2004 and provides specific Organic Growth figures for Nestlé: 5.1% in 2003 and 4.5% in 2004. These figures are based on published data and are not adjusted for accounting changes. The 2003 growth rate is higher than in 2004, indicating a decline in Organic Growth after the divestiture.",
+  "consolidated_key_facts": [
+    "Organic Growth in 2003 was 5.1%.",
+    "Organic Growth in 2004 was 4.5%."
+  ],
+  "iter": 2,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/5/images"
+}

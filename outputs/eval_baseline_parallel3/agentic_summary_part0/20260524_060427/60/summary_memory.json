@@ -1,0 +1,41 @@
+{
+  "original_query": "What are two example categories of organization goals?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_17",
+      "found_via_query": "example categories of organization goals",
+      "summary": "The image displays a section titled 'Goals & Objectives' for the period January 1, 2016 – December 31, 2018. It lists five goals, with the first three labeled as 'XX' (placeholders), and the last two explicitly named: 'Goal 4: Money' and 'Goal 5: People & Infrastructure'. These are grouped under 'Organization Goals', while the first three are linked to 'Theory of Change Goals'.",
+      "key_facts": [
+        "The document covers the period from January 1, 2016, to December 31, 2018.",
+        "Goal 4 is labeled 'Money' and Goal 5 is 'People & Infrastructure'.",
+        "These two goals are categorized under 'Organization Goals'.",
+        "The first three goals are categorized under 'Theory of Change Goals'."
+      ],
+      "visible_text": [
+        "Goals & Objectives",
+        "From January 1, 2016 – December 31, 2018, we will:",
+        "Goal 1: XX",
+        "Goal 2: XX",
+        "Goal 3: XX",
+        "Goal 4: Money",
+        "Goal 5: People & Infrastructure",
+        "Theory of Change Goals",
+        "Organization Goals"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_17",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_060427/60/images/iter_00_5benefitsofanonprofittheoryofchange_160229202540_95_page_17_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "example categories of organization goals"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

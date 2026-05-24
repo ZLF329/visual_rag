@@ -1,0 +1,1 @@
+The provided slide does not list or define the components of the environment. It only describes systems (closed and open) and their interaction with the environment, stating that an open system "dramatically interacts with their environment" (cited from the slide). No specific components of the environment are mentioned.

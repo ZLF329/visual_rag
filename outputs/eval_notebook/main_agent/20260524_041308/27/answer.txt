@@ -1,0 +1,1 @@
+The total percentage of 4G users with the 1 - 500 MB plan and the 501 MB - 1 GB plan in the UK is 53%. This is calculated by adding the 22% for the 1 - 500 MB plan and the 31% for the 501 MB - 1 GB plan, as found in the data table for the UK 4G column.

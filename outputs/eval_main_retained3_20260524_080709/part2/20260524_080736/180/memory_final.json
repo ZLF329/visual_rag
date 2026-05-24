@@ -1,0 +1,46 @@
+{
+  "original_query": "The recommendation is given to support and refine the vision of a person who falls under which category?",
+  "confirmed": [],
+  "partials": [
+    {
+      "partial_answer": "The diagram targets individuals who 'don't know how' they plan to get to their destination.; The recommendation is to 'support and refine their vision, show them how it can be achieved'.",
+      "summary": "The image illustrates a framework for guiding individuals on a 'Quest for the Grail', focusing on those who are aware of their destination but lack a plan to reach it. The central recommendation is to support and refine their vision and show them how to achieve it, targeting those who 'don't know how' to get there.",
+      "key_facts": [
+        "The diagram targets individuals who 'don't know how' they plan to get to their destination.",
+        "The recommendation is to 'support and refine their vision, show them how it can be achieved'."
+      ],
+      "image_ref": {
+        "id": "00795aa092da6ede",
+        "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_19",
+        "pixel_budget": 200000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part2/20260524_080736/180/images/partial_01_200k.png"
+      },
+      "cited_statements": [],
+      "remaining_gap": "",
+      "found_via_query": "Categories of individuals recommended to support and refine their vision",
+      "found_at_iter": 0
+    }
+  ],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "Categories of individuals recommended to support and refine their vision",
+      "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_19",
+      "decision": "partial",
+      "summary": "The image illustrates a framework for guiding individuals on a 'Quest for the Grail', focusing on those who are aware of their destination but lack a plan to reach it. The central recommendation is to support and refine their vision and show them how to achieve it, targeting those who 'don't know how' to get there.",
+      "key_facts": [
+        "The diagram targets individuals who 'don't know how' they plan to get to their destination.",
+        "The recommendation is to 'support and refine their vision, show them how it can be achieved'."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "The framework targets individuals who are aware of their destination but lack a plan to reach it, and recommends supporting and refining their vision while guiding them on how to achieve it. The focus is on those who 'don't know how' to get there.",
+  "consolidated_key_facts": [
+    "The framework targets individuals aware of their destination but lacking a plan.",
+    "The recommendation is to support and refine their vision and show them how to achieve it."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part2/20260524_080736/180/images"
+}

@@ -1,0 +1,107 @@
+{
+  "original_query": "Have wine import amounts and volume been trending up or down during the period from 1995 to the year in which Italy’s yearly growth in sparkling volume was negative?",
+  "iter": 4,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_17",
+      "found_via_query": "What are the trends in wine import amounts and volume from 1995 to the year Italy’s yearly growth in sparkling volume became negative?",
+      "summary": "The page displays two charts regarding sparkling wine import trends from 1995 to 2015. The left chart shows the volume of sparkling wine imports in tons, with lines representing different countries. The right chart shows the market share of sparkling wine imports by country over the same period. Italy is represented by a blue line in the left chart and a blue area in the right chart, indicating its significant market share.",
+      "key_facts": [
+        "The charts cover the period from 1995 to 2015.",
+        "The left chart shows sparkling wine import volume in tons.",
+        "The right chart shows sparkling wine import market share by country.",
+        "Italy is represented by a blue line/area in both charts.",
+        "The volume trend for Italy (left chart) shows a general upward trend until around 2013, after which it begins to decline, indicating negative growth."
+      ],
+      "visible_text": [
+        "Wine import volume trend(sparkling)",
+        "sparkling wine import volume(tons)",
+        "sparkling wine import volume market share trend",
+        "1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015",
+        "Italy",
+        "17"
+      ]
+    },
+    {
+      "iter": 1,
+      "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_17",
+      "found_via_query": "What is the exact year when Italy’s yearly growth in sparkling wine volume became negative, and what was the trend in wine import amounts and volume from 1995 to that year?",
+      "summary": "The page presents two charts showing sparkling wine import trends from 1995 to 2015: one for volume in tons and another for market share by country. Italy is represented by a blue line/area in both charts, indicating its significant market share. The volume trend for Italy shows a general upward trend until around 2013, after which it begins to decline, suggesting negative growth.",
+      "key_facts": [
+        "Charts cover the period from 1995 to 2015.",
+        "Left chart: sparkling wine import volume in tons.",
+        "Right chart: sparkling wine import market share by country.",
+        "Italy is represented by a blue line/area in both charts.",
+        "Italy's volume trend shows an upward trend until around 2013, followed by a decline indicating negative growth."
+      ],
+      "visible_text": [
+        "Wine import volume trend(sparkling)",
+        "sparkling wine import volume(tons)",
+        "sparkling wine import volume market share trend",
+        "1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015",
+        "Italy"
+      ]
+    },
+    {
+      "iter": 2,
+      "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_17",
+      "found_via_query": "What was the overall trend in wine import amounts and volume from 1995 to 2013, and what was the exact year when Italy’s yearly growth in sparkling volume became negative?",
+      "summary": "The page displays two charts showing sparkling wine import trends from 1995 to 2015: one for volume in tons and another for market share by country. Italy is represented by a blue line/area in both charts, indicating its significant market share. The volume trend for Italy shows a general upward trend until around 2013, after which it begins to decline, suggesting negative growth.",
+      "key_facts": [
+        "Charts cover the period from 1995 to 2015.",
+        "Left chart: sparkling wine import volume in tons.",
+        "Right chart: sparkling wine import market share by country.",
+        "Italy is represented by a blue line/area in both charts.",
+        "Italy's volume trend shows an upward trend until around 2013, followed by a decline indicating negative growth."
+      ],
+      "visible_text": [
+        "Wine import volume trend(sparkling)",
+        "sparkling wine import volume(tons)",
+        "sparkling wine import volume market share trend",
+        "1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015",
+        "Italy"
+      ]
+    },
+    {
+      "iter": 3,
+      "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_04",
+      "found_via_query": "What was the overall trend in total wine import amounts and volume from 1995 to 2013, based on the provided charts and data?",
+      "summary": "The page displays a combined bar and line chart titled 'Wine import amounts and volume trend(total)' covering the years 1995 to 2014. The blue bars represent import amounts (in dollars), and the orange line represents import volume (in units). Both metrics show a general upward trend from 1995 to 2014, with some fluctuations.",
+      "key_facts": [
+        "Chart title: 'Wine import amounts and volume trend(total)'",
+        "Time period: 1995 to 2014",
+        "Blue bars represent import amounts in dollars",
+        "Orange line represents import volume in units",
+        "Both amounts and volume show an overall upward trend from 1995 to 2014"
+      ],
+      "visible_text": [
+        "Wine import amounts and volume trend(total)",
+        "wine import amounts and volume trend",
+        "amounts",
+        "volume",
+        "1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 2,
+      "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_17",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_190030/159/images/iter_02_analysisofkoreanwinemarket_20150902_daejeon_150829090424_lva1_app6891_95_page_17_200k.png"
+    },
+    {
+      "iter": 3,
+      "page_label": "analysisofkoreanwinemarket-20150902-daejeon-150829090424-lva1-app6891_95/page_04",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_190030/159/images/iter_03_analysisofkoreanwinemarket_20150902_daejeon_150829090424_lva1_app6891_95_page_04_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What are the trends in wine import amounts and volume from 1995 to the year Italy’s yearly growth in sparkling volume became negative?",
+    "What is the exact year when Italy’s yearly growth in sparkling wine volume became negative, and what was the trend in wine import amounts and volume from 1995 to that year?",
+    "What was the overall trend in wine import amounts and volume from 1995 to 2013, and what was the exact year when Italy’s yearly growth in sparkling volume became negative?",
+    "What was the overall trend in total wine import amounts and volume from 1995 to 2013, based on the provided charts and data?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

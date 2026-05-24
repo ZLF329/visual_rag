@@ -1,0 +1,79 @@
+{
+  "original_query": "What Institutional Structures exist at the Central Govt. Level?",
+  "confirmed": [
+    {
+      "answer_text": "At the Central Govt. Level, the institutional structure includes the National Monitoring Committee, which provides oversight for all projects.",
+      "image_ref": {
+        "id": "b65302816c7ad084",
+        "page_label": "1-150711120533-lva1-app6892_95/page_06",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_051827/64/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "National Monitoring Committee",
+        "Oversight at Central Level for all projects"
+      ],
+      "found_via_query": "Institutional Structures of Central Government"
+    },
+    {
+      "answer_text": "At the Central Govt. Level, the institutional structure includes the National Monitoring Committee, which provides oversight for all projects.",
+      "image_ref": {
+        "id": "b65302816c7ad084",
+        "page_label": "1-150711120533-lva1-app6892_95/page_06",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_051827/64/images/confirmed_02_400k.png"
+      },
+      "cited_statements": [
+        "National Monitoring Committee",
+        "Oversight at Central Level for all projects"
+      ],
+      "found_via_query": "Institutional Structures of Central Government India"
+    },
+    {
+      "answer_text": "At the Central Govt. Level, the institutional structure includes the National Monitoring Committee, which provides oversight for all projects.",
+      "image_ref": {
+        "id": "b65302816c7ad084",
+        "page_label": "1-150711120533-lva1-app6892_95/page_06",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_051827/64/images/confirmed_03_400k.png"
+      },
+      "cited_statements": [
+        "National Monitoring Committee",
+        "Oversight at Central Level for all projects"
+      ],
+      "found_via_query": "Institutional Structures of Central Government India"
+    },
+    {
+      "answer_text": "At the Central Govt. Level, the institutional structure includes the National Monitoring Committee, which provides oversight for all projects.",
+      "image_ref": {
+        "id": "b65302816c7ad084",
+        "page_label": "1-150711120533-lva1-app6892_95/page_06",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_051827/64/images/confirmed_04_400k.png"
+      },
+      "cited_statements": [
+        "National Monitoring Committee",
+        "Oversight at Central Level for all projects"
+      ],
+      "found_via_query": "List of Institutional Structures at Central Government Level India"
+    },
+    {
+      "answer_text": "At the Central Govt. Level, the institutional structure includes the National Monitoring Committee, which provides oversight for all projects.",
+      "image_ref": {
+        "id": "b65302816c7ad084",
+        "page_label": "1-150711120533-lva1-app6892_95/page_06",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_051827/64/images/confirmed_05_400k.png"
+      },
+      "cited_statements": [
+        "National Monitoring Committee",
+        "Oversight at Central Level for all projects"
+      ],
+      "found_via_query": "List of all institutional structures at Central Government Level in India"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 5,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_051827/64/images"
+}

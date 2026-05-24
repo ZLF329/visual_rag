@@ -1,0 +1,44 @@
+{
+  "original_query": "Do most buyers type the URL address directly into Internet or use a search engine every visit?",
+  "confirmed": [
+    {
+      "answer_text": "55% of buyers typed the web address directly into the Internet.; Only 21% used a search engine every time before visiting the site.",
+      "summary": "This infographic from the CABLETELEVISION ADVERTISING BUREAU presents survey results from a 2013 automotive buyers study, showing how buyers first learn the URL address of an auto manufacturer's website. The data indicates that 55% typed the URL directly into the Internet, while 42% searched on the Internet, and only 21% used a search engine every time before visiting. Other sources include advertisements (27%) and word of mouth (18%).",
+      "key_facts": [
+        "55% of buyers typed the web address directly into the Internet.",
+        "Only 21% used a search engine every time before visiting the site."
+      ],
+      "image_ref": {
+        "id": "8a959003f24f7e12",
+        "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_14",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_182515/146/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What percentage of internet users type URLs directly versus use search engines for most visits?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What percentage of internet users type URLs directly versus use search engines for most visits?",
+      "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_14",
+      "decision": "yes",
+      "summary": "This infographic from the CABLETELEVISION ADVERTISING BUREAU presents survey results from a 2013 automotive buyers study, showing how buyers first learn the URL address of an auto manufacturer's website. The data indicates that 55% typed the URL directly into the Internet, while 42% searched on the Internet, and only 21% used a search engine every time before visiting. Other sources include advertisements (27%) and word of mouth (18%).",
+      "key_facts": [
+        "55% of buyers typed the web address directly into the Internet.",
+        "Only 21% used a search engine every time before visiting the site."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "[query: What percentage of internet users type URLs directly versus use search engines for most visits?] This infographic from the CABLETELEVISION ADVERTISING BUREAU presents survey results from a 2013 automotive buyers study, showing how buyers first learn the URL address of an auto manufacturer's website. The data indicates that 55% typed the URL directly into the Internet, while 42% searched on the Internet, and only 21% used a search engine every time before visiting. Other sources include advertisements (27%) and word of mouth (18%).",
+  "consolidated_key_facts": [
+    "55% of buyers type URLs directly into the browser.",
+    "Only 21% use a search engine every time before visiting a site."
+  ],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_182515/146/images"
+}

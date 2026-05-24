@@ -1,0 +1,1 @@
+The transparent proxy intercepts HTTP requests and proxies them to the destination, as stated in the diagram. This is explicitly mentioned in the text box within the image: “The transparent proxy intercepts HTTP requests, and proxies them to the destination.” (Cited from: [1] image_ref: apachecon2014-140414104319-phpapp02_95/page_08)

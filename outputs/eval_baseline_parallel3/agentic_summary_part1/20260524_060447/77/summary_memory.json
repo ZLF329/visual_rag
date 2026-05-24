@@ -1,0 +1,40 @@
+{
+  "original_query": "What additional components are there w/ Delegation Tokens compared to No Delegation Tokens?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_16",
+      "found_via_query": "Delegation Tokens vs No Delegation Tokens components",
+      "summary": "The slide explains how delegation tokens improve security by allowing authentication without hitting KDC limitations. It contrasts 'No Delegation' with 'w/ Delegation Tokens' by showing additional components in the latter: a Driver component and a KDC (Key Distribution Center) that interacts with HDFS, while the former requires direct KDC authentication.",
+      "key_facts": [
+        "Delegation tokens allow authentication without running into KDC limitations.",
+        "No Delegation: Multiple components directly interact with KDC.",
+        "w/ Delegation Tokens: A Driver component is introduced, and KDC interacts with HDFS via the Driver.",
+        "The diagram includes a green thumbs-up icon next to KDC in the 'w/ Delegation Tokens' section."
+      ],
+      "visible_text": [
+        "Security: Delegation Tokens",
+        "Delegation tokens allow for authentication without running into KDC limitations.",
+        "No Delegation",
+        "w/ Delegation Tokens",
+        "KDC",
+        "Driver",
+        "HDFS",
+        "Spark summit2015"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "02marcelovanzen-150624000117-lva1-app6891_95/page_16",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/77/images/iter_00_02marcelovanzen_150624000117_lva1_app6891_95_page_16_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "Delegation Tokens vs No Delegation Tokens components"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

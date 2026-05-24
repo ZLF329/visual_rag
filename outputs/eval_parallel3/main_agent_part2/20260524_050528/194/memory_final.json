@@ -1,0 +1,8 @@
+{
+  "original_query": "What type of drug is Penicillin?",
+  "confirmed": [],
+  "partials": [],
+  "warnings": [],
+  "iter": 0,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_050528/194/images"
+}

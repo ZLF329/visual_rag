@@ -1,0 +1,22 @@
+{
+  "original_query": "By what percentage did BASF net income grow from H1 2010 to H1 2011?",
+  "confirmed": [
+    {
+      "answer_text": "BASF net income grew by 75% from H1 2010 to H1 2011.",
+      "image_ref": {
+        "id": "787a79c2ad5fd866",
+        "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_05",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_parallel3/main_agent_part2/20260524_044242/150/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "Net income €3.9 billion +75%"
+      ],
+      "found_via_query": "BASF net income H1 2010 to H1 2011 financial report"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "outputs/eval_parallel3/main_agent_part2/20260524_044242/150/images"
+}

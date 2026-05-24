@@ -1,0 +1,8 @@
+The two components of the Container request are **vcores** and **memory**, as explicitly stated in the confirmed finding:
+
+> **[1]** The two components of the Container request are vcores and memory.  
+> *Cited from: "Container request: vcores = x memory = y" (image_ref: 02marcelovanzen-150624000117-lva1-app6891_95/page_13)*
+
+This is directly supported by the slide content shown in the image, which lists the container request as:  
+**vcores = x**  
+**memory = y**.

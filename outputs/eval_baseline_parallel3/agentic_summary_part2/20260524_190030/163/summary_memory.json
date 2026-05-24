@@ -1,0 +1,42 @@
+{
+  "original_query": "What type of market has high market head and high differentiation?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_07",
+      "found_via_query": "What types of markets have high market head and high differentiation?",
+      "summary": "A 2x2 matrix diagram showing market strategy quadrants based on 'Market head' (vertical axis) and 'Differentiation' (horizontal axis). The top-right quadrant, labeled 'Focus', represents high market head and high differentiation. Other quadrants are 'Competitive' (high market head, low differentiation), 'Avoid' (low market head, low differentiation), and 'Niche' (low market head, high differentiation).",
+      "key_facts": [
+        "The diagram is a 2x2 matrix with 'Market head' on the vertical axis and 'Differentiation' on the horizontal axis.",
+        "The top-right quadrant is labeled 'Focus' and corresponds to high market head and high differentiation.",
+        "The top-left quadrant is 'Competitive' (high market head, low differentiation).",
+        "The bottom-right quadrant is 'Niche' (low market head, high differentiation).",
+        "The bottom-left quadrant is 'Avoid' (low market head, low differentiation).",
+        "The source is InSites Consulting, with attribution to @Steven_InSites and conversationmanagement.biz."
+      ],
+      "visible_text": [
+        "Market head",
+        "Differentiation",
+        "Competitive",
+        "Focus",
+        "Avoid",
+        "Niche",
+        "Conversationmanagement.biz | @Steven_InSites",
+        "InSites Consulting"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_07",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_190030/163/images/iter_00_asixstepcontentmarketingmodel_120206005134_phpapp01_95_page_07_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What types of markets have high market head and high differentiation?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

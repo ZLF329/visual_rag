@@ -1,0 +1,39 @@
+{
+  "original_query": "Is position or shape more important?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_16",
+      "found_via_query": "What is the importance of position versus shape in design, geometry, or data visualization?",
+      "summary": "The image presents a chart titled 'How do humans like their data?' that ranks visual attributes by human importance, with 'Position' at the top (most important) and 'Shape' at the bottom (least important). The chart uses a vertical arrow labeled 'More Important' to 'Less Important' to indicate the hierarchy.",
+      "key_facts": [
+        "Position is ranked as the most important visual attribute.",
+        "Shape is ranked as the least important visual attribute.",
+        "Color and Size are ranked in between Position and Shape."
+      ],
+      "visible_text": [
+        "How do humans like their data?",
+        "Position",
+        "Color",
+        "Size",
+        "Shape",
+        "More Important",
+        "Less Important",
+        "#visualdata"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_16",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/171/images/iter_00_brainondatafinal_150314123657_conversion_gate01_95_page_16_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What is the importance of position versus shape in design, geometry, or data visualization?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

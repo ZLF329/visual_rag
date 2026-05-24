@@ -1,0 +1,44 @@
+{
+  "original_query": "What is the total percentage that wait Minutes and Hours for an average BI request?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_16",
+      "found_via_query": "BI request wait times in minutes and hours average",
+      "summary": "The slide titled 'Enterprise Systems Are Too Slow' presents survey data on how quickly technology management responds to average BI requests, measured in minutes, hours, days, and weeks. The data is based on 171 business decision-makers surveyed by Forrester Consulting for SAP in March 2014. The chart shows 18% wait minutes, 47% wait hours, 26% wait days, and 5% wait weeks, with an additional note that 31% wait days or weeks.",
+      "key_facts": [
+        "18% wait minutes",
+        "47% wait hours",
+        "26% wait days",
+        "5% wait weeks",
+        "31% wait days or weeks",
+        "Survey base: 171 business decision-makers",
+        "Source: Forrester Consulting for SAP, March 2014"
+      ],
+      "visible_text": [
+        "Enterprise Systems Are Too Slow",
+        "When asking for help from technology management, how quickly do they turn around an average BI request (a report from a single data source)?",
+        "Minutes 18%",
+        "Hours 47%",
+        "Days 26%",
+        "Weeks 5%",
+        "31% wait days or weeks for a average BI request",
+        "Base: 171 business decision-makers who influence BI decisions",
+        "Source: A commissioned study conducted by Forrester Consulting on behalf of SAP, March 2014"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_16",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_060427/12/images/iter_00_0903organizingforbiandbigdatainthe21stcentury_clean_140922112024_phpapp02_95_pag_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "BI request wait times in minutes and hours average"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

@@ -1,0 +1,43 @@
+{
+  "original_query": "What percentage of Users have an average Session Duration of under one minute?",
+  "confirmed": [
+    {
+      "answer_text": "50% of users have an average session duration of 00:00:58 (under one minute); 50% of users have an average session duration of 00:01:28 (over one minute)",
+      "summary": "The image illustrates that 50% of users have an average session duration of 58 seconds (under one minute), while the other 50% have an average session duration of 1 minute and 28 seconds (over one minute).",
+      "key_facts": [
+        "50% of users have an average session duration of 00:00:58 (under one minute)",
+        "50% of users have an average session duration of 00:01:28 (over one minute)"
+      ],
+      "image_ref": {
+        "id": "443cd1ad8d82ab3d",
+        "page_label": "a-btest-150414213438-conversion-gate01_95/page_05",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_182515/117/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What percentage of users have an average session duration under one minute?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What percentage of users have an average session duration under one minute?",
+      "page_label": "a-btest-150414213438-conversion-gate01_95/page_05",
+      "decision": "yes",
+      "summary": "The image illustrates that 50% of users have an average session duration of 58 seconds (under one minute), while the other 50% have an average session duration of 1 minute and 28 seconds (over one minute).",
+      "key_facts": [
+        "50% of users have an average session duration of 00:00:58 (under one minute)",
+        "50% of users have an average session duration of 00:01:28 (over one minute)"
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "[query: What percentage of users have an average session duration under one minute?] The image illustrates that 50% of users have an average session duration of 58 seconds (under one minute), while the other 50% have an average session duration of 1 minute and 28 seconds (over one minute).",
+  "consolidated_key_facts": [
+    "50% of users have an average session duration under one minute (00:00:58)"
+  ],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_182515/117/images"
+}

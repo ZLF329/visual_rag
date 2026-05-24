@@ -1,0 +1,39 @@
+{
+  "original_query": "How many points are listed to explain that A generic drug is the same as brand name drug?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_04",
+      "found_via_query": "How many points explain that a generic drug is the same as a brand-name drug?",
+      "summary": "The image presents a diagram titled 'Generic-A Great Claim' that explains why a generic drug is the same as a brand-name drug, listing six key points: In Dosage, In Safety, In Strength, In Quality, The way it is taken, and The way it should be used. The diagram uses colored boxes to visually organize these points.",
+      "key_facts": [
+        "A generic drug is the same as a brand name drug",
+        "Six points are listed to explain this claim",
+        "The points are: In Dosage, In Safety, In Strength, In Quality, The way it is taken, The way it should be used"
+      ],
+      "visible_text": [
+        "Generic-A Great Claim",
+        "A generic drug is the same as brand name drug",
+        "In Dosage",
+        "In Safety",
+        "In Strength",
+        "In Quality",
+        "The way it is taken",
+        "The way it should be used"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "8apr2015gdfsession4-150408094801-conversion-gate01_95/page_04",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_060427/53/images/iter_00_8apr2015gdfsession4_150408094801_conversion_gate01_95_page_04_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "How many points explain that a generic drug is the same as a brand-name drug?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

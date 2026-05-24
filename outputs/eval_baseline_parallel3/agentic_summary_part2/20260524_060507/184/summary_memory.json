@@ -1,0 +1,44 @@
+{
+  "original_query": "What are two factors of the visible layer above Competencies?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_19",
+      "found_via_query": "organizational chart showing visible layer above Competencies",
+      "summary": "The image presents a concentric circle model illustrating what makes people complex, with 'Behavior (visible)' as the outermost layer. Above 'Competencies' (the second layer from the outside), the visible layer includes 'Preferences' and 'Motives'. The text explains that behavior is shaped by motives, preferences, and competencies, with motives being stable and preferences evolving over time. It also notes that while behavior is easily observable, motives are harder to identify and require more reflection.",
+      "key_facts": [
+        "Behavior (visible) is the outermost layer in the concentric model.",
+        "The layer above Competencies is Preferences.",
+        "Motives are located inside Preferences, closer to the center.",
+        "Motives are stable personal characteristics; Preferences can evolve over time.",
+        "Competencies are directly related to learning.",
+        "Observing behavior can lead to misjudging others' competencies, motives, or nature."
+      ],
+      "visible_text": [
+        "What makes people complex: putting it all together",
+        "Behavior (visible)",
+        "Competencies",
+        "Preferences",
+        "Motives",
+        "Nature",
+        "An individual's behavior is shaped by motives, preferences and competencies.",
+        "As we saw, only behavior is easily and readily observable.",
+        "Human nature cannot be observed at all: it is a matter of conviction, or part of the social theories that we hold.",
+        "An organization fit for complexity requires more reflection!"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "betacodex-organizeforcomplexity-120624124755-phpapp02_95/page_19",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/184/images/iter_00_betacodex_organizeforcomplexity_120624124755_phpapp02_95_page_19_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "organizational chart showing visible layer above Competencies"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

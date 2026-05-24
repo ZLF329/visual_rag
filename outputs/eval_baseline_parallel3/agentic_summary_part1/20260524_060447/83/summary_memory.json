@@ -1,0 +1,112 @@
+{
+  "original_query": "What do you need to know to get into content?",
+  "iter": 5,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_15",
+      "found_via_query": "prerequisites to get into content creation or content management",
+      "summary": "The image displays step 4 of a content marketing model, titled 'Create shareable content,' featuring a hand holding a smiling face icon against a blue background. It includes branding for 'Conversationmanagement.biz' and 'InSites Consulting' with a social media handle '@Steven_InSites'.",
+      "key_facts": [
+        "Step 4 in a content marketing model is 'Create shareable content'.",
+        "The visual includes a hand holding a smiling face icon.",
+        "The branding includes 'Conversationmanagement.biz', '@Steven_InSites', and 'InSites Consulting'."
+      ],
+      "visible_text": [
+        "4.",
+        "Create shareable content",
+        "Conversationmanagement.biz | @Steven_InSites",
+        "InSites Consulting"
+      ]
+    },
+    {
+      "iter": 1,
+      "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_15",
+      "found_via_query": "prerequisites to get into content creation or content management",
+      "summary": "The image shows step 4 of a content marketing model, labeled 'Create shareable content,' with a hand holding a smiling face icon against a blue background. It includes branding for 'Conversationmanagement.biz', '@Steven_InSites', and 'InSites Consulting'.",
+      "key_facts": [
+        "Step 4 in a content marketing model is 'Create shareable content'.",
+        "The visual includes a hand holding a smiling face icon.",
+        "Branding includes 'Conversationmanagement.biz', '@Steven_InSites', and 'InSites Consulting'."
+      ],
+      "visible_text": [
+        "4.",
+        "Create shareable content",
+        "Conversationmanagement.biz | @Steven_InSites",
+        "InSites Consulting"
+      ]
+    },
+    {
+      "iter": 2,
+      "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_15",
+      "found_via_query": "prerequisites to get into content creation or content management",
+      "summary": "The image displays step 4 of a content marketing model, titled 'Create shareable content,' featuring a hand holding a smiling face icon against a blue background. It includes branding for 'Conversationmanagement.biz' and 'InSites Consulting' with a social media handle '@Steven_InSites'.",
+      "key_facts": [
+        "Step 4 in a content marketing model is 'Create shareable content'.",
+        "The visual includes a hand holding a smiling face icon.",
+        "Branding includes 'Conversationmanagement.biz', '@Steven_InSites', and 'InSites Consulting'"
+      ],
+      "visible_text": [
+        "4.",
+        "Create shareable content",
+        "Conversationmanagement.biz | @Steven_InSites",
+        "InSites Consulting"
+      ]
+    },
+    {
+      "iter": 3,
+      "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_15",
+      "found_via_query": "prerequisites to get into content creation or content management",
+      "summary": "The image shows step 4 of a content marketing model, titled 'Create shareable content,' with a hand holding a smiling face icon against a blue background. It includes branding for 'Conversationmanagement.biz', '@Steven_InSites', and 'InSites Consulting'.",
+      "key_facts": [
+        "Step 4 in a content marketing model is 'Create shareable content'.",
+        "The visual includes a hand holding a smiling face icon.",
+        "Branding includes 'Conversationmanagement.biz', '@Steven_InSites', and 'InSites Consulting'"
+      ],
+      "visible_text": [
+        "4.",
+        "Create shareable content",
+        "Conversationmanagement.biz | @Steven_InSites",
+        "InSites Consulting"
+      ]
+    },
+    {
+      "iter": 4,
+      "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_15",
+      "found_via_query": "prerequisites to get into content creation or content management",
+      "summary": "The image displays step 4 of a content marketing model, titled 'Create shareable content,' featuring a hand holding a smiling face icon against a blue background. It includes branding for 'Conversationmanagement.biz', '@Steven_InSites', and 'InSites Consulting'.",
+      "key_facts": [
+        "Step 4 in a content marketing model is 'Create shareable content'.",
+        "The visual includes a hand holding a smiling face icon.",
+        "Branding includes 'Conversationmanagement.biz', '@Steven_InSites', and 'InSites Consulting'"
+      ],
+      "visible_text": [
+        "4.",
+        "Create shareable content",
+        "Conversationmanagement.biz | @Steven_InSites",
+        "InSites Consulting"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 3,
+      "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_15",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/83/images/iter_03_asixstepcontentmarketingmodel_120206005134_phpapp01_95_page_15_200k.png"
+    },
+    {
+      "iter": 4,
+      "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_15",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/83/images/iter_04_asixstepcontentmarketingmodel_120206005134_phpapp01_95_page_15_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "prerequisites to get into content creation or content management",
+    "prerequisites to get into content creation or content management",
+    "prerequisites to get into content creation or content management",
+    "prerequisites to get into content creation or content management",
+    "prerequisites to get into content creation or content management"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

@@ -1,0 +1,97 @@
+{
+  "original_query": "What are two types of bearings?",
+  "iter": 5,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "bearing1-151117114834-lva1-app6892_95/page_01",
+      "found_via_query": "What are two common types of bearings?",
+      "summary": "The image displays a diagram of a bearing with the word 'BEARINGS' in red text above it. The diagram shows a typical ball bearing structure with inner and outer rings and spherical balls between them. One ball is highlighted with a red dot, possibly indicating a specific feature or point of interest.",
+      "key_facts": [
+        "The image is labeled 'BEARINGS'.",
+        "It shows a ball bearing with inner and outer rings and spherical balls.",
+        "One ball is marked with a red dot."
+      ],
+      "visible_text": [
+        "BEARINGS"
+      ]
+    },
+    {
+      "iter": 1,
+      "page_label": "bearing1-151117114834-lva1-app6892_95/page_01",
+      "found_via_query": "What are two common types of bearings?",
+      "summary": "The image displays a diagram labeled 'BEARINGS' showing a typical ball bearing structure with inner and outer rings and spherical balls. One ball is highlighted with a red dot, possibly indicating a specific feature or point of interest.",
+      "key_facts": [
+        "The image is labeled 'BEARINGS'.",
+        "It shows a ball bearing with inner and outer rings and spherical balls.",
+        "One ball is marked with a red dot."
+      ],
+      "visible_text": [
+        "BEARINGS"
+      ]
+    },
+    {
+      "iter": 2,
+      "page_label": "bearing1-151117114834-lva1-app6892_95/page_01",
+      "found_via_query": "What are two common types of bearings?",
+      "summary": "The image displays a diagram labeled 'BEARINGS' showing a typical ball bearing structure with inner and outer rings and spherical balls. One ball is highlighted with a red dot, possibly indicating a specific feature or point of interest.",
+      "key_facts": [
+        "The image is labeled 'BEARINGS'.",
+        "It shows a ball bearing with inner and outer rings and spherical balls.",
+        "One ball is marked with a red dot."
+      ],
+      "visible_text": [
+        "BEARINGS"
+      ]
+    },
+    {
+      "iter": 3,
+      "page_label": "bearing1-151117114834-lva1-app6892_95/page_01",
+      "found_via_query": "What are two common types of bearings?",
+      "summary": "The image displays a diagram labeled 'BEARINGS' showing a typical ball bearing structure with inner and outer rings and spherical balls. One ball is highlighted with a red dot, possibly indicating a specific feature or point of interest.",
+      "key_facts": [
+        "The image is labeled 'BEARINGS'.",
+        "It shows a ball bearing with inner and outer rings and spherical balls.",
+        "One ball is marked with a red dot."
+      ],
+      "visible_text": [
+        "BEARINGS"
+      ]
+    },
+    {
+      "iter": 4,
+      "page_label": "bearing1-151117114834-lva1-app6892_95/page_01",
+      "found_via_query": "What are two common types of bearings?",
+      "summary": "The image displays a diagram labeled 'BEARINGS' showing a typical ball bearing structure with inner and outer rings and spherical balls. One ball is highlighted with a red dot, possibly indicating a specific feature or point of interest.",
+      "key_facts": [
+        "The image is labeled 'BEARINGS'.",
+        "It shows a ball bearing with inner and outer rings and spherical balls.",
+        "One ball is marked with a red dot."
+      ],
+      "visible_text": [
+        "BEARINGS"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 3,
+      "page_label": "bearing1-151117114834-lva1-app6892_95/page_01",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_190030/140/images/iter_03_bearing1_151117114834_lva1_app6892_95_page_01_200k.png"
+    },
+    {
+      "iter": 4,
+      "page_label": "bearing1-151117114834-lva1-app6892_95/page_01",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_190030/140/images/iter_04_bearing1_151117114834_lva1_app6892_95_page_01_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What are two common types of bearings?",
+    "What are two common types of bearings?",
+    "What are two common types of bearings?",
+    "What are two common types of bearings?",
+    "What are two common types of bearings?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

@@ -1,0 +1,39 @@
+{
+  "original_query": "What directly follows \"conduct market research to refine\" in the figure?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_16",
+      "found_via_query": "figure containing the phrase 'conduct market research to refine'",
+      "summary": "The image displays a funnel diagram titled 'Strategic Plan Process' from 'Social Velocity', outlining steps for developing a nonprofit's strategic plan. The steps are arranged from top to bottom: 'Plot your nonprofit's position in the external environment', 'Conduct market research to refine', 'Refine Vision/Mission', 'Create goals & objectives of strategic plan', 'Create budget', and 'Opn plan' (likely 'Implement plan').",
+      "key_facts": [
+        "The diagram is titled 'Strategic Plan Process'.",
+        "The step 'Conduct market research to refine' is the second step in the funnel.",
+        "The step directly following 'Conduct market research to refine' is 'Refine Vision/Mission'."
+      ],
+      "visible_text": [
+        "Strategic Plan Process",
+        "SOCIAL VELOCITY",
+        "Plot your nonprofit's position in the external environment",
+        "Conduct market research to refine",
+        "Refine Vision/Mission",
+        "Create goals & objectives of strategic plan",
+        "Create budget",
+        "Opn plan"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_16",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_060427/57/images/iter_00_5benefitsofanonprofittheoryofchange_160229202540_95_page_16_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "figure containing the phrase 'conduct market research to refine'"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

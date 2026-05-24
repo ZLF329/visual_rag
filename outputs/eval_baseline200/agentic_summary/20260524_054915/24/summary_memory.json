@@ -1,0 +1,52 @@
+{
+  "original_query": "Which Activity is undertaken by more smartphone users, Email services or Social networks?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_05",
+      "found_via_query": "comparison of smartphone user engagement between email services and social networks",
+      "summary": "The slide presents smartphone user activity percentages in Romania, showing that 88% of users engage with social networks, compared to 70% for email services. It also includes additional statistics on app usage, TV watching while using smartphones, and user preferences regarding devices.",
+      "key_facts": [
+        "88% of smartphone users engage with social networks",
+        "70% of smartphone users use email services",
+        "17 installed apps on average",
+        "Shazam = 1.7 mio users",
+        "79% of smartphone owners would never leave home",
+        "33% would rather give up their TV than their smartphone",
+        "32% of SP owners watch TV while using the SP",
+        "29% while reading magazines/newspapers",
+        "51% while listening to music"
+      ],
+      "visible_text": [
+        ".RO smartphone & data consumption insights",
+        "Activities undertaken by smartphone users (percentages)",
+        "Email services 70",
+        "Social networks 88",
+        "Browsing the web 77",
+        "Listening to music 64",
+        "17 installed apps on average",
+        "Shazam = 1.7 mio users",
+        "79% of smartphone owners would never leave home :)",
+        "33% would rather give up their TV than their SP",
+        "32% of SP owners watch TV while using the SP",
+        "29% while they read magazines / newspapers",
+        "51% while listening to music",
+        "Source: Media FactBook 2014",
+        "IAA Mobile Awareness session, 25th of April 2015"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "8eeomnwqsmdmin6levsv-signature-2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca9497686d609bddd-poli-150601151510-lva1-app6892_95/page_05",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline200/agentic_summary/20260524_054915/24/images/iter_00_8eeomnwqsmdmin6levsv_signature_2693c633d5e2c6d5cfd1372a7aa1d1a8df13f59c942a848ca_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "comparison of smartphone user engagement between email services and social networks"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

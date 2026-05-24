@@ -1,0 +1,35 @@
+{
+  "original_query": "The recommendation is given to support and refine the vision of a person who falls under which category?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_19",
+      "found_via_query": "category of person recommended to support and refine their vision",
+      "summary": "The image presents a conceptual diagram titled 'QUEST FOR THE GRAIL,' which illustrates a process for supporting someone who lacks clarity in their goals and methods. It shows that if a person 'KNOWS WHERE they want to get to' but 'DON'T KNOW HOW they plan to get there,' the recommended action is to 'SUPPORT AND REFINE THEIR VISION, SHOW THEM HOW IT CAN BE ACHIEVED.'",
+      "key_facts": [
+        "The central theme is 'QUEST FOR THE GRAIL'.",
+        "The person is described as knowing their destination but not their method.",
+        "The recommended action is to support and refine their vision and show them how to achieve it."
+      ],
+      "visible_text": [
+        "KNOW WHERE they want to get to",
+        "DON'T KNOW HOW they plan to get there",
+        "QUEST FOR THE GRAIL",
+        "SUPPORT AND REFINE THEIR VISION, SHOW THEM HOW IT CAN BE ACHIEVED"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "bobapollosales2-0london2013presentationfinal-130604015015-phpapp01_95/page_19",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/180/images/iter_00_bobapollosales2_0london2013presentationfinal_130604015015_phpapp01_95_page_19_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "category of person recommended to support and refine their vision"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

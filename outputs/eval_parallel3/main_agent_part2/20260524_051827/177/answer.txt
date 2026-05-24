@@ -1,0 +1,8 @@
+Another name for the only known substance that is less dense as a solid than it is as a liquid, when combined with salt, is **seawater**.
+
+This is supported by the evidence that:
+- The substance in question is water, as confirmed by the slide titled "States of Water" which states: "Water is the only known substance that is less dense as a solid than it is as a liquid" (found in image_ref: chapter-3-seawater-160218031855_95/page_12).
+- Seawater is explicitly defined as a solution of water and salt, with the diagram labeling the mixture as "Salt solution (salty water)" (found in image_ref: chapter-3-seawater-160218031855_95/page_19).
+- The text on the same slide further clarifies: "Seawater is a solution: A mixture consisting of two parts a solvent and a solute which is evenly dissolved throughout the mixture" (found in image_ref: chapter-3-seawater-160218031855_95/page_19).
+
+Therefore, "seawater" is the alternative name for water combined with salt.

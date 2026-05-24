@@ -1,0 +1,22 @@
+{
+  "original_query": "What type of drug is Penicillin?",
+  "confirmed": [
+    {
+      "answer_text": "Penicillin is a group of antibiotics.",
+      "image_ref": {
+        "id": "53ac0039c33a0f73",
+        "page_label": "antibiotics-141109111447-conversion-gate02_95/page_11",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/194/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "Penicillin is a group of antibiotics derived from Penicillium fungi"
+      ],
+      "found_via_query": "What type of drug is Penicillin?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/194/images"
+}

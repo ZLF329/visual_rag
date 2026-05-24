@@ -1,0 +1,33 @@
+{
+  "original_query": "What do you need to know to get into content?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_13",
+      "found_via_query": "What are the requirements or steps to access content?",
+      "summary": "The image states that the type of content you want determines the vendor, business model, license, and format you will receive.",
+      "key_facts": [
+        "The content you want determines the vendor",
+        "The content you want determines the business model",
+        "The content you want determines the license",
+        "The content you want determines the format"
+      ],
+      "visible_text": [
+        "The content you want determines the vendor, business model, license, and format you will get."
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_13",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_190030/83/images/iter_00_2013alapurchasing_130214144910_phpapp02_95_page_13_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What are the requirements or steps to access content?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

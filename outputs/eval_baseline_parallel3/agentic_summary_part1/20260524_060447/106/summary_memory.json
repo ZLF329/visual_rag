@@ -1,0 +1,47 @@
+{
+  "original_query": "What are the categories of the Key points of differentiation?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_12",
+      "found_via_query": "categories of the Key points of differentiation",
+      "summary": "The slide titled 'Key points of differentiation' lists six categories: Transparency, Programmatic, Scale, reach and quality, Technology, and Data policy, each with specific details and icons.",
+      "key_facts": [
+        "Transparency: Full publisher list/bid price/remarketing strategy visibility",
+        "Programmatic: 100% of all ads bought programmatically, specifically for each individual advertiser",
+        "Scale, reach and quality: 130k sites available, private marketplaces, VivaKi Verified",
+        "Technology: Proprietary analytics, licenced leading bid management tools",
+        "Data policy: No data is shared between clients under any circumstances"
+      ],
+      "visible_text": [
+        "Key points of differentiation",
+        "Transparency",
+        "Programmatic",
+        "Scale, reach and quality",
+        "Technology",
+        "Data policy",
+        "Full publisher list/bid price/remarketing strategy visibility",
+        "100%",
+        "All ads bought programmatically, specifically for each individual advertiser",
+        "130k",
+        "Sites available, private marketplaces, VivaKi Verified",
+        "Proprietary analytics, licenced leading bid management tools",
+        "No data is shared between clients under any circumstances",
+        "©2014. All rights reserved. VivaKi. Proprietary and Confidential."
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_12",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/106/images/iter_00_24042014iforumkievmartaklepkapublicisgroupe_140514070615_phpapp01_95_page_12_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "categories of the Key points of differentiation"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

@@ -1,0 +1,34 @@
+{
+  "original_query": "How can the company which details 24 countries in the report be contacted?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_02",
+      "found_via_query": "Search for the report detailing 24 countries and locate the company's contact information within it.",
+      "summary": "The page lists 24 countries detailed in a report by 'We Are Social', with a world map showing their locations marked by numbers. The company's contact information is provided at the bottom right corner.",
+      "key_facts": [
+        "The report details 24 countries.",
+        "The company is 'We Are Social'.",
+        "Contact information is available at wearesocial.sg and @wearesocialsg."
+      ],
+      "visible_text": [
+        "COUNTRIES DETAILED IN THIS REPORT",
+        "We Are Social",
+        "wearesocial.sg • @wearesocialsg • 2"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_02",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_190030/71/images/iter_00_2014globaldigitalsociallandscape_140803004322_phpapp02_95_page_02_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "Search for the report detailing 24 countries and locate the company's contact information within it."
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

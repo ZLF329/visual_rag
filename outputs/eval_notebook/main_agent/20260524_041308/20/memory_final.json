@@ -1,0 +1,39 @@
+{
+  "original_query": "Which region of the world accounts for the highest percentage of revenues in the year 12% GROWTH is achieved?",
+  "confirmed": [],
+  "partials": [],
+  "warnings": [
+    {
+      "query_tried": "regions with highest revenue percentage when achieving 12% growth",
+      "failure_type": "wrong_domain",
+      "suggestion": "Look for a chart or table that breaks down growth by region and includes percentage of total revenue or a similar metric.",
+      "image_id": "1879c882ed7235c2"
+    },
+    {
+      "query_tried": "chart or table showing regional revenue percentages when achieving 12% growth",
+      "failure_type": "wrong_domain",
+      "suggestion": "Look for a chart or table that breaks down growth by region and includes percentage of total revenue or a similar metric.",
+      "image_id": "1879c882ed7235c2"
+    },
+    {
+      "query_tried": "regions with 12% growth and corresponding revenue percentage of total global revenue",
+      "failure_type": "wrong_domain",
+      "suggestion": "Look for a chart or table that breaks down regional revenue growth percentages, specifically focusing on regions achieving 12% growth and their corresponding revenue shares.",
+      "image_id": "0f08ff97842e47d1"
+    },
+    {
+      "query_tried": "chart or table showing regional revenue growth percentages for regions achieving 12% growth and their share of global revenue",
+      "failure_type": "wrong_domain",
+      "suggestion": "Look for a chart or table that breaks down regional revenue growth percentages, specifically focusing on regions achieving 12% growth and their corresponding revenue shares.",
+      "image_id": "1bd530290ab1c92f"
+    },
+    {
+      "query_tried": "document showing regional revenue growth percentages for 12% growth regions and their share of global revenue",
+      "failure_type": "wrong_domain",
+      "suggestion": "Look for a chart or table that breaks down regional revenue growth percentages, specifically focusing on regions achieving 12% growth and their corresponding revenue shares.",
+      "image_id": "1bd530290ab1c92f"
+    }
+  ],
+  "iter": 5,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_notebook/main_agent/20260524_041308/20/images"
+}

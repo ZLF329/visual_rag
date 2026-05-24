@@ -1,0 +1,51 @@
+{
+  "original_query": "What is the media with the most sway on a buyer's consideration list?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_09",
+      "found_via_query": "media types with the most sway on buyer consideration list",
+      "summary": "The infographic highlights TV as the media with the most sway on a buyer's consideration list, based on a CAB Automotive Buyers Study from December 2011. It shows that 70% of respondents agree TV ads have strong influence, followed by 80% for vehicle review site reviews and 55% for search engine results. Other media like online video ads (36%), radio (33%), and newspapers/magazines (52%) have varying levels of influence.",
+      "key_facts": [
+        "TV ads have the strongest influence at 70%.",
+        "Vehicle review site reviews have 80% influence.",
+        "Search engine results have 55% influence.",
+        "Online video ads have 36% influence.",
+        "Radio has 33% influence.",
+        "Newspapers/magazines have 52% influence.",
+        "The study is from CAB Automotive Buyers Study, Dec 2011."
+      ],
+      "visible_text": [
+        "KEY INFLUENCERS ON THE SHORT LIST: TV is the Media with the Most Sway on a Buyer's Consideration List",
+        "What has the strongest influence on your decision to add a vehicle to your consideration list? (A25-54) (Top 3 box agree)",
+        "NO INFLUENCE",
+        "STRONG INFLUENCE",
+        "70% ADS I SEE ON TV",
+        "80% Reviews on vehicle review sites",
+        "55% Search engine results / ads",
+        "36% Online video ads",
+        "33% What I hear on the radio",
+        "52% What I read in newspapers / magazines",
+        "25% Likes / tweets by auto manufacturer on social media",
+        "78% Information on auto manufacturer websites",
+        "Source: CAB Automotive Buyers Study, Dec 2011",
+        "AUTONATIVE TV ADVERTISING",
+        "THE FAST LANE TO ATTRACTING LIKELY BUYERS",
+        "CABLE TELEVISION ADVERTISING BUREAU"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_09",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/145/images/iter_00_autoreport_cs6_140415111854_phpapp02_95_page_09_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "media types with the most sway on buyer consideration list"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

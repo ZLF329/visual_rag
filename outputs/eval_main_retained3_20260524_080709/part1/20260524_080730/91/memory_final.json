@@ -1,0 +1,47 @@
+{
+  "original_query": "Did Penetration of the book which can be read through such services as ePUB and kindle, in School libraries increase or decrease from 2011 to 2012?",
+  "confirmed": [
+    {
+      "answer_text": "In 2011, eBook penetration in school libraries was approximately 45%.; In 2012, eBook penetration in school libraries increased to approximately 85%.; The increase from 2011 to 2012 indicates a significant rise in eBook usage in school libraries.",
+      "summary": "A bar chart titled 'eBook Penetration' displays the percentage of eBook usage in three categories—School, Public, and Academic—across the years 2010, 2011, and 2012. The data is sourced from the Library Journal Survey of Ebook Penetration (2010-2012).",
+      "key_facts": [
+        "In 2011, eBook penetration in school libraries was approximately 45%.",
+        "In 2012, eBook penetration in school libraries increased to approximately 85%.",
+        "The increase from 2011 to 2012 indicates a significant rise in eBook usage in school libraries."
+      ],
+      "image_ref": {
+        "id": "833117adf7036b71",
+        "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_06",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/91/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "Trend in ePUB and Kindle book penetration in school libraries from 2011 to 2012"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "Trend in ePUB and Kindle book penetration in school libraries from 2011 to 2012",
+      "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_06",
+      "decision": "yes",
+      "summary": "A bar chart titled 'eBook Penetration' displays the percentage of eBook usage in three categories—School, Public, and Academic—across the years 2010, 2011, and 2012. The data is sourced from the Library Journal Survey of Ebook Penetration (2010-2012).",
+      "key_facts": [
+        "In 2011, eBook penetration in school libraries was approximately 45%.",
+        "In 2012, eBook penetration in school libraries increased to approximately 85%.",
+        "The increase from 2011 to 2012 indicates a significant rise in eBook usage in school libraries."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "The bar chart from the Library Journal Survey (2010-2012) shows eBook penetration in school libraries rose from 45% in 2011 to 85% in 2012, indicating a significant increase in adoption of ePUB and Kindle-compatible formats in school libraries during that period.",
+  "consolidated_key_facts": [
+    "In 2011, eBook penetration in school libraries was approximately 45%.",
+    "In 2012, eBook penetration in school libraries increased to approximately 85%.",
+    "The increase from 2011 to 2012 reflects a significant rise in eBook usage in school libraries."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part1/20260524_080730/91/images"
+}

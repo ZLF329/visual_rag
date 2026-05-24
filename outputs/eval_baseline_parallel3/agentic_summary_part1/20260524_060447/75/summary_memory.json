@@ -1,0 +1,74 @@
+{
+  "original_query": "What percentage of the TOTAL POPULATION in the region where there are 252M mobile broadband subscriptions are ACTIVE SOCIAL NETWORK USERS?",
+  "iter": 2,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_16",
+      "found_via_query": "region with 252M mobile broadband subscriptions and its total population",
+      "summary": "A map from January 2014 showing mobile broadband subscriptions by region, with North America having 252M subscriptions. The source is the International Telecommunication Union, and the data is presented by We Are Social.",
+      "key_facts": [
+        "Mobile broadband subscriptions in North America: 252M",
+        "Source: International Telecommunication Union",
+        "Published in January 2014",
+        "Data presented by We Are Social"
+      ],
+      "visible_text": [
+        "JAN 2014",
+        "MOBILE BROADBAND SUBSCRIPTIONS",
+        "NORTH AMERICA 252M",
+        "We Are Social • Source: International Telecommunication Union",
+        "wearesocial.sg • @wearesocialsg • 16"
+      ]
+    },
+    {
+      "iter": 1,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_17",
+      "found_via_query": "total population of North America 2014 and number of active social network users",
+      "summary": "A data infographic from January 2014 showing statistics for North America, including total population, internet users, active social network users, and mobile subscriptions. The data is sourced from US Census Bureau, InternetWorldStats, Facebook, and ITU.",
+      "key_facts": [
+        "Total population: 351,300,266",
+        "Internet users: 284,093,742",
+        "Active social network users: 197,033,600",
+        "Active mobile subscriptions: 353,899,984",
+        "Urban population: 82%, Rural: 18%",
+        "Internet penetration: 81%",
+        "Social networking penetration: 56%",
+        "Mobile penetration: 101%"
+      ],
+      "visible_text": [
+        "JAN 2014",
+        "NORTH AMERICA",
+        "351,300,266 TOTAL POPULATION",
+        "284,093,742 INTERNET USERS",
+        "197,033,600 ACTIVE SOCIAL NETWORK USERS",
+        "353,899,984 ACTIVE MOBILE SUBSCRIPTIONS",
+        "82% URBAN",
+        "18% RURAL",
+        "81% INTERNET PENETRATION",
+        "56% SOCIAL NETWORKING PENETRATION",
+        "101% MOBILE PENETRATION",
+        "We Are Social • Sources: US Census Bureau, InternetWorldStats, Facebook, ITU",
+        "wearesocial.sg • @wearesocialsg • 17"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_16",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/75/images/iter_00_2014globaldigitalsociallandscape_140803004322_phpapp02_95_page_16_200k.png"
+    },
+    {
+      "iter": 1,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_17",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/75/images/iter_01_2014globaldigitalsociallandscape_140803004322_phpapp02_95_page_17_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "region with 252M mobile broadband subscriptions and its total population",
+    "total population of North America 2014 and number of active social network users"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

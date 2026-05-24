@@ -1,0 +1,43 @@
+{
+  "original_query": "What level comes between \"all managers between the first-line level and the top level of the organization who manage first line managers\" and Non-managerial Employees?",
+  "confirmed": [
+    {
+      "answer_text": "The organizational levels, from top to bottom, are: Top Managers, Middle Managers, First-line Managers, and Non-managerial Employees.",
+      "summary": "The image displays a pyramid diagram illustrating the four organizational levels: Top Managers, Middle Managers, First-line Managers, and Non-managerial Employees, from top to bottom.",
+      "key_facts": [
+        "The organizational levels, from top to bottom, are: Top Managers, Middle Managers, First-line Managers, and Non-managerial Employees."
+      ],
+      "image_ref": {
+        "id": "0eb7b24394d883d5",
+        "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_06",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part2/20260524_080736/134/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What is the organizational level between first-line managers and non-managerial employees?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What is the organizational level between first-line managers and non-managerial employees?",
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_06",
+      "decision": "yes",
+      "summary": "The image displays a pyramid diagram illustrating the four organizational levels: Top Managers, Middle Managers, First-line Managers, and Non-managerial Employees, from top to bottom.",
+      "key_facts": [
+        "The organizational levels, from top to bottom, are: Top Managers, Middle Managers, First-line Managers, and Non-managerial Employees."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "The diagram shows a four-level organizational hierarchy: Top Managers at the top, followed by Middle Managers, then First-line Managers, and finally Non-managerial Employees at the bottom. The query asks for the level that sits between 'all managers between the first-line level and the top level' (i.e., Top Managers and Middle Managers) and Non-managerial Employees — which implies the level directly below the managerial tier and above non-managerial staff.",
+  "consolidated_key_facts": [
+    "Organizational levels from top to bottom: Top Managers, Middle Managers, First-line Managers, Non-managerial Employees.",
+    "The level between Top Managers and Middle Managers is not explicitly defined in the query, but the structure implies Middle Managers are the next tier below Top Managers.",
+    "First-line Managers are above Non-managerial Employees, making them the immediate managerial level before non-managerial staff."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part2/20260524_080736/134/images"
+}

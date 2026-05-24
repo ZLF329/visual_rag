@@ -1,0 +1,35 @@
+{
+  "original_query": "What is Marta Klepka, CEE's affiliation?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_01",
+      "found_via_query": "Marta Klepka CEE affiliation",
+      "summary": "The slide is titled 'AUTOMATION, INTEGRATION AND EFFECTIVENESS - PROGRAMMATIC BUYING AND ITS' FUTURE IN CEE' and features the Vivaki logo. It presents Marta Klepka, CEE as the Digital Director at Publicis Groupe.",
+      "key_facts": [
+        "Marta Klepka, CEE is the Digital Director",
+        "Affiliation: Publicis Groupe"
+      ],
+      "visible_text": [
+        "AUTOMATION, INTEGRATION AND EFFECTIVENESS - PROGRAMMATIC BUYING AND ITS' FUTURE IN CEE",
+        "Marta Klepka, CEE",
+        "Digital Director",
+        "Publicis Groupe",
+        "vivaki"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "24042014iforumkievmartaklepkapublicisgroupe-140514070615-phpapp01_95/page_01",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/107/images/iter_00_24042014iforumkievmartaklepkapublicisgroupe_140514070615_phpapp01_95_page_01_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "Marta Klepka CEE affiliation"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

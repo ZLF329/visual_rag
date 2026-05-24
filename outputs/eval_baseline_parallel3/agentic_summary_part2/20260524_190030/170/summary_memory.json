@@ -1,0 +1,41 @@
+{
+  "original_query": "What type of characteristic is shape?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_16",
+      "found_via_query": "What type of characteristic is shape?",
+      "summary": "The image presents a chart titled 'How do humans like their data?' which ranks visual characteristics by human importance, with 'Position' being the most important and 'Shape' the least important. The chart uses a funnel-like layout with an arrow indicating importance from top to bottom.",
+      "key_facts": [
+        "Position is the most important visual characteristic for humans.",
+        "Color is the second most important.",
+        "Size is the third most important.",
+        "Shape is the least important visual characteristic.",
+        "The chart ranks characteristics from most to least important using a vertical arrow."
+      ],
+      "visible_text": [
+        "How do humans like their data?",
+        "Position",
+        "Color",
+        "Size",
+        "Shape",
+        "More Important",
+        "Less Important",
+        "#visualdata"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "brainondatafinal-150314123657-conversion-gate01_95/page_16",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_190030/170/images/iter_00_brainondatafinal_150314123657_conversion_gate01_95_page_16_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What type of characteristic is shape?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

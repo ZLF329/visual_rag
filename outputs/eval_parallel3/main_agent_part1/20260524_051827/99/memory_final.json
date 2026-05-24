@@ -1,0 +1,25 @@
+{
+  "original_query": "What are four examples of addictive drugs that are Biologically Active Amines?",
+  "confirmed": [
+    {
+      "answer_text": "Cocaine, nicotine, mescaline, and morphine are four examples of addictive drugs that are biologically active amines.",
+      "image_ref": {
+        "id": "23d46c48a8577494",
+        "page_label": "19-amines-wade7th-140409034223-phpapp02_95/page_02",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/99/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "cocaine in coca leaves",
+        "nicotine in tobacco",
+        "mesaline in peyote cactus",
+        "morphine in opium poppies"
+      ],
+      "found_via_query": "examples of addictive drugs that are biologically active amines"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/99/images"
+}

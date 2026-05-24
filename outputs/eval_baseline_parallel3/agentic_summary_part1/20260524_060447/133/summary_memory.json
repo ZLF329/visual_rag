@@ -1,0 +1,38 @@
+{
+  "original_query": "What level comes between Middle Managers and Non-managerial Employees?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_06",
+      "found_via_query": "organizational hierarchy levels between Middle Managers and Non-managerial Employees",
+      "summary": "The image displays a pyramid diagram labeled 'ORGANIZATIONAL LEVELS (Exhibit 1.1)' showing four hierarchical levels: Top Managers, Middle Managers, First-line Managers, and Non-managerial Employees, from top to bottom.",
+      "key_facts": [
+        "The diagram illustrates organizational levels in a pyramid structure.",
+        "The levels, from top to bottom, are: Top Managers, Middle Managers, First-line Managers, and Non-managerial Employees.",
+        "The level between Middle Managers and Non-managerial Employees is First-line Managers."
+      ],
+      "visible_text": [
+        "ORGANIZATIONAL LEVELS (Exhibit 1.1)",
+        "Top Managers",
+        "Middle Managers",
+        "First-line Managers",
+        "Non-managerial Employees",
+        "© 2003 Pearson Education Canada Inc.",
+        "1.6"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "chapter1-introductiontomanagementandorganizations-090411125412-phpapp02_95/page_06",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/133/images/iter_00_chapter1_introductiontomanagementandorganizations_090411125412_phpapp02_95_page__200k.png"
+    }
+  ],
+  "issued_queries": [
+    "organizational hierarchy levels between Middle Managers and Non-managerial Employees"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

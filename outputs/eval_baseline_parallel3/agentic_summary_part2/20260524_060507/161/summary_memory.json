@@ -1,0 +1,39 @@
+{
+  "original_query": "Is differentiation high or low in a niche market?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_07",
+      "found_via_query": "differentiation level in niche markets",
+      "summary": "A 2x2 matrix diagram showing the relationship between 'Market head' (vertical axis) and 'Differentiation' (horizontal axis), with four quadrants labeled: Competitive, Focus, Avoid, and Niche. The 'Niche' quadrant is located in the high differentiation and low market head area.",
+      "key_facts": [
+        "The diagram uses 'Market head' as the vertical axis and 'Differentiation' as the horizontal axis.",
+        "The 'Niche' quadrant is positioned in the top-right, indicating high differentiation and low market head.",
+        "The 'Avoid' quadrant is in the bottom-left, indicating low differentiation and low market head."
+      ],
+      "visible_text": [
+        "Market head",
+        "Differentiation",
+        "Competitive",
+        "Focus",
+        "Avoid",
+        "Niche",
+        "Conversationmanagement.biz | @Steven_InSites",
+        "InSites Consulting"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "asixstepcontentmarketingmodel-120206005134-phpapp01_95/page_07",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/161/images/iter_00_asixstepcontentmarketingmodel_120206005134_phpapp01_95_page_07_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "differentiation level in niche markets"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

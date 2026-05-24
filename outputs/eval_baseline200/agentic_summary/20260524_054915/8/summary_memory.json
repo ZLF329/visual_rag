@@ -1,0 +1,45 @@
+{
+  "original_query": "What is the percentage of Nestlé's 10-year annual average of the real internal growth?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_07",
+      "found_via_query": "Nestlé 10-year annual average real internal growth percentage financial report",
+      "summary": "This slide from Nestlé's 2011 Full Year Results Roadshow (February 21st, 2012) presents a bar chart titled '10 years of the Nestlé Model: Driving Organic Growth & EBIT Margin Improvement,' showing annual organic growth and EBIT margin from 2001 to 2011. It also displays 10-year annual averages: Organic Growth at 6.4% and Real Internal Growth at 3.6%. The chart includes a line graph for EBIT margin, which shows a steady increase from 11.8% in 2001 to 15.0% in 2011, with a note that data corresponds to published figures not restated for accounting changes.",
+      "key_facts": [
+        "10-year annual average Real Internal Growth: 3.6%",
+        "10-year annual average Organic Growth: 6.4%",
+        "EBIT margin increased from 11.8% in 2001 to 15.0% in 2011",
+        "Data corresponds to published figures – not restated for accounting changes",
+        "Date: February 21st, 2012, Event: 2011 Full Year Results Roadshow"
+      ],
+      "visible_text": [
+        "10 years of the Nestlé Model",
+        "Driving Organic Growth & EBIT Margin Improvement",
+        "10-year annual averages",
+        "Organic Growth 6.4%",
+        "Real Internal Growth 3.6%",
+        "Organic Growth",
+        "EBIT margin *",
+        "TOP margin",
+        "* Before net trading items",
+        "Data corresponds to published figures – not restated for accounting changes",
+        "February 21st, 2012",
+        "2011 Full Year Results Roadshow"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_07",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline200/agentic_summary/20260524_054915/8/images/iter_00_2012_02_20fy11roadshow_120221022442_phpapp02_95_page_07_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "Nestlé 10-year annual average real internal growth percentage financial report"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

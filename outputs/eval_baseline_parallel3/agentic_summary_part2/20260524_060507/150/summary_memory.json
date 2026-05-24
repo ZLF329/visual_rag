@@ -1,0 +1,51 @@
+{
+  "original_query": "By what percentage did BASF net income grow from H1 2010 to H1 2011?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_05",
+      "found_via_query": "BASF H1 2010 to H1 2011 net income growth percentage financial report",
+      "summary": "This slide presents BASF Group's H1 2011 financial results compared to H1 2010, highlighting significant growth in sales and earnings, particularly in the chemicals business. Key metrics include €37.8 billion in sales (+19% YoY), €6.4 billion EBITDA (+16%), and a notable +75% increase in net income to €3.9 billion. The slide also notes strong performance from the acquired Cognis business and price-driven growth in Oil & Gas, which contributed to a 34% rise in net income.",
+      "key_facts": [
+        "BASF Group H1 2011 net income: €3.9 billion",
+        "Net income growth vs. H1 2010: +75%",
+        "Sales: €37.8 billion (+19%)",
+        "EBITDA: €6.4 billion (+16%)",
+        "EBIT: €4.8 billion (+22%)",
+        "EPS: €4.21 (+75%)",
+        "Adjusted EPS: €3.69 (+31%)"
+      ],
+      "visible_text": [
+        "BASF Group results H1 2011",
+        "Business performance",
+        "Sales",
+        "EBITDA",
+        "EBITDA margin",
+        "EBIT before special items (bSI)",
+        "EBIT bSI adjusted for non-comp. oil taxes",
+        "EBIT",
+        "Net income",
+        "EPS",
+        "Adjusted EPS",
+        "Significant sales and earnings growth in the chemicals business",
+        "Excellent performance of the acquired former Cognis business",
+        "Earnings in Agricultural Solutions increased despite adverse weather conditions",
+        "Sales growth in Oil & Gas was price driven. Net income rose by 34%",
+        "BASF Roundtable Agricultural Solutions, August 8, 2011"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_05",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_060507/150/images/iter_00_basfroundtableagrosolutions2011_110808043440_phpapp02_95_page_05_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "BASF H1 2010 to H1 2011 net income growth percentage financial report"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

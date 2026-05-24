@@ -1,0 +1,23 @@
+{
+  "original_query": "In which year did Nestlé achieve higher Organic Growth, 2003 or 2004?",
+  "confirmed": [
+    {
+      "answer_text": "Nestlé achieved higher Organic Growth in 2003 than in 2004.",
+      "image_ref": {
+        "id": "81c21f035635270a",
+        "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_07",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_notebook/main_agent/20260524_041308/4/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "Organic Growth for 2003 is 5.1%",
+        "Organic Growth for 2004 is 4.5%"
+      ],
+      "found_via_query": "Nestlé Organic Growth 2003 vs 2004 financial report"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_notebook/main_agent/20260524_041308/4/images"
+}

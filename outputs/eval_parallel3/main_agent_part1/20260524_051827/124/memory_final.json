@@ -1,0 +1,22 @@
+{
+  "original_query": "How many days off do people get for National Day?",
+  "confirmed": [
+    {
+      "answer_text": "People get 3 days off for National Day, which can be extended to 1 week.",
+      "image_ref": {
+        "id": "db5e348432664a50",
+        "page_label": "chinatourismreport-100310054348-phpapp01_95/page_18",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/124/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "1 - 3 October (3 days off extended to 1 week)"
+      ],
+      "found_via_query": "National Day holiday days off per country"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/124/images"
+}

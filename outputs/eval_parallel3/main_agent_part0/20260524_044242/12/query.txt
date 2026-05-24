@@ -1,0 +1,1 @@
+What is the total percentage that wait Minutes and Hours for an average BI request?

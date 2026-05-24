@@ -1,0 +1,8 @@
+The substances involved in the feeding of substrates include:
+
+- **Precursor**: Phenyl acetic acid or phenoxy acetic acid, fed continuously.
+- **Nitrogen sources**: Corn steep liquor (4–5% dry weight), soy meal, yeast extract.
+- **Carbon source**: Whey and lactose.
+- **Buffers**: Various buffers.
+
+These are explicitly listed in the provided text under the section "PRODUCTION MEDIA" for Penicillin G and V production.

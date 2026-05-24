@@ -1,0 +1,106 @@
+nohup: ignoring input
+Loading weights:   0%|          | 0/749 [00:00<?, ?it/s]Loading weights: 100%|██████████| 749/749 [00:00<00:00, 7787.10it/s]
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/713 [00:00<?, ?it/s]Loading weights:   0%|          | 1/713 [00:00<01:18,  9.09it/s]Loading weights:   3%|▎         | 20/713 [00:00<00:06, 107.29it/s]Loading weights:   5%|▌         | 37/713 [00:00<00:05, 134.21it/s]Loading weights:   8%|▊         | 58/713 [00:00<00:04, 156.31it/s]Loading weights:  11%|█         | 75/713 [00:00<00:04, 158.75it/s]Loading weights:  13%|█▎        | 93/713 [00:00<00:03, 159.46it/s]Loading weights:  16%|█▌        | 114/713 [00:00<00:03, 170.51it/s]Loading weights:  19%|█▉        | 135/713 [00:00<00:03, 176.71it/s]Loading weights:  22%|██▏       | 154/713 [00:00<00:03, 178.51it/s]Loading weights:  24%|██▍       | 172/713 [00:01<00:03, 175.32it/s]Loading weights:  27%|██▋       | 191/713 [00:01<00:02, 176.16it/s]Loading weights:  30%|██▉       | 212/713 [00:01<00:02, 183.03it/s]Loading weights:  32%|███▏      | 231/713 [00:01<00:02, 182.42it/s]Loading weights:  35%|███▌      | 250/713 [00:01<00:02, 180.07it/s]Loading weights:  38%|███▊      | 269/713 [00:01<00:02, 173.88it/s]Loading weights:  41%|████      | 290/713 [00:01<00:02, 181.27it/s]Loading weights:  44%|████▎     | 311/713 [00:01<00:02, 186.06it/s]Loading weights:  46%|████▋     | 330/713 [00:01<00:02, 183.81it/s]Loading weights:  49%|████▉     | 349/713 [00:02<00:02, 181.24it/s]Loading weights:  52%|█████▏    | 368/713 [00:02<00:01, 173.85it/s]Loading weights:  55%|█████▍    | 389/713 [00:02<00:01, 181.01it/s]Loading weights:  70%|██████▉   | 498/713 [00:02<00:00, 435.45it/s]Loading weights:  91%|█████████ | 646/713 [00:02<00:00, 732.81it/s]Loading weights: 100%|██████████| 713/713 [00:02<00:00, 276.85it/s]
+[eval] step=1/66 sample_id=134 terminated_by=decide
+[eval] step=2/66 sample_id=135 terminated_by=decide
+[eval] step=3/66 sample_id=136 terminated_by=decide
+[eval] step=4/66 sample_id=137 terminated_by=decide
+[eval] step=5/66 sample_id=138 terminated_by=decide
+[eval] step=6/66 sample_id=139 terminated_by=decide
+[eval] step=7/66 sample_id=140 terminated_by=max_iters
+[eval] step=8/66 sample_id=141 terminated_by=max_iters
+[eval] step=9/66 sample_id=142 terminated_by=decide
+[eval] step=10/66 sample_id=143 terminated_by=decide
+[eval] step=11/66 sample_id=144 terminated_by=decide
+[eval] step=12/66 sample_id=145 terminated_by=decide
+[eval] step=13/66 sample_id=146 terminated_by=decide
+[eval] step=14/66 sample_id=147 terminated_by=decide
+[eval] step=15/66 sample_id=148 terminated_by=decide
+[eval] step=16/66 sample_id=149 terminated_by=decide
+[eval] step=17/66 sample_id=150 terminated_by=decide
+[eval] step=18/66 sample_id=151 terminated_by=decide
+[eval] step=19/66 sample_id=152 terminated_by=decide
+[eval] step=20/66 sample_id=153 terminated_by=decide
+[eval] step=21/66 sample_id=154 terminated_by=decide
+[eval] step=22/66 sample_id=155 terminated_by=decide
+[eval] step=23/66 sample_id=156 terminated_by=decide
+[eval] step=24/66 sample_id=157 terminated_by=decide
+[eval] step=25/66 sample_id=158 terminated_by=decide
+[eval] step=26/66 sample_id=159 terminated_by=decide
+[eval] step=27/66 sample_id=160 terminated_by=decide
+[eval] step=28/66 sample_id=161 terminated_by=decide
+[eval] step=29/66 sample_id=162 terminated_by=decide
+[eval] step=30/66 sample_id=163 terminated_by=decide
+[eval] step=31/66 sample_id=164 terminated_by=decide
+[eval] step=32/66 sample_id=165 terminated_by=decide
+[eval] step=33/66 sample_id=166 terminated_by=decide
+[eval] step=34/66 sample_id=167 terminated_by=decide
+[eval] step=35/66 sample_id=168 terminated_by=decide
+[eval] step=36/66 sample_id=169 terminated_by=decide
+[eval] step=37/66 sample_id=170 terminated_by=decide
+[eval] step=38/66 sample_id=171 terminated_by=decide
+[eval] step=39/66 sample_id=172 terminated_by=decide
+[eval] step=40/66 sample_id=173 terminated_by=decide
+[eval] step=41/66 sample_id=174 terminated_by=decide
+[eval] step=42/66 sample_id=175 terminated_by=decide
+[eval] step=43/66 sample_id=176 terminated_by=decide
+[eval] step=44/66 sample_id=177 terminated_by=max_iters
+[eval] step=45/66 sample_id=178 terminated_by=decide
+[eval] step=46/66 sample_id=179 terminated_by=decide
+[eval] step=47/66 sample_id=180 terminated_by=decide
+[eval] step=48/66 sample_id=181 terminated_by=decide
+[eval] step=49/66 sample_id=182 terminated_by=decide
+[eval] step=50/66 sample_id=183 terminated_by=decide
+[eval] step=51/66 sample_id=184 terminated_by=decide
+[eval] step=52/66 sample_id=185 terminated_by=decide
+[eval] step=53/66 sample_id=186 terminated_by=max_iters
+[eval] step=54/66 sample_id=187 terminated_by=max_iters
+[eval] step=55/66 sample_id=188 terminated_by=max_iters
+[eval] step=56/66 sample_id=189 terminated_by=decide
+[eval] step=57/66 sample_id=190 terminated_by=decide
+[eval] step=58/66 sample_id=191 terminated_by=decide
+[eval] step=59/66 sample_id=192 terminated_by=max_iters
+[eval] step=60/66 sample_id=193 terminated_by=decide
+[eval] step=61/66 sample_id=194 terminated_by=decide
+[eval] step=62/66 sample_id=195 terminated_by=decide
+[eval] step=63/66 sample_id=196 terminated_by=decide
+[eval] step=64/66 sample_id=197 terminated_by=max_iters
+[eval] step=65/66 sample_id=198 terminated_by=decide
+[eval] step=66/66 sample_id=199 terminated_by=decide
+{
+  "run_root": "outputs/eval_main_retained3_20260524_080709/part2/20260524_080736",
+  "summary": {
+    "num_samples": 66,
+    "baseline": "agent",
+    "mean_iters": 1.5606060606060606,
+    "median_iters": 1.0,
+    "termination_counts": {
+      "decide": 58,
+      "max_iters": 8
+    },
+    "decision_distribution": {
+      "yes": 52,
+      "partial": 24,
+      "no": 27
+    },
+    "warning_utilization": {
+      "search_queries": 103,
+      "warning_informed_queries": 23,
+      "fraction": 0.22330097087378642
+    },
+    "avg_visual_pixels_at_answer": 360606.0606060606,
+    "failure_type_counts": {
+      "null": 27
+    },
+    "accuracy": 0.6363636363636364,
+    "judge": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-flash",
+      "judged": 66,
+      "correct": 42,
+      "errors": 0,
+      "accuracy": 0.6363636363636364
+    }
+  }
+}

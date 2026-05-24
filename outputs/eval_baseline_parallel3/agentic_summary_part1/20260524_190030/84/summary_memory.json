@@ -1,0 +1,42 @@
+{
+  "original_query": "What is # TYPE 1 UNCUT about?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_19",
+      "found_via_query": "What is # TYPE 1 UNCUT about?",
+      "summary": "This page describes the collaboration behind #Type1Uncut, an online resource for young people with Type 1 diabetes, created by Diabetes UK, Garfield Weston Foundation, and Nonsense. It highlights that the project involved workshops with young people to co-create content and now publishes videos on YouTube.",
+      "key_facts": [
+        "#type1uncut started with Garfield Weston Foundation and Diabetes UK to provide an online resource for young people with Type 1 diabetes.",
+        "Diabetes UK was already running meetups for these young people.",
+        "Nonsense was hired to help create the resource, with workshops conducted with young people who contributed content and helped make it.",
+        "They now make and publish videos on YouTube at youtube.com/type1uncut."
+      ],
+      "visible_text": [
+        "COLLABORATION EXAMPLE...",
+        "#type1uncut started with Garfield Weston Foundation getting together with Diabetes UK to provide an online resource for young people with Type1 diabetes.",
+        "Diabetes UK were already running meetups for groups of these young people.",
+        "They hired Nonsense to help create the resource... the first thing we did was run workshops with the young people, who not only told us what content they really needed, but also volunteered to help make it!",
+        "They now make and publish videos on the subjects they really care about on youtube.com/type1uncut",
+        "DIABETES UK CARE. CONNECT. CAMPAIGN.",
+        "nonsense",
+        "Garfield Weston FOUNDATION",
+        "#TYPE 1 UNCUT",
+        "TALKING LIFE WITH TYPE 1 DIABETES"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "20140706whatcanfundraiserslearnfromrappers-140707171243-phpapp02_95/page_19",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_190030/84/images/iter_00_20140706whatcanfundraiserslearnfromrappers_140707171243_phpapp02_95_page_19_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What is # TYPE 1 UNCUT about?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

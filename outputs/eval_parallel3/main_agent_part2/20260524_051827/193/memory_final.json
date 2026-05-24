@@ -1,0 +1,23 @@
+{
+  "original_query": "What is a cell membrane disruption drug?",
+  "confirmed": [
+    {
+      "answer_text": "A cell membrane disruption drug is one that causes membrane disruption, pore formation, and depolarization, leading to leakage of ions and metabolites.",
+      "image_ref": {
+        "id": "c7b2d39444f17b3c",
+        "page_label": "antibiotics-141109111447-conversion-gate02_95/page_19",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/193/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "Based on membrane disruption followed by pore formation on the nanometer scale and membrane depolarization.",
+        "The following general model for the mechanism of action has been proposed: (i) AP-membrane attraction, (ii) attachment of the AP onto the membrane and (iii) insertion of the AP into the membrane causing its disruption, leading to the leakage of ions and metabolites."
+      ],
+      "found_via_query": "cell membrane disruption drug definition and examples"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/193/images"
+}

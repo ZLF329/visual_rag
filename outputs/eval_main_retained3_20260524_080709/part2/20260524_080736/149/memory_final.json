@@ -1,0 +1,43 @@
+{
+  "original_query": "What do publishers give academia?",
+  "confirmed": [],
+  "partials": [
+    {
+      "partial_answer": "Publishers give academia money (labeled as '$$').",
+      "summary": "The image presents a diagram titled 'The Publisher-Academic complex,' illustrating the flow of resources and interactions between publishers and academia. It shows publishers providing money and manuscript reviews to academia, while academia provides money and prestige to publishers. The diagram is based on the concept of the 'Military-Industrial-Academic complex' from 1961, attributed to Dwight D Eisenhower.",
+      "key_facts": [
+        "Publishers give academia money (labeled as '$$')."
+      ],
+      "image_ref": {
+        "id": "db01a48105c07467",
+        "page_label": "bologna1-151118100554-lva1-app6892_95/page_20",
+        "pixel_budget": 200000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part2/20260524_080736/149/images/partial_01_200k.png"
+      },
+      "cited_statements": [],
+      "remaining_gap": "",
+      "found_via_query": "What do publishers give to academia?",
+      "found_at_iter": 0
+    }
+  ],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What do publishers give to academia?",
+      "page_label": "bologna1-151118100554-lva1-app6892_95/page_20",
+      "decision": "partial",
+      "summary": "The image presents a diagram titled 'The Publisher-Academic complex,' illustrating the flow of resources and interactions between publishers and academia. It shows publishers providing money and manuscript reviews to academia, while academia provides money and prestige to publishers. The diagram is based on the concept of the 'Military-Industrial-Academic complex' from 1961, attributed to Dwight D Eisenhower.",
+      "key_facts": [
+        "Publishers give academia money (labeled as '$$')."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "Publishers provide academia with financial support and manuscript review services, as depicted in a diagram modeled after the 1961 'Military-Industrial-Academic complex' concept. Academia, in turn, provides publishers with funding and prestige, suggesting a reciprocal relationship. The diagram highlights publishers as a key financial contributor to academic institutions.",
+  "consolidated_key_facts": [
+    "Publishers give academia money (labeled as '$$')."
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part2/20260524_080736/149/images"
+}

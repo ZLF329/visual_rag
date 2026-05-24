@@ -1,0 +1,39 @@
+{
+  "original_query": "Is eBook Penetration higher in Public or Academic libraries?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_06",
+      "found_via_query": "eBook penetration comparison between public and academic libraries",
+      "summary": "A bar chart titled 'eBook Penetration' compares eBook usage in School, Public, and Academic libraries from 2010 to 2012. The chart shows that Academic libraries consistently have higher eBook penetration than Public libraries across all three years. The data source is the Library Journal Survey of Ebook Penetration - 2010-2012.",
+      "key_facts": [
+        "Academic libraries have higher eBook penetration than Public libraries in 2010, 2011, and 2012.",
+        "The data spans 2010 to 2012.",
+        "Source: Library Journal Survey of Ebook Penetration - 2010-2012."
+      ],
+      "visible_text": [
+        "eBook Penetration",
+        "School",
+        "Public",
+        "Academic",
+        "2010",
+        "2011",
+        "2012",
+        "Source: Library Journal Survey of Ebook Penetration - 2010-2012"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "2013alapurchasing-130214144910-phpapp02_95/page_06",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/88/images/iter_00_2013alapurchasing_130214144910_phpapp02_95_page_06_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "eBook penetration comparison between public and academic libraries"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

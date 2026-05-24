@@ -1,0 +1,36 @@
+{
+  "original_query": "What are Vincenzo De Florio's affiliations?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_01",
+      "found_via_query": "Vincenzo De Florio affiliations",
+      "summary": "The slide presents a title 'A Behavioral Interpretation of Resilience and Antifragility' by Vincenzo De Florio, along with his affiliations: MOSAIC, Universiteit Antwerpen, and iMinds. His email is also provided, and the work is licensed under Creative Commons Attribution-NoDerivatives 4.0 International.",
+      "key_facts": [
+        "Vincenzo De Florio is affiliated with MOSAIC, Universiteit Antwerpen, and iMinds.",
+        "Email: vincenzo.deflorio@gmail.com",
+        "Work licensed under Creative Commons Attribution-NoDerivatives 4.0 International License."
+      ],
+      "visible_text": [
+        "A Behavioral Interpretation of Resilience and Antifragility",
+        "Vincenzo De Florio",
+        "MOSAIC / Universiteit Antwerpen & iMinds",
+        "vincenzo.deflorio@gmail.com",
+        "This work is licensed under the Creative Commons Attribution-NoDerivatives 4.0 International License."
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_01",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_060447/78/images/iter_00_2014_11_14_inriaprovappt_141112043127_conversion_gate02_95_page_01_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "Vincenzo De Florio affiliations"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

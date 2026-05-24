@@ -1,0 +1,22 @@
+{
+  "original_query": "What is PREDICTIVE Behavior?",
+  "confirmed": [
+    {
+      "answer_text": "PREDICTIVE Behavior is steered by the distance from the predicted position of the goal.",
+      "image_ref": {
+        "id": "62cb72fb03c39327",
+        "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_06",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/80/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "Distance from predicted position of goal steers the behavior"
+      ],
+      "found_via_query": "definition of PREDICTIVE Behavior"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/80/images"
+}

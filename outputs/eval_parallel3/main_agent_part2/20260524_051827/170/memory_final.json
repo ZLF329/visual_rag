@@ -1,0 +1,58 @@
+{
+  "original_query": "What type of characteristic is shape?",
+  "confirmed": [],
+  "partials": [
+    {
+      "partial_answer": "Shape is defined on the page as a recoverable property of a body after deformation, as part of the concept of elasticity.",
+      "image_ref": {
+        "id": "0ab48d9eb49b4880",
+        "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_10",
+        "pixel_budget": 200000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/170/images/partial_01_200k.png"
+      },
+      "cited_statements": [
+        "The ability of a body that has been subjected to an external force to recover its size and shape, following deformation"
+      ],
+      "remaining_gap": "The page does not classify 'shape' as a specific type of characteristic (e.g., mechanical, physical, etc.) in a broader sense.",
+      "found_via_query": "definition of shape as a characteristic",
+      "found_at_iter": 0
+    },
+    {
+      "partial_answer": "Shape is defined on the page as a recoverable property of a body after deformation, as part of the concept of elasticity.",
+      "image_ref": {
+        "id": "0ab48d9eb49b4880",
+        "page_label": "2014-11-14-inriaprovappt-141112043127-conversion-gate02_95/page_10",
+        "pixel_budget": 200000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/170/images/partial_02_200k.png"
+      },
+      "cited_statements": [
+        "The ability of a body that has been subjected to an external force to recover its size and shape, following deformation"
+      ],
+      "remaining_gap": "The page does not classify 'shape' as a specific type of characteristic (e.g., mechanical, physical, etc.) in a broader sense.",
+      "found_via_query": "shape as a type of physical or mechanical characteristic",
+      "found_at_iter": 2
+    }
+  ],
+  "warnings": [
+    {
+      "query_tried": "types of characteristics including shape",
+      "failure_type": "wrong_domain",
+      "suggestion": "Search for a definition of 'shape' as a characteristic in the context of physics, geometry, or materials science.",
+      "image_id": "445ef03f53662140"
+    },
+    {
+      "query_tried": "shape as a type of physical characteristic in physics or materials science",
+      "failure_type": "wrong_domain",
+      "suggestion": "Search for 'definition of shape as a physical characteristic' or 'types of characteristics in physics including shape'.",
+      "image_id": "445ef03f53662140"
+    },
+    {
+      "query_tried": "shape as a type of physical characteristic in physics or materials science",
+      "failure_type": "wrong_domain",
+      "suggestion": "Search for 'definition of shape as a physical or mechanical characteristic' or 'types of characteristics in physics including shape'.",
+      "image_id": "445ef03f53662140"
+    }
+  ],
+  "iter": 5,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/170/images"
+}

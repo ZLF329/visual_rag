@@ -1,0 +1,24 @@
+{
+  "original_query": "What are the elements of Resource Conservation?",
+  "confirmed": [
+    {
+      "answer_text": "The elements of Resource Conservation are Soil Fertility, Water harvesting and Moisture conservation, and Seeds and Biodiversity.",
+      "image_ref": {
+        "id": "b0eb7e0f0de5168f",
+        "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_03",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/113/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "Soil Fertility",
+        "Water harvesting and Moisture conservation",
+        "Seeds and Biodiversity"
+      ],
+      "found_via_query": "elements of Resource Conservation"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/113/images"
+}

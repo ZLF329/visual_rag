@@ -1,0 +1,1 @@
+The additional component with Delegation Tokens compared to No Delegation Tokens is the 'Driver' component, which is introduced between the KDC and HDFS.

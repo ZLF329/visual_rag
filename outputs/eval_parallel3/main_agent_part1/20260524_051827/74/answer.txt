@@ -1,0 +1,10 @@
+To calculate the percentage of North America’s total population that are active social network users, divide the number of active social network users by the total population and multiply by 100.
+
+From the image:
+- Total Population = 351,300,266
+- Active Social Network Users = 197,033,600
+
+Calculation:
+(197,033,600 ÷ 351,300,266) × 100 ≈ 56.1%
+
+Thus, approximately **56.1%** of North America’s total population are active social network users. This percentage is derived from the data provided in the image, as the exact percentage is not explicitly stated.

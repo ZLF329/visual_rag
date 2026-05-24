@@ -1,0 +1,47 @@
+{
+  "original_query": "What comes between community resources and community change in the flow chart?",
+  "confirmed": [
+    {
+      "answer_text": "The flow chart shows 'Community Resources' as the starting point.; The next step in the flow is 'Nonprofit'.; The final outcome is 'Community Change'.",
+      "summary": "The image explains a Theory of Change using a flow chart that illustrates how community resources are used by a nonprofit to achieve community change.",
+      "key_facts": [
+        "The flow chart shows 'Community Resources' as the starting point.",
+        "The next step in the flow is 'Nonprofit'.",
+        "The final outcome is 'Community Change'."
+      ],
+      "image_ref": {
+        "id": "e4be70c147a3076c",
+        "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_05",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_182515/56/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What is the flow chart structure showing the relationship between community resources and community change?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What is the flow chart structure showing the relationship between community resources and community change?",
+      "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_05",
+      "decision": "yes",
+      "summary": "The image explains a Theory of Change using a flow chart that illustrates how community resources are used by a nonprofit to achieve community change.",
+      "key_facts": [
+        "The flow chart shows 'Community Resources' as the starting point.",
+        "The next step in the flow is 'Nonprofit'.",
+        "The final outcome is 'Community Change'."
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "[query: What is the flow chart structure showing the relationship between community resources and community change?] The image explains a Theory of Change using a flow chart that illustrates how community resources are used by a nonprofit to achieve community change.",
+  "consolidated_key_facts": [
+    "The flow chart begins with 'Community Resources'.",
+    "The next step after 'Community Resources' is 'Nonprofit'.",
+    "The final outcome is 'Community Change'."
+  ],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_182515/56/images"
+}

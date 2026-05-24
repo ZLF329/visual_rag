@@ -1,0 +1,44 @@
+{
+  "original_query": "Who funds academia?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "bologna1-151118100554-lva1-app6892_95/page_20",
+      "found_via_query": "Who funds academia?",
+      "summary": "The image illustrates 'The Publisher-Academic complex' with arrows showing funding and exchange relationships. Academia is funded by taxpayers, students, and researchers (in-kind), while publishers provide money and review services. The diagram references the 'Military-Industrial-Academic complex' from 1961, attributed to Dwight D Eisenhower.",
+      "key_facts": [
+        "Academia is funded by taxpayers, students, and researchers (in-kind).",
+        "Publishers provide money and review services to academia.",
+        "The diagram references the Military-Industrial-Academic complex (1961) by Dwight D Eisenhower.",
+        "Academia also provides 'glory' to publishers, with a question mark indicating uncertainty."
+      ],
+      "visible_text": [
+        "The Publisher-Academic complex[1]",
+        "Publishers",
+        "Academia",
+        "Taxpayer",
+        "Student",
+        "Researcher",
+        "$$",
+        "$$, MS review",
+        "Glory+?",
+        "in-kind",
+        "[1] The Military-Industrial-Academic complex (1961)",
+        "(Dwight D Eisenhower, US President)"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "bologna1-151118100554-lva1-app6892_95/page_20",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_190030/148/images/iter_00_bologna1_151118100554_lva1_app6892_95_page_20_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "Who funds academia?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

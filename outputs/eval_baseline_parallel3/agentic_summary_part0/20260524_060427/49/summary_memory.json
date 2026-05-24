@@ -1,0 +1,38 @@
+{
+  "original_query": "What is the name of the company that publishes \"Gray's Anatomy Fortieth Edition\"?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_15",
+      "found_via_query": "publisher of Gray's Anatomy Fortieth Edition",
+      "summary": "The image is a medical diagram from Allergan Medical Institute showing the inspection of vascular structures in the head and neck prior to injection. It labels arteries and veins such as the supraorbital artery, facial artery, and external carotid artery. The diagram cites 'Standring S et al. Gray's Anatomy Fortieth Edition (p490). Elsevier 2008.' indicating the source of the anatomical information.",
+      "key_facts": [
+        "The diagram is from Allergan Medical Institute.",
+        "It illustrates vascular structures in the head and neck.",
+        "The anatomical information is sourced from 'Gray's Anatomy Fortieth Edition'.",
+        "The publisher is Elsevier, as stated in the citation.",
+        "The edition was published in 2008."
+      ],
+      "visible_text": [
+        "Inspection of the vascular structures prior to injecting",
+        "ALLERGAN MEDICAL INSTITUTE",
+        "Standring S et al. Gray's Anatomy Fortieth Edition (p490). Elsevier 2008.",
+        "Supporting Excellence in Facial Aesthetics",
+        "DOKTERFRODOGAYMANS"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "2014periorbitalandupperfaceamimodulebnl01332014x-140707165029-phpapp02_95/page_15",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_060427/49/images/iter_00_2014periorbitalandupperfaceamimodulebnl01332014x_140707165029_phpapp02_95_page_1_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "publisher of Gray's Anatomy Fortieth Edition"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

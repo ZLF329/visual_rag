@@ -1,0 +1,39 @@
+{
+  "original_query": "What is the title of the author of \"Changes of Mind\"?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_14",
+      "found_via_query": "author of 'Changes of Mind' and their title",
+      "summary": "The image displays the cover of the book 'Reinventing Organizations' by Frederic Laloux, with a foreword by Ken Wilber. It includes a quote from Jenny Wade, Ph.D., who is noted as the author of 'Changes of Mind'. The left side of the image contains text stating that to fully engage people, one must change their organizational model.",
+      "key_facts": [
+        "Author of 'Reinventing Organizations': Frederic Laloux",
+        "Foreword by Ken Wilber",
+        "Quote from Jenny Wade, Ph.D. about the book being 'Impressive! Brilliant! This book is a world changer!'",
+        "Jenny Wade is the author of 'Changes of Mind'"
+      ],
+      "visible_text": [
+        "FREDERIC LALOUX",
+        "FOREWORD BY KEN WILBER",
+        "\"Impressive! Brilliant! This book is a world changer!\"",
+        "— JENNY WADE, PH.D.",
+        "author of Changes of Mind",
+        "Reinventing organizations",
+        "A Guide to Creating Organizations Inspired by the Next Stage of Human Consciousness"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_14",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_060427/46/images/iter_00_agileenterprise_reinventingorgs_150402022438_conversion_gate01_95_page_14_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "author of 'Changes of Mind' and their title"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

@@ -1,0 +1,23 @@
+{
+  "original_query": "Which receives lower percentage of answers, Enterprise applications \"Are too complex, complicated, cumbersome to use\" or \"Take too long to get results\"?",
+  "confirmed": [
+    {
+      "answer_text": "Take too long to get results receives a lower percentage (29%) than Are too complex, complicated, cumbersome to use (32%).",
+      "image_ref": {
+        "id": "a7fa79a1f1e4334b",
+        "page_label": "0903organizingforbiandbigdatainthe21stcentury-clean-140922112024-phpapp02_95/page_17",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_parallel3/main_agent_part0/20260524_044242/15/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "Are too complex, complicated, cumbersome to use: 32%",
+        "Take too long to get results: 29%"
+      ],
+      "found_via_query": "enterprise applications user feedback percentage -too complex vs -too long to get results"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "outputs/eval_parallel3/main_agent_part0/20260524_044242/15/images"
+}

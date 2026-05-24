@@ -1,0 +1,22 @@
+{
+  "original_query": "What do extra markings indicate?",
+  "confirmed": [
+    {
+      "answer_text": "Extra markings indicate special dimensions or grease type and fill.",
+      "image_ref": {
+        "id": "22899ad2395b4114",
+        "page_label": "bearing1-151117114834-lva1-app6892_95/page_19",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_parallel3/main_agent_part2/20260524_044242/142/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "Extra Markings (Indicates special dimensions or grease type and fill)"
+      ],
+      "found_via_query": "what do extra markings indicate in general context"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "outputs/eval_parallel3/main_agent_part2/20260524_044242/142/images"
+}

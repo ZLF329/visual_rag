@@ -1,0 +1,23 @@
+{
+  "original_query": "The F2C initiative to create a meeting ground for nature-friendly consumers and farmers links farmers to whom?",
+  "confirmed": [
+    {
+      "answer_text": "The F2C initiative links farmers to consumers.",
+      "image_ref": {
+        "id": "bd0ae0ff4cf5236a",
+        "page_label": "141121organicwayforward-141123090600-conversion-gate02_95/page_06",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/116/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "An F2C initiative to create a meeting ground for nature-friendly consumers and farmers",
+        "to build a new supply chain on Farmer to Consumer (F2C) model which helps"
+      ],
+      "found_via_query": "F2C initiative nature-friendly consumers farmers connection"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/116/images"
+}

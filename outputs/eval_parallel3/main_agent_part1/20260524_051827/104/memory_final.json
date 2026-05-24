@@ -1,0 +1,22 @@
+{
+  "original_query": "What level comes between GENERAL ENVIRONMENT and YOUR ORGANIZATION in the diagram?",
+  "confirmed": [
+    {
+      "answer_text": "INDUSTRY/SECTOR ENVIRONMENT",
+      "image_ref": {
+        "id": "269bdf8a3830cffd",
+        "page_label": "agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_11",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/104/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "INDUSTRY/SECTOR ENVIRONMENT"
+      ],
+      "found_via_query": "diagram showing hierarchy between GENERAL ENVIRONMENT and YOUR ORGANIZATION"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part1/20260524_051827/104/images"
+}

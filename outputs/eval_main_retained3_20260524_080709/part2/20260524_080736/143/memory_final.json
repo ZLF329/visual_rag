@@ -1,0 +1,41 @@
+{
+  "original_query": "What percentage of vehicle buyers include 3 or less brands in their consideration list?",
+  "confirmed": [
+    {
+      "answer_text": "82% of buyers include 3 or less brands in their consideration list",
+      "summary": "The page displays statistics from a CAB Automotive Buyers Study on how early vehicle buyers form their consideration lists and how many brands they typically include. It shows that 61% start forming their list over 2 months before purchase, and 82% include 3 or fewer brands. It also notes that 68% of likely buyers believe TV ads inform them about vehicles they might not have considered.",
+      "key_facts": [
+        "82% of buyers include 3 or less brands in their consideration list"
+      ],
+      "image_ref": {
+        "id": "ce8503de70f19df0",
+        "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_08",
+        "pixel_budget": 400000,
+        "path": "outputs/eval_main_retained3_20260524_080709/part2/20260524_080736/143/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [],
+      "found_via_query": "What percentage of vehicle buyers consider 3 or fewer brands when purchasing a vehicle?"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What percentage of vehicle buyers consider 3 or fewer brands when purchasing a vehicle?",
+      "page_label": "autoreport-cs6-140415111854-phpapp02_95/page_08",
+      "decision": "yes",
+      "summary": "The page displays statistics from a CAB Automotive Buyers Study on how early vehicle buyers form their consideration lists and how many brands they typically include. It shows that 61% start forming their list over 2 months before purchase, and 82% include 3 or fewer brands. It also notes that 68% of likely buyers believe TV ads inform them about vehicles they might not have considered.",
+      "key_facts": [
+        "82% of buyers include 3 or less brands in their consideration list"
+      ],
+      "cited_statements": []
+    }
+  ],
+  "consolidated_summary": "According to a CAB Automotive Buyers Study, 82% of vehicle buyers include 3 or fewer brands in their consideration list. The study also notes that 61% begin forming their list more than 2 months before purchase, and 68% believe TV ads influence their consideration of brands they might not have otherwise considered.",
+  "consolidated_key_facts": [
+    "82% of buyers include 3 or fewer brands in their consideration list"
+  ],
+  "iter": 1,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part2/20260524_080736/143/images"
+}

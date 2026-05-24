@@ -1,0 +1,144 @@
+{
+  "original_query": "Which achieved better performance in the year Nestlé acquired Prometheus, Organic Growth or Real Internal Growth?",
+  "iter": 5,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_07",
+      "found_via_query": "What were the performance metrics of Organic Growth and Real Internal Growth at the time of Nestlé's acquisition of Prometheus?",
+      "summary": "This slide from Nestlé's 2011 Full Year Results Roadshow (February 21st, 2012) displays 10 years of organic growth and EBIT margin improvement, with bar charts showing annual performance from 2001 to 2011. The 10-year annual averages are 6.4% for Organic Growth and 3.6% for Real Internal Growth. A line graph shows EBIT margin trends, ending at 15.0% in 2011. The data is noted as corresponding to published figures, not restated for accounting changes.",
+      "key_facts": [
+        "10-year annual average Organic Growth: 6.4%",
+        "10-year annual average Real Internal Growth: 3.6%",
+        "EBIT margin trend line ends at 15.0% in 2011",
+        "Data corresponds to published figures, not restated for accounting changes"
+      ],
+      "visible_text": [
+        "10 years of the Nestlé Model",
+        "Driving Organic Growth & EBIT Margin Improvement",
+        "10-year annual averages",
+        "Organic Growth 6.4%",
+        "Real Internal Growth 3.6%",
+        "Organic Growth",
+        "EBIT margin *",
+        "TOP margin",
+        "* Before net trading items",
+        "Data corresponds to published figures – not restated for accounting changes",
+        "February 21st, 2012",
+        "2011 Full Year Results Roadshow"
+      ]
+    },
+    {
+      "iter": 1,
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_07",
+      "found_via_query": "What year did Nestlé acquire Prometheus, and what were the Organic Growth and Real Internal Growth figures for that year?",
+      "summary": "This slide from Nestlé's 2011 Full Year Results Roadshow (February 21st, 2012) presents a 10-year trend of Organic Growth and Real Internal Growth from 2001 to 2011, with bar charts and a line graph for EBIT margin. The 10-year annual averages are 6.4% for Organic Growth and 3.6% for Real Internal Growth. The data is noted as corresponding to published figures, not restated for accounting changes. The slide does not specify the year Nestlé acquired Prometheus or provide performance metrics for that specific year.",
+      "key_facts": [
+        "10-year annual average Organic Growth: 6.4%",
+        "10-year annual average Real Internal Growth: 3.6%",
+        "Data corresponds to published figures, not restated for accounting changes",
+        "Slide is from Nestlé's 2011 Full Year Results Roadshow (February 21st, 2012)"
+      ],
+      "visible_text": [
+        "10 years of the Nestlé Model",
+        "Driving Organic Growth & EBIT Margin Improvement",
+        "10-year annual averages",
+        "Organic Growth 6.4%",
+        "Real Internal Growth 3.6%",
+        "Data corresponds to published figures – not restated for accounting changes",
+        "February 21st, 2012",
+        "2011 Full Year Results Roadshow"
+      ]
+    },
+    {
+      "iter": 2,
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_07",
+      "found_via_query": "What year did Nestlé acquire Prometheus, and what were the Organic Growth and Real Internal Growth figures for that specific year?",
+      "summary": "This slide from Nestlé's 2011 Full Year Results Roadshow (February 21st, 2012) presents a 10-year trend of Organic Growth and Real Internal Growth from 2001 to 2011, with bar charts and a line graph for EBIT margin. The 10-year annual averages are 6.4% for Organic Growth and 3.6% for Real Internal Growth. The data is noted as corresponding to published figures, not restated for accounting changes. The slide does not specify the year Nestlé acquired Prometheus or provide performance metrics for that specific year.",
+      "key_facts": [
+        "10-year annual average Organic Growth: 6.4%",
+        "10-year annual average Real Internal Growth: 3.6%",
+        "Data corresponds to published figures, not restated for accounting changes",
+        "Slide is from Nestlé's 2011 Full Year Results Roadshow (February 21st, 2012)",
+        "No specific year or performance metrics for Nestlé's acquisition of Prometheus are provided"
+      ],
+      "visible_text": [
+        "10 years of the Nestlé Model",
+        "Driving Organic Growth & EBIT Margin Improvement",
+        "10-year annual averages",
+        "Organic Growth 6.4%",
+        "Real Internal Growth 3.6%",
+        "Data corresponds to published figures – not restated for accounting changes",
+        "February 21st, 2012",
+        "2011 Full Year Results Roadshow"
+      ]
+    },
+    {
+      "iter": 3,
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_07",
+      "found_via_query": "What year did Nestlé acquire Prometheus, and what were the Organic Growth and Real Internal Growth figures for that specific year?",
+      "summary": "This slide from Nestlé's 2011 Full Year Results Roadshow (February 21st, 2012) displays a 10-year trend of Organic Growth and Real Internal Growth from 2001 to 2011, with bar charts and a line graph for EBIT margin. The 10-year annual averages are 6.4% for Organic Growth and 3.6% for Real Internal Growth. The data corresponds to published figures, not restated for accounting changes. The slide does not specify the year Nestlé acquired Prometheus or provide performance metrics for that specific year.",
+      "key_facts": [
+        "10-year annual average Organic Growth: 6.4%",
+        "10-year annual average Real Internal Growth: 3.6%",
+        "Data corresponds to published figures, not restated for accounting changes",
+        "Slide is from Nestlé's 2011 Full Year Results Roadshow (February 21st, 2012)",
+        "No specific year or performance metrics for Nestlé's acquisition of Prometheus are provided"
+      ],
+      "visible_text": [
+        "10 years of the Nestlé Model",
+        "Driving Organic Growth & EBIT Margin Improvement",
+        "10-year annual averages",
+        "Organic Growth 6.4%",
+        "Real Internal Growth 3.6%",
+        "Data corresponds to published figures – not restated for accounting changes",
+        "February 21st, 2012",
+        "2011 Full Year Results Roadshow"
+      ]
+    },
+    {
+      "iter": 4,
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_07",
+      "found_via_query": "What year did Nestlé acquire Prometheus, and what were the Organic Growth and Real Internal Growth figures for that specific year?",
+      "summary": "This slide from Nestlé's 2011 Full Year Results Roadshow (February 21st, 2012) presents a 10-year trend of Organic Growth and Real Internal Growth from 2001 to 2011, with bar charts and a line graph for EBIT margin. The 10-year annual averages are 6.4% for Organic Growth and 3.6% for Real Internal Growth. The data corresponds to published figures, not restated for accounting changes. The slide does not specify the year Nestlé acquired Prometheus or provide performance metrics for that specific year.",
+      "key_facts": [
+        "10-year annual average Organic Growth: 6.4%",
+        "10-year annual average Real Internal Growth: 3.6%",
+        "Data corresponds to published figures, not restated for accounting changes",
+        "Slide is from Nestlé's 2011 Full Year Results Roadshow (February 21st, 2012)",
+        "No specific year or performance metrics for Nestlé's acquisition of Prometheus are provided"
+      ],
+      "visible_text": [
+        "10 years of the Nestlé Model",
+        "Driving Organic Growth & EBIT Margin Improvement",
+        "10-year annual averages",
+        "Organic Growth 6.4%",
+        "Real Internal Growth 3.6%",
+        "Data corresponds to published figures – not restated for accounting changes",
+        "February 21st, 2012",
+        "2011 Full Year Results Roadshow"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 3,
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_07",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_190030/3/images/iter_03_2012_02_20fy11roadshow_120221022442_phpapp02_95_page_07_200k.png"
+    },
+    {
+      "iter": 4,
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_07",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_190030/3/images/iter_04_2012_02_20fy11roadshow_120221022442_phpapp02_95_page_07_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What were the performance metrics of Organic Growth and Real Internal Growth at the time of Nestlé's acquisition of Prometheus?",
+    "What year did Nestlé acquire Prometheus, and what were the Organic Growth and Real Internal Growth figures for that year?",
+    "What year did Nestlé acquire Prometheus, and what were the Organic Growth and Real Internal Growth figures for that specific year?",
+    "What year did Nestlé acquire Prometheus, and what were the Organic Growth and Real Internal Growth figures for that specific year?",
+    "What year did Nestlé acquire Prometheus, and what were the Organic Growth and Real Internal Growth figures for that specific year?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

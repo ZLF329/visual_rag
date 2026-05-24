@@ -1,0 +1,117 @@
+{
+  "original_query": "How many countries are detailed in the report titled \"GLOBAL DIGITAL STATISTICS 2014\"?",
+  "iter": 5,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_01",
+      "found_via_query": "What is the number of countries detailed in the report titled 'GLOBAL DIGITAL STATISTICS 2014'?",
+      "summary": "The cover page of the 'GLOBAL DIGITAL STATISTICS 2014' report by We Are Social, featuring a world map and the title in bold orange text. It is labeled as the '2014 EDITION' and describes the report as 'WE ARE SOCIAL’S SNAPSHOT OF KEY DIGITAL INDICATORS'.",
+      "key_facts": [
+        "Report title: GLOBAL DIGITAL STATISTICS 2014",
+        "Publisher: We Are Social",
+        "Edition: 2014",
+        "Description: Snapshot of key digital indicators"
+      ],
+      "visible_text": [
+        "we are social",
+        "2014 EDITION",
+        "GLOBAL DIGITAL STATISTICS 2014",
+        "WE ARE SOCIAL’S SNAPSHOT OF KEY DIGITAL INDICATORS"
+      ]
+    },
+    {
+      "iter": 1,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_01",
+      "found_via_query": "What is the number of countries detailed in the 'GLOBAL DIGITAL STATISTICS 2014' report by We Are Social?",
+      "summary": "The cover page of the 'GLOBAL DIGITAL STATISTICS 2014' report by We Are Social, featuring a world map and the title in bold orange text. It is labeled as the '2014 EDITION' and describes the report as 'WE ARE SOCIAL’S SNAPSHOT OF KEY DIGITAL INDICATORS'.",
+      "key_facts": [
+        "Report title: GLOBAL DIGITAL STATISTICS 2014",
+        "Publisher: We Are Social",
+        "Edition: 2014",
+        "Description: Snapshot of key digital indicators"
+      ],
+      "visible_text": [
+        "we are social",
+        "2014 EDITION",
+        "GLOBAL DIGITAL STATISTICS 2014",
+        "WE ARE SOCIAL’S SNAPSHOT OF KEY DIGITAL INDICATORS"
+      ]
+    },
+    {
+      "iter": 2,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_01",
+      "found_via_query": "What is the number of countries detailed in the 'GLOBAL DIGITAL STATISTICS 2014' report by We Are Social?",
+      "summary": "The cover page of the 'GLOBAL DIGITAL STATISTICS 2014' report by We Are Social, featuring a world map and the title in bold orange text. It is labeled as the '2014 EDITION' and describes the report as 'WE ARE SOCIAL’S SNAPSHOT OF KEY DIGITAL INDICATORS'.",
+      "key_facts": [
+        "Report title: GLOBAL DIGITAL STATISTICS 2014",
+        "Publisher: We Are Social",
+        "Edition: 2014",
+        "Description: Snapshot of key digital indicators"
+      ],
+      "visible_text": [
+        "we are social",
+        "2014 EDITION",
+        "GLOBAL DIGITAL STATISTICS 2014",
+        "WE ARE SOCIAL’S SNAPSHOT OF KEY DIGITAL INDICATORS"
+      ]
+    },
+    {
+      "iter": 3,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_01",
+      "found_via_query": "What is the number of countries detailed in the 'GLOBAL DIGITAL STATISTICS 2014' report by We Are Social?",
+      "summary": "The cover page of the 'GLOBAL DIGITAL STATISTICS 2014' report by We Are Social, featuring a world map and the title in bold orange text. It is labeled as the '2014 EDITION' and describes the report as 'WE ARE SOCIAL’S SNAPSHOT OF KEY DIGITAL INDICATORS'.",
+      "key_facts": [
+        "Report title: GLOBAL DIGITAL STATISTICS 2014",
+        "Publisher: We Are Social",
+        "Edition: 2014",
+        "Description: Snapshot of key digital indicators"
+      ],
+      "visible_text": [
+        "we are social",
+        "2014 EDITION",
+        "GLOBAL DIGITAL STATISTICS 2014",
+        "WE ARE SOCIAL’S SNAPSHOT OF KEY DIGITAL INDICATORS"
+      ]
+    },
+    {
+      "iter": 4,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_01",
+      "found_via_query": "What is the number of countries detailed in the 'GLOBAL DIGITAL STATISTICS 2014' report by We Are Social?",
+      "summary": "The cover page of the 'GLOBAL DIGITAL STATISTICS 2014' report by We Are Social, featuring a world map and the title in bold orange text. It is labeled as the '2014 EDITION' and describes the report as 'WE ARE SOCIAL’S SNAPSHOT OF KEY DIGITAL INDICATORS'.",
+      "key_facts": [
+        "Report title: GLOBAL DIGITAL STATISTICS 2014",
+        "Publisher: We Are Social",
+        "Edition: 2014",
+        "Description: Snapshot of key digital indicators"
+      ],
+      "visible_text": [
+        "we are social",
+        "2014 EDITION",
+        "GLOBAL DIGITAL STATISTICS 2014",
+        "WE ARE SOCIAL’S SNAPSHOT OF KEY DIGITAL INDICATORS"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 3,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_01",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_190030/69/images/iter_03_2014globaldigitalsociallandscape_140803004322_phpapp02_95_page_01_200k.png"
+    },
+    {
+      "iter": 4,
+      "page_label": "2014globaldigitalsociallandscape-140803004322-phpapp02_95/page_01",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part1/20260524_190030/69/images/iter_04_2014globaldigitalsociallandscape_140803004322_phpapp02_95_page_01_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "What is the number of countries detailed in the report titled 'GLOBAL DIGITAL STATISTICS 2014'?",
+    "What is the number of countries detailed in the 'GLOBAL DIGITAL STATISTICS 2014' report by We Are Social?",
+    "What is the number of countries detailed in the 'GLOBAL DIGITAL STATISTICS 2014' report by We Are Social?",
+    "What is the number of countries detailed in the 'GLOBAL DIGITAL STATISTICS 2014' report by We Are Social?",
+    "What is the number of countries detailed in the 'GLOBAL DIGITAL STATISTICS 2014' report by We Are Social?"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

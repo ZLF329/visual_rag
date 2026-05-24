@@ -1,0 +1,39 @@
+{
+  "original_query": "What are the components of exhaust?",
+  "confirmed": [],
+  "partials": [
+    {
+      "partial_answer": "The page lists 'The catalyst' as a component, which may be related to exhaust systems.",
+      "image_ref": {
+        "id": "01dca4a084a17d93",
+        "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_02",
+        "pixel_budget": 200000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/192/images/partial_04_200k.png"
+      },
+      "cited_statements": [
+        "The catalyst"
+      ],
+      "remaining_gap": "The page does not list other exhaust system components such as exhaust manifold, muffler, or exhaust pipe, nor does it confirm if 'The catalyst' is part of the exhaust system.",
+      "found_via_query": "exhaust system components including exhaust manifold, catalytic converter, muffler, exhaust pipe, oxygen sensor, and catalytic converter",
+      "found_at_iter": 3
+    },
+    {
+      "partial_answer": "The page lists 'The catalyst' as a component, which may be related to exhaust systems.",
+      "image_ref": {
+        "id": "01dca4a084a17d93",
+        "page_label": "automobilematerial-141204051237-conversion-gate01_95/page_02",
+        "pixel_budget": 200000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/192/images/partial_05_200k.png"
+      },
+      "cited_statements": [
+        "The catalyst"
+      ],
+      "remaining_gap": "The page does not list other exhaust system components such as exhaust manifold, muffler, or exhaust pipe, nor does it confirm if 'The catalyst' is part of the exhaust system.",
+      "found_via_query": "standard components of an exhaust system including exhaust manifold, catalytic converter, muffler, exhaust pipe, oxygen sensor, and catalytic converter",
+      "found_at_iter": 4
+    }
+  ],
+  "warnings": [],
+  "iter": 5,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_051827/192/images"
+}

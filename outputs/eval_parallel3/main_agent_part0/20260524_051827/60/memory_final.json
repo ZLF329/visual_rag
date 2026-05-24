@@ -1,0 +1,23 @@
+{
+  "original_query": "What are two example categories of organization goals?",
+  "confirmed": [
+    {
+      "answer_text": "Two example categories of organization goals are 'Money' and 'People & Infrastructure'.",
+      "image_ref": {
+        "id": "8234d15aacb9297b",
+        "page_label": "5benefitsofanonprofittheoryofchange-160229202540_95/page_17",
+        "pixel_budget": 400000,
+        "path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_051827/60/images/confirmed_01_400k.png"
+      },
+      "cited_statements": [
+        "Goal 4: Money",
+        "Goal 5: People & Infrastructure"
+      ],
+      "found_via_query": "examples of organization goals categories"
+    }
+  ],
+  "partials": [],
+  "warnings": [],
+  "iter": 1,
+  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part0/20260524_051827/60/images"
+}

@@ -1,0 +1,39 @@
+{
+  "original_query": "Which is answered as the BARRIER to further AGILE ADOPTION by more respondents, Management support or Project complexity?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_05",
+      "found_via_query": "Agile adoption barriers survey results comparing Management support vs. Project complexity",
+      "summary": "The image presents a chart titled 'Culture is #1 Barrier to Agile' showing barriers to further Agile adoption, with Management support at 30% and Project complexity at 28%.",
+      "key_facts": [
+        "Management support is cited by 30% of respondents as a barrier to Agile adoption.",
+        "Project complexity is cited by 28% of respondents as a barrier to Agile adoption.",
+        "Culture is the #1 barrier at 53%."
+      ],
+      "visible_text": [
+        "Culture is #1 Barrier to Agile",
+        "BARRIERS TO FURTHER AGILE ADOPTION",
+        "53% Inability to change organizational culture",
+        "35% Trying to fit agile elements into a non-agile framework",
+        "42% General resistance to change",
+        "30% Management support",
+        "28% Project complexity",
+        "Copyright VersionOne 2013"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "agileenterprise-reinventingorgs-150402022438-conversion-gate01_95/page_05",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part0/20260524_060427/47/images/iter_00_agileenterprise_reinventingorgs_150402022438_conversion_gate01_95_page_05_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "Agile adoption barriers survey results comparing Management support vs. Project complexity"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

@@ -1,0 +1,46 @@
+{
+  "original_query": "By what percentage did BASF net income grow from H1 2010 to H1 2011?",
+  "iter": 1,
+  "summaries": [
+    {
+      "iter": 0,
+      "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_05",
+      "found_via_query": "BASF H1 2010 and H1 2011 financial reports net income figures",
+      "summary": "This slide presents BASF Group's H1 2011 financial results compared to H1 2010, highlighting key performance metrics including sales, EBITDA, and net income. It notes significant growth in sales and earnings, particularly in the chemicals business and acquired Cognis business, with net income rising by 75%.",
+      "key_facts": [
+        "BASF Group H1 2011 net income: €3.9 billion",
+        "Net income growth vs. H1 2010: +75%",
+        "Sales: €37.8 billion (+19%)",
+        "EBIT: €4.8 billion (+22%)",
+        "Adjusted EPS: €3.69 (+31%)"
+      ],
+      "visible_text": [
+        "BASF Group results H1 2011",
+        "Business performance",
+        "Sales €37.8 billion +19%",
+        "EBITDA €6.4 billion +16%",
+        "EBITDA margin 16.9% 17.3%",
+        "Net income €3.9 billion +75%",
+        "EPS €4.21 +75%",
+        "Adjusted EPS €3.69 +31%",
+        "Significant sales and earnings growth in the chemicals business",
+        "Excellent performance of the acquired former Cognis business",
+        "Earnings in Agricultural Solutions increased despite adverse weather conditions",
+        "Sales growth in Oil & Gas was price driven. Net income rose by 34%",
+        "BASF Roundtable Agricultural Solutions, August 8, 2011"
+      ]
+    }
+  ],
+  "recent_images": [
+    {
+      "iter": 0,
+      "page_label": "basfroundtableagrosolutions2011-110808043440-phpapp02_95/page_05",
+      "image_path": "/root/autodl-tmp/visual_rag_agent/outputs/eval_baseline_parallel3/agentic_summary_part2/20260524_190030/150/images/iter_00_basfroundtableagrosolutions2011_110808043440_phpapp02_95_page_05_200k.png"
+    }
+  ],
+  "issued_queries": [
+    "BASF H1 2010 and H1 2011 financial reports net income figures"
+  ],
+  "recent_rounds": 2,
+  "recent_image_pixels": 200000
+}

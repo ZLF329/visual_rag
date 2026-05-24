@@ -1,0 +1,83 @@
+{
+  "original_query": "What is the name of the brand which Nestlé acquired in the year Findus was divested?",
+  "confirmed": [],
+  "partials": [],
+  "warnings": [
+    {
+      "query_tried": "What brand did Nestlé acquire in the year Findus was divested?",
+      "summary": "The page displays a timeline of Nestlé's divestitures from 2000 to 2011, showing the sale of various brands and businesses, with sales figures in CHF. It highlights specific divestitures such as Findus EUR in 2000, Eugene Perma EUR in 2001, and others through 2011.",
+      "failure_type": "query_too_broad",
+      "suggestion": "",
+      "image_id": "db3280122b18e6e7"
+    },
+    {
+      "query_tried": "What brand did Nestlé acquire in the year Findus was divested (2000)?",
+      "summary": "The page presents a timeline of Nestlé's divestitures between 2000 and 2011, listing various businesses sold, including Findus EUR in 2000, but does not mention any acquisitions during that period.",
+      "failure_type": "query_too_broad",
+      "suggestion": "",
+      "image_id": "db3280122b18e6e7"
+    },
+    {
+      "query_tried": "What brands did Nestlé acquire in the year 2000?",
+      "summary": "The page displays a bar chart of Nestlé's significant acquisitions from 2000 to 2011, with sales figures in CHF, showing brands like PowerBar, Garoto, and others acquired during this period. The chart does not mention Findus EUR or its divestiture.",
+      "failure_type": "query_too_broad",
+      "suggestion": "",
+      "image_id": "6945db3e8f9210f7"
+    },
+    {
+      "query_tried": "What brand did Nestlé acquire in the year Findus was divested (2000)?",
+      "summary": "The page displays a timeline of Nestlé's divestitures from 2000 to 2011, including the divestiture of Findus EUR in 2000, and lists other divested brands such as Minag Water GER, Dallmayr &G, and Trinks GER. It does not show any acquisitions by Nestlé during this period.",
+      "failure_type": "query_too_broad",
+      "suggestion": "",
+      "image_id": "db3280122b18e6e7"
+    },
+    {
+      "query_tried": "What brands did Nestlé acquire in the year 2000, and how does this relate to Findus’s divestiture?",
+      "summary": "A timeline of Nestlé's divestitures from 2000 to 2011, showing specific brands divested each year, including Findus EUR in 2000, but no acquisitions are listed.",
+      "failure_type": "query_too_broad",
+      "suggestion": "",
+      "image_id": "db3280122b18e6e7"
+    }
+  ],
+  "observations": [
+    {
+      "iter": 0,
+      "search_query": "What brand did Nestlé acquire in the year Findus was divested?",
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_13",
+      "decision": "no",
+      "summary": "The page displays a timeline of Nestlé's divestitures from 2000 to 2011, showing the sale of various brands and businesses, with sales figures in CHF. It highlights specific divestitures such as Findus EUR in 2000, Eugene Perma EUR in 2001, and others through 2011."
+    },
+    {
+      "iter": 1,
+      "search_query": "What brand did Nestlé acquire in the year Findus was divested (2000)?",
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_13",
+      "decision": "no",
+      "summary": "The page presents a timeline of Nestlé's divestitures between 2000 and 2011, listing various businesses sold, including Findus EUR in 2000, but does not mention any acquisitions during that period."
+    },
+    {
+      "iter": 2,
+      "search_query": "What brands did Nestlé acquire in the year 2000?",
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_12",
+      "decision": "no",
+      "summary": "The page displays a bar chart of Nestlé's significant acquisitions from 2000 to 2011, with sales figures in CHF, showing brands like PowerBar, Garoto, and others acquired during this period. The chart does not mention Findus EUR or its divestiture."
+    },
+    {
+      "iter": 3,
+      "search_query": "What brand did Nestlé acquire in the year Findus was divested (2000)?",
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_13",
+      "decision": "no",
+      "summary": "The page displays a timeline of Nestlé's divestitures from 2000 to 2011, including the divestiture of Findus EUR in 2000, and lists other divested brands such as Minag Water GER, Dallmayr &G, and Trinks GER. It does not show any acquisitions by Nestlé during this period."
+    },
+    {
+      "iter": 4,
+      "search_query": "What brands did Nestlé acquire in the year 2000, and how does this relate to Findus’s divestiture?",
+      "page_label": "2012-02-20fy11roadshow-120221022442-phpapp02_95/page_13",
+      "decision": "no",
+      "summary": "A timeline of Nestlé's divestitures from 2000 to 2011, showing specific brands divested each year, including Findus EUR in 2000, but no acquisitions are listed."
+    }
+  ],
+  "consolidated_summary": "The latest page confirms Findus EUR was divested in 2000 and lists no Nestlé acquisitions that year, nor any connection between Findus’s divestiture and Nestlé’s acquisitions. Other divested brands (e.g., Minag Water GER, Dallmayr &G, Trinks GER) are mentioned but not linked to acquisitions. No brand is identified as acquired by Nestlé in 2000, and the page provides no evidence to suggest any acquisition occurred that year. Thus, based on this source, no brand can be identified as acquired by Nestlé in the year Findus was divested.",
+  "consolidated_key_facts": [],
+  "iter": 5,
+  "image_dir": "outputs/eval_main_retained3_20260524_080709/part0/20260524_080724/7/images"
+}

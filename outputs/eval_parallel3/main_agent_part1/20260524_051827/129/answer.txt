@@ -1,0 +1,1 @@
+There are five steps in the general procedure for association mapping: Genotyping, Population Structure, LD, Phenotyping, and Association mapping. This is based on the diagram provided in the image referenced as "associationmappinginplants-150413205026-conversion-gate01_95/page_16".

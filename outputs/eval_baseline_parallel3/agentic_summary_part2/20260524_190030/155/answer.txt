@@ -1,1 +1,0 @@
-The reverse proxy has explicit rules for a.com, b.com, and c.com.

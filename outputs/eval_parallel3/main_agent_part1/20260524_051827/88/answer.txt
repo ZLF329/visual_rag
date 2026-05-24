@@ -1,5 +1,0 @@
-Based on the bar chart titled "eBook Penetration," which shows data from 2010 to 2012, the "Academic" category (represented by light pink bars) is consistently taller than the "Public" category (represented by red bars) for each year. This indicates that eBook penetration is higher in Academic libraries than in Public libraries.
-
-**Finding [1]** confirms this observation: "The bar chart shows that for each year (2010, 2011, 2012), the 'Academic' category (light pink bars) is taller than the 'Public' category (red bars)."
-
-Therefore, eBook penetration is higher in Academic libraries.

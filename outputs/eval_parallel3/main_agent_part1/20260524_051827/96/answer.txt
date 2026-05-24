@@ -1,1 +1,0 @@
-The example of Open Source Technologies whose name starts with "A" is **Apache**. This is cited from the image showing "Open Source Technologies" which includes "Apache" as one of the listed technologies.

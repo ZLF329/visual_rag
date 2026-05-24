@@ -1,5 +1,0 @@
-The level that comes between **GENERAL ENVIRONMENT** and **YOUR ORGANIZATION** in the diagram is the **INDUSTRY/SECTOR ENVIRONMENT**. 
-
-This is explicitly labeled in the diagram, positioned in the middle ring between the outermost "GENERAL ENVIRONMENT" and the central "YOUR ORGANIZATION". 
-
-**Citation**: [1] (found via "diagram showing hierarchy between GENERAL ENVIRONMENT and YOUR ORGANIZATION") — image_ref: agile-australia-when-enterprise-meets-devops-150623023618-lva1-app6891_95/page_11.

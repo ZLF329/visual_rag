@@ -1,1 +1,0 @@
-PREDICTIVE Behavior is steered by the distance from the predicted position of the goal, as indicated in the diagram by the text box labeled "Distance from predicted position of goal steers the behavior" associated with the "PREDICTIVE" category. This is sourced from the image provided by Vincenzo De Florio, INRIA, 14 Nov. 2014.

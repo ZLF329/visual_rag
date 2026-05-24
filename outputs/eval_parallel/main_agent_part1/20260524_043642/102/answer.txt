@@ -1,7 +1,0 @@
-In the diagram, DEVOPS connects to three key areas:
-
-1.  **People Development** – This is linked to the question "How can we develop people?" and is addressed through the **PRINCIPLES** (e.g., Self-directed team over Command & Control) and **MANAGEMENT FRAMEWORK** (e.g., People first, Capability development).
-2.  **Problem-Solving** – This is linked to the question "What kind of problem are we trying to solve?" and is centered around the **VALUE/PURPOSE**: "Continuously deliver customer value in a sustainable way with improved lead time, resilience and quality."
-3.  **Work Improvement** – This is linked to the question "How can we improve the work?" and is addressed through the **PRACTICES** (e.g., Infrastructure as code, Dashboard, DevOps skill matrix, Audit automation).
-
-In essence, DEVOPS is a holistic model that connects to people development, problem-solving, and work improvement through its principles, management framework, and practices, all aimed at continuously delivering customer value with improved lead time, resilience, and quality.

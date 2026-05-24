@@ -1,5 +1,0 @@
-A second response is not possible in the absolute refractory period, but it can be elicited in the relative refractory period, albeit at a greater cost. 
-
-This is supported by the following evidence:
-- The absolute refractory period is defined as a time when "A second response is not possible regardless of strength or duration of the stimulus." (Found in the image: [1])
-- The relative refractory period is defined as a time when "A second response can be elicited, but at a greater 'cost' (i.e., strength and/or duration)." (Found in the image: [1])

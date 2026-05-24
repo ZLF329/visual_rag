@@ -1,1 +1,0 @@
-Shape is the least important visual characteristic in human data perception, ranked fourth behind Position, Color, and Size.

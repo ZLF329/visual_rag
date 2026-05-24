@@ -1,1 +1,0 @@
-PREDICTIVE behavior is guided by the distance from the predicted position of the goal.

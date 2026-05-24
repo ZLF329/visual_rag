@@ -1,5 +1,0 @@
-Based on the provided flow chart, the step of Weft Preparation between the Spinning bobbin and Weaving is **Winding**. This step involves using either a **pirn** or a **cop**.
-
-The flow chart shows that after the Spinning bobbin, the process moves directly to "Weft Preparation," which is subdivided into "Winding (pirn, cop)." The arrow from "Winding" then leads directly to "Weaving," indicating that no additional steps are shown between Winding and Weaving in the Weft Preparation phase.
-
-Therefore, the only step listed in the Weft Preparation section between the Spinning bobbin and Weaving is Winding.

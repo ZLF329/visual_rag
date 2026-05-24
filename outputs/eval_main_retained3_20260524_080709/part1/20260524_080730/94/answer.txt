@@ -1,1 +1,0 @@
-The components of a Vendor Interface are: Search/Discover, Print, Copy/Paste, Download, Bookmark, and Highlight.

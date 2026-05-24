@@ -1,3 +1,0 @@
-No confirmed or partial findings are available to answer the question. All search attempts returned "wrong_domain" errors, indicating that the query was misaligned with the available data sources, which primarily focus on eBook access penetration rather than physical book penetration rates or specific access levels like public domain, short-term loans, or rentals.
-
-Therefore, based on the current evidence, it is not possible to determine whether penetration of books with access levels ranging from public domain to short-term loans or rentals is higher in Public or Academic libraries.

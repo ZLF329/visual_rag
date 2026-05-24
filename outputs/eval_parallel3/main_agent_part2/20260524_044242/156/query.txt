@@ -1,1 +1,0 @@
-What does the transparent proxy intercept and proxy to the destination?

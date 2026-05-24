@@ -1,1 +1,0 @@
-Five steps: Genotyping, Population Structure, LD, Phenotyping, and Association mapping.

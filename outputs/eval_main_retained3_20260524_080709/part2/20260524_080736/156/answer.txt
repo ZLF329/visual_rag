@@ -1,1 +1,0 @@
-The transparent proxy intercepts HTTP requests and proxies them to the destination.

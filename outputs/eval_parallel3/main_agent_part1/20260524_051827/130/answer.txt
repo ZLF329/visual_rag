@@ -1,5 +1,0 @@
-Two advantages to Genome-wide Association are:  
-1. Fine mapping (blind approach) — as noted in the table under the "Advantages" column for Genome wide Association (2005).  
-2. Detection of common alleles — also listed in the "Advantages" column for Genome wide Association (2005).  
-
-These findings are sourced from the provided table image.

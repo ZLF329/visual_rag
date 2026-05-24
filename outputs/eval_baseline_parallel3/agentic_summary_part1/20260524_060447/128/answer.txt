@@ -1,5 +1,0 @@
-The two approaches for linkage disequilibrium mapping are:
-
-1.  **LD-based Association mapping** (also called linkage disequilibrium mapping), which is a natural population survey used to determine marker-trait associations using Linkage Disequilibrium. Its power depends on the strength of the correlation between the genotyped marker and the functional variant.
-
-2.  **Family-based Linkage mapping** (also known as QTL mapping, genetic mapping, gene tagging, or family-based mapping), which involves constructing linkage maps and conducting QTL analysis to identify genomic regions associated with traits.

@@ -1,8 +1,0 @@
-{
-  "original_query": "Have wine import amounts and volume been trending up or down during the period from 1995 to the year in which Italy’s yearly growth in sparkling volume was negative?",
-  "confirmed": [],
-  "partials": [],
-  "warnings": [],
-  "iter": 0,
-  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_050528/159/images"
-}

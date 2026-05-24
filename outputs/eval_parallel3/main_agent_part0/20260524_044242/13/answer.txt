@@ -1,1 +1,0 @@
-The biggest reason users sometimes choose not to use enterprise BI applications is that they do not have all the data they need, as cited by 45% of respondents in the study. This finding is from a survey of 302 business and IT decision-makers who influence BI decisions, conducted by Forrester Consulting on behalf of SAP in March 2014.

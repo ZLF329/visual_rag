@@ -1,1 +1,0 @@
-The additional component with Delegation Tokens is the 'Driver' component, which acts as an intermediary to mediate authentication and access to HDFS, allowing components to interact with both the KDC and HDFS without direct KDC interaction.

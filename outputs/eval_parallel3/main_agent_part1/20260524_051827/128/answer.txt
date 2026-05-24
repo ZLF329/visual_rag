@@ -1,9 +1,0 @@
-The two approaches for what is also called linkage disequilibrium mapping are:
-
-1. **Family-based Linkage mapping** — This approach involves constructing linkage maps and conducting QTL analysis to identify genomic regions associated with traits (also known as QTL mapping or genome-wide association mapping).
-
-2. **LD-based Association mapping** — This is explicitly labeled as the second main approach in the diagram and is directly referred to as “linkage disequilibrium mapping” in the context of the image.
-
-These two approaches are presented as the “Two main approaches” in the diagram, with “LD-based Association mapping” being the specific term for linkage disequilibrium mapping.
-
-Source: [1] (image_ref: associationmappinginplants-150413205026-conversion-gate01_95/page_04) — cited from “Two main approaches” and “LD-based Association mapping”.

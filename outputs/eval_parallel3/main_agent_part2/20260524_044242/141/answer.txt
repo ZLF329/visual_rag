@@ -1,3 +1,0 @@
-Two types of devices that permit constrained relative motion between two parts, typically rotation or linear movement, are **Needle Bearings** and **Roller Bearings**.
-
-This is supported by the confirmed finding that identifies these as two types of bearings, which are explicitly defined in the context of permitting constrained relative motion. The image on page 11 (image_ref: bearing1-151117114834-lva1-app6892_95/page_11) visually lists Needle Bearings and Roller Bearings as examples under the heading "Roller Bearings," confirming their classification.

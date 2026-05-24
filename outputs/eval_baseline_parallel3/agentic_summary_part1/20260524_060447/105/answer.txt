@@ -1,1 +1,0 @@
-The provided document does not contain a defined Data Policy. Instead, it describes the pre-existing data environment at Atrium Group, highlighting challenges such as multiple data silos, undefined data definitions, multiple data formats, and lack of infrastructure to build MVDPs at scale. No specific Data Policy guidelines or definitions are mentioned.

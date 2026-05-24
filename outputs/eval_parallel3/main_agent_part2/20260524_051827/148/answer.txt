@@ -1,7 +1,0 @@
-Based on the provided diagram, academia is funded by three primary sources:
-
-1.  **Taxpayers**: They provide direct funding, indicated by the '$$' arrow pointing to Academia.
-2.  **Students**: They contribute 'in-kind' support, as shown by the arrow labeled 'in-kind' from the Student to Academia.
-3.  **Researchers**: They also contribute 'in-kind' support, as shown by the arrow labeled 'in-kind' from the Researcher to Academia.
-
-The diagram also shows that **Publishers** receive funds from Academia (indicated by the '$$' arrow from Academia to Publishers) and, in return, provide 'Glory+?' and 'MS review' (likely referring to manuscript review and prestige). This suggests that publishers are not direct funders of academia but rather intermediaries or service providers that receive funding from academia.

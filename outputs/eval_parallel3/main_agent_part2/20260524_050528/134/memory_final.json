@@ -1,8 +1,0 @@
-{
-  "original_query": "What level comes between \"all managers between the first-line level and the top level of the organization who manage first line managers\" and Non-managerial Employees?",
-  "confirmed": [],
-  "partials": [],
-  "warnings": [],
-  "iter": 0,
-  "image_dir": "/root/autodl-tmp/visual_rag_agent/outputs/eval_parallel3/main_agent_part2/20260524_050528/134/images"
-}

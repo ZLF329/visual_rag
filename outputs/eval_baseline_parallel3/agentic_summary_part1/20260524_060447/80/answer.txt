@@ -1,1 +1,0 @@
-PREDICTIVE Behavior is the outermost layer in the behavior model, characterized by being steered by the "Distance from predicted position of goal." It represents a higher-level behavior type compared to PASSIVE, ACTIVE, RANDOM, PURPOSEFUL, and TELEOLOGIC.

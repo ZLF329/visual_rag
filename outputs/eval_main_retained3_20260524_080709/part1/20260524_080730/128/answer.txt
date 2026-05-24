@@ -1,1 +1,0 @@
-The two approaches for linkage disequilibrium mapping are: 1) LD-based Association mapping, which uses linkage disequilibrium to identify marker-trait associations in natural populations, and 2) Family-based Linkage mapping (including QTL mapping), which is an alternative approach not based on linkage disequilibrium.

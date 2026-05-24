@@ -1,1 +1,0 @@
-What percentage of Users have an average Session Duration of under one minute?

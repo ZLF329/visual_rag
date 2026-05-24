@@ -1,1 +1,0 @@
-PREDICTIVE behavior is the outermost category in a conceptual model of behavior types, defined by its steering mechanism: the distance from the predicted position of the goal. It sits beyond Purposeful and Teleologic behaviors, indicating a higher level of foresight or planning in action.

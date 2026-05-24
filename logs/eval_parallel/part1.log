@@ -1,6 +1,0 @@
-nohup: ignoring input
-[eval] step=1/100 sample_id=100 terminated_by=max_iters
-[eval] step=2/100 sample_id=101 terminated_by=decide
-[eval] step=3/100 sample_id=102 terminated_by=decide
-[eval] step=4/100 sample_id=103 terminated_by=decide
-[eval] step=5/100 sample_id=104 terminated_by=decide

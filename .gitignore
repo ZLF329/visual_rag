@@ -1,2 +1,64 @@
+# Secrets
 .env
 .env.*
+!.env.example
+secrets/
+*.key
+*.pem
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+# Environments
+.venv/
+venv/
+env/
+conda/
+miniconda3/
+# Notebooks
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+*.nbconvert.ipynb
+# Data and retrieval indexes
+data/corpora/
+data/indexes/
+data/raw/
+data/processed/
+data/cache/
+hf_data/
+hf_cache/
+.cache/huggingface/
+# Evaluation and run artifacts
+logs/
+outputs/
+runs/
+results/
+wandb/
+tensorboard/
+lightning_logs/
+# Model artifacts
+models/
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.onnx
+# Vector/index/cache files
+*.faiss
+*.index
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.parquet
+*.arrow
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

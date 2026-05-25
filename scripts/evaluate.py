@@ -70,8 +70,9 @@ def main() -> None:
         for idx, row in enumerate(examples):
             sample_id = extract_sample_id(row, idx)
             query = extract_question(row)
+            deck_name = extract_deck_name(row)
             try:
-                result = baseline.run(query, output_dir=run_root / str(sample_id))
+                result = baseline.run(query, output_dir=run_root / str(sample_id), deck_name=deck_name)
             except Exception as exc:
                 handle_sample_exception(exc, idx=idx, total=len(examples), sample_id=sample_id)
             record_prediction(
@@ -93,8 +94,9 @@ def main() -> None:
         for idx, row in enumerate(examples):
             sample_id = extract_sample_id(row, idx)
             query = extract_question(row)
+            deck_name = extract_deck_name(row)
             try:
-                result = agent.run(query, output_dir=run_root / str(sample_id))
+                result = agent.run(query, output_dir=run_root / str(sample_id), deck_name=deck_name)
             except Exception as exc:
                 handle_sample_exception(exc, idx=idx, total=len(examples), sample_id=sample_id)
             record_prediction(
@@ -196,6 +198,12 @@ def extract_answer(row: dict[str, Any]) -> str:
     if isinstance(value, list):
         return " | ".join(str(item) for item in value)
     return str(value)
+
+
+def extract_deck_name(row: dict[str, Any]) -> str:
+    return str(
+        first_present(row, ("deck_name", "deck_id", "doc_id", "document_id", "pdf_id"), "")
+    ).strip()
 
 
 def extract_sample_id(row: dict[str, Any], idx: int) -> str:

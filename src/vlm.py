@@ -108,7 +108,7 @@ class VLM:
             original_query=original_query,
             previous_key_facts=memory.consolidated_key_facts,
             latest_judge=latest_analysis.decision,
-            latest_key_facts=[] if latest_analysis.judge == "no" else latest_analysis.key_facts,
+            latest_key_facts=latest_analysis.key_facts,
         )
         return self._generate_structured(
             system=system,

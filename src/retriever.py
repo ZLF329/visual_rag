@@ -46,7 +46,12 @@ class Retriever:
                 attn_implementation=attn_implementation,
             )
 
-    def search(self, query: str, top_k: int = 1) -> list[tuple[Image.Image, str]]:
+    def search(
+        self,
+        query: str,
+        top_k: int = 1,
+        deck_name: str | None = None,
+    ) -> list[tuple[Image.Image, str]]:
         if self.embeddings is None:
             raise RuntimeError("retriever index is not loaded")
         if self.embedder is None:
@@ -60,16 +65,21 @@ class Retriever:
         query_embedding = self.embedder.embed_texts([query])[0]
         query_embedding = normalize_rows(query_embedding[None, :])[0]
         scores = self.embeddings @ query_embedding
-        top_indices = np.argsort(-scores)[:top_k]
+        ranked_indices = np.argsort(-scores)
+        prefix = f"{deck_name}/" if deck_name else ""
 
         results: list[tuple[Image.Image, str]] = []
-        for idx in top_indices:
+        for idx in ranked_indices:
             entry = self.entries[int(idx)]
+            if prefix and not entry.page_label.startswith(prefix):
+                continue
             image_path = Path(entry.image_path)
             if not image_path.exists():
                 continue
             with Image.open(image_path) as image:
                 results.append((image.convert("RGB").copy(), entry.page_label))
+            if len(results) >= top_k:
+                break
         return results
 
     def _load_index(self) -> None:

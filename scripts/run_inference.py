@@ -15,6 +15,7 @@ from src.vlm import VLM
 def main() -> None:
     parser = argparse.ArgumentParser(description="Run the visual RAG agent on one query.")
     parser.add_argument("--query", required=True)
+    parser.add_argument("--deck-name", default=None)
     parser.add_argument("--index", default=None)
     parser.add_argument("--config", default="config/default.yaml")
     parser.add_argument("--output", default=None)
@@ -51,7 +52,7 @@ def main() -> None:
         top_k=config["agent"]["top_k"],
         max_iters=config["agent"]["max_iters"],
     )
-    result = agent.run(args.query, output_dir=run_dir)
+    result = agent.run(args.query, output_dir=run_dir, deck_name=args.deck_name)
     print(json.dumps({"run_dir": str(run_dir), "answer": result["answer"]}, ensure_ascii=False, indent=2))
 
 

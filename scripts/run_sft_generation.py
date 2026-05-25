@@ -84,8 +84,8 @@ RETRIEVER_ATTN = os.environ.get('SFT_RETRIEVER_ATTN', 'sdpa')
 START_INDEX = int(os.environ.get('SFT_START_INDEX', '0'))
 MAX_SAMPLES = int(os.environ.get('SFT_MAX_SAMPLES', '5000'))
 TARGET_KEPT = int(os.environ.get('SFT_TARGET_KEPT', '1200'))
-MAX_RETRIEVAL_STEPS = int(os.environ.get('SFT_MAX_RETRIEVAL_STEPS', '10'))
-RETRIEVAL_TOP_K = int(os.environ.get('SFT_RETRIEVAL_TOP_K', '3'))
+MAX_RETRIEVAL_STEPS = int(os.environ.get('SFT_MAX_RETRIEVAL_STEPS', '5'))
+RETRIEVAL_TOP_K = int(os.environ.get('SFT_RETRIEVAL_TOP_K', '1'))
 MAX_CONTEXT_IMAGES = int(os.environ.get('SFT_MAX_CONTEXT_IMAGES', '15'))
 MAX_IMAGE_PIXELS = int(os.environ.get('SFT_IMAGE_MAX_PIXELS', '1250000'))
 IMAGE_JPEG_QUALITY = int(os.environ.get('SFT_IMAGE_JPEG_QUALITY', '85'))
@@ -288,7 +288,7 @@ class DeckRestrictedSearcher:
             raise RuntimeError(f'Missing retriever index under {INDEX_DIR}')
         self._embedder_lock = Lock()
 
-    def search(self, *, query: str, deck_name: str, top_k: int, banned: set[str]) -> list[dict[str, Any]]:
+    def search(self, *, query: str, deck_name: str, top_k: int) -> list[dict[str, Any]]:
         if self.retriever.embedder is None:
             raise RuntimeError('retriever embedder not loaded')
         with self._embedder_lock:
@@ -301,8 +301,6 @@ class DeckRestrictedSearcher:
         for raw_idx in ranked:
             entry = self.retriever.entries[int(raw_idx)]
             label = entry.page_label
-            if label in banned:
-                continue
             if prefix and not label.startswith(prefix):
                 continue
             image_path = Path(entry.image_path)
@@ -481,7 +479,7 @@ def run_one_example(searcher: DeckRestrictedSearcher, row: dict[str, Any], row_i
             break
 
         search_query = (decision_obj.content or '').strip() or question
-        pages = searcher.search(query=search_query, deck_name=deck, top_k=RETRIEVAL_TOP_K, banned=set(retrieved_labels))
+        pages = searcher.search(query=search_query, deck_name=deck, top_k=RETRIEVAL_TOP_K)
         retrieved_labels.extend(p['page_label'] for p in pages)
         for page in pages:
             pages_by_label[page['page_label']] = page

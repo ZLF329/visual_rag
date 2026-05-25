@@ -29,7 +29,12 @@ class Agent:
         self.top_k = top_k
         self.max_iters = max_iters
 
-    def run(self, query: str, output_dir: str | Path | None = None) -> dict[str, Any]:
+    def run(
+        self,
+        query: str,
+        output_dir: str | Path | None = None,
+        deck_name: str | None = None,
+    ) -> dict[str, Any]:
         run_dir = Path(output_dir) if output_dir is not None else None
         image_dir = run_dir / "images" if run_dir is not None else None
         memory = Memory(original_query=query, image_dir=image_dir)
@@ -67,7 +72,11 @@ class Agent:
 
             search_query = decision.content or query
             try:
-                retrieved = self.retriever.search(search_query, top_k=self.top_k)
+                retrieved = self.retriever.search(
+                    search_query,
+                    top_k=self.top_k,
+                    deck_name=deck_name,
+                )
             except Exception as exc:
                 if is_fatal_model_error(exc):
                     raise
@@ -88,6 +97,7 @@ class Agent:
                     "iter": memory.iter,
                     "step": "search",
                     "query": search_query,
+                    "deck_name": deck_name,
                     "n_images": len(retrieved),
                     "pages": [page_label for _, page_label in retrieved],
                 }
@@ -120,6 +130,7 @@ class Agent:
                             {
                                 "iter": memory.iter,
                                 "step": "memory_update_skipped",
+                                "page": page_label,
                                 "reason": "judge_no",
                             }
                         )
@@ -136,6 +147,7 @@ class Agent:
                                 {
                                     "iter": memory.iter,
                                     "step": "memory_update",
+                                    "page": page_label,
                                     "result": to_plain(memory_update),
                                 }
                             )
@@ -175,6 +187,7 @@ class Agent:
 
         output = {
             "query": query,
+            "deck_name": deck_name,
             "answer": final,
             "memory": memory.as_serializable(),
             "trace": trace,

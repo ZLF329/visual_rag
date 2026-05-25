@@ -158,7 +158,12 @@ class AgenticSummaryBaseline:
         self.recent_rounds = recent_rounds
         self.recent_image_pixels = recent_image_pixels
 
-    def run(self, query: str, output_dir: str | Path | None = None) -> dict[str, Any]:
+    def run(
+        self,
+        query: str,
+        output_dir: str | Path | None = None,
+        deck_name: str | None = None,
+    ) -> dict[str, Any]:
         run_dir = Path(output_dir) if output_dir is not None else None
         image_dir = run_dir / "images" if run_dir is not None else None
         memory = AgenticSummaryMemory(
@@ -205,12 +210,17 @@ class AgenticSummaryBaseline:
             memory.issued_queries.append(search_query)
 
             try:
-                retrieved = self.retriever.search(search_query, top_k=self.top_k)
+                retrieved = self.retriever.search(
+                    search_query,
+                    top_k=self.top_k,
+                    deck_name=deck_name,
+                )
                 trace.append(
                     {
                         "iter": memory.iter,
                         "step": "baseline_search",
                         "query": search_query,
+                        "deck_name": deck_name,
                         "n_images": len(retrieved),
                         "pages": [page_label for _, page_label in retrieved],
                     }

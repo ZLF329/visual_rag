@@ -34,7 +34,9 @@ hf_cache/
 .cache/huggingface/
 # Evaluation and run artifacts
 logs/
-outputs/
+outputs/*
+!outputs/sft_trajectories/
+outputs/sft_trajectories/*/memory_images/
 runs/
 results/
 wandb/

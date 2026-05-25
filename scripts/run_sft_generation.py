@@ -359,7 +359,7 @@ def analyse_page(*, question: str, memory_context: str, image_path: str):
         user=user,
         response_model=AnalyseResult,
         image_paths=[image_path],
-        max_output_tokens=900,
+        max_output_tokens=1500,
         temperature=GENERATOR_TEMPERATURE,
     )
 

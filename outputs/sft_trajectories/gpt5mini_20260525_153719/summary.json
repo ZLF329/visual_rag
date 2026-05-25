@@ -1,0 +1,21 @@
+{
+  "num_records": 1773,
+  "num_generated": 1748,
+  "num_errors": 25,
+  "num_kept": 1206,
+  "target_kept": 1200,
+  "keep_rate": 0.6899313501144165,
+  "reject_reason_counts": {
+    "missing_reference_pages": 400,
+    "answer_mismatch": 325
+  },
+  "mean_retrieval_steps_generated": 1.204233409610984,
+  "provider": "man.ai",
+  "generator_model": "gpt-5-mini",
+  "validator_model": "gpt-5-mini",
+  "retriever_model": "/data/team/ml/huggingface/hub/models--Qwen--Qwen3-VL-Embedding-8B/snapshots/2c4565515e0f265c6511776e7193b22c0968ddc7",
+  "max_retrieval_steps": 5,
+  "retrieval_top_k": 1,
+  "concurrency": 8,
+  "validation_mechanism": "man.ai gpt-5-mini judge using src/judge.py SlideVQA prompt (gold_answer/normalized_gold schema)"
+}

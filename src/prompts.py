@@ -7,32 +7,35 @@ question. You have two possible actions:
   - "search": retrieve one more document page by issuing a new search query.
   - "answer": stop searching and provide the final answer directly.
 
-The analyse_summarise step runs automatically after every retrieved page. You
-are not shown its raw yes/partial/no judge decisions. You only see the compact
-memory produced after previous analysis steps: a query-focused summary and
-compact key facts.
+The analyse step runs automatically after every retrieved page. Useful pages
+then pass through an evidence_update step that maintains one current
+evidence_state.
 
 You will be shown:
   - The original question.
-  - The compact memory summary.
-  - The compact memory key facts.
+  - Search history as query-prefixed one-sentence page summaries.
+  - The current evidence_state with observed_evidence and remaining_gap.
   - Retained evidence images from earlier analyse steps when available:
-    yes pages at a 400,000 pixel budget and partial pages at a 200,000 pixel
-    budget. No-judge pages are not retained as images.
+    useful cells are highlighted on retained images.
 
 Your job:
-  1. Decide whether the compact memory is sufficient to answer the original question.
+  1. Decide whether the current evidence_state is sufficient to answer the original question.
   2. If sufficient, output action="answer" and put the final answer in content.
   3. If not, output action="search" and put the next search query in content.
 
 Guidance:
-  - If compact memory is empty, search with a query close to the original
+  - If evidence_state is empty, search with a query close to the original
     question or a rephrased version that surfaces the key entities/topics.
-  - If compact memory contains partial information, search for the specific
-    missing evidence implied by the summary and key facts.
-  - If answering, use the compact memory and retained evidence images. Do not
-    assume facts that are not present in compact memory or retained images. If
-    the evidence is insufficient, search instead of guessing.
+  - Search history is only for avoiding repeated searches and understanding what
+    has already been checked. Do not answer from search history alone.
+  - If evidence_state.remaining_gap is not null, you must search for the
+    specific missing evidence described there.
+  - You may answer only when evidence_state.remaining_gap is null and
+    evidence_state.observed_evidence directly supports the final answer.
+  - If answering, use evidence_state and retained evidence images. Do not assume
+    facts that are not present there.
+  - Do not treat related metrics as equivalent unless evidence_state explicitly
+    says they are equivalent.
 
 Output JSON only:
 {
@@ -45,37 +48,52 @@ Output JSON only:
 
 DECIDE_USER = """Original question: {original_query}
 
-Compact memory:
 {memory_context}
 
 What is your next action?"""
 
 
 ANALYSE_SYSTEM = """You are analysing a single document page image for a specific visual document question.
-You will see the original question, what is already known, and one page image.
+You will see the original question, the search query that retrieved this page,
+and one page image. The page image has a very light coordinate grid overlaid
+for grounding: columns are A-H from left to right and rows are 1-8 from top to
+bottom. Cell IDs look like C3 or D5.
+
+Important grounding rule:
+  - useful_cells are only overlaid image-grid cells: one column A-H plus one row
+    1-8, such as C3 or D5. A9, A11, I6, and AA3 are invalid.
+  - If the question or page contains spreadsheet/table labels such as A11 or
+    row 14, mention them only in think and map the visible evidence to the
+    overlaid grid cells covering that evidence.
+  - For tables, charts, or spreadsheets, select the overlaid cells covering the
+    relevant header, row, column, and value; use a broader overlaid region when
+    exact localization is hard.
 
 Do the work in this order:
-  1. Think according to the original question and the existing memory.
-  2. Summarize the overall topic/content of this page, faithfully and concisely.
-  3. Extract key_facts only when they are relevant to the original question.
-     If the page is not relevant to the question, key_facts should be empty.
-  4. Only after the summary and key_facts, judge whether this page answers the
-     question: judge = yes, partial, or no.
+  1. Think according to the original question, search query, and this page only.
+  2. Identify useful_cells: the grid cells that contain evidence relevant to the
+     original question. Use an empty list when the page is not useful.
+  3. Write summary as exactly one concise sentence describing what this page
+     contributes or why it does not help.
+  4. Judge whether this page helps answer the question: judge = yes, partial, or no.
 
-Return one JSON object only:
+Return exactly one JSON object with this schema for every page:
 {
   "think": "<reasoning about the page relative to the question>",
-  "summary": "<faithful concise page-level summary of what this page is about>",
-  "key_facts": ["<visible fact relevant to the original question>", ...],
+  "useful_cells": ["<cell id>", ...],
+  "summary": "<exactly one concise sentence>",
   "judge": "yes" | "partial" | "no"
 }
 
 Use "yes" only when the page contains explicit, verifiable evidence for the
 full answer. Use "partial" when the page contributes useful evidence but does
 not fully answer. Use "no" when the page does not help answer the question.
-For "no", still summarize the page, but keep key_facts empty.
-Be conservative: if you are inferring or filling in gaps, use "partial".
-Make the final judgment after writing the summary and key_facts, not before.
+For "no", useful_cells must be [].
+Be conservative: if you are inferring, filling gaps, or seeing a related metric
+instead of the requested metric, use "partial".
+Before returning, self-check that every useful_cells item is an overlaid grid
+cell matching A-H and 1-8; remove or replace any invalid table/spreadsheet cell
+label.
 
 Output JSON only.
 """
@@ -83,50 +101,61 @@ Output JSON only.
 
 ANALYSE_USER = """Original question: {original_query}
 
-What we know so far:
-{memory_context}
+Search query that retrieved this page: {search_query}
 
 Analyse the attached page image."""
 
 
+EVIDENCE_UPDATE_SYSTEM = """You update the current evidence_state for a visual-RAG agent.
 
-MEMORY_UPDATE_SYSTEM = """You update the agent's compact key_facts after the latest page analysis step.
+You will be shown:
+  - The original question.
+  - The search query that retrieved the current page.
+  - The current page's analyse judge: yes or partial.
+  - The current page's one-sentence summary.
+  - The previous evidence_state.
+  - The highlighted current page image.
 
-Inputs:
-  - The original query.
-  - Previous compact key_facts.
-  - The latest analyser judge decision.
-  - The latest page key_facts.
+Your job is to output the complete latest evidence_state, overwriting the
+previous one. Preserve previous evidence that is still relevant, incorporate
+new evidence from the current page, and remove stale or misleading conclusions.
 
-Page summaries are appended by code outside this prompt. Your job is only to
-produce the next compact key_facts for the next search/answer decision. The
-original query is the primary filter. Keep facts page-grounded, compact, and
-relevant to the original query. Preserve useful evidence, uncertainty, and
-contradictions. Do not invent facts. Do not expose the raw judge label in your
-output.
+Critical rules:
+  - observed_evidence must contain only evidence supported by the previous
+    evidence_state and the highlighted current page/summary.
+  - remaining_gap must be a concrete description of what is still missing.
+  - Set remaining_gap to null only when observed_evidence directly supports the
+    final answer to the original question.
+  - Do not set remaining_gap to null if any required entity, condition, year,
+    metric name, unit, comparison, or final value is missing or only inferred.
+  - Do not treat related metrics as equivalent unless the evidence explicitly
+    says they are equivalent.
+  - If the analyse judge is partial, remaining_gap is usually not null unless
+    this page plus previous evidence now covers every requirement.
 
 Output JSON only:
 {
-  "key_facts": ["<compact query-focused fact>", ...]
+  "evidence_state": {
+    "observed_evidence": "<complete latest consolidated evidence>",
+    "remaining_gap": "<specific missing evidence, or null if fully answered>"
+  }
 }
-
-Use at most about 1000 tokens total for key_facts.
 """
 
 
-MEMORY_UPDATE_USER = """Original query / question:
-{original_query}
+EVIDENCE_UPDATE_USER = """Original question: {original_query}
 
-Previous compact key_facts:
-{previous_key_facts}
+Search query that retrieved this page: {search_query}
 
-Latest analyser judge:
-{latest_judge}
+Analyse judge for this page: {judge}
 
-Latest page key_facts:
-{latest_key_facts}
+Page summary:
+{page_summary}
 
-Update the compact key_facts for the next step."""
+Previous evidence_state:
+{memory_context}
+
+Update evidence_state using the highlighted page image."""
 
 
 STRICT_JSON_RETRY_SUFFIX = """
@@ -143,28 +172,25 @@ def build_decide_prompt(*, original_query: str, memory_context: str) -> tuple[st
     )
 
 
-def build_analyse_prompt(
-    *,
-    original_query: str,
-    memory_context: str,
-) -> tuple[str, str]:
+def build_analyse_prompt(*, original_query: str, search_query: str | None = None) -> tuple[str, str]:
     return ANALYSE_SYSTEM, ANALYSE_USER.format(
         original_query=original_query,
-        memory_context=memory_context,
+        search_query=search_query or "None",
     )
 
 
-
-def build_memory_update_prompt(
+def build_evidence_update_prompt(
     *,
     original_query: str,
-    previous_key_facts: list[str],
-    latest_judge: str,
-    latest_key_facts: list[str],
+    search_query: str,
+    judge: str,
+    page_summary: str,
+    evidence_state_json: str,
 ) -> tuple[str, str]:
-    return MEMORY_UPDATE_SYSTEM, MEMORY_UPDATE_USER.format(
+    return EVIDENCE_UPDATE_SYSTEM, EVIDENCE_UPDATE_USER.format(
         original_query=original_query,
-        previous_key_facts=previous_key_facts or [],
-        latest_judge=latest_judge,
-        latest_key_facts=latest_key_facts or [],
+        search_query=search_query,
+        judge=judge,
+        page_summary=page_summary,
+        memory_context=evidence_state_json,
     )

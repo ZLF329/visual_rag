@@ -6,6 +6,7 @@ from typing import Any
 
 from pydantic import BaseModel
 
+from src.image_utils import add_coordinate_grid, highlight_cells
 from src.memory import Memory
 from src.schemas import DecideResult
 
@@ -40,6 +41,7 @@ class Agent:
         memory = Memory(original_query=query, image_dir=image_dir)
         trace: list[dict[str, Any]] = []
         decision: DecideResult | None = None
+        seen_page_labels: set[str] = set()
 
         while memory.iter < self.max_iters:
             try:
@@ -72,11 +74,14 @@ class Agent:
 
             search_query = decision.content or query
             try:
-                retrieved = self.retriever.search(
-                    search_query,
-                    top_k=self.top_k,
-                    deck_name=deck_name,
-                )
+                try:
+                    retrieved = self.retriever.search(
+                        search_query,
+                        top_k=self.top_k,
+                        deck_name=deck_name,
+                    )
+                except TypeError:
+                    retrieved = self.retriever.search(search_query, top_k=self.top_k)
             except Exception as exc:
                 if is_fatal_model_error(exc):
                     raise
@@ -92,6 +97,13 @@ class Agent:
                 memory.iter += 1
                 continue
 
+            skipped_duplicate_pages = [
+                page_label for _, page_label in retrieved if page_label in seen_page_labels
+            ]
+            new_retrieved = [
+                (image, page_label) for image, page_label in retrieved if page_label not in seen_page_labels
+            ]
+
             trace.append(
                 {
                     "iter": memory.iter,
@@ -100,6 +112,8 @@ class Agent:
                     "deck_name": deck_name,
                     "n_images": len(retrieved),
                     "pages": [page_label for _, page_label in retrieved],
+                    "new_pages": [page_label for _, page_label in new_retrieved],
+                    "skipped_duplicate_pages": skipped_duplicate_pages,
                 }
             )
 
@@ -108,47 +122,62 @@ class Agent:
                 memory.iter += 1
                 continue
 
-            for image, page_label in retrieved:
+            if not new_retrieved:
+                memory.add_duplicate_search_warning(search_query, skipped_duplicate_pages)
+                memory.iter += 1
+                continue
+
+            for image, page_label in new_retrieved:
+                seen_page_labels.add(page_label)
                 try:
+                    grid_image = add_coordinate_grid(image)
                     result = self.vlm.analyse(
-                        image=image,
+                        image=grid_image,
                         original_query=query,
-                        memory_context=memory.context_for_analyse(),
+                        search_query=search_query,
                     )
-                    memory.write(result, image, search_query, page_label=page_label)
+                    retained_image = highlight_cells(image, result.useful_cells) if result.judge != "no" else None
+                    previous_evidence_state = memory.evidence_state.model_copy(deep=True)
+                    memory.write(
+                        result,
+                        image,
+                        search_query,
+                        page_label=page_label,
+                        retained_image=retained_image,
+                    )
+                    memory.append_consolidated_summary(result.summary, search_query=search_query)
                     trace.append(
                         {
                             "iter": memory.iter,
                             "step": "analyse",
                             "page": page_label,
+                            "query": search_query,
                             "result": to_plain(result),
                         }
                     )
-                    memory.append_consolidated_summary(result.summary, search_query=search_query)
-                    if result.judge == "no":
-                        trace.append(
-                            {
-                                "iter": memory.iter,
-                                "step": "memory_update_skipped",
-                                "page": page_label,
-                                "reason": "judge_no",
-                            }
-                        )
-                    else:
+                    if result.judge != "no":
+                        if retained_image is None:
+                            retained_image = highlight_cells(image, result.useful_cells)
                         try:
-                            memory_update = self.vlm.update_memory(
+                            evidence_update = self.vlm.update_evidence_state(
+                                image=retained_image,
                                 original_query=query,
-                                memory=memory,
-                                latest_analysis=result,
-                                max_new_tokens=1000,
+                                search_query=search_query,
+                                judge=result.judge,
+                                page_summary=result.summary,
+                                previous_evidence_state=previous_evidence_state,
                             )
-                            memory.update_consolidated(memory_update)
+                            memory.update_evidence_state(evidence_update)
                             trace.append(
                                 {
                                     "iter": memory.iter,
-                                    "step": "memory_update",
+                                    "step": "evidence_update",
                                     "page": page_label,
-                                    "result": to_plain(memory_update),
+                                    "query": search_query,
+                                    "judge": result.judge,
+                                    "page_summary": result.summary,
+                                    "previous_evidence_state": previous_evidence_state.model_dump(mode="json"),
+                                    "result": to_plain(evidence_update),
                                 }
                             )
                         except Exception as exc:
@@ -157,7 +186,9 @@ class Agent:
                             trace.append(
                                 {
                                     "iter": memory.iter,
-                                    "step": "memory_update_error",
+                                    "step": "evidence_update_error",
+                                    "page": page_label,
+                                    "query": search_query,
                                     "error": str(exc),
                                 }
                             )
@@ -176,6 +207,8 @@ class Agent:
             memory.iter += 1
 
         final = decision.content.strip() if decision is not None and decision.action == "answer" and decision.content else ""
+        if not final and memory.confirmed:
+            final = memory.confirmed[-1].answer_text
 
         terminated_by = (
             "decide" if decision is not None and decision.action == "answer" else "max_iters"

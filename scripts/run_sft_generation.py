@@ -7,9 +7,9 @@ the serial outer loop with a ThreadPoolExecutor sliding-window scheduler
 modelled after multimodalrag's run_manai_pipeline.
 
 Prompt steps are preserved exactly: each row runs the main agent's
-decide -> (search) -> analyse-each-page -> memory_update -> answer loop using
-src.prompts and src.schemas. Workers only generate; the main thread writes the
-JSONL, updates stats, and checks the kept-so-far early-stop.
+decide -> (search) -> analyse-each-page -> answer loop using src.prompts and
+src.schemas. Workers only generate; the main thread writes the JSONL, updates
+stats, and checks the kept-so-far early-stop.
 """
 from __future__ import annotations
 
@@ -26,6 +26,7 @@ from concurrent.futures import FIRST_COMPLETED, ThreadPoolExecutor, wait
 from io import BytesIO
 from pathlib import Path
 from threading import Lock
+from types import SimpleNamespace
 from typing import Any, Iterable, Literal
 
 import numpy as np
@@ -44,14 +45,16 @@ from man.ai.mangpt.types import (  # noqa: E402
     Message,
     REASONING_MODELS,
 )
+from src.image_utils import add_coordinate_grid, highlight_cells  # noqa: E402
+from src.judge import judge_answer_equivalence  # noqa: E402
 from src.memory import Memory  # noqa: E402
 from src.prompts import (  # noqa: E402
     build_analyse_prompt,
     build_decide_prompt,
-    build_memory_update_prompt,
+    build_evidence_update_prompt,
 )
 from src.retriever import Retriever, normalize_rows  # noqa: E402
-from src.schemas import AnalyseResult, DecideResult, MemoryUpdateResult  # noqa: E402
+from src.schemas import AnalyseResult, DecideResult, EvidenceState, EvidenceUpdateResult  # noqa: E402
 
 
 def load_dotenv(path: Path = PROJECT / '.env', *, override: bool = False) -> None:
@@ -72,8 +75,9 @@ load_dotenv()
 
 DATASET_FILE = Path(os.environ.get('SFT_DATASET_FILE', str(PROJECT / 'data/corpora/slidevqa/train.jsonl')))
 INDEX_DIR = Path(os.environ.get('SFT_INDEX_DIR', str(PROJECT / 'data/indexes/slidevqa')))
+PAGE_ROOT = Path(os.environ.get('SFT_PAGE_ROOT', str(PROJECT / 'data/corpora/slidevqa/pages')))
 GENERATOR_MODEL = os.environ.get('MAN_SFT_GENERATOR_MODEL', 'gpt-5-mini')
-VALIDATOR_MODEL = os.environ.get('MAN_SFT_VALIDATOR_MODEL', 'gpt-5-mini')
+VALIDATOR_MODEL = os.environ.get('DEEPSEEK_MODEL', 'deepseek-v4-flash')
 RETRIEVER_MODEL = os.environ.get(
     'SFT_RETRIEVER_MODEL',
     '/data/team/ml/huggingface/hub/models--Qwen--Qwen3-VL-Embedding-8B/snapshots/2c4565515e0f265c6511776e7193b22c0968ddc7',
@@ -104,6 +108,9 @@ OUTPUT_DIR = Path(os.environ.get(
 RAW_PATH = OUTPUT_DIR / 'raw_trajectories.jsonl'
 KEPT_PATH = OUTPUT_DIR / 'kept_sft_trajectories.jsonl'
 REJECTED_PATH = OUTPUT_DIR / 'rejected_trajectories.jsonl'
+SFT_CALLS_PATH = OUTPUT_DIR / 'sft_calls.jsonl'
+KEPT_SFT_CALLS_PATH = OUTPUT_DIR / 'kept_sft_calls.jsonl'
+REJECTED_SFT_CALLS_PATH = OUTPUT_DIR / 'rejected_sft_calls.jsonl'
 SUMMARY_PATH = OUTPUT_DIR / 'summary.json'
 
 
@@ -307,6 +314,12 @@ class DeckRestrictedSearcher:
             if not image_path.is_absolute():
                 image_path = PROJECT / image_path
             if not image_path.exists():
+                fallback_path = PAGE_ROOT / label
+                if not fallback_path.suffix:
+                    fallback_path = fallback_path.with_suffix('.png')
+                if fallback_path.exists():
+                    image_path = fallback_path
+            if not image_path.exists():
                 continue
             out.append({
                 'page_label': label,
@@ -351,8 +364,8 @@ def decide_next(*, question: str, memory_context: str, retained_image_paths: lis
     )
 
 
-def analyse_page(*, question: str, memory_context: str, image_path: str):
-    system, user = build_analyse_prompt(original_query=question, memory_context=memory_context)
+def analyse_page(*, question: str, search_query: str, image_path: str):
+    system, user = build_analyse_prompt(original_query=question, search_query=search_query)
     return call_json(
         model=GENERATOR_MODEL,
         system=system,
@@ -364,79 +377,224 @@ def analyse_page(*, question: str, memory_context: str, image_path: str):
     )
 
 
-def update_memory_step(*, question: str, previous_key_facts: list[str], latest_judge: str, latest_key_facts: list[str]):
-    system, user = build_memory_update_prompt(
+def update_evidence_state(
+    *,
+    question: str,
+    search_query: str,
+    judge: str,
+    page_summary: str,
+    previous_evidence_state: EvidenceState,
+    image_path: str,
+):
+    system, user = build_evidence_update_prompt(
         original_query=question,
-        previous_key_facts=previous_key_facts,
-        latest_judge=latest_judge,
-        latest_key_facts=latest_key_facts,
+        search_query=search_query,
+        judge=judge,
+        page_summary=page_summary,
+        evidence_state_json=previous_evidence_state.model_dump_json(indent=2),
     )
     return call_json(
         model=GENERATOR_MODEL,
         system=system,
         user=user,
-        response_model=MemoryUpdateResult,
-        max_output_tokens=600,
+        response_model=EvidenceUpdateResult,
+        image_paths=[image_path],
+        max_output_tokens=900,
         temperature=GENERATOR_TEMPERATURE,
     )
 
 
 def judge_answer(*, question: str, gold_answer: str, prediction: str, sample_id: str):
-    user = json.dumps(
-        {
-            'sample_id': sample_id,
-            'question': question,
-            'gold_answer': gold_answer,
-            'model_prediction': prediction,
-        },
-        ensure_ascii=False,
-        indent=2,
-    )
-    return call_json(
+    payload = judge_answer_equivalence(
+        question=question,
+        gold_answer=gold_answer,
+        prediction=prediction,
+        sample_id=sample_id,
         model=VALIDATOR_MODEL,
-        system=JUDGE_SYSTEM,
-        user=user,
-        response_model=JudgeOutput,
-        max_output_tokens=500,
-        temperature=0.0,
+        timeout=REQUEST_TIMEOUT,
+        max_retries=MAX_RETRIES,
+        max_tokens=500,
     )
+    return payload, json.dumps(payload, ensure_ascii=False), SimpleNamespace(id=None, usage=None)
 
 
-def build_sft_messages(record):
-    messages = [
-        {
-            'role': 'system',
-            'content': (
-                'You are a visual-RAG agent. Each iteration: decide whether to search for one more page '
-                'or to answer; if searching, output a short query; for every retrieved page emit an '
-                'analyse JSON (think, summary, key_facts, judge); after each non-"no" analyse, emit a '
-                'memory_update JSON (key_facts). Answer only when compact memory is sufficient.'
-            ),
-        },
-        {'role': 'user', 'content': record['question']},
-    ]
-    for step in record.get('trace', []):
+def clean_decide_payload(payload: dict[str, Any]) -> dict[str, Any]:
+    action = payload.get('action') if payload.get('action') in {'search', 'answer'} else 'search'
+    content = payload.get('content')
+    if action == 'search':
+        content = str(content or payload.get('search_query') or payload.get('answer') or '').strip()
+    else:
+        content = str(content or payload.get('answer') or payload.get('search_query') or '').strip()
+    return {
+        'think': str(payload.get('think') or '').strip(),
+        'action': action,
+        'content': content,
+    }
+
+
+def clean_analyse_payload(
+    payload: dict[str, Any],
+    *,
+    page_label: str | None = None,
+    reference_labels: set[str] | None = None,
+) -> dict[str, Any]:
+    judge = payload.get('judge') or payload.get('decision') or 'no'
+    if reference_labels is not None and page_label is not None:
+        if page_label not in reference_labels:
+            judge = 'no'
+        elif len(reference_labels) == 1:
+            judge = 'yes'
+        else:
+            judge = 'partial'
+    if judge not in {'yes', 'partial', 'no'}:
+        judge = 'no'
+    useful_cells = clean_cell_list(payload.get('useful_cells') or []) if judge != 'no' else []
+    return {
+        'think': str(payload.get('think') or '').strip(),
+        'useful_cells': useful_cells,
+        'summary': clean_one_sentence(payload.get('summary') or ''),
+        'judge': judge,
+    }
+
+
+def clean_evidence_update_payload(payload: dict[str, Any]) -> dict[str, Any]:
+    state = payload.get('evidence_state') if isinstance(payload.get('evidence_state'), dict) else payload
+    gap = state.get('remaining_gap')
+    if isinstance(gap, str):
+        gap = gap.strip() or None
+        if gap is not None and gap.lower() in {'none', 'null', 'no remaining gap', 'no gap'}:
+            gap = None
+    return {
+        'evidence_state': {
+            'observed_evidence': str(state.get('observed_evidence') or '').strip(),
+            'remaining_gap': gap,
+        }
+    }
+
+
+def build_sft_calls(record: dict[str, Any]) -> list[dict[str, Any]]:
+    """Export call-level SFT samples that match the online call prompts.
+
+    Decide and analyse are separate model calls at inference time, so training
+    samples are separated the same way instead of using one trajectory-level
+    system prompt.
+    """
+    calls: list[dict[str, Any]] = []
+    question = str(record.get('question') or '')
+    sample_id = str(record.get('sample_id') or record.get('row_index') or 'unknown')
+    for call_idx, step in enumerate(record.get('trace', [])):
         kind = step.get('step')
         if kind == 'decide':
-            messages.append({'role': 'assistant', 'content': json.dumps(step.get('result', {}), ensure_ascii=False)})
-        elif kind == 'search':
-            messages.append({
-                'role': 'tool',
-                'name': 'retrieve_pages',
-                'content': json.dumps({'query': step.get('query'), 'pages': step.get('pages', [])}, ensure_ascii=False),
-            })
+            memory_context = str(step.get('memory_context') or default_memory_context())
+            system, user = build_decide_prompt(original_query=question, memory_context=memory_context)
+            target = step.get('raw_text') or json.dumps(
+                clean_decide_payload(step.get('result') or {}),
+                ensure_ascii=False,
+            )
+            image_paths = [str(path) for path in step.get('retained_images') or []]
         elif kind == 'analyse':
-            payload = {'page': step.get('page'), **(step.get('result') or {})}
-            messages.append({'role': 'assistant', 'content': json.dumps(payload, ensure_ascii=False)})
-        elif kind == 'memory_update':
-            messages.append({'role': 'assistant', 'content': json.dumps(step.get('result', {}), ensure_ascii=False)})
-    if record.get('final_answer'):
-        messages.append({'role': 'assistant', 'content': record['final_answer']})
-    return messages
+            grid_image_path = str(step.get('grid_image_path') or '')
+            if not grid_image_path:
+                continue
+            system, user = build_analyse_prompt(
+                original_query=question,
+                search_query=str(step.get('query') or ''),
+            )
+            target = step.get('raw_text') or json.dumps(
+                clean_analyse_payload(step.get('result') or {}),
+                ensure_ascii=False,
+            )
+            image_paths = [grid_image_path]
+        elif kind == 'evidence_update':
+            retained_image_path = str(step.get('retained_image_path') or '')
+            if not retained_image_path:
+                continue
+            previous_state = step.get('previous_evidence_state') or EvidenceState().model_dump(mode='json')
+            system, user = build_evidence_update_prompt(
+                original_query=question,
+                search_query=str(step.get('query') or ''),
+                judge=str(step.get('judge') or ''),
+                page_summary=str(step.get('page_summary') or ''),
+                evidence_state_json=json.dumps(previous_state, ensure_ascii=False, indent=2),
+            )
+            target = step.get('raw_text') or json.dumps(
+                clean_evidence_update_payload(step.get('result') or {}),
+                ensure_ascii=False,
+            )
+            image_paths = [retained_image_path]
+        else:
+            continue
+
+        calls.append({
+            'id': f'{sample_id}:{kind}:{call_idx}',
+            'sample_id': sample_id,
+            'row_index': record.get('row_index'),
+            'step': kind,
+            'iter': step.get('iter'),
+            'source_keep': bool(record.get('keep')),
+            'source_hop_type': record.get('hop_type'),
+            'page': step.get('page'),
+            'query': step.get('query'),
+            'system': system,
+            'user': user,
+            'image_paths': image_paths,
+            'target': str(target).strip(),
+            'messages': [
+                {'role': 'system', 'content': system},
+                {'role': 'user', 'content': user},
+                {'role': 'assistant', 'content': str(target).strip()},
+            ],
+        })
+    return calls
+
+
+def records_to_sft_calls(records: Iterable[dict[str, Any]]) -> list[dict[str, Any]]:
+    calls: list[dict[str, Any]] = []
+    for record in records:
+        calls.extend(build_sft_calls(record))
+    return calls
+
+
+def clean_cell_list(value: Any) -> list[str]:
+    if not isinstance(value, (list, tuple, set)):
+        return []
+    out: list[str] = []
+    seen: set[str] = set()
+    for item in value:
+        text = str(item).strip().upper().replace(' ', '')
+        if not text or text in seen:
+            continue
+        out.append(text)
+        seen.add(text)
+    return out
+
+
+def clean_one_sentence(value: Any) -> str:
+    return ' '.join(str(value or '').strip().split())
+
+
+def default_memory_context() -> str:
+    return (
+        "Search history:\n"
+        "None yet.\n\n"
+        "Current evidence_state:\n"
+        + EvidenceState().model_dump_json(indent=2)
+    )
+
+
+def safe_filename(text: str) -> str:
+    return re.sub(r'[^A-Za-z0-9_.-]+', '_', str(text))[:160]
+
+
+def materialize_aux_image(image: Image.Image, directory: Path, name: str) -> Path:
+    directory.mkdir(parents=True, exist_ok=True)
+    path = directory / name
+    image.save(path, quality=92)
+    return path
 
 
 def run_one_example(searcher: DeckRestrictedSearcher, row: dict[str, Any], row_index: int) -> dict[str, Any]:
-    """Run the main agent loop for a single row (decide -> analyse -> memory_update -> answer).
+    """Run the main agent loop for a single row (decide -> analyse -> answer).
 
     Identical step-by-step to notebook cell 5 / src/agent.py.
     """
@@ -458,17 +616,21 @@ def run_one_example(searcher: DeckRestrictedSearcher, row: dict[str, Any], row_i
 
     while memory.iter < MAX_RETRIEVAL_STEPS:
         retained_paths = [str(p) for p in memory.retained_image_paths()]
+        memory_context = memory.context_for_decide()
         decide_payload, decide_raw, decide_resp = decide_next(
             question=question,
-            memory_context=memory.context_for_decide(),
+            memory_context=memory_context,
             retained_image_paths=retained_paths,
         )
+        decide_payload = clean_decide_payload(decide_payload)
+        decide_raw = json.dumps(decide_payload, ensure_ascii=False)
         decision_obj = DecideResult.model_validate(decide_payload)
         decision_obj.validate_branch()
         usage.append({'iter': memory.iter, 'call': 'decide', 'usage': compact_usage(decide_resp)})
         trace.append({
             'iter': memory.iter,
             'step': 'decide',
+            'memory_context': memory_context,
             'result': decide_payload,
             'retained_images': retained_paths,
             'raw_text': decide_raw,
@@ -478,7 +640,7 @@ def run_one_example(searcher: DeckRestrictedSearcher, row: dict[str, Any], row_i
         if decision_obj.action == 'answer':
             break
 
-        search_query = (decision_obj.content or '').strip() or question
+        search_query = (decision_obj.search_query or '').strip() or question
         pages = searcher.search(query=search_query, deck_name=deck, top_k=RETRIEVAL_TOP_K)
         retrieved_labels.extend(p['page_label'] for p in pages)
         for page in pages:
@@ -492,47 +654,78 @@ def run_one_example(searcher: DeckRestrictedSearcher, row: dict[str, Any], row_i
 
         for page in pages:
             pil_image = Image.open(page['image_path']).convert('RGB')
+            grid_image = add_coordinate_grid(pil_image)
+            grid_path = materialize_aux_image(
+                grid_image,
+                sample_image_dir,
+                f"grid_{memory.iter}_{safe_filename(page['page_label'])}.jpg",
+            )
             analyse_payload, analyse_raw, analyse_resp = analyse_page(
                 question=question,
-                memory_context=memory.context_for_analyse(),
-                image_path=page['image_path'],
+                search_query=search_query,
+                image_path=str(grid_path),
             )
+            analyse_payload = clean_analyse_payload(
+                analyse_payload,
+                page_label=page['page_label'],
+                reference_labels=reference_labels,
+            )
+            analyse_raw = json.dumps(analyse_payload, ensure_ascii=False)
             analyse_obj = AnalyseResult.model_validate(analyse_payload)
             analyse_obj.validate_branch()
             usage.append({'iter': memory.iter, 'call': 'analyse', 'usage': compact_usage(analyse_resp)})
-            memory.write(analyse_obj, pil_image, search_query, page_label=page['page_label'])
+            retained_image = highlight_cells(pil_image, analyse_obj.useful_cells) if analyse_obj.judge != 'no' else None
+            previous_evidence_state = memory.evidence_state.model_copy(deep=True)
+            memory.write(
+                analyse_obj,
+                pil_image,
+                search_query,
+                page_label=page['page_label'],
+                retained_image=retained_image,
+            )
             memory.append_consolidated_summary(analyse_obj.summary, search_query=search_query)
             trace.append({
                 'iter': memory.iter,
                 'step': 'analyse',
                 'page': page['page_label'],
                 'query': search_query,
+                'grid_image_path': str(grid_path),
+                'source_image_path': page['image_path'],
                 'result': analyse_payload,
                 'raw_text': analyse_raw,
                 'response_id': getattr(analyse_resp, 'id', None),
             })
 
-            if analyse_obj.judge == 'no':
-                trace.append({'iter': memory.iter, 'step': 'memory_update_skipped', 'page': page['page_label'], 'reason': 'judge_no'})
-                continue
-
-            mu_payload, mu_raw, mu_resp = update_memory_step(
-                question=question,
-                previous_key_facts=list(memory.consolidated_key_facts),
-                latest_judge=analyse_obj.decision,
-                latest_key_facts=list(analyse_obj.key_facts),
-            )
-            mu_obj = MemoryUpdateResult.model_validate(mu_payload)
-            memory.update_consolidated(mu_obj)
-            usage.append({'iter': memory.iter, 'call': 'memory_update', 'usage': compact_usage(mu_resp)})
-            trace.append({
-                'iter': memory.iter,
-                'step': 'memory_update',
-                'page': page['page_label'],
-                'result': mu_payload,
-                'raw_text': mu_raw,
-                'response_id': getattr(mu_resp, 'id', None),
-            })
+            if analyse_obj.judge != 'no':
+                retained_paths_after = [str(p) for p in memory.retained_image_paths()]
+                retained_image_path = retained_paths_after[-1] if retained_paths_after else ''
+                evidence_payload, evidence_raw, evidence_resp = update_evidence_state(
+                    question=question,
+                    search_query=search_query,
+                    judge=analyse_obj.judge,
+                    page_summary=analyse_obj.summary,
+                    previous_evidence_state=previous_evidence_state,
+                    image_path=retained_image_path,
+                )
+                evidence_payload = clean_evidence_update_payload(evidence_payload)
+                evidence_raw = json.dumps(evidence_payload, ensure_ascii=False)
+                evidence_obj = EvidenceUpdateResult.model_validate(evidence_payload)
+                evidence_obj.validate_branch()
+                usage.append({'iter': memory.iter, 'call': 'evidence_update', 'usage': compact_usage(evidence_resp)})
+                memory.update_evidence_state(evidence_obj)
+                trace.append({
+                    'iter': memory.iter,
+                    'step': 'evidence_update',
+                    'page': page['page_label'],
+                    'query': search_query,
+                    'judge': analyse_obj.judge,
+                    'page_summary': analyse_obj.summary,
+                    'previous_evidence_state': previous_evidence_state.model_dump(mode='json'),
+                    'retained_image_path': retained_image_path,
+                    'result': evidence_payload,
+                    'raw_text': evidence_raw,
+                    'response_id': getattr(evidence_resp, 'id', None),
+                })
 
         memory.iter += 1
 
@@ -569,6 +762,7 @@ def run_one_example(searcher: DeckRestrictedSearcher, row: dict[str, Any], row_i
     record: dict[str, Any] = {
         'sample_id': sample_id,
         'row_index': row_index,
+        'hop_type': row.get('hop_type'),
         'deck_name': deck,
         'question': question,
         'reference_answer': reference_answer,
@@ -580,7 +774,7 @@ def run_one_example(searcher: DeckRestrictedSearcher, row: dict[str, Any], row_i
         'stop_reason': stop_reason,
         'final_answer': final,
         'final_decision': decide_payload if answered else None,
-        'validator': {'provider': 'man.ai', 'model': VALIDATOR_MODEL, **judge_payload},
+        'validator': {'provider': 'deepseek', 'model': VALIDATOR_MODEL, **judge_payload},
         'validator_raw_text': judge_raw,
         'validator_response_id': getattr(judge_resp, 'id', None),
         'keep_checks': checks,
@@ -591,13 +785,14 @@ def run_one_example(searcher: DeckRestrictedSearcher, row: dict[str, Any], row_i
         'api': {
             'provider': 'man.ai',
             'generator_model': GENERATOR_MODEL,
+            'validator_provider': 'deepseek',
             'validator_model': VALIDATOR_MODEL,
             'retriever_model': RETRIEVER_MODEL,
             'reasoning_effort': REASONING_EFFORT,
             'usage': usage,
         },
     }
-    record['sft_messages'] = build_sft_messages(record)
+    record['sft_calls'] = build_sft_calls(record)
     return record
 
 
@@ -643,7 +838,7 @@ def summarize_records(records: list[dict[str, Any]]) -> dict[str, Any]:
         'max_retrieval_steps': MAX_RETRIEVAL_STEPS,
         'retrieval_top_k': RETRIEVAL_TOP_K,
         'concurrency': CONCURRENCY,
-        'validation_mechanism': f'man.ai {VALIDATOR_MODEL} judge using src/judge.py SlideVQA prompt (gold_answer/normalized_gold schema)',
+        'validation_mechanism': f'deepseek {VALIDATOR_MODEL} judge using src/judge.py SlideVQA prompt (gold_answer/normalized_gold schema)',
     }
 
 
@@ -737,9 +932,28 @@ def main() -> None:
                         submit_next()
 
     all_records = read_jsonl(RAW_PATH)
-    write_jsonl(KEPT_PATH, [x for x in all_records if x.get('keep')])
-    write_jsonl(REJECTED_PATH, [x for x in all_records if not x.get('keep')])
+    kept_records_all = [x for x in all_records if x.get('keep')]
+    kept_records = kept_records_all[:TARGET_KEPT]
+    extra_kept_records = kept_records_all[TARGET_KEPT:]
+    rejected_records = [x for x in all_records if not x.get('keep')]
+    write_jsonl(KEPT_PATH, kept_records)
+    write_jsonl(REJECTED_PATH, rejected_records)
+    write_jsonl(SFT_CALLS_PATH, records_to_sft_calls(all_records))
+    write_jsonl(KEPT_SFT_CALLS_PATH, records_to_sft_calls(kept_records))
+    write_jsonl(REJECTED_SFT_CALLS_PATH, records_to_sft_calls(rejected_records))
     summary = summarize_records(all_records)
+    summary.update({
+        'sft_format': 'call_level',
+        'sft_calls_file': str(SFT_CALLS_PATH),
+        'kept_sft_calls_file': str(KEPT_SFT_CALLS_PATH),
+        'rejected_sft_calls_file': str(REJECTED_SFT_CALLS_PATH),
+        'num_sft_calls': len(records_to_sft_calls(all_records)),
+        'num_kept_sft_calls': len(records_to_sft_calls(kept_records)),
+        'num_rejected_sft_calls': len(records_to_sft_calls(rejected_records)),
+        'num_kept_exported': len(kept_records),
+        'num_extra_kept_not_exported': len(extra_kept_records),
+        'target_kept_export_cap': TARGET_KEPT,
+    })
     SUMMARY_PATH.write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding='utf-8')
     print(json.dumps({'output_dir': str(OUTPUT_DIR), 'summary': summary}, ensure_ascii=False, indent=2), flush=True)
 

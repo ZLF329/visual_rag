@@ -8,17 +8,18 @@ from PIL import Image
 from pydantic import BaseModel
 
 from src.memory import Memory
+from src.prompt_serialization import build_agent_human_turn
 from src.prompts import (
     STRICT_JSON_RETRY_SUFFIX,
     build_analyse_prompt,
     build_decide_prompt,
-    build_memory_update_prompt,
+    build_evidence_update_prompt,
 )
 from src.baseline_prompts import (
     build_image_summary_prompt,
     build_summary_decide_prompt,
 )
-from src.schemas import AnalyseResult, DecideResult, ImageSummaryResult, MemoryUpdateResult
+from src.schemas import AnalyseResult, DecideResult, EvidenceState, EvidenceUpdateResult, ImageSummaryResult
 
 
 T = TypeVar("T", bound=BaseModel)
@@ -44,6 +45,7 @@ class VLM:
         temperature: float = 0.0,
         dtype: str = "bfloat16",
         attn_implementation: str | None = None,
+        prompt_mode: str = "chat",
         load_model: bool = True,
     ) -> None:
         self.model_path = model_path
@@ -52,6 +54,9 @@ class VLM:
         self.temperature = temperature
         self.dtype = dtype
         self.attn_implementation = attn_implementation
+        if prompt_mode not in {"chat", "system_in_user"}:
+            raise ValueError(f"unsupported prompt_mode: {prompt_mode}")
+        self.prompt_mode = prompt_mode
         self.processor: Any | None = None
         self.model: Any | None = None
         if load_model:
@@ -75,17 +80,18 @@ class VLM:
             images=images,
             schema=DecideResult,
             validator=lambda item: item.validate_branch(),
+            call_type="decide",
         )
 
     def analyse(
         self,
         image: Image.Image,
         original_query: str,
-        memory_context: str,
+        search_query: str | None = None,
     ) -> AnalyseResult:
         system, user = build_analyse_prompt(
             original_query=original_query,
-            memory_context=memory_context,
+            search_query=search_query,
         )
         return self._generate_structured(
             system=system,
@@ -93,30 +99,34 @@ class VLM:
             images=[image],
             schema=AnalyseResult,
             validator=lambda item: item.validate_branch(),
+            call_type="analyse",
         )
 
-
-    def update_memory(
+    def update_evidence_state(
         self,
         *,
+        image: Image.Image,
         original_query: str,
-        memory: Memory,
-        latest_analysis: AnalyseResult,
-        max_new_tokens: int = 1000,
-    ) -> MemoryUpdateResult:
-        system, user = build_memory_update_prompt(
+        search_query: str,
+        judge: str,
+        page_summary: str,
+        previous_evidence_state: EvidenceState,
+    ) -> EvidenceUpdateResult:
+        system, user = build_evidence_update_prompt(
             original_query=original_query,
-            previous_key_facts=memory.consolidated_key_facts,
-            latest_judge=latest_analysis.decision,
-            latest_key_facts=latest_analysis.key_facts,
+            search_query=search_query,
+            judge=judge,
+            page_summary=page_summary,
+            evidence_state_json=previous_evidence_state.model_dump_json(indent=2),
         )
         return self._generate_structured(
             system=system,
             user=user,
-            images=[],
-            schema=MemoryUpdateResult,
+            images=[image],
+            schema=EvidenceUpdateResult,
             validator=lambda item: item.validate_branch(),
-            max_new_tokens=max_new_tokens,
+            max_new_tokens=800,
+            call_type="evidence_update",
         )
 
     def direct_answer(
@@ -199,8 +209,19 @@ class VLM:
             AutoModelForVision2Seq = None
 
         dtype = getattr(torch, self.dtype, torch.bfloat16)
+        model_path = Path(self.model_path)
+        adapter_path = model_path if (model_path / "adapter_config.json").exists() else None
+        base_model_path = self.model_path
+        processor_path = self.model_path
+        if adapter_path is not None:
+            adapter_config = json.loads(
+                (adapter_path / "adapter_config.json").read_text(encoding="utf-8")
+            )
+            base_model_path = adapter_config.get("base_model_name_or_path") or base_model_path
+            processor_path = self.model_path if (adapter_path / "tokenizer_config.json").exists() else base_model_path
+
         self.processor = AutoProcessor.from_pretrained(
-            self.model_path,
+            processor_path,
             trust_remote_code=True,
         )
 
@@ -223,7 +244,15 @@ class VLM:
                     kwargs["attn_implementation"] = self.attn_implementation
                 if self.device == "cuda":
                     kwargs["device_map"] = "auto"
-                self.model = model_class.from_pretrained(self.model_path, **kwargs)
+                self.model = model_class.from_pretrained(base_model_path, **kwargs)
+                if adapter_path is not None:
+                    try:
+                        from peft import PeftModel
+                    except ImportError as peft_exc:
+                        raise RuntimeError(
+                            "LoRA adapter eval requires peft. Install with: python3 -m pip install peft"
+                        ) from peft_exc
+                    self.model = PeftModel.from_pretrained(self.model, adapter_path)
                 if self.device != "cuda":
                     self.model.to(self.device)
                 self.model.eval()
@@ -242,6 +271,7 @@ class VLM:
         schema: type[T],
         validator: Any,
         max_new_tokens: int | None = None,
+        call_type: str | None = None,
     ) -> T:
         outputs: list[str] = []
         last_error: Exception | None = None
@@ -252,6 +282,7 @@ class VLM:
                 user=attempt_user,
                 images=images,
                 max_new_tokens=max_new_tokens,
+                call_type=call_type,
             )
             outputs.append(text)
             try:
@@ -270,6 +301,7 @@ class VLM:
         user: str,
         images: list[Image.Image],
         max_new_tokens: int | None = None,
+        call_type: str | None = None,
     ) -> str:
         if self.model is None or self.processor is None:
             raise RuntimeError(
@@ -278,18 +310,21 @@ class VLM:
 
         import torch
 
+        user_text = user
         messages: list[dict[str, Any]] = []
-        if system:
+        if self.prompt_mode == "system_in_user":
+            user_text = build_agent_human_turn(system, user, call_type=call_type)
+        elif system:
             messages.append({"role": "system", "content": system})
 
         if images:
             content: list[dict[str, Any]] = [
                 {"type": "image", "image": image} for image in images
             ]
-            content.append({"type": "text", "text": user})
+            content.append({"type": "text", "text": user_text})
             messages.append({"role": "user", "content": content})
         else:
-            messages.append({"role": "user", "content": user})
+            messages.append({"role": "user", "content": user_text})
 
         text = self.processor.apply_chat_template(
             messages,

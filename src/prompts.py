@@ -1,43 +1,27 @@
 from __future__ import annotations
 
 
-DECIDE_SYSTEM = """You are an agent deciding the next action for answering a visual document
-question. You have two possible actions:
+DECIDE_SYSTEM = """You are the decide call of a visual-RAG agent. Choose one action:
+search for one more page, or answer now.
 
-  - "search": retrieve one more document page by issuing a new search query.
-  - "answer": stop searching and provide the final answer directly.
+Inputs include the question, Search history, current evidence_state, and
+retained highlighted evidence images. Search history contains useful page
+summaries plus failed, empty, or duplicate searches.
 
-The analyse step runs automatically after every retrieved page. Useful pages
-then pass through an evidence_update step that maintains one current
-evidence_state.
+Rules:
+  - Answer only from evidence_state and retained images.
+  - If observed_evidence directly answers the question, output answer.
+  - If remaining_gap names evidence truly required by the question, search for
+    that missing part.
+  - Never repeat a query from Search history.
+  - After a no/useless/duplicate search, change strategy: use different terms,
+    aliases, shorter entity/metric phrases, or a narrower subquestion.
+  - If remaining_gap asks only for extra confirmation, negative proof, exhaustive
+    alternatives, or exact wording not required by the question, answer from the
+    directly supported evidence instead.
+  - Do not treat related metrics as equivalent unless evidence says so.
 
-You will be shown:
-  - The original question.
-  - Search history as query-prefixed one-sentence page summaries.
-  - The current evidence_state with observed_evidence and remaining_gap.
-  - Retained evidence images from earlier analyse steps when available:
-    useful cells are highlighted on retained images.
-
-Your job:
-  1. Decide whether the current evidence_state is sufficient to answer the original question.
-  2. If sufficient, output action="answer" and put the final answer in content.
-  3. If not, output action="search" and put the next search query in content.
-
-Guidance:
-  - If evidence_state is empty, search with a query close to the original
-    question or a rephrased version that surfaces the key entities/topics.
-  - Search history is only for avoiding repeated searches and understanding what
-    has already been checked. Do not answer from search history alone.
-  - If evidence_state.remaining_gap is not null, you must search for the
-    specific missing evidence described there.
-  - You may answer only when evidence_state.remaining_gap is null and
-    evidence_state.observed_evidence directly supports the final answer.
-  - If answering, use evidence_state and retained evidence images. Do not assume
-    facts that are not present there.
-  - Do not treat related metrics as equivalent unless evidence_state explicitly
-    says they are equivalent.
-
-Output JSON only:
+Return JSON only:
 {
   "think": "<short reasoning>",
   "action": "search" | "answer",
@@ -106,34 +90,23 @@ Search query that retrieved this page: {search_query}
 Analyse the attached page image."""
 
 
-EVIDENCE_UPDATE_SYSTEM = """You update the current evidence_state for a visual-RAG agent.
+EVIDENCE_UPDATE_SYSTEM = """Update evidence_state after a yes/partial analyse call.
+Overwrite the previous state with the latest consolidated evidence.
 
-You will be shown:
-  - The original question.
-  - The search query that retrieved the current page.
-  - The current page's analyse judge: yes or partial.
-  - The current page's one-sentence summary.
-  - The previous evidence_state.
-  - The highlighted current page image.
+Rules:
+  - observed_evidence must be supported by the previous state and highlighted
+    page/summary only.
+  - Set remaining_gap to null when observed_evidence directly answers the
+    original question.
+  - Do not ask for extra confirmation, negative proof, exhaustive alternatives,
+    exact wording, or another page unless the question truly requires it.
+  - For count/category/lookup questions, clear the gap if the evidence visibly
+    gives the needed count, category, entity, or value.
+  - Keep a concrete remaining_gap if any required entity, condition, year,
+    metric, unit, comparison, or final value is missing or inferred.
+  - Do not equate related metrics unless evidence explicitly says so.
 
-Your job is to output the complete latest evidence_state, overwriting the
-previous one. Preserve previous evidence that is still relevant, incorporate
-new evidence from the current page, and remove stale or misleading conclusions.
-
-Critical rules:
-  - observed_evidence must contain only evidence supported by the previous
-    evidence_state and the highlighted current page/summary.
-  - remaining_gap must be a concrete description of what is still missing.
-  - Set remaining_gap to null only when observed_evidence directly supports the
-    final answer to the original question.
-  - Do not set remaining_gap to null if any required entity, condition, year,
-    metric name, unit, comparison, or final value is missing or only inferred.
-  - Do not treat related metrics as equivalent unless the evidence explicitly
-    says they are equivalent.
-  - If the analyse judge is partial, remaining_gap is usually not null unless
-    this page plus previous evidence now covers every requirement.
-
-Output JSON only:
+Return JSON only:
 {
   "evidence_state": {
     "observed_evidence": "<complete latest consolidated evidence>",

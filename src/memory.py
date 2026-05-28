@@ -124,29 +124,26 @@ class Memory(BaseModel):
             WarningEntry(
                 query_tried=search_query,
                 failure_type="query_too_narrow",
-                suggestion="No pages were retrieved; broaden or rephrase the query.",
+                suggestion="reframe",
                 image_id="retriever_empty",
             )
         )
 
     def add_duplicate_search_warning(self, search_query: str, page_labels: list[str]) -> None:
-        pages = ", ".join(page_labels)
         self.warnings.append(
             WarningEntry(
                 query_tried=search_query,
                 failure_type="query_too_narrow",
-                suggestion=(
-                    "The retriever returned only pages that were already analysed"
-                    f"{': ' + pages if pages else ''}; use a more specific or different query."
-                ),
+                suggestion="reframe",
                 image_id="retriever_duplicate",
             )
         )
 
     def context_for_decide(self) -> str:
+        search_history = self.search_history_log()
         return (
             "Search history:\n"
-            f"{self.consolidated_summary or 'None yet.'}\n\n"
+            f"{search_history}\n\n"
             "Current evidence_state:\n"
             f"{self.evidence_state_json()}"
         )
@@ -180,6 +177,24 @@ class Memory(BaseModel):
             summary = f"[query: {search_query}]: {summary}"
         self.consolidated_summaries.append(summary)
         self.consolidated_summary = "\n".join(self.consolidated_summaries)
+
+    def failed_search_log(self) -> str:
+        if not self.warnings:
+            return "None yet."
+        rows: list[str] = []
+        for warning in self.warnings[-8:]:
+            detail = warning.summary or "Only repeated pages found; try a different query."
+            rows.append(f"[query: {warning.query_tried}]: {detail}")
+        return "\n".join(rows)
+
+    def search_history_log(self) -> str:
+        rows: list[str] = []
+        if self.consolidated_summary:
+            rows.append(self.consolidated_summary)
+        failed = self.failed_search_log()
+        if failed != "None yet.":
+            rows.append(failed)
+        return "\n".join(rows) if rows else "None yet."
 
     def evidence_state_json(self) -> str:
         return json.dumps(self.evidence_state.model_dump(mode="json"), ensure_ascii=False, indent=2)

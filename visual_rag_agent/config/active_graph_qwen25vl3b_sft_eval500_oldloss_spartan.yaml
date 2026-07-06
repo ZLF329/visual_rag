@@ -1,0 +1,27 @@
+models:
+  vlm:
+    provider: qwen
+    name: /scratch/punim0614/lifuzhang/models/Qwen2.5-VL-3B-Instruct
+    adapter_path: outputs/checkpoints/active_graph_qwen25vl3b_sft_oldloss_1229_qwenzoom_r16a32_spartan
+    max_tokens: 1024
+    temperature: 0.0
+    prompt_mode: system_in_user
+  retriever:
+    name: /scratch/punim0614/lifuzhang/models/Qwen3-VL-Embedding-8B
+    index_path: data/indexes/slidevqa_test_main
+agent:
+  top_k: 1
+  max_iters: 12
+  partial_memory_capacity: 2
+image_budget:
+  yes_pixels: 400000
+  partial_pixels: 400000
+dataset:
+  name: slidevqa
+  split: test
+  num_samples: 500
+runtime:
+  output_dir: outputs/active_graph_qwen25vl3b_sft_eval500_oldloss_spartan
+  device: cuda
+  dtype: bfloat16
+  attn_implementation: flash_attention_2

@@ -1,0 +1,26 @@
+models:
+  vlm:
+    provider: qwen
+    name: /scratch/punim0614/lifuzhang/models/qwen25vl3b_active_graph_sft_aligned_20260608_104916-merged
+    max_tokens: 1024
+    temperature: 0.0
+    prompt_mode: system_in_user
+  retriever:
+    name: /scratch/punim0614/lifuzhang/models/Qwen3-VL-Embedding-8B
+    index_path: /scratch/punim0614/lifuzhang/visual_rag_agent/data/indexes/slidevqa_test_main
+agent:
+  top_k: 1
+  max_iters: 10
+  partial_memory_capacity: 2
+image_budget:
+  yes_pixels: 400000
+  partial_pixels: 400000
+dataset:
+  name: slidevqa
+  split: test
+  num_samples: 500
+runtime:
+  output_dir: /scratch/punim0614/lifuzhang/visual_rag_agent/outputs/qwen25vl3b_active_graph_sft_aligned_20260608_104916_sft_eval500_20260608_104916
+  device: cuda
+  dtype: bfloat16
+  attn_implementation: flash_attention_2

@@ -1,0 +1,39 @@
+models:
+  vlm:
+    provider: dashscope_api
+    name: qwen3.5-397b-a17b
+    env_files:
+      - .secrets/qwen36plus.env
+    api_base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+    api_key_env: MIMO_API_KEY
+    api_timeout: 180
+    api_max_retries: 2
+    api_image_quality: 85
+    max_tokens: 2048
+    temperature: 0.0
+    prompt_mode: chat
+    policy_output_format: json
+    api_policy_response_format: json_object
+  retriever:
+    name: /scratch/punim0614/lifuzhang/models/Qwen3-VL-Embedding-8B
+    index_path: /scratch/punim0614/lifuzhang/visual_rag_agent/data/indexes/slidevqa_train_active_graph_single24_new_nodup_20260602
+
+agent:
+  top_k: 1
+  max_iters: 12
+  partial_memory_capacity: 2
+
+image_budget:
+  yes_pixels: 400000
+  partial_pixels: 400000
+
+dataset:
+  name: slidevqa
+  split: train
+  num_samples: 300
+
+runtime:
+  output_dir: /scratch/punim0614/lifuzhang/visual_rag_agent/outputs/active_graph_single24_new_nodup_qwen35_397b_20260602
+  device: cuda
+  dtype: bfloat16
+  attn_implementation: flash_attention_2

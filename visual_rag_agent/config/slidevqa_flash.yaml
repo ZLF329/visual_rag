@@ -1,0 +1,18 @@
+models:
+  vlm:
+    name: "/scratch/punim0614/lifuzhang/models/Qwen3-VL-4B-Instruct"
+    max_tokens: 1024
+    temperature: 0.0
+  retriever:
+    name: "/scratch/punim0614/lifuzhang/models/Qwen3-VL-Embedding-8B"
+    index_path: "data/indexes/slidevqa"
+
+agent:
+  top_k: 1
+  max_iters: 5
+
+runtime:
+  output_dir: "outputs/runs"
+  device: "cuda"
+  dtype: "bfloat16"
+  attn_implementation: "flash_attention_2"

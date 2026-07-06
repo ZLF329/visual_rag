@@ -1,0 +1,29 @@
+models:
+  vlm:
+    provider: openai_compatible
+    name: sft3b-pass
+    api_base_url: http://localhost:8000/v1
+    api_key_env: OPENAI_API_KEY
+    max_tokens: 1024
+    temperature: 1.0
+    top_p: 1.0
+    prompt_mode: system_in_user
+  retriever:
+    name: /root/autodl-tmp/models/Qwen3-VL-Embedding-8B
+    index_path: /root/autodl-tmp/rl_regen/index_combined_v8
+agent:
+  top_k: 1
+  max_iters: 15
+  partial_memory_capacity: 2
+image_budget:
+  yes_pixels: 400000
+  partial_pixels: 400000
+dataset:
+  name: slidevqa
+  split: test
+  num_samples: 200
+runtime:
+  output_dir: /root/autodl-tmp/visual_rag_agent/outputs/3b_new200_run1
+  device: cuda
+  dtype: bfloat16
+  attn_implementation: flash_attention_2

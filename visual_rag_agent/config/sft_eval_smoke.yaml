@@ -1,0 +1,26 @@
+models:
+  vlm:
+    provider: qwen
+    name: /root/autodl-tmp/models/qwen25vl3b_ag_sft_aligned_autodl-merged
+    max_tokens: 1024
+    temperature: 0.0
+    prompt_mode: system_in_user
+  retriever:
+    name: /root/autodl-tmp/models/Qwen3-VL-Embedding-8B
+    index_path: /root/autodl-tmp/active_graph_rl_workspace/data/indexes/slidevqa_test_main
+agent:
+  top_k: 1
+  max_iters: 15
+  partial_memory_capacity: 2
+image_budget:
+  yes_pixels: 400000
+  partial_pixels: 400000
+dataset:
+  name: slidevqa
+  split: test
+  num_samples: 5
+runtime:
+  output_dir: /root/autodl-tmp/visual_rag_agent/outputs/sft_eval_smoke
+  device: cuda
+  dtype: bfloat16
+  attn_implementation: flash_attention_2

@@ -1,0 +1,37 @@
+models:
+  vlm:
+    provider: openai_compatible
+    name: qwen3vl-teacher
+    api_base_url: http://localhost:8000/v1
+    api_key_env: TEACHER_API_KEY
+    api_timeout: 600
+    api_max_retries: 3
+    api_image_quality: 90
+    max_tokens: 4096
+    temperature: 0.6
+    prompt_mode: chat
+    policy_output_format: tags
+  retriever:
+    name: /root/autodl-tmp/models/Qwen3-VL-Embedding-8B
+    index_path: /root/autodl-tmp/index/sft_2000
+
+agent:
+  top_k: 1
+  max_iters: 12
+  bbox_frame: norm1000
+  partial_memory_capacity: 2
+
+image_budget:
+  yes_pixels: 2000000
+  partial_pixels: 2000000
+
+dataset:
+  name: slidevqa
+  split: train
+  num_samples: 2000
+
+runtime:
+  output_dir: /root/autodl-tmp/outputs/active_graph_sft_qwen3vl235b
+  device: cuda
+  dtype: bfloat16
+  attn_implementation: null

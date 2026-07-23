@@ -320,6 +320,20 @@ raw_px = "<think>t</think>\n<bbox>[1200,50,1400,300]</bbox>"
 check("boxes already in px (>1000) untouched",
       _rewrite_box_to_displayed_px(raw_px, stub, (800, 600)) == raw_px and stub.box == [1200.0, 50.0, 1400.0, 300.0])
 
+
+class _TurnStub2:
+    box = [250.0, 500.0, 750.0, 900.0]
+
+
+stub2 = _TurnStub2()
+raw_decoy = ('<think>earlier I tried <bbox>[9,9,99,99]</bbox> and it was too dark</think>\n'
+             '<update_graph>{"type":"reject","summary":"s","reason":"r"}</update_graph>\n'
+             '<bbox>[250,500,750,900]</bbox>')
+out_decoy = _rewrite_box_to_displayed_px(raw_decoy, stub2, (800, 600))
+check("decoy bbox inside think untouched, action bbox rewritten",
+      "<bbox>[9,9,99,99]</bbox>" in out_decoy and "<bbox>[200,300,600,540]</bbox>" in out_decoy
+      and "[250,500,750,900]" not in out_decoy, out_decoy[-80:])
+
 print("== fake-VLM: multi-hop with commit-only final ==")
 
 

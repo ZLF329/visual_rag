@@ -57,6 +57,11 @@ def _rewrite_box_to_displayed_px(raw_text: str, turn: Any, displayed_size: tuple
     ]
     turn.box = box_px
     payload = f"<bbox>[{box_px[0]},{box_px[1]},{box_px[2]},{box_px[3]}]</bbox>"
+    # Rewrite only after the think block: a <bbox> literal quoted inside <think> must never
+    # be the one replaced (the action tag always follows </think>).
+    head, sep, tail = raw_text.rpartition("</think>")
+    if sep:
+        return head + sep + re.sub(r"<bbox>\s*\[[^\]]*\]\s*</bbox>", payload, tail, count=1)
     return re.sub(r"<bbox>\s*\[[^\]]*\]\s*</bbox>", payload, raw_text, count=1)
 
 

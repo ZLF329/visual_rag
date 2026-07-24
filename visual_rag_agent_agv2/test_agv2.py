@@ -213,6 +213,37 @@ check("remap_crop_decision_boxes rewrites grounded facts", dz3.supporting_facts[
 remap_crop_decision_boxes(dz3, None)
 check("remap without geometry strips boxes", dz3.supporting_facts[0].bbox_2d is None)
 
+print("== AGv2.1: zoom supersede (containment rule) ==")
+from src.protocol import crop_region_displayed
+from src.active_clue_graph import _format_facts
+g_s = ClueGraph.from_root_question("What pct?")
+d_s = GraphDecisionResult.model_validate({"type": "accept", "answer": "~40%", "supporting_facts": [
+    {"fact": "segment label near 40%", "bbox_2d": [95, 95, 195, 195]},          # the zoom target
+    {"fact": "chart covers 2010-2020", "bbox_2d": [10, 10, 900, 480]},          # wide context
+    "boxless context note",                                                       # no bbox
+]})
+_, node_s, _ = commit_page_decision(g_s, d_s, "obs", defer_active_shift=True)
+crop_img_s, geom_s = crop_displayed_box_with_geom(Image.new("RGB", (2000, 1000), "white"),
+                                                  (1000, 500), [100, 100, 200, 200], pad=28, min_pixels=1000)
+reg = crop_region_displayed(geom_s)
+check("crop region displayed = pad math", reg == [86.0, 86.0, 214.0, 214.0], str(reg))
+dz_s = GraphDecisionResult.model_validate({"type": "accept", "answer": "42%",
+    "supporting_facts": [{"fact": "label reads 42%", "bbox_2d": [40, 40, 90, 70]}]})
+commit_crop_decision(g_s, node_s, dz_s, geometry=geom_s)
+kf = g_s.nodes[node_s].known_facts
+by_fact = {f["fact"]: f for f in kf}
+check("zoom-target fact superseded", by_fact["segment label near 40%"].get("superseded") is True)
+check("wide context fact kept", not by_fact["chart covers 2010-2020"].get("superseded"))
+check("boxless fact kept", not by_fact["boxless context note"].get("superseded"))
+check("new zoom fact present, not superseded", not by_fact["label reads 42%"].get("superseded"))
+rendered = _format_facts(kf)
+check("render hides superseded, keeps rest",
+      "near 40%" not in rendered and "2010-2020" in rendered and "label reads 42%" in rendered, rendered)
+check("answer refreshed to zoom reading", g_s.nodes[node_s].answer == "42%")
+dz_rej = GraphDecisionResult.model_validate({"type": "reject", "summary": "dark", "reason": "retry"})
+commit_crop_decision(g_s, node_s, dz_rej, geometry=geom_s)
+check("reject supersedes nothing", sum(1 for f in kf if f.get("superseded")) == 1)
+
 print("== AGv2.1: teacher norm1000 fact-box conversion + JSON rewrite ==")
 from src.agent import _convert_update_fact_boxes
 from src.protocol import parse_turn as _pt

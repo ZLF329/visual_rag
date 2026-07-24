@@ -359,9 +359,22 @@ def finish_crop_chain(graph: Any, crop_ctx: "CropContext") -> None:
     crop_ctx.clear()
 
 
-def commit_crop_decision(graph: Any, target_node_id: str, decision: Any) -> str:
+def crop_region_displayed(geom: "CropGeometry") -> list[float]:
+    """The crop rectangle expressed in source-page DISPLAYED pixels."""
+    return map_crop_box_to_page([0.0, 0.0, float(geom.crop_size[0]), float(geom.crop_size[1])], geom)
+
+
+def commit_crop_decision(
+    graph: Any, target_node_id: str, decision: Any, geometry: "CropGeometry | None" = None
+) -> str:
     """Apply a crop-observation <update_graph>: accept/expand append the facts to the crop
     target node (no structural change, no status change, no active change); reject discards.
+
+    AGv2.1 supersede rule: a zoom re-reads the region it cropped, so existing facts whose
+    bbox fits INSIDE the crop region (page displayed frame, +eps tolerance) are the worse,
+    pre-zoom readings of exactly what was just re-read -> marked superseded (kept in storage
+    for provenance, dropped from rendering). Facts larger than the crop region are context
+    (e.g. "chart covers 2010-2020") and stay; boxless facts stay; reject supersedes nothing.
     Returns the decision type (lower)."""
     from src.active_clue_graph import _compact_new, _fact_entry
 
@@ -370,6 +383,16 @@ def commit_crop_decision(graph: Any, target_node_id: str, decision: Any) -> str:
         node = graph.nodes.get(target_node_id)
         if node is None:
             raise ProtocolError(f"crop target node {target_node_id!r} no longer exists")
+        if geometry is not None:
+            eps = 10.0
+            rx1, ry1, rx2, ry2 = crop_region_displayed(geometry)
+            for entry in node.known_facts:
+                box = entry.get("bbox_2d") if isinstance(entry, dict) else None
+                if not box or entry.get("superseded"):
+                    continue
+                if (box[0] >= rx1 - eps and box[1] >= ry1 - eps
+                        and box[2] <= rx2 + eps and box[3] <= ry2 + eps):
+                    entry["superseded"] = True
         facts = [_fact_entry(f) for f in (getattr(decision, "supporting_facts", None) or [])]
         if not facts and getattr(decision, "answer", None):
             facts = [_fact_entry(str(decision.answer))]

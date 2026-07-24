@@ -575,7 +575,8 @@ class SlideVQAMultiProcessEnv:
             try:
                 # grounded facts read off a crop are crop-frame pixels: remap to page frame.
                 agv2.remap_crop_decision_boxes(decision, state.crop_geometry)
-                agv2.commit_crop_decision(graph, state.crop_target_node_id, decision)
+                agv2.commit_crop_decision(graph, state.crop_target_node_id, decision,
+                                          geometry=state.crop_geometry)
             except Exception as exc:
                 _format_error(f"crop commit failed: {exc}")
                 state.iter += 1

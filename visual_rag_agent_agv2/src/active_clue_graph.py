@@ -482,8 +482,10 @@ def _format_facts(facts: list) -> str:
     source images for past rounds are no longer in context, so coordinates would be noise.
     The model still EMITS bbox_2d in update_graph (grounding discipline at write time) and
     bbox is still stored on the node via _fact_entry (provenance / reward) — only the
-    rendered prompt drops it."""
-    return json.dumps([_fact_label(f) for f in (facts or [])], ensure_ascii=False)
+    rendered prompt drops it. Facts superseded by a later zoom re-read are also skipped
+    (storage keeps them; the prompt must not show stale readings next to refined ones)."""
+    visible = [f for f in (facts or []) if not (isinstance(f, dict) and f.get("superseded"))]
+    return json.dumps([_fact_label(f) for f in visible], ensure_ascii=False)
 
 
 def _fact_entry(f) -> dict:

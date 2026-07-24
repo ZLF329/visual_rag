@@ -245,7 +245,8 @@ class Agent:
                             # grounded facts read off a crop are in crop-frame pixels: remap
                             # to source-page displayed pixels before they enter the graph.
                             remap_crop_decision_boxes(decision, crop_ctx.geometry)
-                            dtype = commit_crop_decision(graph, crop_ctx.target_node_id, decision)
+                            dtype = commit_crop_decision(graph, crop_ctx.target_node_id, decision,
+                                                         geometry=crop_ctx.geometry)
                             turn_trace["commit"] = {"kind": "crop", "type": dtype,
                                                     "target_node": crop_ctx.target_node_id}
                             # crop chain ends unless this turn zooms again: execute the

@@ -188,9 +188,48 @@ crop2 = crop_displayed_box(raw, (2000, 1000), [0, 0, 64, 64], pad=0, min_pixels=
 check("min_pixels upscale", crop2.size[0] * crop2.size[1] >= 500_000, str(crop2.size))
 expect_error("degenerate box after mapping", lambda: crop_displayed_box(raw, (1000, 500), [1999, 999, 2000, 1000], pad=0, min_pixels=1000), BoxFormatError)
 
-print("== schemas: fact coercion ==")
+print("== schemas: fact coercion (AGv2.1 grounded) ==")
 d = GraphDecisionResult.model_validate({"type": "accept", "answer": "a", "supporting_facts": [{"fact": "f1", "bbox_2d": [1, 2, 3, 4]}, "f2"]})
-check("dict+str facts coerce, bbox dropped", [f.fact for f in d.supporting_facts] == ["f1", "f2"])
+check("dict+str facts coerce", [f.fact for f in d.supporting_facts] == ["f1", "f2"])
+check("bbox KEPT on grounded fact", d.supporting_facts[0].bbox_2d == [1.0, 2.0, 3.0, 4.0])
+check("plain-string fact has no bbox", d.supporting_facts[1].bbox_2d is None)
+d2 = GraphDecisionResult.model_validate({"type": "accept", "answer": "a", "supporting_facts": [{"fact": "f", "bbox_2d": [9, 9, 3, 4]}]})
+check("degenerate bbox degrades to None (fact kept)", d2.supporting_facts[0].bbox_2d is None and d2.supporting_facts[0].fact == "f")
+
+print("== AGv2.1: crop-frame -> page-frame remap math ==")
+from src.protocol import CropGeometry, crop_displayed_box_with_geom, map_crop_box_to_page, remap_crop_decision_boxes
+raw_pg = Image.new("RGB", (2000, 1000), "white")
+crop_img, geom = crop_displayed_box_with_geom(raw_pg, (1000, 500), [100, 100, 200, 200], pad=28, min_pixels=1000)
+check("geom region matches pad math", geom.region_raw == (172.0, 172.0, 428.0, 428.0), str(geom.region_raw))
+check("geom crop size == produced image size", geom.crop_size == crop_img.size)
+# a box covering the WHOLE crop must map back to (region in displayed coords)
+full = map_crop_box_to_page([0, 0, geom.crop_size[0], geom.crop_size[1]], geom)
+check("full-crop box maps to region in displayed frame",
+      full == [86.0, 86.0, 214.0, 214.0], str(full))
+dz3 = GraphDecisionResult.model_validate({"type": "accept", "answer": "x",
+    "supporting_facts": [{"fact": "g", "bbox_2d": [0, 0, geom.crop_size[0], geom.crop_size[1]]}, "nofact-box"]})
+remap_crop_decision_boxes(dz3, geom)
+check("remap_crop_decision_boxes rewrites grounded facts", dz3.supporting_facts[0].bbox_2d == [86.0, 86.0, 214.0, 214.0])
+remap_crop_decision_boxes(dz3, None)
+check("remap without geometry strips boxes", dz3.supporting_facts[0].bbox_2d is None)
+
+print("== AGv2.1: teacher norm1000 fact-box conversion + JSON rewrite ==")
+from src.agent import _convert_update_fact_boxes
+from src.protocol import parse_turn as _pt
+raw_t = ('<think>read it</think>\n'
+         '<update_graph>{"type":"accept","supporting_facts":[{"fact":"seg 42%","bbox_2d":[250,500,750,900]}],"answer":"42%"}</update_graph>\n'
+         '<answer>42%</answer>')
+turn_t = _pt(raw_t, observation_pending=True)
+out_t = _convert_update_fact_boxes(raw_t, turn_t, (800, 600))
+check("fact box converted in payload", turn_t.update_payload["supporting_facts"][0]["bbox_2d"] == [200, 300, 600, 540])
+check("fact box rewritten in raw_text", '"bbox_2d": [200, 300, 600, 540]' in out_t or '"bbox_2d":[200,300,600,540]' in out_t.replace(", ", ","), out_t[-160:])
+check("field order preserved (facts before answer)", out_t.index("supporting_facts") < out_t.index('"answer"'))
+raw_nv = ('<think>t</think>\n'
+          '<update_graph>{"type":"accept","supporting_facts":[{"fact":"f","bbox_2d":[10,10,50,50]}],"answer":"a"}</update_graph>\n'
+          '<search>q</search>')
+turn_nv = _pt(raw_nv, observation_pending=True)
+_convert_update_fact_boxes(raw_nv, turn_nv, None)
+check("no viewed image -> box stripped from payload", "bbox_2d" not in turn_nv.update_payload["supporting_facts"][0])
 
 print("== fake-VLM eval episode ==")
 from src.agent import Agent

@@ -130,17 +130,22 @@ The clue graph:
 
 <update_graph> decisions (JSON object, one of three types):
   - accept: the pending observation sufficiently answers the active node's question.
-      {"type":"accept","supporting_facts":["<fact>","<fact>"],"answer":"<answer>"}
+      {"type":"accept","supporting_facts":[{"fact":"<fact>","bbox_2d":[x1,y1,x2,y2]}],"answer":"<answer>"}
   - expand: the observation answers one part but another part is still needed.
-      {"type":"expand","answered_subquestion":"<answered part>","supporting_facts":["<fact>"],
+      {"type":"expand","answered_subquestion":"<answered part>",
+       "supporting_facts":[{"fact":"<fact>","bbox_2d":[x1,y1,x2,y2]}],
        "answer":"<its answer>","remaining_subquestion":"<self-contained remaining part>"}
   - reject: the observation does not help the active question.
       {"type":"reject","summary":"<what the page shows>","reason":"<what to retrieve instead>"}
-  Supporting facts are short plain strings read directly from the observation image.
+  Every supporting fact is {"fact":"<short statement read from the observation>",
+  "bbox_2d":[x1,y1,x2,y2]}: bbox_2d marks the exact region you read that fact from, in
+  ABSOLUTE pixel coordinates on the image you are viewing right now (origin top-left,
+  integers, x2 > x1, y2 > y1). Provide a bbox_2d for every fact; do not omit it.
   After a ZOOMED observation (from <bbox>): accept/expand add the newly readable facts to
-  the node the zoomed page belongs to and refresh its answer; reject discards the zoom (you
-  may then zoom again with adjusted coordinates). Use the same JSON shapes;
-  answered/remaining subquestions are ignored for zoom commits.
+  the node the zoomed page belongs to and refresh its answer — their bbox_2d are pixels on
+  the ZOOMED image you are looking at; reject discards the zoom (you may then zoom again
+  with adjusted coordinates). Use the same JSON shapes; answered/remaining subquestions are
+  ignored for zoom commits.
 
 Actions:
   - <search>query</search>: retrieve a new page with a concrete, self-contained query
@@ -172,23 +177,23 @@ Examples (each block below is ONE full response):
 <search>2019 annual report total revenue bar chart</search>
 
 <think>The page states the total revenue directly; the root question is fully answered.</think>
-<update_graph>{"type":"accept","supporting_facts":["FY2019 total revenue was $4.2B"],"answer":"$4.2B"}</update_graph>
+<update_graph>{"type":"accept","supporting_facts":[{"fact":"FY2019 total revenue was $4.2B","bbox_2d":[128,342,466,384]}],"answer":"$4.2B"}</update_graph>
 <answer>$4.2B</answer>
 
 <think>The page answers the first sub-part; the comparison target is still missing.</think>
-<update_graph>{"type":"expand","answered_subquestion":"What was 2019 revenue?","supporting_facts":["FY2019 total revenue was $4.2B"],"answer":"$4.2B","remaining_subquestion":"What was 2020 revenue?"}</update_graph>
+<update_graph>{"type":"expand","answered_subquestion":"What was 2019 revenue?","supporting_facts":[{"fact":"FY2019 total revenue was $4.2B","bbox_2d":[128,342,466,384]}],"answer":"$4.2B","remaining_subquestion":"What was 2020 revenue?"}</update_graph>
 <search>2020 annual report total revenue</search>
 
 <think>This page answers the last open subquestion: 2020 revenue was $5.1B. The graph already holds 2019 = $4.2B, so 2020 is larger. Commit and answer now.</think>
-<update_graph>{"type":"accept","supporting_facts":["FY2020 total revenue was $5.1B"],"answer":"$5.1B"}</update_graph>
+<update_graph>{"type":"accept","supporting_facts":[{"fact":"FY2020 total revenue was $5.1B","bbox_2d":[142,301,489,347]}],"answer":"$5.1B"}</update_graph>
 <answer>2020 ($5.1B) was larger than 2019 ($4.2B)</answer>
 
 <think>The axis labels on this committed chart are too small to read the exact value.</think>
-<update_graph>{"type":"accept","supporting_facts":["Market share segment appears near 40%"],"answer":"approximately 40%"}</update_graph>
+<update_graph>{"type":"accept","supporting_facts":[{"fact":"Market share segment appears near 40%","bbox_2d":[598,196,918,422]}],"answer":"approximately 40%"}</update_graph>
 <bbox>[612,208,905,410]</bbox>
 
 <think>The zoom shows the exact value; add it to the node and finish.</think>
-<update_graph>{"type":"accept","supporting_facts":["The segment label reads 42%"],"answer":"42%"}</update_graph>
+<update_graph>{"type":"accept","supporting_facts":[{"fact":"The segment label reads 42%","bbox_2d":[402,167,655,238]}],"answer":"42%"}</update_graph>
 <answer>42%</answer>
 
 <think>This page is about a different product line; it cannot answer the active node.</think>

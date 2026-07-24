@@ -118,3 +118,15 @@ Qwen2.5-VL 的绝对像素先验 + UniDoc 口径);生成侧 Agent(bbox_frame="no
 永远只见 canonical 帧。守卫:任一坐标 >1000 视为已是像素、不转换。teacher yaml agent.bbox_frame:
 norm1000;学生 SFT/eval/RL 默认 displayed_px 不受影响。受污染数据处置:frame 修复前生成的带
 bbox 轨迹(run2 的 136/527)全部弃用重跑。
+
+**D15. AGv2.1:grounded facts 回归(推翻 D4),2026-07-24。** 用户决策:update_graph 的每条
+supporting_fact 恢复为 {"fact": str, "bbox_2d": [x1,y1,x2,y2]}(输出必带,schema 容错可缺)。
+动机:①3B 首评显示"读图不定位"(zoom 轨迹 acc 反而低 25pt)——写入时的 grounding 纪律直接约束
+阅读;②为 RL 复活 R_grounding 系奖励(7B 时代它是反超 SFT 的关键)。三层分离(老协议验证过的
+形态,原注释存于 GitHub 老快照):**输出带框**(0-1000→viewed-image px,teacher 侧转换+JSON 重写)、
+**存储带框**(page-displayed-px 规范帧;crop 提交的框由 CropGeometry 自动从 crop 帧回映到页帧,
+agent/env 共享 map_crop_box_to_page)、**渲染不带框**(历史图已不在上下文,坐标是噪声 token——
+_format_facts 只渲染 fact 字符串)。零件:schemas.SupportingFact.bbox_2d(度量验证,烂框降级
+None 不拒提交)、GraphDecisionResult 粗提取器带框、protocol.crop_displayed_box_with_geom /
+CropGeometry / remap_crop_decision_boxes、agent._convert_update_fact_boxes(lambda 替换防转义,
+只改 </think> 之后)。影响:SFT 数据必须重生成(需 4 卡 teacher),旧 sft_final1200 语义过时。

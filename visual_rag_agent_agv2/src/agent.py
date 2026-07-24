@@ -33,12 +33,62 @@ from src.protocol import (
     ProtocolError,
     commit_crop_decision,
     commit_page_decision,
-    crop_displayed_box,
+    crop_displayed_box_with_geom,
     finalize_root,
     finish_crop_chain,
     pending_hint,
+    remap_crop_decision_boxes,
 )
 from src.schemas import GraphDecisionResult
+
+
+def _convert_update_fact_boxes(raw_text: str, turn: Any, viewed_size: tuple | None) -> str:
+    """AGv2.1 teacher frame adapter for grounded facts: fact bbox_2d values are 0-1000
+    normalized on the image the model is VIEWING (page or crop). Convert them to viewed-image
+    pixels in the parsed payload, then rewrite the <update_graph> JSON in the response text so
+    persisted targets carry pixel coordinates. Boxes with any coordinate > 1000 are assumed
+    to already be pixels; without a viewed image the box is unmappable and dropped."""
+    payload = turn.update_payload
+    if not isinstance(payload, dict):
+        return raw_text
+    facts = payload.get("supporting_facts")
+    if not isinstance(facts, list):
+        return raw_text
+    changed = False
+    for f in facts:
+        if not isinstance(f, dict):
+            continue
+        box = f.get("bbox_2d")
+        if not (isinstance(box, list) and len(box) == 4):
+            continue
+        try:
+            vals = [float(v) for v in box]
+        except (TypeError, ValueError):
+            continue
+        if viewed_size is None:
+            f.pop("bbox_2d", None)
+            changed = True
+            continue
+        if any(v > 1000 for v in vals):
+            continue
+        width, height = viewed_size
+        f["bbox_2d"] = [
+            round(vals[0] / 1000.0 * width),
+            round(vals[1] / 1000.0 * height),
+            round(vals[2] / 1000.0 * width),
+            round(vals[3] / 1000.0 * height),
+        ]
+        changed = True
+    if not changed:
+        return raw_text
+    blob = json.dumps(payload, ensure_ascii=False)
+    repl = lambda m: m.group(1) + blob + m.group(2)  # lambda: blob stays literal, no escape semantics
+    head, sep, tail = raw_text.rpartition("</think>")
+    if sep:
+        return head + sep + re.sub(r"(<update_graph>)(.*?)(</update_graph>)",
+                                   lambda m: m.group(1) + blob + m.group(3), tail, count=1, flags=re.S)
+    return re.sub(r"(<update_graph>)(.*?)(</update_graph>)",
+                  lambda m: m.group(1) + blob + m.group(3), raw_text, count=1, flags=re.S)
 
 
 def _rewrite_box_to_displayed_px(raw_text: str, turn: Any, displayed_size: tuple) -> str:
@@ -147,14 +197,21 @@ class Agent:
                 terminated_by = "policy_error"
                 break
 
-            if self.bbox_frame == "norm1000" and turn.action == "bbox" and turn.box:
-                disp = None
-                if pending and observation.kind != "crop" and observation.images:
-                    disp = observation.images[0].prompt_image().size
-                elif crop_ctx.ready:
-                    disp = crop_ctx.displayed_size
-                if disp is not None:
-                    raw_text = _rewrite_box_to_displayed_px(raw_text, turn, disp)
+            if self.bbox_frame == "norm1000":
+                if turn.update_payload is not None:
+                    # grounded facts: 0-1000 boxes are relative to the image being VIEWED
+                    viewed = None
+                    if pending and observation is not None and observation.images:
+                        viewed = observation.images[0].prompt_image().size
+                    raw_text = _convert_update_fact_boxes(raw_text, turn, viewed)
+                if turn.action == "bbox" and turn.box:
+                    disp = None
+                    if pending and observation.kind != "crop" and observation.images:
+                        disp = observation.images[0].prompt_image().size
+                    elif crop_ctx.ready:
+                        disp = crop_ctx.displayed_size
+                    if disp is not None:
+                        raw_text = _rewrite_box_to_displayed_px(raw_text, turn, disp)
 
             sft_record = {
                 "call_type": "policy",
@@ -185,6 +242,9 @@ class Agent:
                     obs_summary = observation.summary() if observation is not None else ""
                     try:
                         if obs_kind == "crop":
+                            # grounded facts read off a crop are in crop-frame pixels: remap
+                            # to source-page displayed pixels before they enter the graph.
+                            remap_crop_decision_boxes(decision, crop_ctx.geometry)
                             dtype = commit_crop_decision(graph, crop_ctx.target_node_id, decision)
                             turn_trace["commit"] = {"kind": "crop", "type": dtype,
                                                     "target_node": crop_ctx.target_node_id}
@@ -286,13 +346,14 @@ class Agent:
                     terminated_by = "policy_error"
                     break
                 try:
-                    crop_image = crop_displayed_box(
+                    crop_image, crop_geom = crop_displayed_box_with_geom(
                         crop_ctx.source_image
                         if isinstance(crop_ctx.source_image, Image.Image)
                         else Image.fromarray(crop_ctx.source_image),
                         crop_ctx.displayed_size,
                         turn.box,
                     )
+                    crop_ctx.geometry = crop_geom
                 except BoxFormatError as exc:
                     trace.append({**turn_trace, "step": "box_error", "error": str(exc)})
                     last_turn = turn_record(raw_text, f"Invalid bbox: {exc}.")

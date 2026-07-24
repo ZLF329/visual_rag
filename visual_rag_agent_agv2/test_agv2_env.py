@@ -143,6 +143,27 @@ check("crop ctx retained on retry", env.states[0].crop_target_node_id is not Non
 o, r, d, i = env.step(['<think>legible now</think><update_graph>{"type":"accept","answer":"42.0","supporting_facts":["exactly 42.0"]}</update_graph><answer>42</answer>'])
 check("retry chain completes", d[0] and r[0] >= 1.0, str(r[0]))
 
+print("== AGv2.1: grounded fact storage + crop remap ==")
+env = make_env()
+reset_one(env)
+env.step(["<think>go</think><search>find gold page</search>"])
+env.step(['<think>z</think><update_graph>{"type":"accept","supporting_facts":[{"fact":"v=42","bbox_2d":[100,100,300,200]}],"answer":"42"}</update_graph><bbox>[100,100,400,300]</bbox>'])
+st = env.states[0]
+g = env._active_graph(st)
+facts = g.nodes[st.crop_target_node_id].known_facts
+check("page-commit fact stored WITH px bbox", bool(facts) and facts[0].get("bbox_2d") == [100.0, 100.0, 300.0, 200.0], str(facts[:1]))
+geom = st.crop_geometry
+check("crop geometry armed on state", geom is not None)
+import src.protocol as _p
+cw, ch = geom.crop_size
+expected = _p.map_crop_box_to_page([0, 0, cw, ch], geom)
+tgt_node = st.crop_target_node_id
+o, r, d, i = env.step(['<think>legible</think><update_graph>{"type":"accept","supporting_facts":[{"fact":"exact 42.0","bbox_2d":[0,0,%d,%d]}],"answer":"42.0"}</update_graph><answer>42</answer>' % (cw, ch)])
+check("grounded crop episode completes", d[0] and r[0] >= 1.0, str(r[0]))
+facts2 = g.nodes[tgt_node].known_facts
+check("crop-commit fact bbox remapped to page frame", facts2[-1].get("bbox_2d") == expected,
+      f"{facts2[-1].get('bbox_2d')} vs {expected}")
+
 print("== crop pin/resume: expand + bbox keeps active question on answered part ==")
 env = make_env()
 reset_one(env, question="Compare A and B?", answer="B", refs=("deck/page_01", "deck/page_02"))

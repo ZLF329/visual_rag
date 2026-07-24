@@ -477,20 +477,34 @@ def _compact_new(existing: list, values: list | None) -> list:
 
 
 def _format_facts(facts: list) -> str:
-    """Render known_facts as a JSON list of fact strings, e.g. ["X is 12%", "Y in 2021"]."""
+    """Render known_facts as a JSON list of fact strings, e.g. ["X is 12%", "Y in 2021"].
+    bbox_2d is intentionally omitted from graph_state (old-protocol-validated design): the
+    source images for past rounds are no longer in context, so coordinates would be noise.
+    The model still EMITS bbox_2d in update_graph (grounding discipline at write time) and
+    bbox is still stored on the node via _fact_entry (provenance / reward) — only the
+    rendered prompt drops it."""
     return json.dumps([_fact_label(f) for f in (facts or [])], ensure_ascii=False)
 
 
 def _fact_entry(f) -> dict:
-    """Normalize a fact given as str / dict / pydantic model into a plain {"fact": str} dict.
-    AGv2: facts carry no bbox; any coordinate keys on the input are dropped."""
+    """Normalize a fact given as str / dict / pydantic model into {"fact": str} plus an
+    optional "bbox_2d" (AGv2.1 grounded facts; page-pixel frame)."""
+    box = None
     if isinstance(f, dict):
         fact = str(f.get("fact") or f.get("label") or f.get("text") or "").strip()
+        box = f.get("bbox_2d")
     elif isinstance(f, str):
         fact = f.strip()
     else:
         fact = str(getattr(f, "fact", "") or "").strip()
-    return {"fact": fact}
+        box = getattr(f, "bbox_2d", None)
+    entry: dict = {"fact": fact}
+    try:
+        if box and len(box) == 4:
+            entry["bbox_2d"] = [float(v) for v in box]
+    except (TypeError, ValueError):
+        pass
+    return entry
 
 
 def _fact_label(f):

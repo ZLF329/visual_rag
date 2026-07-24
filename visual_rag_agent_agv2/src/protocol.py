@@ -188,6 +188,81 @@ def crop_displayed_box(
     return smart_resize(cropped, min_pixels=min_pixels)
 
 
+@dataclass
+class CropGeometry:
+    """How a crop image maps back onto its source page (AGv2.1 grounded facts).
+    region_raw is the crop rectangle in RAW page pixels (post-pad, post-clamp);
+    crop_size is the final (smart-resized) crop image size the model actually views."""
+    region_raw: tuple[float, float, float, float]
+    crop_size: tuple[int, int]
+    page_raw_size: tuple[int, int]
+    page_displayed_size: tuple[int, int]
+
+
+def crop_displayed_box_with_geom(
+    raw_image: Image.Image,
+    displayed_size: tuple[int, int],
+    box: list[float],
+    *,
+    pad: int = 28,
+    min_pixels: int | None = None,
+) -> tuple[Image.Image, "CropGeometry"]:
+    """crop_displayed_box + the geometry needed to remap crop-frame boxes to the page."""
+    raw_w, raw_h = raw_image.size
+    disp_w, disp_h = displayed_size
+    if disp_w <= 0 or disp_h <= 0:
+        raise BoxFormatError(f"invalid displayed size: {displayed_size}")
+    x1, y1, x2, y2 = box
+    rx1 = max(x1 * raw_w / disp_w - pad, 0)
+    ry1 = max(y1 * raw_h / disp_h - pad, 0)
+    rx2 = min(x2 * raw_w / disp_w + pad, raw_w)
+    ry2 = min(y2 * raw_h / disp_h + pad, raw_h)
+    left, upper = math.floor(rx1), math.floor(ry1)
+    right, lower = math.ceil(rx2), math.ceil(ry2)
+    if right <= left or lower <= upper:
+        raise BoxFormatError(f"bbox maps to an empty region: {box}")
+    cropped = raw_image.convert("RGB").crop((left, upper, right, lower))
+    if min(cropped.size) <= 0 or max(cropped.size) / max(1, min(cropped.size)) >= 180.0:
+        raise BoxFormatError(f"crop aspect ratio too extreme for bbox: {box}")
+    final = smart_resize(cropped, min_pixels=min_pixels)
+    geom = CropGeometry(
+        region_raw=(float(left), float(upper), float(right), float(lower)),
+        crop_size=final.size,
+        page_raw_size=(raw_w, raw_h),
+        page_displayed_size=(int(disp_w), int(disp_h)),
+    )
+    return final, geom
+
+
+def map_crop_box_to_page(box: list[float], geom: "CropGeometry") -> list[float]:
+    """Map a box given in crop-image pixels back to source-page DISPLAYED pixels."""
+    left, upper, right, lower = geom.region_raw
+    cw, ch = geom.crop_size
+    raw_w, raw_h = geom.page_raw_size
+    disp_w, disp_h = geom.page_displayed_size
+    sx = (right - left) / max(cw, 1)
+    sy = (lower - upper) / max(ch, 1)
+    rx1, ry1 = left + box[0] * sx, upper + box[1] * sy
+    rx2, ry2 = left + box[2] * sx, upper + box[3] * sy
+    out = [
+        rx1 * disp_w / raw_w,
+        ry1 * disp_h / raw_h,
+        rx2 * disp_w / raw_w,
+        ry2 * disp_h / raw_h,
+    ]
+    return [round(v, 1) for v in out]
+
+
+def remap_crop_decision_boxes(decision: Any, geom: "CropGeometry | None") -> None:
+    """Remap every grounded fact on a CROP commit from crop-frame to page-frame pixels,
+    in place. Without geometry the boxes are unmappable -> stripped (fact kept)."""
+    for f in getattr(decision, "supporting_facts", None) or []:
+        box = getattr(f, "bbox_2d", None)
+        if not box:
+            continue
+        f.bbox_2d = map_crop_box_to_page(box, geom) if geom is not None else None
+
+
 def smart_resize(image: Image.Image, *, factor: int = 32, min_pixels: int | None = None) -> Image.Image:
     import os
     if min_pixels is None:
@@ -218,6 +293,9 @@ class CropContext:
     source_page_label: str = ""
     target_node_id: str | None = None
     resume_active_node_id: str | None = None
+    # geometry of the most recent crop taken from this page (AGv2.1): used to remap fact
+    # bbox_2d emitted while viewing the crop back into source-page displayed pixels.
+    geometry: Any | None = None
 
     @property
     def ready(self) -> bool:
@@ -229,6 +307,7 @@ class CropContext:
         self.source_page_label = ""
         self.target_node_id = None
         self.resume_active_node_id = None
+        self.geometry = None
 
 
 def commit_page_decision(

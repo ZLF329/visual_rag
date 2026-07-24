@@ -163,8 +163,12 @@ class DecideResult(BaseModel):
 
 
 class SupportingFact(BaseModel):
-    """A supporting fact read from the current observation. AGv2: plain text, no bbox."""
+    """A supporting fact read from the current observation. AGv2.1: grounded — carries the
+    bbox of the region it was read from, in pixel coordinates of the image being committed
+    (crop-frame boxes are remapped to the source page by the pipeline). bbox_2d is expected
+    but optional: a fact without a locatable region is legal."""
     fact: str
+    bbox_2d: list[float] | None = None
 
     @field_validator("fact")
     @classmethod
@@ -173,6 +177,19 @@ class SupportingFact(BaseModel):
         if not text:
             raise ValueError("fact must be non-empty")
         return text
+
+    @field_validator("bbox_2d", mode="before")
+    @classmethod
+    def _check_box(cls, v):
+        if v is None:
+            return None
+        try:
+            box = [float(x) for x in v]
+        except (TypeError, ValueError):
+            return None  # malformed box degrades to ungrounded fact, never rejects the commit
+        if len(box) != 4 or box[2] <= box[0] or box[3] <= box[1] or min(box) < 0:
+            return None
+        return box
 
 
 class GraphDecisionResult(BaseModel):
@@ -249,6 +266,10 @@ class GraphDecisionResult(BaseModel):
                         if k in f and str(f[k]).strip():
                             g["fact"] = str(f[k])
                             break
+                    # AGv2.1 grounded facts: carry the box through coercion
+                    box = f.get("bbox_2d") or f.get("bbox") or f.get("box")
+                    if g and box is not None:
+                        g["bbox_2d"] = box
                     coerced.append(g or f)
                 else:
                     coerced.append(f)

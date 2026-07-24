@@ -131,6 +131,7 @@ class SlideVQAState:
     crop_source_label: str = ""
     crop_target_node_id: str | None = None
     crop_resume_active_node_id: str | None = None
+    crop_geometry: Any | None = None  # AGv2.1: geometry of the latest crop (fact-box remap)
     step_observation: str = ""
     chat_turns: list[tuple[str, str, list[Any]]] = field(default_factory=list)
     current_user_content: str = ""
@@ -572,6 +573,8 @@ class SlideVQAMultiProcessEnv:
         update_type = str(decision.type).lower()
         if obs_kind == "crop":
             try:
+                # grounded facts read off a crop are crop-frame pixels: remap to page frame.
+                agv2.remap_crop_decision_boxes(decision, state.crop_geometry)
                 agv2.commit_crop_decision(graph, state.crop_target_node_id, decision)
             except Exception as exc:
                 _format_error(f"crop commit failed: {exc}")
@@ -727,7 +730,8 @@ class SlideVQAMultiProcessEnv:
             source = state.crop_source_image
             pil = source if isinstance(source, Image.Image) else Image.fromarray(np.asarray(source))
             displayed = state.crop_displayed_size or pil.size
-            crop_image = agv2.crop_displayed_box(pil, displayed, box)
+            crop_image, crop_geom = agv2.crop_displayed_box_with_geom(pil, displayed, box)
+            state.crop_geometry = crop_geom
         except agv2.BoxFormatError as exc:
             state.step_observation = f"Invalid bbox: {exc}."
             self._append_memory_turn(state, f"[step {state.iter + 1}] {state.step_observation}")
@@ -786,6 +790,7 @@ class SlideVQAMultiProcessEnv:
         state.crop_source_label = ""
         state.crop_target_node_id = None
         state.crop_resume_active_node_id = None
+        state.crop_geometry = None
 
     def _current_user_content(self, state: SlideVQAState) -> str:
         # AGv2: graph state + active question + pending-observation hint (mirrors eval's

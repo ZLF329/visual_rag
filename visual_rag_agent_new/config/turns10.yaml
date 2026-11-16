@@ -1,0 +1,5 @@
+# Overlay: SCORE's agent turn budget (max turns 10, Table 9) for evaluations that should be comparable
+# to it. teacher.yaml keeps 12 for data generation.
+# usage: CONFIG="config/teacher.yaml config/turns10.yaml" OUT=... ./scripts/run_eval.sh
+agent:
+  max_turns: 10

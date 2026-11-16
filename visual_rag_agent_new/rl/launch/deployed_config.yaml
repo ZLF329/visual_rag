@@ -1,0 +1,354 @@
+data:
+  tokenizer: null
+  use_shm: false
+  train_files: /workspace/data/slidevqa/rl1200_prefill_forced_20261111/train.parquet
+  val_files: /workspace/data/slidevqa/rl1200_prefill_forced_20261111/validation.parquet
+  prompt_key: prompt
+  reward_fn_key: data_source
+  max_prompt_length: 8192
+  max_response_length: 2048
+  train_batch_size: 16
+  val_batch_size: 12
+  return_raw_input_ids: false
+  return_raw_chat: true
+  return_full_prompt: false
+  shuffle: false
+  filter_overlong_prompts: true
+  filter_overlong_prompts_workers: 1
+  truncation: left
+  image_key: images
+  video_key: videos
+  trust_remote_code: false
+  apply_chat_template_kwargs: {}
+  custom_cls:
+    path: null
+    name: null
+  gen_batch_size: 16
+actor_rollout_ref:
+  hybrid_engine: true
+  model:
+    path: /opt/visual-rag-local/models/qwen25vl7b_score_full_lm_sys1066_e1_20261109
+    use_shm: false
+    external_lib: null
+    override_config:
+      attn_implementation: flash_attention_2
+    enable_gradient_checkpointing: true
+    enable_activation_offload: false
+    use_remove_padding: true
+    lora_rank: 0
+    lora_alpha: 16
+    target_modules: all-linear
+    use_liger: false
+    use_fused_kernels: false
+    trust_remote_code: true
+  actor:
+    strategy: fsdp
+    ppo_mini_batch_size: 16
+    ppo_micro_batch_size: null
+    ppo_micro_batch_size_per_gpu: 1
+    use_dynamic_bsz: true
+    ppo_max_token_len_per_gpu: 12288
+    grad_clip: 1.0
+    clip_ratio: 0.2
+    clip_ratio_low: 0.003
+    clip_ratio_high: 0.004
+    clip_ratio_c: 3.0
+    loss_agg_mode: seq-mean-token-mean
+    entropy_coeff: 0
+    use_invalid_action_penalty: false
+    invalid_action_penalty_coef: 0.0
+    use_kl_loss: true
+    use_torch_compile: true
+    kl_loss_coef: 0.001
+    kl_loss_type: low_var_kl
+    ppo_epochs: 1
+    shuffle: false
+    ulysses_sequence_parallel_size: 1
+    policy_loss:
+      loss_mode: gspo_trajectory
+    checkpoint:
+      contents:
+      - model
+      - optimizer
+      - extra
+    optim:
+      lr: 1.0e-06
+      lr_warmup_steps: -1
+      lr_warmup_steps_ratio: 0.2
+      min_lr_ratio: 0.5
+      num_cycles: 0.5
+      warmup_style: cosine
+      total_training_steps: 75
+      weight_decay: 0.01
+    fsdp_config:
+      wrap_policy:
+        min_num_params: 0
+      param_offload: false
+      optimizer_offload: false
+      offload_policy: false
+      reshard_after_forward: true
+      fsdp_size: -1
+  ref:
+    strategy: fsdp
+    fsdp_config:
+      param_offload: true
+      reshard_after_forward: true
+      wrap_policy:
+        min_num_params: 0
+    use_torch_compile: true
+    log_prob_micro_batch_size: null
+    log_prob_micro_batch_size_per_gpu: 1
+    log_prob_use_dynamic_bsz: true
+    log_prob_max_token_len_per_gpu: 16384
+    ulysses_sequence_parallel_size: 1
+  rollout:
+    name: vllm
+    mode: sync
+    chat_scheduler: null
+    temperature: 1.0
+    top_k: -1
+    top_p: 1
+    use_fire_sampling: false
+    prompt_length: 8192
+    response_length: 2048
+    dtype: bfloat16
+    gpu_memory_utilization: 0.3
+    ignore_eos: false
+    enforce_eager: false
+    free_cache_engine: false
+    load_format: dummy_dtensor
+    layered_summon: false
+    tensor_model_parallel_size: 1
+    max_num_batched_tokens: 16384
+    max_model_len: 16384
+    max_num_seqs: 32
+    log_prob_micro_batch_size: null
+    log_prob_micro_batch_size_per_gpu: 1
+    log_prob_use_dynamic_bsz: true
+    log_prob_max_token_len_per_gpu: 16384
+    disable_log_stats: true
+    enable_chunked_prefill: false
+    do_sample: true
+    n: 1
+    engine_kwargs:
+      vllm:
+        swap_space: null
+        limit_mm_per_prompt:
+          image: 2
+          video: 0
+        mm_processor_kwargs:
+          min_pixels: 200704
+          max_pixels: 401408
+      sglang:
+        attention_backend: null
+    val_kwargs:
+      top_k: -1
+      top_p: 1.0
+      temperature: 0
+      n: 1
+      do_sample: false
+    multi_turn:
+      enable: false
+      max_turns: null
+      tool_config_path: null
+      format: chatml
+    limit_images: null
+critic:
+  rollout_n: 1
+  strategy: fsdp
+  optim:
+    lr: 1.0e-05
+    lr_warmup_steps_ratio: 0.0
+    min_lr_ratio: null
+    warmup_style: constant
+    total_training_steps: -1
+    weight_decay: 0.01
+  model:
+    path: ~/models/deepseek-llm-7b-chat
+    use_shm: false
+    tokenizer_path: /opt/visual-rag-local/models/qwen25vl7b_score_full_lm_sys1066_e1_20261109
+    override_config: {}
+    external_lib: null
+    enable_gradient_checkpointing: true
+    enable_activation_offload: false
+    use_remove_padding: false
+    trust_remote_code: true
+    fsdp_config:
+      param_offload: false
+      optimizer_offload: false
+      offload_policy: false
+      reshard_after_forward: true
+      wrap_policy:
+        min_num_params: 0
+      fsdp_size: -1
+    lora_rank: 0
+    lora_alpha: 16
+    target_modules: all-linear
+  ppo_mini_batch_size: 16
+  ppo_micro_batch_size: null
+  ppo_micro_batch_size_per_gpu: null
+  forward_micro_batch_size: null
+  forward_micro_batch_size_per_gpu: null
+  use_dynamic_bsz: true
+  ppo_max_token_len_per_gpu: 32768
+  forward_max_token_len_per_gpu: 32768
+  ulysses_sequence_parallel_size: 1
+  ppo_epochs: 1
+  shuffle: false
+  grad_clip: 1.0
+  cliprange_value: 0.5
+  loss_agg_mode: seq-mean-token-mean
+  checkpoint:
+    contents:
+    - model
+    - optimizer
+    - extra
+reward_model:
+  enable: false
+  strategy: fsdp
+  model:
+    input_tokenizer: /opt/visual-rag-local/models/qwen25vl7b_score_full_lm_sys1066_e1_20261109
+    path: ~/models/FsfairX-LLaMA3-RM-v0.1
+    use_shm: false
+    external_lib: null
+    use_remove_padding: false
+    use_fused_kernels: false
+    trust_remote_code: false
+    fsdp_config:
+      wrap_policy:
+        min_num_params: 0
+      param_offload: false
+      reshard_after_forward: true
+      fsdp_size: -1
+  micro_batch_size: null
+  micro_batch_size_per_gpu: null
+  max_length: null
+  ulysses_sequence_parallel_size: 1
+  use_dynamic_bsz: true
+  forward_max_token_len_per_gpu: 32768
+  reward_manager: episode
+  launch_reward_fn_async: false
+  sandbox_fusion:
+    url: null
+    max_concurrent: 64
+custom_reward_function:
+  path: null
+  name: compute_score
+algorithm:
+  gamma: 0.0
+  lam: 1.0
+  adv_estimator: gigpo_ra
+  norm_adv_by_std_in_grpo: true
+  use_kl_in_reward: false
+  kl_penalty: kl
+  kl_ctrl:
+    type: fixed
+    kl_coef: 0.001
+    horizon: 10000
+    target_kl: 0.1
+  use_pf_ppo: false
+  pf_ppo:
+    reweight_method: pow
+    weight_pow: 2.0
+  gigpo:
+    step_advantage_w: 0.0
+    mode: mean_std_norm
+    enable_similarity: false
+    similarity_thresh: 0.95
+    min_group_size: 2
+    first_visit_only: false
+    analyse_reward_w: 1.0
+  filter_groups:
+    enable: false
+    max_num_gen_batches: 10
+trainer:
+  balance_batch: true
+  total_epochs: 1
+  total_training_steps: 75
+  project_name: visual_rag_new
+  experiment_name: qwen25vl7b_scoree1_rl1200_m400_prefill_g_decay05_bs16_s75_traj16_20261111
+  logger:
+  - console
+  - tensorboard
+  log_val_generations: 0
+  rollout_data_dir: /workspace/outputs/rl/qwen25vl7b_scoree1_rl1200_m400_prefill_g_decay05_bs16_s75_traj16_20261111/rollouts
+  validation_data_dir: /workspace/outputs/rl/qwen25vl7b_scoree1_rl1200_m400_prefill_g_decay05_bs16_s75_traj16_20261111/validation
+  nnodes: 1
+  n_gpus_per_node: 2
+  save_freq: 25
+  resume_mode: disable
+  resume_from_path: null
+  val_before_train: false
+  val_only: false
+  test_freq: 25
+  critic_warmup: 0
+  default_hdfs_dir: null
+  del_local_ckpt_after_load: false
+  default_local_dir: /workspace/outputs/rl/qwen25vl7b_scoree1_rl1200_m400_prefill_g_decay05_bs16_s75_traj16_20261111/checkpoints
+  max_actor_ckpt_to_keep: 3
+  max_critic_ckpt_to_keep: null
+  ray_wait_register_center_timeout: 300
+  device: cuda
+  question_balanced_minibatches: true
+ray_init:
+  num_cpus: 16
+  include_dashboard: false
+env:
+  env_name: slidevqa
+  seed: 0
+  max_steps: 10
+  history_length: 0
+  resources_per_worker:
+    num_cpus: 0.1
+    num_gpus: 0
+  rollout:
+    n: 5
+  alfworld:
+    eval_dataset: eval_in_distribution
+  search:
+    log_requests: false
+    search_url: http://127.0.0.1:8000/retrieve
+    topk: 3
+    timeout: 60
+  slidevqa:
+    mode: new
+    visual_rag_agent_path: /workspace/preparation/rl1200_prefill_forced_20261111/runtime/visual_rag_agent_new
+    index_path: /opt/rl1200_prefill_forced_20261111/indices/train
+    retriever_path: /opt/visual-rag-local/models/colqwen2.5-v0.1
+    reward_fn_path: /workspace/preparation/rl1200_prefill_forced_20261111/runtime/visual_rag_agent_new/rl/reward_judge.py
+    top_k: 5
+    analysis_mode: active_graph
+    loss_granularity: trajectory_grouped
+    trajectory_response_length: 16384
+    analysis_model_path: null
+    device: cuda:1
+    dtype: bfloat16
+    attn_implementation: flash_attention_2
+    first_search: question
+    search_guidance: true
+    retrieval_scope: flat
+    bank_device: cpu
+    index_paths:
+      train: /opt/rl1200_prefill_forced_20261111/indices/train
+      val: /opt/rl1200_prefill_forced_20261111/indices/val
+    frame: qwen2.5-vl
+    observation_mode: multi_turn
+    coverage_mode: fraction
+    coverage_w: 0.0
+    full_coverage_w: 0.0
+    grounding_w: 0.5
+    cmp_w: 0.0
+    access_cost_w: 0.0
+    post_gold_search_w: 0.5
+    post_gold_search_decay: 0.5
+    forced_answer_prefill: true
+  sokoban:
+    dim_room:
+    - 6
+    - 6
+    num_boxes: 1
+    search_depth: 30
+    mode: tiny_rgb_array
+  webshop:
+    use_small: true
+    human_goals: false

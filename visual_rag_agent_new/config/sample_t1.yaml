@@ -1,0 +1,7 @@
+# Overlay: sampled rollouts for RL data selection (DESIGN.md §11.29): temperature 1.0, the sampling an RL rollout uses
+# (the student replica runs with --generation-config vllm, so top_p 1.0, top_k -1, no repetition penalty).
+# Evaluations stay greedy (teacher.yaml: temperature 0.0).
+# usage: CONFIG="config/teacher.yaml config/turns10.yaml config/latest.yaml config/student.yaml config/sample_t1.yaml"
+models:
+  vlm:
+    temperature: 1.0

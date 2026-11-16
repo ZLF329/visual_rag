@@ -1,0 +1,7 @@
+# Overlay (DESIGN.md §11.25, user decision): the running model (the teacher) sees every image - page and zoom - at
+# about 0.1 MP (128 x 28 x 28 pixels) instead of 0.2-0.4 MP, so small print is genuinely hard to read and the zoom earns
+# its turn. Boxes are 0-1000 relative, so nothing else changes; SFT rows keep the student's images (sft_frame).
+# The served Qwen3.5 / 3.8 processors keep images down to 65,536 pixels, so 0.1 MP reaches the model as sent.
+# usage: CONFIG="config/teacher.yaml config/turns10.yaml config/latest.yaml config/teacher_lowres.yaml" ...
+agent:
+  image_max_pixels: 100352

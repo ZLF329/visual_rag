@@ -1,0 +1,8 @@
+# Overlay for Blackwell GPUs (sm_120, e.g. the AutoDL RTX PRO 6000): the flash-attn3 Hub kernel only
+# ships sm_80 / sm_90 builds. There the official flash-attn 2.8.3 package is installed (prebuilt
+# cu130 / torch 2.13 wheel from mjun0812/flash-attention-prebuild-wheels v0.9.47, sha256 checked),
+# and the AutoDL train index is built with the same implementation. Kernel choice moves ColQwen
+# vectors only within bf16 noise (query mean cosine 0.9997 vs sdpa).
+# usage: --config config/teacher.yaml config/blackwell.yaml   (run_generation.sh: CONFIG="... ...")
+runtime:
+  attn_implementation: flash_attention_2

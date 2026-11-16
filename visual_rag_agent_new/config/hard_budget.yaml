@@ -1,0 +1,5 @@
+# Includes the automatic question search. Nine ordinary model turns remain.
+agent:
+  max_turns: 10
+  first_search: question
+  format_retries: 0

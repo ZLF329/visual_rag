@@ -1,0 +1,8 @@
+# Overlay (DESIGN.md §11.15): a teacher-only note for regenerating multi-hop train questions. It is appended
+# to the question the teacher sees; SFT rows are rendered without it. Never use it for evaluation or RL.
+# usage: CONFIG="config/teacher.yaml config/latest.yaml config/deck_scope.yaml config/multi_hint.yaml"
+agent:
+  teacher_hint: >-
+    This question needs evidence from two different pages. It refers to something indirectly (the company,
+    year, place or item that ...): first find the page that identifies it and expand, then find the page with
+    the rest. Do not fill in either part from your own knowledge. Do not mention this note in your reasoning.

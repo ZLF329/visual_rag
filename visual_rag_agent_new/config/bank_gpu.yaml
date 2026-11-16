@@ -1,0 +1,7 @@
+# Overlay: keep the ColQwen page bank on the GPU instead of pinned RAM (DESIGN.md §11.29). A CPU bank streams the whole
+# bank over PCIe for every flat query (train corpus: 38,380 pages, ~9.5 GB fp16), which made six train-corpus shards
+# retrieval-bound (~57 rollouts/min). Scores are identical (fp16 MaxSim on the GPU either way); each shard then needs
+# the bank's size in GPU memory, so run fewer shards next to a smaller vLLM replica.
+models:
+  retriever:
+    bank_device: cuda

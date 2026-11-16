@@ -1,0 +1,9 @@
+++env.slidevqa.coverage_mode=fraction
+++env.slidevqa.coverage_w=0.2
+++env.slidevqa.full_coverage_w=0.3
+++env.slidevqa.grounding_w=0.5
+++env.slidevqa.cmp_w=0.0
+++env.slidevqa.access_cost_w=0.0
+actor_rollout_ref.actor.policy_loss.loss_mode=gspo
+actor_rollout_ref.actor.clip_ratio_low=0.0003
+actor_rollout_ref.actor.clip_ratio_high=0.0004

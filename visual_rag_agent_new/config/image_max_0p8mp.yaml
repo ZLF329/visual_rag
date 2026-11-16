@@ -1,0 +1,6 @@
+# Overlay: a larger image budget for the running model only (1024 x 28 x 28 = 802,816 px, ~0.8 MP; default 512 x 28 x 28
+# = 401,408). For high-resolution document pages (ViDoSeek: median 2167x1500, shown 2.9x smaller per side at the default),
+# DESIGN.md §11.29. SFT rows keep the student frame's images (agent.image_max_pixels, §11.25).
+# usage: CONFIG="config/teacher.yaml config/turns10.yaml config/latest.yaml config/student.yaml config/image_max_0p8mp.yaml"
+agent:
+  image_max_pixels: 802816

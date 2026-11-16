@@ -1,0 +1,7 @@
+# The current method in one overlay (DESIGN.md §11.5, §11.8): the first search is the question itself, and
+# the guided search wording (answer only when sure, otherwise the next-ranked page). The page-centric edit
+# format (resolve / expand attach the page in view; revisit to re-read) is the protocol itself.
+# usage: CONFIG="config/teacher.yaml config/turns10.yaml config/latest.yaml"
+agent:
+  first_search: question
+  search_guidance: true

@@ -1,0 +1,33 @@
+# Teacher distillation via vLLM (scripts/serve_teacher.sh) on the rivermind H800 box.
+# Frames (DESIGN.md §11.3): the teacher (Qwen3.8) runs in its native 0-1000 frame; every SFT row is
+# rendered for the Qwen2.5-VL student (absolute pixels of the image as shown, images at its size).
+# enable_thinking true: with thinking off, Qwen3.8's chat template inserts an empty <think></think>
+# and the model then skips the protocol's <think> (smoke test: 8/8 format errors). With thinking on,
+# its native reasoning (reasoning_content, ~20-150 tokens per turn) becomes the <think> block
+# (src/vlm.py folds it in) and the content is the <act> block.
+models:
+  vlm:
+    provider: openai_compatible
+    name: teacher
+    api_base_url: http://localhost:8000/v1
+    api_key_env: TEACHER_API_KEY
+    max_tokens: 8192
+    temperature: 0.0
+    api_timeout: 600
+    api_extra_body:
+      chat_template_kwargs:
+        enable_thinking: true
+  retriever:
+    name: /root/rivermind-data/models/colqwen2.5-v0.1
+    index_path: /root/rivermind-data/data/slidevqa/index/train_colqwen
+    bank_device: cpu        # the GPU is shared with the vLLM teacher
+agent:
+  max_turns: 12
+  retrieve_k: 5
+  frame: qwen3
+  sft_frame: qwen2.5-vl
+  retrieval_scope: flat
+runtime:
+  device: cuda
+  dtype: bfloat16
+  attn_implementation: kernels-community/flash-attn3   # Hub kernel, same as the index (needs HF_ENDPOINT)

@@ -1,0 +1,7 @@
+# Overlay (DESIGN.md §11.21): VisR-Bench single-page reading questions (UniDoc-RL's rl/train.parquet rows with
+# data_source visbench, pages from its rl/images.tar.gz) as reading / crop SFT data. Only the retriever index
+# changes: the crop criterion (SCORE's) is in the shared system prompt, so there is no teacher-only note.
+# usage: CONFIG="config/teacher.yaml config/latest.yaml config/visr.yaml" DATASET=.../visr/train.jsonl ./scripts/run_generation.sh
+models:
+  retriever:
+    index_path: /root/rivermind-data/data/visr/index/train_colqwen

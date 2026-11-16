@@ -1,0 +1,5 @@
+# Overlay: retrieval restricted to the question's own deck (data generation only, DESIGN.md §11.14).
+# Used to regenerate the multi-hop train questions whose flat-corpus trajectories were rejected.
+# usage: CONFIG="config/teacher.yaml config/latest.yaml config/deck_scope.yaml"
+agent:
+  retrieval_scope: deck

@@ -1,0 +1,20 @@
+# Student eval via vLLM (OpenAI-compatible). Override name/base_url per run.
+models:
+  vlm:
+    provider: openai_compatible
+    name: new-student
+    api_base_url: http://localhost:8000/v1
+    api_key_env: OPENAI_API_KEY
+    max_tokens: 1536
+    temperature: 0.0
+  retriever:
+    name: /root/autodl-tmp/models/Qwen3-VL-Embedding-8B
+    index_path: /root/autodl-tmp/slidevqa_full/eval/index
+agent:
+  max_turns: 10
+  retrieve_k: 5
+  frame: qwen2.5-vl
+runtime:
+  device: cuda
+  dtype: bfloat16
+  attn_implementation: flash_attention_2

@@ -1,0 +1,8 @@
+++env.slidevqa.coverage_mode=fraction
+++env.slidevqa.coverage_w=0.0
+++env.slidevqa.full_coverage_w=0.0
+++env.slidevqa.grounding_w=0.5
+++env.slidevqa.cmp_w=0.0
+++env.slidevqa.access_cost_w=0.0
+++env.slidevqa.post_gold_search_w=0.5
+++env.slidevqa.post_gold_search_decay=0.5

@@ -1,0 +1,5 @@
+# Overlay for the second teacher replica (scripts/serve_teacher.sh with GPU=1 PORT=8001): same teacher,
+# other port. usage: CONFIG="config/teacher.yaml config/latest.yaml config/teacher_8001.yaml"
+models:
+  vlm:
+    api_base_url: http://localhost:8001/v1

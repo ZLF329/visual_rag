@@ -1,0 +1,14 @@
+# Overlay: evaluate the SFT student (DESIGN.md §11.17) served by scripts/serve_teacher.sh with
+# MODEL_PATH=<merged student> SERVED_NAME=student. The student works in its own pixel frame (the frame its SFT rows were
+# rendered in) and writes <think> as plain text, so the teacher's thinking switch is dropped (null, not {}: overlays
+# merge dicts recursively).
+# usage: CONFIG="config/teacher.yaml config/turns10.yaml config/latest.yaml config/student.yaml" OUT=... ./scripts/run_eval.sh
+#        (+ config/teacher_8001.yaml for the replica on GPU=1 PORT=8001)
+models:
+  vlm:
+    name: student
+    max_tokens: 2048
+    api_extra_body: null
+agent:
+  frame: qwen2.5-vl
+  sft_frame: qwen2.5-vl
